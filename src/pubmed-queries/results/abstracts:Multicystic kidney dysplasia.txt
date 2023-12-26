@@ -1,0 +1,3677 @@
+1. Pediatr Radiol. 2020 Dec;50(13):1921-1933. doi: 10.1007/s00247-020-04755-5.
+Epub  2020 Nov 30.
+
+Imaging of fetal cystic kidney disease: multicystic dysplastic kidney versus 
+renal cystic dysplasia.
+
+Meyers ML(1)(2), Treece AL(3), Brown BP(4)(5), Vemulakonda VM(6)(7).
+
+Author information:
+(1)Department of Radiology - Pediatric Section, University of Colorado School of 
+Medicine and Children's Hospital Colorado, 13123 E. 16th Ave., Mail stop 
+B125-Radiology, Aurora, CO, 80045, USA. mariana.meyers@childrenscolorado.org.
+(2)Colorado Fetal Care Center, Children's Hospital Colorado, Aurora, CO, USA. 
+mariana.meyers@childrenscolorado.org.
+(3)Department of Pathology - Pediatric Section, University of Colorado School of 
+Medicine and Children's Hospital Colorado, Aurora, CO, USA.
+(4)Department of Radiology and Imaging Sciences, Indiana University School of 
+Medicine, Indianapolis, IN, USA.
+(5)The Fetal Center at Riley Children's Health, Indianapolis, IN, USA.
+(6)Colorado Fetal Care Center, Children's Hospital Colorado, Aurora, CO, USA.
+(7)Department of Surgery - Urology Section, University of Colorado School of 
+Medicine and Children's Hospital Colorado, Aurora, CO, USA.
+
+With the advent of routine prenatal imaging, the number of renal anomalies 
+identified prenatally has significantly increased; however, the underlying 
+etiologies of these anomalies and the clinical significance of these findings 
+remains unclear. This confusion is especially true for the prenatal diagnosis of 
+cystic renal changes. The terms "cystic kidney disease" and "renal cystic 
+dysplasia" encompass myriad renal diseases. Although renal cystic dysplasia in 
+infants shares many similarities with multicystic dysplastic kidney (MCDK), it 
+is important to distinguish MCDK from other etiologies that would lead to renal 
+cysts, to ensure proper patient diagnosis and appropriate counseling regarding 
+risks and to guide clinical management. The purpose of this review is to 
+highlight the multiple etiologies of cystic kidney disease, including genetic 
+associations, associations with underlying syndromes, and associations with 
+underlying anatomical abnormalities. Here we focus on prenatal imaging, 
+associated pathological findings, and clinical significance, with an emphasis on 
+the defining characteristics of MCDK as compared to other forms of cystic renal 
+disease.
+
+DOI: 10.1007/s00247-020-04755-5
+PMID: 33252759 [Indexed for MEDLINE]
+
+
+2. Am J Obstet Gynecol. 2021 Nov;225(5):B21-B22. doi: 10.1016/j.ajog.2021.06.046.
+ Epub 2021 Sep 8.
+
+Multicystic dysplastic kidney.
+
+Society for Maternal-Fetal Medicine (SMFM); Chetty S.
+
+DOI: 10.1016/j.ajog.2021.06.046
+PMID: 34507790 [Indexed for MEDLINE]
+
+
+3. J Pediatr Urol. 2021 Dec;17(6):763-768. doi: 10.1016/j.jpurol.2021.09.003.
+Epub  2021 Sep 11.
+
+Neonatal multicystic dysplastic kidney with mass effect: A systematic review.
+
+Pettit S(1), Chalmers D(2).
+
+Author information:
+(1)University of New England College of Osteopathic Medicine, 11 Hills Beach Rd, 
+Biddeford, ME, 04005, USA. Electronic address: spettit2@une.edu.
+(2)Maine Medical Center Division of Urology, 100 Brickhill Ave, South Portland, 
+ME, 04106, USA. Electronic address: dchalmers@mmc.org.
+
+INTRODUCTION: Multicystic Dysplastic Kidney (MCDK) is a common cause of palpable 
+abdominal mass in a neonate, yet reports are few of resultant life-threatening 
+extrinsic compression. This systematic review is the first to review all known 
+neonatal MCDK cases complicated by external compression due to mass effect. Our 
+aim is to foster communication about these unusual cases to inform management of 
+future comparable cases.
+METHODS: This systematic review followed Preferred Reporting Items for 
+Systematic Reviews and Meta-Analyses (PRISMA) guidelines. Medical Subject 
+Headings (MeSH) were used to search PubMed through June 8, 2021 as follows: 
+((((Polycystic Kidney Diseases/complications [MeSH Terms]) OR (Multicystic 
+Dysplastic Kidney/complications [MeSH Terms])) AND (Humans [MeSH Terms]) AND 
+(Infant, Newborn [MeSH Terms]) AND (Case Reports [Publication Type]) AND 
+(("multicystic dysplastic kidney") OR ("multicystic kidney")))) OR ((unusual 
+respiratory distress in newborn [Title]) AND (kidney)) OR (large MCDK). 
+Resulting papers were screened and included if they reported neonatal MCDK 
+complicated by external compression by mass effect. Excluded papers lacked an 
+MCDK diagnosis, a neonatal patient, or clear indication of mass effect. Salient 
+data was extracted from each case for comparison.
+RESULTS: Of 51 papers screened, seven met inclusion criteria, presenting eight 
+neonatal MCDK patients exhibiting varied combinations of symptoms secondary to 
+external compression, including respiratory distress, gastrointestinal 
+obstruction, and contralateral ureteral obstruction. All eight cases, ultimately 
+managed with neonatal nephrectomy, had positive outcomes. Unreported and 
+undiagnosed cases are not included in this review, making it susceptible to 
+publication bias.
+CONCLUSIONS: Large neonatal MCDK is typically managed conservatively, however it 
+can be complicated by external compression due to mass effect. In this scenario, 
+nephrectomy is a reasonable and definitive treatment. Less invasive management 
+options may exist, e.g., aspiration with sclerotherapy. Communication about 
+exceptional cases like these should be encouraged even when outcomes are poor.
+
+Copyright © 2021 Journal of Pediatric Urology Company. Published by Elsevier 
+Ltd. All rights reserved.
+
+DOI: 10.1016/j.jpurol.2021.09.003
+PMID: 34538561 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflicts of interest No conflicts of interest 
+to report.
+
+
+4. Curr Urol Rep. 2015 Oct;16(10):67. doi: 10.1007/s11934-015-0541-7.
+
+Update on Multicystic Dysplastic Kidney.
+
+Cardona-Grau D(1), Kogan BA.
+
+Author information:
+(1)Albany Medical College, Albany Medical Center, South Clinical Campus, 23 
+Hackett Blvd, MC-208, Albany, NY, 12208, USA, cardond@mail.amc.edu.
+
+Multicystic dysplastic kidney (MCDK) is the most common cause of cystic disease 
+in children. It is characterized by multiple non-communicating cysts of varying 
+sizes with no identifiable normal renal parenchyma. The incidence ranges from 1 
+in 1000 to 4300 live births, and it is one of the most commonly detected 
+anomalies on prenatal ultrasound. MCDK has been shown to follow a benign course 
+with relatively few sequelae and therefore should be managed conservatively. 
+Currently, the key clinical questions revolve around the detection of anomalies 
+in the contralateral kidney and follow-up imaging. The recent literature 
+suggests that very limited radiographic evaluation of the MCDK is needed. The 
+use of voiding cystourethrogram or nuclear medicine renal scans should be 
+directed by any abnormalities on renal ultrasound or the development of urinary 
+tract infections.
+
+DOI: 10.1007/s11934-015-0541-7
+PMID: 26255066 [Indexed for MEDLINE]
+
+
+5. Am J Kidney Dis. 2023 Apr;81(4):A11. doi: 10.1053/j.ajkd.2022.09.009. Epub
+2023  Jan 23.
+
+Limbo.
+
+Smith BR(1).
+
+Author information:
+(1)Stanford, CA. Electronic address: BSmith19@stanford.edu.
+
+DOI: 10.1053/j.ajkd.2022.09.009
+PMID: 36697357 [Indexed for MEDLINE]
+
+
+6. J Pediatr Surg. 2006 Apr;41(4):e1-3. doi: 10.1016/j.jpedsurg.2006.01.056.
+
+Segmental multicystic dysplasia and ureteropelvic junction obstruction in a 
+nonduplicated kidney.
+
+Carmack AJ(1), Castellan M, Perez-Brayfield M, Gosalbez R.
+
+Author information:
+(1)Department of Urology, University of Miami, Miami, FL 33101, USA.
+
+A 2-month-old child presented for evaluation of prenatal hydronephrosis. Imaging 
+studies were consistent with a right duplex system with a dysplastic, 
+nonfunctioning upper pole and lower pole ureteropelvic junction obstruction. We 
+proceeded with removal of the upper pole and pyeloplasty and were surprised to 
+find a single collecting system with a cystic, dysplastic upper pole segment and 
+the absence of an upper pole pelvis or ureter. The rare diagnosis of a segmental 
+multicystic dysplastic kidney with ipsilateral ureteropelvic junction 
+obstruction was made. We present a review of the case and of previous literature 
+on this topic.
+
+DOI: 10.1016/j.jpedsurg.2006.01.056
+PMID: 16567161 [Indexed for MEDLINE]
+
+
+7. J Ultrasound Med. 2021 Oct;40(10):2165-2171. doi: 10.1002/jum.15605. Epub 2020
+ Dec 22.
+
+Multicystic Dysplastic Kidney: Prenatal Compensatory Renal Growth Pattern.
+
+Gilad N(1)(2), Weissmann-Brenner A(1)(2), Gilboa Y(1)(2), Dekel B(2)(3), Achiron 
+R(1)(2), Perlman S(1)(2).
+
+Author information:
+(1)Department of Obstetrics and Gynecology, Chaim Sheba Medical Center, Tel 
+Hashomer, Israel.
+(2)Tel-Aviv University, Sackler School of Medicine, Tel-Aviv, Israel.
+(3)Division of Pediatric Nephrology and Pediatric Stem Cell Research Institute, 
+Edmond and Lily Children's Hospital, Chaim Sheba Medical Center, Tel Hashomer, 
+Israel.
+
+OBJECTIVES: To assess the prenatal growth pattern of the normal kidney 
+contralateral to a multicystic dysplastic kidney (MCDK).
+METHODS: A retrospective study was conducted in a single referral center over 
+4 years. Cases diagnosed prenatally as MCDK and confirmed postnatally 
+constituted the study group. For creation of nomograms, only isolated cases of 
+MCDK were included.
+RESULTS: Sixty-one fetuses had a diagnosis of an MCDK during the study period. 
+After exclusion of cases with associated malformations, 47 fetuses remained, 
+providing 94 measurements for creation of nomograms. The growth pattern of the 
+normal kidney contralateral to an MCDK was linear throughout gestation 
+(percentile = 20.01 + 1.5 gestational age; linear R2  = 0.753; r = 0.868) and 
+was significantly higher during the third trimester (29-38 weeks' gestation) 
+compared to the second trimester (22-28 weeks' gestation; P < .001). A 
+comparison of the growth pattern of the normal kidney contralateral to the MCDK 
+to the growth pattern of a solitary kidney revealed a significant higher 
+compensatory trend during the third trimester (P < .0001). The mean kidney 
+lengths at 22 and 38 weeks' gestation correlated with the 52nd and 88th and with 
+the 84th and 90th percentiles for the normal kidney contralateral to the MCDK 
+and a solitary kidney, respectively.
+CONCLUSIONS: According to our study, the normal kidney contralateral to an MCDK 
+has a unique growth pattern during intrauterine life, with dominant growth 
+during the third trimester. The exact mechanism for this pattern, in comparison 
+to early renal hypertrophy shown in solitary kidneys, is currently not clear. 
+These data provide relevant information for the multidisciplinary prenatal 
+counseling of future parents regarding the future renal outcome.
+
+© 2020 American Institute of Ultrasound in Medicine.
+
+DOI: 10.1002/jum.15605
+PMID: 33351224 [Indexed for MEDLINE]
+
+
+8. Turk Patoloji Derg. 2011;27(3):210-4. doi: 10.5146/tjpath.2011.01077.
+
+Multicystic dysplastic kidney: four-year evaluation.
+
+Aytaç B(1), Sehıtoğlu I, Vuruskan H.
+
+Author information:
+(1)Department of Pathology Uludağ University, Faculty of Medicine, Bursa, 
+Turkey. berbun@gmail.com
+
+OBJECTIVE: Multicystic dysplastic kidney is a relatively common developmental 
+abnormality in infants and children. Additional abnormalities like 
+vesicoureteral reflux, ureteropelvic junction obstruction, and ureterovesical 
+junction obstruction may accompany multicystic dysplastic kidney. In this 
+article, we reviewed the pathogenesis, diagnosis, associated urinary tract 
+anomalies and results of management of multicystic dysplastic kidney in the 
+light of the literature.
+MATERIAL AND METHOD: We retrospectively assessed 20 children with unilateral 
+multicystic dysplastic kidney between January 2005 and December 2009. Mean 
+duration of follow-up was 35 ± 8.7 months. All children with multicystic 
+dysplastic kidney underwent nephrectomy. Patient characteristics, the pathology 
+findings, associated urinary tract anomalies and results of management were 
+reviewed.
+RESULTS: Abdominal ultrasound, voiding cystourethrography and renal scintigraphy 
+revealed vesicoureteral reflux in 3 (15%) children, ureteropelvic junction 
+obstruction in 3 (15%) children, and a duplex system in the contralateral kidney 
+in 1 (5%) child. Blood pressure values, serum urea, creatinine and urinalysis 
+were within normal range in all children during follow-up.
+CONCLUSION: A conservative approach to children with multicystic dysplastic 
+kidney has been advocated, but surgical removal is also another management 
+modality on the basis of risk of hypertension, mass effect, potential for 
+malignant change, and cost of repeated ultrasound examination.
+
+DOI: 10.5146/tjpath.2011.01077
+PMID: 21935870 [Indexed for MEDLINE]
+
+
+9. J Urol. 2013 Nov;190(5):1893-4. doi: 10.1016/j.juro.2013.07.051. Epub 2013 Jul
+ 26.
+
+Re: Unilateral multicystic dysplastic kidney: does initial size matter?
+
+Canning DA.
+
+Comment on
+    Pediatr Nephrol. 2012 Aug;27(8):1335-40.
+
+DOI: 10.1016/j.juro.2013.07.051
+PMID: 24120811 [Indexed for MEDLINE]
+
+
+10. BJU Int. 2008 Apr;101(7):804-8. doi: 10.1111/j.1464-410X.2007.07328.x. Epub
+2008  Jan 8.
+
+Non-surgical management of multicystic dysplastic kidney.
+
+Cambio AJ(1), Evans CP, Kurzrock EA.
+
+Author information:
+(1)Department of Urology, University of California, Davis School of Medicine, 
+Sacramento, CA 95817, USA.
+
+OBJECTIVES: To better define the outcome and association of multicystic 
+dysplastic kidney (MCDK) with hypertension, vesico-ureteric reflux (VUR), 
+infection and cancer, as there is no consensus on the management of patients 
+born with MCDK. The risk of cancer has dictated the surgical management of the 
+disease in the past.
+METHODS: The Medline database was searched for articles published between 1965 
+and 2006 and written in the English language, and containing the keywords 
+'multicystic dysplastic kidney'.
+RESULTS: The inclusion criteria were met by 105 reports that were subsequently 
+analysed. Of MCDK, 60% regress or involute within 3 years. About 25% of patients 
+will have VUR into the contralateral kidney, of which 90% is grade <or=3. The 
+risk of urinary tract infection appears to be associated with VUR or coexistent 
+abnormalities rather than the MCDK. The risk of hypertension is no greater than 
+that in the general population and nephrectomy is usually not curative. The 
+overall risk of Wilms' tumour developing in a MCDK is <1 in 2000. All reported 
+Wilms' tumours were identified before 4 years of age and 70% presented as a 
+palpable mass.
+CONCLUSIONS: Published reports support the non-surgical management of MCDK. 
+Common practice has been to remove palpable or growing MCDKs, although these 
+represent a very small fraction of MCDKs. In theory, ultrasonographic 
+surveillance until 4 years old might allow the earlier detection of a Wilms' 
+tumour, and decrease the intensity of chemotherapy and improve prognosis. 
+Previous reports do not prove or disprove this concept, and the appropriate 
+frequency of surveillance is not evident.
+
+DOI: 10.1111/j.1464-410X.2007.07328.x
+PMID: 18190645 [Indexed for MEDLINE]
+
+
+11. Saudi Med J. 2001 Jul;22(7):630-2.
+
+Multicystic renal dysplasia.
+
+Nagaraj VP(1), Ratnakar KS.
+
+Author information:
+(1)Department of Pathology, Salmaniya Medical Complex, Bahrain.
+
+Multicystic renal dysplasia, the most common form of cystic renal disease in the 
+newborn period, is a clinically important consequence of abnormal nephrogenesis. 
+It usually presents as an abdominal mass. The dysplasias are usually unilateral, 
+but it can be bilateral, segmental or focal. The clinical presentation usually 
+depends on the extent of the dysplastic involvement and the degree of the 
+associated urinary obstruction. Here, we present a case of histologically 
+multicystic renal dysplasia, which is ?bilateral. The left kidney showed typical 
+radiological, gross and histopathological features of multicystic dysplasia, but 
+the right kidney showed only radiological features of dysplastic cystic kidney.
+
+PMID: 11479648 [Indexed for MEDLINE]
+
+
+12. Prenat Diagn. 2014 Nov;34(11):1093-8. doi: 10.1002/pd.4433. Epub 2014 Jul 2.
+
+Prenatal diagnosis and epidemiology of multicystic kidney dysplasia in Europe.
+
+Winding L(1), Loane M, Wellesley D, Addor MC, Arriola L, Bakker MK, Bianchi F, 
+Calzolari E, Gatt M, Haeusler M, Lelong N, Mullaney C, Scarano G, Tucker D, 
+Wiesel A, Garne E.
+
+Author information:
+(1)Paediatric Department, Hospital Lillebaelt, Kolding, Denmark.
+
+OBJECTIVES: The aim of this study is to describe the prenatal diagnosis and 
+epidemiology of multicystic kidney dysplasia (MCKD).
+METHODS: The study is based on routinely collected data from a European database 
+of major congenital anomalies including 13 registries with cases born in 
+1997-2006 and covering 1 458 552 births.
+RESULTS: There were 601 MCKD cases giving an overall prevalence of 4.12 per 
+10 000 births with regional variation. In live births, 87% of cases had an 
+isolated renal anomaly and 13% had associated major nonrenal anomalies 
+(chromosomal, syndrome or other major anomalies). For the cases with isolated 
+renal anomalies, 51/386 (11%) and 7/386 (2%) choose to terminate the pregnancy 
+or resulted in an intrauterine fetal death, respectively. The prenatal detection 
+rate was 88% in both unilateral and bilateral cases. Birth outcome differed with 
+92% of unilateral MCKD cases being liveborn compared with 33% of bilateral MCKD 
+cases. For unilateral MCKD cases, 84% had an isolated renal anomaly compared 
+with 51% of bilateral MCKD cases (p < 0.001).
+CONCLUSIONS: Cases with unilateral MCKD are mainly liveborn, and only 16% have 
+associated major malformations or a syndrome. Cases with bilateral MCKD are 
+often associated with nonrenal major congenital anomalies or part of a syndrome, 
+and only one third of bilateral MCKD cases in this study were liveborn. Prenatal 
+detection rate of MCKD was high for both unilateral and bilateral cases. © 2014 
+John Wiley & Sons, Ltd.
+
+© 2014 John Wiley & Sons, Ltd.
+
+DOI: 10.1002/pd.4433
+PMID: 24916896 [Indexed for MEDLINE]
+
+
+13. Pediatr Res. 2022 Feb;91(3):659-664. doi: 10.1038/s41390-021-01476-9. Epub
+2021  Mar 31.
+
+Cytogenomic aberrations in isolated multicystic dysplastic kidney in children.
+
+Chen TJ(1)(2), Song R(1), Janssen A(1)(2), Yosypiv IV(3).
+
+Author information:
+(1)Section of Pediatric Nephrology, Department of Pediatrics, Tulane University 
+School of Medicine, New Orleans, LA, USA.
+(2)Hayward Genetic Center, Tulane University School of Medicine, New Orleans, 
+LA, USA.
+(3)Section of Pediatric Nephrology, Department of Pediatrics, Tulane University 
+School of Medicine, New Orleans, LA, USA. iiosipi@tulane.edu.
+
+BACKGROUND: Multicystic dysplastic kidney (MCDK) is a common form of congenital 
+kidney anomaly. The cause of MCDK is unknown. We investigated whether MCDK in 
+children is linked to cytogenomic aberrations.
+METHODS: We conducted array comparative genomic hybridization (aCGH) in ten 
+unrelated children with MCDK. The pattern of inheritance was determined by 
+real-time PCR in patients and their biological parents.
+RESULTS: Pathogenic aberrations were detected in three patients: a deletion at 
+7p14.3 with a size of 2.07 Mb housing 12 genes, including BBS9 (Bardet-Biedl 
+syndrome 9) and BMPER (BMP binding endothelial regulator); a duplication at 
+16p13.11p12.3 with a size of 3.28 Mb that included >20 genes; and monosomy X for 
+a female patient. The deletion at 7p14.3 was inherited from the patient's 
+father, while the duplication at 16p13.11p12.3 was derived from the patient's 
+mother.
+CONCLUSIONS: Up to 30% of patients with MCDK possess cytogenomic aberrations. 
+BBS9 and BMPER variants have been reported to result in cystic kidney dysplasia, 
+suggesting a possible pathogenic function for the deletion at 7p14.3 in children 
+with MCDK. The duplication at 16p13.11p12.3 was not reported previously to 
+associate with MCDK. Both variations were inherited from parents, indicating 
+hereditary contributions in MCDK. Thus, aCGH is an informative tool to unravel 
+the pathogenic mechanisms of MCDK.
+IMPACT: Cytogenomic aberrations are common in children with MCDK. Cytogenomic 
+aberrations are inherited from parents, indicating hereditary contributions in 
+MCDK. aCGH is a valuable tool to reveal pathogenic mechanisms of MCDK.
+
+© 2021. The Author(s), under exclusive licence to the International Pediatric 
+Research Foundation, Inc.
+
+DOI: 10.1038/s41390-021-01476-9
+PMCID: PMC8481348
+PMID: 33790410 [Indexed for MEDLINE]
+
+Conflict of interest statement: Disclosure: Nothing to disclose. The authors 
+declare no conflict of interest.
+
+
+14. Zhonghua Yi Xue Za Zhi. 2007 Jun 5;87(21):1491-2.
+
+[Ultrasonic diagnosis and prognosis of fetal multicystic kidney dysplasia].
+
+[Article in Chinese]
+
+Hu WS(1), He J, Shen YM, Cai SP, Lu H.
+
+Author information:
+(1)Women's Hospital Zhejiang Universty Medical College, Hangzhou 310006, China.
+
+OBJECTIVE: To explore the diagnosis, clinical course and prognosis of fetal 
+multicystic kidney dysplasia (MCDK).
+METHODS: 24 858 pregnant women detected by prenatal ultrasound, here were 41 
+cases with fetal multicystic kidney dysplasia, these fetuses were diagnosed at 
+average 29.8 weeks of gestation, Carried on an observation to fetuses with 
+multicystic kidney dysplasia and postnatal follow-up study.
+RESULTS: T17 cases were induced abortion. Of 13 infants, 1 case involute, 3 
+cases decrease, 9 cases no change.
+CONCLUSION: Prenatal ultrasonography can actual diagnosis for fetal multicystic 
+kidney dysplasia, the key of management of multicystic kidney dysplasia is 
+assessment of fetal prognosis, the natural history of unilateral MCDK is usually 
+benign, the affected kidneys tend to show involution after birth. But bilateral 
+MCDK often associated with impairement of renal function, abnormal chromosome or 
+other anomalies, which indicates a poor prognosis.
+
+PMID: 17785090 [Indexed for MEDLINE]
+
+
+15. J Urol. 2011 Sep;186(3):1053-8. doi: 10.1016/j.juro.2011.05.001. Epub 2011
+Jul  23.
+
+Unilateral multicystic dysplastic kidney with progressive infundibular stenosis 
+in the contralateral kidney: experience at 1 center and review of literature.
+
+Dally EA(1), Raman A, Webb NR, Farnsworth RH.
+
+Author information:
+(1)Sydney Children's Hospital Randwick, Sydney, Australia.
+
+PURPOSE: We analyzed the association between unilateral multicystic dysplastic 
+kidney and subsequent contralateral infundibular stenosis, which can result in 
+progressive calyceal dilatation, and has been linked to global hyperfiltration 
+injury and renal impairment.
+MATERIALS AND METHODS: During the last 10 years 200 children presented with 
+unilateral multicystic dysplastic kidney. Of these children 5 subsequently 
+exhibited contralateral infundibular stenosis. We reviewed the published data on 
+multicystic dysplastic kidney as well as infundibular stenosis to examine this 
+association further.
+RESULTS: Three patients underwent open surgical exploration since rapid 
+progression with associated parenchymal thinning was detected. Literature review 
+failed to identify any discussion of infundibular stenosis in studies focusing 
+on long-term followup of children with a unilateral multicystic dysplastic 
+kidney. Several case reports and case series discuss this condition in 
+association with other collecting system anomalies. However, these anomalies are 
+hypothesized to be part of a disease spectrum resulting from aberrant formation 
+of the collecting system. Bilateral involvement has been reported in fewer than 
+10 cases.
+CONCLUSIONS: Our cases represent a part of the spectrum of pyelocalyceal 
+dysgenesis that can have bilateral involvement of varying degrees. Of particular 
+concern was the delayed presentation in some of our patients and the progressive 
+nature of the lesions. Although exceedingly rare, we wish to highlight the 
+association of multicystic dysplastic kidney and progressive infundibular 
+stenosis of the contralateral kidney and renal impairment.
+
+Copyright © 2011 American Urological Association Education and Research, Inc. 
+Published by Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.juro.2011.05.001
+PMID: 21784480 [Indexed for MEDLINE]
+
+
+16. Eur J Pediatr Surg. 2001 Aug;11(4):246-54. doi: 10.1055/s-2001-17147.
+
+Antenatal diagnosis of Multicystic Renal Dysplasia.
+
+Ranke A(1), Schmitt M, Didier F, Droulle P.
+
+Author information:
+(1)Service de Chirurgie Pédiatrique B, Hôpital d'Enfants, Vandoeuvre-les-Nancy, 
+France.
+
+Multicystic Renal Dysplasia (MRD) was discovered during antenatal ultrasound 
+examination in 138 fetuses between 1980 and 1995. Associated malformations were 
+present in 66 % (42 % urological) and 22 % of the fetuses did not survive the 
+pregnancy or the peri-natal period.Anatomical analysis showed a wider variety of 
+MRD than in classical descriptions. Obstruction of the urinary tract was almost 
+invariable. Like the hypothesis published by Beck in 1971, our view is that, 
+with a very early obstruction of the urinary tract (during the first trimester), 
+there is a dysplastic evolution of renal tissue, while later in pregnancy the 
+same obstruction can induce a hydronephrosis with corticomedullary dysplasia.We 
+advise complete neonatal urological investigation, and surgical removal of 
+multicystic kidneys, to avoid multiple and inadequate evaluations of those 
+children with a single functioning renal unit.
+
+DOI: 10.1055/s-2001-17147
+PMID: 11558015 [Indexed for MEDLINE]
+
+
+17. J Med Ultrason (2001). 2018 Oct;45(4):657-660. doi:
+10.1007/s10396-018-0884-z.  Epub 2018 May 23.
+
+A refractory hypertensive patient with fibromuscular dysplasia and multicystic 
+dysplastic kidney.
+
+Takahashi S(1), Takizawa Y(2), Nakano S(2), Oyama K(2).
+
+Author information:
+(1)Department of Pediatrics, Iwate Medical University School of Medicine, 19-1 
+Uchimaru, Morioka, 020-8505, Japan. shint@iwate-med.ac.jp.
+(2)Department of Pediatrics, Iwate Medical University School of Medicine, 19-1 
+Uchimaru, Morioka, 020-8505, Japan.
+
+The case of a 16-year-old male patient with left renal artery stenosis due to 
+fibromuscular dysplasia (FMD) and an atrophic kidney due to a right multicystic 
+dysplastic kidney (MCDK) who presented with refractory hypertension is reported. 
+On continuous Doppler imaging, the peak systolic velocity (PSV) at the stenotic 
+site of the left renal artery was 404 cm/s. The FMD formed a "string-of-beads" 
+appearance on computed tomographic angiography (CTA) and renal artery 
+angiography. Percutaneous transluminal renal angioplasty (PTRA) with a balloon 
+catheter was performed, after which the left renal artery returned to near 
+normal, and his blood pressure decreased to within the normal range. In this 
+case, the main cause of refractory hypertension was considered to have been 
+renal artery stenosis due to left FMD.
+
+DOI: 10.1007/s10396-018-0884-z
+PMID: 29796733 [Indexed for MEDLINE]
+
+
+18. J Obstet Gynaecol. 2021 Oct;41(7):1071-1075. doi:
+10.1080/01443615.2020.1845631.  Epub 2021 Jan 16.
+
+Prenatal diagnosis and outcome of unilateral multicystic kidney.
+
+Turkyilmaz G(1), Cetin B(2), Erturk E(1), Sivrikoz T(3), Kalelioglu I(3), Has 
+R(3), Yuksel A(3), Oktar T(2), Ziylan O(2).
+
+Author information:
+(1)Department of Obstetrics and Gynecology, Maternal-Fetal Medicine Unit, Van 
+Education and Research Hospital, Van, Turkey.
+(2)Department of Urology, Pediatric Urology Unit, Istanbul University, Istanbul 
+Faculty of Medicine, Istanbul, Turkey.
+(3)Department of Obstetrics and Gynecology, Maternal-Fetal Medicine Unit, 
+Istanbul University, Istanbul Faculty of Medicine, Istanbul, Turkey.
+
+We reviewed the records of 144 patients. The mean gestational age at first US 
+diagnosis was 27.5 ± 4.3 weeks. An anomaly of the contralateral kidney was 
+detected in 25% of cases. An extrarenal anomaly was detected in 13.8%. Karyotype 
+analysis was performed in 16.6% of cases and revealed trisomy 18 in 2 cases with 
+extrarenal defects. Karyotype analysis was normal in all the patients who had 
+isolated multicystic dysplastic kidney (MCDK). The diagnostic accuracy of 
+prenatal ultrasound was 92.2%. Contralateral kidney anomaly was detected 33.9% 
+of patients, and half of these were vesicoureteral reflux. Antihypertensive 
+therapy was required in 2.6% of cases. Nephrectomy was performed in 8%, and 
+partial or total involution of MCDK was achieved in 33.9% of patients. MCDK can 
+be accurately diagnosed by prenatal sonography, and prognosis depends on 
+extrarenal and contralateral renal abnormalities. In isolated cases, require of 
+surgery is rare, and serial follow-up is suggested to determine 
+involution.Impact statementWhat is already known on this subject? Multicystic 
+dysplastic kidney (MCDK) is one of the most renal anomalies and is associated 
+with numerous renal and extrarenal abnormalities. It can lead to severe 
+consequences in the neonatal period.What do the results of this study add? The 
+accuracy of prenatal ultrasonography is excellent for detecting MCDK. In 
+isolated unilateral cases, chromosomal aberrations are low, and the majority of 
+them involute spontaneously. A periodic follow-up of the contralateral kidney is 
+mandatory due to an increased risk of an anomaly. Genital anomaly risk is 
+increased in males.What are the implications of these findings for clinical 
+practice and/or further research? Detailed evaluation and follow-up of the 
+contralateral kidney are crucial for counselling in isolated cases. Karyotype 
+analysis in isolated unilateral MCDK is debateable. Postnatal prognosis is 
+encountering, and the majority of patients have no requirement of surgery.
+
+DOI: 10.1080/01443615.2020.1845631
+PMID: 33459097 [Indexed for MEDLINE]
+
+
+19. J Korean Med Sci. 2010 May;25(5):785-9. doi: 10.3346/jkms.2010.25.5.785. Epub
+ 2010 Apr 16.
+
+Malignant rhabdoid tumor of the kidney combined with multicystic dysplasia in a 
+5-year-old child.
+
+Cui Y(1), Eom M, Jung SH, Kim KJ, Jung WH.
+
+Author information:
+(1)Department of Pathology, Yonsei University Wonju College of Medicine, Wonju, 
+Korea.
+
+Multicystic dysplastic kidney (MCDK) is a relatively common developmental 
+anomaly in infants and children and has a good prognosis. In contrast, a 
+malignant rhabdoid tumor of the kidney (MRTK) is one of the most lethal 
+neoplasms of early life. However, the presentation of such a lethal tumor 
+combined with multicystic dysplasia has not been reported to date. In this 
+report, we describe a case of MRTK in a 5-yr-old girl who also had multicystic 
+dysplasia. She was previously diagnosed with MCDK at birth due to a huge 
+palpable mass on the right side of the abdomen. The right kidney was extensively 
+replaced by numerous grossly dilated, variable-sized cysts. Microscopically, the 
+tumor cells show a diffusely infiltrative growth pattern, which revealed large 
+non-cohesive, round-to-polygonal tumor cells with vesicular nuclei. Some tumor 
+cells had eccentric nuclei and large, round, eosinophilic cytoplasmic 
+inclusions. There were metanephrons present, with the central ureteric bud and 
+peripheral branches surrounded by condensing mesenchyma, immature glomeruli, and 
+metaplastic cartilage in the adjacent parenchyma. To our knowledge, this is the 
+first combined case of the two aforementioned diseases and this case may, in 
+fact, suggest a new disease entity.
+
+DOI: 10.3346/jkms.2010.25.5.785
+PMCID: PMC2858842
+PMID: 20436719 [Indexed for MEDLINE]
+
+
+20. Pediatr Nephrol. 2011 Apr;26(4):597-603. doi: 10.1007/s00467-010-1746-0. Epub
+ 2011 Jan 15.
+
+Long-term risk of chronic kidney disease in unilateral multicystic dysplastic 
+kidney.
+
+Mansoor O(1), Chandar J, Rodriguez MM, Abitbol CL, Seeherunvong W, Freundlich M, 
+Zilleruelo G.
+
+Author information:
+(1)Division of Pediatric Nephrology, Holtz Children's Hospital, Department of 
+Pediatrics, University of Miami Miller School of Medicine, PO Box 016960 
+(M-714), Miami, FL 33101, USA,
+
+The clinical spectrum of renal dysplasia includes the non-functioning 
+multicystic dysplastic kidney (MCDK). We report our experience of the outcome of 
+unilateral MCDK and its contralateral kidney in 101 children with the diagnosis 
+of MCDK from 1985 to 2009. Data collected included urine protein/creatinine 
+ratio, estimated GFR (eGFR), blood pressure, surgical intervention, renal length 
+and abnormalities of the contralateral kidney, and the involution rate. There 
+was a predominance of left-sided MCDK. Diagnosis was made prenatally in 86.7%. 
+Contralateral abnormalities included vesicoureteral reflux (16.8%), UPJ 
+obstruction (4.1%), and megaureter (2.4%). Complete involution of MCDK occurred 
+within 5 years in 60%. Compensatory hypertrophy of the contralateral kidney to 
+>97% occurred in 74.1%. Nephrectomy was performed in 19.8%. There was an 
+increased risk of chronic kidney disease (CKD) stage ≥ 2, and hypertension in 
+those with contralateral abnormalities (p<0.0001; p<0.001 respectively). In 
+those without contralateral abnormalities, hyperfiltration with mean eGFR of 149 
+± 13 ml/min/1.73 m(2) was seen in 32% and proteinuria in 9.8%. There was a 
+significantly inverse relationship between proteinuria and eGFR (p<0.0001). In 
+conclusion, children with contralateral abnormalities are at risk for developing 
+decreased kidney function, whereas a substantial number of patients with no 
+obvious contralateral abnormalities have markers of renal injury. Therefore, 
+systematic follow-up of all patients is recommended.
+
+DOI: 10.1007/s00467-010-1746-0
+PMID: 21240528 [Indexed for MEDLINE]
+
+
+21. J Pediatr Surg. 2020 Nov;55(11):2497-2503. doi:
+10.1016/j.jpedsurg.2019.12.008.  Epub 2020 Jan 10.
+
+Multicystic dysplastic kidney - treat each case on its merits.
+
+Faruque A(1), Narayanan S(1), Marley I(1), Lai C(1), Khosa J(1), Barker A(1), 
+Samnakay N(2).
+
+Author information:
+(1)Medical School, University of Western Australia, 35 Stirling Highway, 
+Crawley, Western Australia, 6009; Department of Paediatric Surgery, Perth 
+Children's Hospital, Hospital Avenue, Nedlands, Western Australia, 6009.
+(2)Medical School, University of Western Australia, 35 Stirling Highway, 
+Crawley, Western Australia, 6009; Department of Paediatric Surgery, Perth 
+Children's Hospital, Hospital Avenue, Nedlands, Western Australia, 6009. 
+Electronic address: naeem_samnakay@hotmail.com.
+
+OBJECTIVES: To assess outcomes of unilateral multicystic dysplastic kidney 
+(MCDK) managed at an Australasian centre over a 15 year period. To assess if 
+MCDK involution could be predicted based on change noted between first two 
+postnatal ultrasound scans 6 months apart.
+SUBJECTS AND METHODS: A retrospective study was performed.
+RESULTS: One-hundred-and-six cases of unilateral MCDK were studied. Eighty-four 
+of these presented antenatally. Twenty-two MCDK cases presented postnatally. 
+Urological anomalies associated with MCDK included vesicoureteric reflux (VUR), 
+ureterocele and contralateral pelviureteric junction obstruction (PUJO). 
+Children undergoing surgical intervention for these anomalies were offered 
+concurrent MCDK nephrectomy. Morbidity associated with MCDK under surveillance 
+included febrile culture-positive urinary tract infection in 20 cases (20.7%), 
+hypertension in four (3.7%) and Wilms' tumor in one (0.9%). Thirty-six cases 
+(34%) underwent complete involution, 32 (30.2%) were in the process of 
+involuting and 38 cases (35.8%) underwent nephrectomy because of failure of 
+involution or associated morbidity. If the MCDK reduced in cranio-caudal 
+interpolar length by 20% or more between the first postnatal USS and the next 
+one 6 months later, then it was very likely to involute spontaneously. If the 
+MCDK did not reduce in cranio-caudal interpolar length by 20% between the first 
+postnatal scan and the next one 6 months later, then it was highly likely to 
+fail to involute, and in our study, correlated with the outcome of nephrectomy.
+CONCLUSION: Although MCDK is a benign condition, it should be carefully 
+investigated and followed-up, as involution may not occur in over a third. In 
+some cases, morbidity may occur. Each case of MCDK should be managed on its own 
+merits.
+LEVEL OF EVIDENCE: Level II - Prognosis study, Retrospective.
+
+Crown Copyright © 2020. Published by Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.jpedsurg.2019.12.008
+PMID: 31987520 [Indexed for MEDLINE]
+
+
+22. Pathobiology. 2020;87(5):302-310. doi: 10.1159/000509152. Epub 2020 Sep 14.
+
+High Activation of the AKT Pathway in Human Multicystic Renal Dysplasia.
+
+Apostolou A(1)(2), Poreau B(3)(2), Delrieu L(4), Thévenon J(3)(2), Jouk 
+PS(3)(2), Lallemand G(3)(2), Emadali A(4)(5), Sartelet H(6)(7).
+
+Author information:
+(1)Department of Pathology, Centre Hospitalier Universitaire Grenoble Alpes, 
+Grenoble, France.
+(2)Universite Grenoble Alpes, Grenoble, France.
+(3)Department of Genetics, Couple Children's Hospital, Grenoble, France.
+(4)Translational Epigenetics,<bold></bold>Institute for Advanced Biosciences, 
+INSERM U1209, CNRS UMR 5309, Université Grenoble Alpes, Grenoble, France.
+(5)Pôle Recherche, Centre Hospitalier Universitaire Grenoble Alpes, Grenoble, 
+France.
+(6)Department of Pathology, Centre Hospitalier Universitaire Grenoble Alpes, 
+Grenoble, France, hsartelet@chu-grenoble.fr.
+(7)Universite Grenoble Alpes, Grenoble, France, hsartelet@chu-grenoble.fr.
+
+Multicystic renal dysplasia is a congenital cystic anomaly of the kidney caused 
+by abnormal metanephric differentiation with immature tubules. It is surrounded 
+by mesenchymal collars and islands of immature mesenchyma present between the 
+cysts. The PI3K-AKT-mTOR signaling pathway is a key regulator involved in cell 
+growth, proliferation, motility, survival, and apoptosis. Activation of the 
+PI3K-AKT-mTOR pathway results in the survival and proliferation of tumor cells 
+in many cancers. The aim of this study is to analyze the topographic expression 
+of phospho-AKT, phospho-mTOR, and phospho-70S6K in renal development and in the 
+multicystic dysplastic kidney (MCDK). A total of 17 fetal kidneys of development 
+age from the first to the third trimester and 13 cases of pathological kidneys 
+with MCDK were analyzed by immunohistochemistry in order to evaluate the 
+expression of phospho-AKT (S473), phospho-mTOR, and phospho-70S6K. Phospho-AKT 
+and phospho-mTOR were expressed early in renal development and in an identical 
+manner for every structure derived from the ureteric bud, such as collecting 
+ducts and urothelium. Phospho-p70S6K was expressed early in the urothelium and 
+in glomerular mesangial cells. Later, their expressions differed according to 
+the needs of cell proliferation and differentiation over time by becoming more 
+selective. In MCDK, phospho-AKT, phospho-mTOR, and phospho-70S6K have the same 
+profile: a high cytoplasmic expression in cystic epithelium, loose mesenchyma, 
+and primitive tubes. This study demonstrates the essential and specific role of 
+the PI3K-AKT-mTOR pathway in the formation of cysts in multicystic renal 
+dysplasia.
+
+© 2020 S. Karger AG, Basel.
+
+DOI: 10.1159/000509152
+PMID: 32927453 [Indexed for MEDLINE]
+
+
+23. Semin Fetal Neonatal Med. 2008 Jun;13(3):142-51. doi: 
+10.1016/j.siny.2007.10.009. Epub 2007 Dec 11.
+
+Dysplastic kidneys.
+
+Winyard P(1), Chitty LS.
+
+Author information:
+(1)Institute of Child Health, University College London, 30 Guilford Street, 
+London, UK. pwinyard@ich.ucl.ac.uk
+
+Dysplastic kidneys are common malformations affecting up to 1 in 1000 of the 
+general population. They are part of the spectrum of Congenital Abnormalities of 
+the Kidney and Urinary Tract (CAKUT) and an increasing number of children are 
+being diagnosed on antenatal ultrasound. In the past, these patients may not 
+have been detected until adulthood following investigation for other illness, or 
+even as incidental findings at post mortem, unless there was severe bilateral 
+dysplasia leading to Potter's sequence or renal failure in childhood. Excluding 
+syndromic cases with defects in other organ systems, features linked to worse 
+prognosis at presentation are: (1) bilateral disease; (2) decreased functional 
+renal mass (which encompasses not just small kidneys but also large ones where 
+cysts replace normal architecture); (3) lower urinary tract obstruction; and (4) 
+anhydramnios or severe oligohydramnios. Dysplasia and renal function are dynamic 
+and can evolve during pregnancy, so repeated assessment is necessary when 
+pathology is expected. Worsening dimensions or decreasing amniotic fluid levels 
+imply poorer prognosis, but there are no proven therapies during pregnancy, 
+though vesicoamniotic shunting may be indicated with obstruction. Postnatal 
+investigations aim to define the anatomy, which helps to estimate risks of 
+infection and kidney function. Management might then involve observation, 
+prophylactic antibiotics, surgery and/or renal support. Risks of renal 
+malignancy and hypertension are low during childhood, but longer-term follow-up 
+is needed, particularly to determine blood pressure and renal function in 
+adulthood and pregnancy. Around 10% of cases have a family history of 
+significant renal/urinary tract malformation. Monogenic causes include mutations 
+in individual genes, such as TCF2/hepatocyte nuclear factor 1ss (HNF1beta), PAX2 
+and uroplakins, but there are also recent reports of children with compound 
+heterozygote mutations in several renal/urinary tract developmental genes. 
+Effective genetic screening in future may require gene chip or other techniques 
+to assess multiple genes concurrently, but this should not replace a 
+multidisciplinary approach to these often difficult cases.
+
+DOI: 10.1016/j.siny.2007.10.009
+PMID: 18065301 [Indexed for MEDLINE]
+
+
+24. J Urol. 2015 Jul;194(1):189; discussion 189. doi: 10.1016/j.juro.2015.01.122.
+ Epub 2015 Apr 2.
+
+Editorial Comment.
+
+Romao R(1).
+
+Author information:
+(1)Division of Urology, IWK Health Center, Dalhousie University, Halifax, Nova 
+Scotia, Canada.
+
+Comment on
+    J Urol. 2015 Jul;194(1):184-9.
+
+DOI: 10.1016/j.juro.2015.01.122
+PMID: 25843061 [Indexed for MEDLINE]
+
+
+25. Pediatr Int. 2018 Aug;60(8):750-754. doi: 10.1111/ped.13612. Epub 2018 Jul
+31.
+
+Clinical features of children with multicystic dysplastic kidney.
+
+Kara A(1), Gurgoze MK(1), Aydin M(2), Koc ZP(3).
+
+Author information:
+(1)Department of Pediatric Nephrology, Firat University School of Medicine, 
+Elazig, Turkey.
+(2)Department of Neonatology, Firat University School of Medicine, Elazig, 
+Turkey.
+(3)Department of Nuclear Medicine, Firat University School of Medicine, Elazig, 
+Turkey.
+
+BACKGROUND: To evaluate the clinical features of patients with multicystic 
+dysplastic kidney (MCDK).
+METHODS: The medical files of children diagnosed with MCDK between January 2008 
+and November 2015 were retrospectively reviewed. The demographic, clinical, 
+laboratory and radiological data were evaluated.
+RESULTS: Of 128 children with MCDK enrolled in the study, 82 (64.1%) were male, 
+and 46 (35.9%) were female (P < 0.05). MCDK were located on left and right sides 
+in 66 (51.6%) and 62 children (48.4%), respectively (P > 0.05). Antenatal 
+diagnosis was present in 64 patients (50%). The mean age at diagnosis was 2.8 ± 
+2.7 years (range, 0-8 years), and follow-up duration was 4.5 years. Fifteen 
+patients (20.8%) had vesicoureteral reflux. Of these, four underwent endoscopic 
+surgical correction. Other associated urological anomalies were ureteropelvic 
+junction obstruction (n = 6), hypospadias (n = 1), and kidney stones (n = 1). On 
+technetium-99 m dimercaptosuccinic acid scintigraphy, which was performed in all 
+patients, no significant association between grade of reflux and presence of 
+scarring was seen. Hypertension was diagnosed only in one child (0.8%) who 
+required antihypertensive treatment. The prevalence of unilateral undescended 
+testicle in children aged <1 year in the 82 male patients was 4.9%. Seventy-six 
+patients (59.4%) developed compensatory hypertrophy in the contralateral kidney 
+during a 1 year follow-up period. Of the total, only seven children (5.5%) had 
+undergone nephrectomy.
+CONCLUSIONS: MCDK follows a benign course with relatively few sequelae, and 
+therefore these patients should be closely followed up and conservatively 
+managed.
+
+© 2018 Japan Pediatric Society.
+
+DOI: 10.1111/ped.13612
+PMID: 29856512 [Indexed for MEDLINE]
+
+
+26. Can J Urol. 2014 Oct;21(5):7510-4.
+
+Multicystic dysplastic kidney: is an initial voiding cystourethrogram necessary?
+
+Calaway AC(1), Whittam B, Szymanski KM, Misseri R, Kaefer M, Rink RC, Karymazn 
+B, Cain MP.
+
+Author information:
+(1)Riley Hospital for Children at Indiana University School of Medicine, 
+Indianapolis, Indiana, USA.
+
+Comment in
+    Can J Urol. 2014 Oct;21(5):7515.
+    J Urol. 2016 Feb;195(2):477.
+
+INTRODUCTION: Traditionally, a voiding cystourethrogram (VCUG) has been obtained 
+in patients diagnosed with multicystic dysplastic kidney (MCDK) because of 
+published vesicoureteral reflux (VUR) rates between 10%-20%. However, with the 
+diagnosis and treatment of low grade VUR undergoing significant changes, we 
+questioned the utility of obtaining a VCUG in healthy patients with a MCDK. We 
+reviewed our experience to see how many of the patients with documented VUR 
+required surgical intervention.
+MATERIALS AND METHODS: We performed a retrospective review of children diagnosed 
+with unilateral MCDK from 2002 to 2012 who also underwent a VCUG.
+RESULTS: A total of 133 patients met our inclusion criteria. VUR was identified 
+in 23 (17.3%) children. Four patients underwent ureteral reimplant (3.0%). 
+Indications for surgical therapy included breakthrough urinary tract infections 
+(2 patients), evidence of dysplasia/scarring (1 patient) and non-resolving 
+reflux (1 patient). All patients with a history of VUR who are toilet trained, 
+regardless of the grade or treatment, are currently being followed off 
+antibiotic prophylaxis. To date, none have had a febrile urinary tract infection 
+(UTI) since cessation of prophylactic antibiotics. Hydronephrosis in the 
+contralateral kidney was not predictive of VUR (p = 0.99).
+CONCLUSION: Routine VCUG in healthy children diagnosed with unilateral MCDK may 
+not be warranted given the low incidence of clinically significant VUR. If a 
+more conservative strategy is preferred, routine VCUG may be withheld in those 
+children without normal kidney hydronephrosis and considered in patients with 
+normal kidney hydronephrosis. If a VCUG is not performed the family should be 
+instructed in signs and symptoms of urinary tract infection.
+
+PMID: 25347379 [Indexed for MEDLINE]
+
+
+27. Urology. 2006 Nov;68(5):1121.e9-11. doi: 10.1016/j.urology.2006.06.024. Epub 
+2006 Nov 7.
+
+Segmental multicystic dysplastic kidney in children.
+
+Kalyoussef E(1), Hwang J, Prasad V, Barone J.
+
+Author information:
+(1)Division of Urology, Robert Wood Johnson Medical School, New Brunswick, New 
+Jersey 08903, USA.
+
+Pediatric segmental multicystic dysplastic kidney is a rare subtype of 
+multicystic dysplastic kidney disease, with only 18 case reports published. All 
+children previously reported with this condition presented during infancy. This 
+is the first case of segmental multicystic dysplastic kidney in an adolescent 
+girl. The case is discussed, along with a review of published reports.
+
+DOI: 10.1016/j.urology.2006.06.024
+PMID: 17095057 [Indexed for MEDLINE]
+
+
+28. Pediatr Nephrol. 2022 Dec;37(12):3075-3084. doi: 10.1007/s00467-022-05516-2. 
+Epub 2022 Mar 25.
+
+Zinner syndrome in children: clinical presentation, imaging findings, diagnosis, 
+and outcome.
+
+Lin CC(1)(2)(3), Sheu JC(4), Tsai PS(2)(3)(5)(6), Lee MD(7), Lin TH(1), Tsai 
+JD(8)(9)(10).
+
+Author information:
+(1)Department of Pediatrics, MacKay Children's Hospital, No 92, Section 2, 
+Chungshan North Road, Taipei, Taiwan.
+(2)Department of Medicine, MacKay Medical College, New Taipei City, Taiwan.
+(3)MacKay Junior College of Medicine, Nursing and Management, Taipei, Taiwan.
+(4)Department of Pediatric Surgery, MacKay Children's Hospital, Taipei, Taiwan.
+(5)Department of Biomedical Imaging and Radiological Sciences, National Yang 
+Ming Chiao Tung University, Taipei, Taiwan.
+(6)Department of Radiology, MacKay Memorial Hospital, Taipei, Taiwan.
+(7)Department of Pediatrics, Hsinchu MacKay Memorial Hospital, Hsinchu City, 
+Taiwan.
+(8)Department of Pediatrics, MacKay Children's Hospital, No 92, Section 2, 
+Chungshan North Road, Taipei, Taiwan. tsaijd@yahoo.com.tw.
+(9)Department of Medicine, MacKay Medical College, New Taipei City, Taiwan. 
+tsaijd@yahoo.com.tw.
+(10)Department of Medicine, Taipei Medical University, Taipei, Taiwan. 
+tsaijd@yahoo.com.tw.
+
+BACKGROUND: Zinner syndrome (ZS), the association of congenital seminal vesicle 
+cyst (SVC) and ipsilateral kidney anomalies, is rarely diagnosed in childhood. 
+This study aimed to assess presentation, imaging findings, management, and 
+outcome of pediatric ZS.
+METHODS: Sixteen children with ZS were diagnosed and managed at our hospital 
+from 2003 to 2021. We reviewed the medical records to collect data on initial 
+symptoms, results of imaging studies, complications, operation, and follow-up.
+RESULTS: Ultrasound was used in all 16 cases as initial diagnostic tool. 
+Fourteen patients were asymptomatic at diagnosis: these were transferred from 
+obstetricians or pediatricians for evaluation of the prenatally or postnatally 
+detected ultrasonic kidney anomalies. SVCs were incidentally noted on 
+ultrasonography. The other two cases initially presented with urinary tract 
+infection (UTI). Kidney anomalies included multicystic dysplastic kidney in 3 
+and kidney agenesis in 13 patients. Eleven (68.7%) patients had ipsilateral 
+ectopic ureters entering SVC. Four (36.4%) patients had a reflux from urethra 
+into SVC (urethro-cystic reflux) on voiding cystourethrography. Ten (62.5%) 
+patients remained asymptomatic over a mean of 58 months (range, 7-216 months), 
+two patients developed lower urinary tract dysfunction, and five patients had 
+UTIs. Two boys needed SVC removal, and SVC had disappeared in two patients after 
+2.5-4 years of follow-up.
+CONCLUSIONS: Unilateral kidney hypodysplasia with ectopic ureter inserting into 
+the ipsilateral SVC is a characteristic sign for diagnosis of ZS. In our case 
+series, ZS was mainly asymptomatic. Urethro-cystic reflux was associated with 
+UTIs in young infants. SVC removal was rarely required. A higher resolution 
+version of the Graphical abstract is available as Supplementary information.
+
+© 2022. The Author(s), under exclusive licence to International Pediatric 
+Nephrology Association.
+
+DOI: 10.1007/s00467-022-05516-2
+PMID: 35332378 [Indexed for MEDLINE]
+
+
+29. J Pediatr Urol. 2018 Dec;14(6):510-519. doi: 10.1016/j.jpurol.2018.09.018.
+Epub  2018 Oct 10.
+
+Evidence-based treatment of multicystic dysplastic kidney: a systematic review.
+
+Chang A(1), Sivananthan D(2), Nataraja RM(3), Johnstone L(4), Webb N(1), Lopez 
+PJ(5).
+
+Author information:
+(1)Department of Paediatric Urology, Monash Children's Hospital, Melbourne, 
+Australia.
+(2)Department of Paediatric Nephrology, Monash Children's Hospital, Melbourne, 
+Australia.
+(3)Department of Paediatrics, School of Clinical Sciences, Faculty of Medicine, 
+Nursing and Health Sciences, Monash University, Melbourne, Australia.
+(4)Department of Paediatric Nephrology, Monash Children's Hospital, Melbourne, 
+Australia; Department of Paediatrics, School of Clinical Sciences, Faculty of 
+Medicine, Nursing and Health Sciences, Monash University, Melbourne, Australia.
+(5)Department of Paediatric Urology, Monash Children's Hospital, Melbourne, 
+Australia; Department of Urology, Hospital Exequiel Gonzalez Cortes, Santiago, 
+Chile; Clinica Alemana, Santiago, Chile. Electronic address: 
+pejotalopez@gmail.com.
+
+Comment in
+    J Pediatr Urol. 2019 May;15(3):291-292.
+    J Pediatr Urol. 2019 May;15(3):293.
+    J Urol. 2020 Feb;203(2):240.
+
+OBJECTIVES: There is a lack of a standardised protocol for the investigation and 
+non-operative management of paediatric multicystic dysplastic kidney (MCDK). 
+Institutional protocols for non-operative management remain essentially ad hoc. 
+The primary outcome of this systematic review is to establish the incidence of 
+hypertension associated with an MCDK. The secondary outcome is to determine the 
+malignancy risk associated with an MCDK. The tertiary outcome is to assess the 
+rate of MCDK involution. Subsequent to these, an evidence-based algorithm for 
+follow-up is described.
+METHODOLOGY: A systematic review of all relevant studies published between 1968 
+and April 2017 was performed using the Preferred Reporting Items for Systematic 
+Reviews and Meta-Analyses guidelines. Studies were identified by specific 
+inclusion and exclusion criteria, all of which included data relevant to the 
+primary, secondary and tertiary outcomes. Hypertension was defined as systolic 
+blood pressure greater than the 95th centile for gender, age and height centile. 
+Subset analysis was performed for hypertension associated with an MCDK.
+RESULTS: The primary outcome measure revealed a 3.2% (27/838) risk of developing 
+hypertension associated with an MCDK. The secondary outcome measure noted a 
+0.07% malignancy risk (2/2820). The tertiary outcome measure established that 
+53.3% (1502/2820) had evidence of involution of the dysplastic kidney. A total 
+of 44 cohort studies (2820 patients) were analysed.
+CONCLUSION: Given the low risk of hypertension and malignancy, which is similar 
+to the general population, the current conservative non-operative pathway is an 
+appropriate management strategy. An algorithm to help support clinicians with 
+ongoing management is proposed.
+
+Crown Copyright © 2018. Published by Elsevier Ltd. All rights reserved.
+
+DOI: 10.1016/j.jpurol.2018.09.018
+PMID: 30396841 [Indexed for MEDLINE]
+
+
+30. Pediatr Int. 2021 Oct;63(10):1254-1256. doi: 10.1111/ped.14593. Epub 2021 Jul
+ 14.
+
+Segmental multicystic dysplastic kidney: Two case reports.
+
+Vaqueiro Graña M(1), Aneiros Castro B(2), García Martínez E(1), Tallón García 
+M(1), Fernández Lorenzo JR(1).
+
+Author information:
+(1)Department of Pediatrics, Alvaro Cunqueiro University Hospital, Vigo, Spain.
+(2)Department of Pediatric Surgery, Alvaro Cunqueiro University Hospital, Vigo, 
+Spain.
+
+DOI: 10.1111/ped.14593
+PMID: 34258821 [Indexed for MEDLINE]
+
+
+31. Clin Pediatr (Phila). 2007 May;46(4):365-7. doi: 10.1177/0009922806290101.
+
+Multicystic dysplastic kidney.
+
+Fryer K(1), Nield LS, Muchant DG.
+
+Author information:
+(1)Department of Pediatrics, West Virginia University School of Medicine, 
+Morgantown, West Virginia 26505, USA.
+
+DOI: 10.1177/0009922806290101
+PMID: 17475998 [Indexed for MEDLINE]
+
+
+32. J Pediatr Urol. 2013 Jun;9(3):344-7. doi: 10.1016/j.jpurol.2012.04.014. Epub 
+2012 Jun 9.
+
+Involution of multicystic dysplastic kidney: is it predictable?
+
+Tiryaki S(1), Alkac AY, Serdaroglu E, Bak M, Avanoglu A, Ulman I.
+
+Author information:
+(1)Ege University, Faculty of Medicine, Department of Pediatric Surgery, 
+Division of Pediatric Urology, Izmir, Turkey.
+
+OBJECTIVE: To evaluate the clinical course of multicystic dysplastic kidney 
+(MCDK) and to reveal any criteria indicating spontaneous involution.
+MATERIAL METHODS: Hospital records of patients with MCDK followed in two 
+different institutions in 1994-2009 were reviewed and data were analyzed 
+regarding involution.
+RESULTS: Records of 96 patients were reviewed, of whom 46 were diagnosed 
+antenatally and followed for more than 1 year. Fourteen patients had undergone 
+nephrectomy. There was one case of hypertension which resided with nephrectomy. 
+There was no malignancy. Involution rate was 53.6% (15/28) for right-sided and 
+only 16.7% (3/18) for left-sided kidneys. The initial size of the kidney was 
+found to be another predictive parameter for involution. Initial sizes of 43 (15 
+involuted and 28 non-involuted) kidneys were documented. Mean standard deviation 
+score for involuting and non-involuting kidneys was -3.19 and 3.12, 
+respectively. The chance of involution for a large kidney on the left was zero; 
+however, involution risk for a small right-sided kidney was 67%.
+CONCLUSION: Reviewing a 15-year period of our patient records conveyed data 
+supporting current literature mainly encouraging non-operative management of 
+MCDK. Further studies are required; however, our two objective indicators, the 
+initial size and side of dysplastic kidney, may contribute to the management.
+
+Copyright © 2012 Journal of Pediatric Urology Company. Published by Elsevier 
+Ltd. All rights reserved.
+
+DOI: 10.1016/j.jpurol.2012.04.014
+PMID: 22687342 [Indexed for MEDLINE]
+
+
+33. J Med Case Rep. 2018 May 7;12(1):121. doi: 10.1186/s13256-018-1644-9.
+
+Pelvic dystopia of right rudimentary multicystic dysplastic kidney as a rare 
+cause of bedwetting in a patient with a single pelvic ectopic left kidney, and 
+agenesis of the uterus and vagina (Mayer-Rokitansky-Küster-Hauser syndrome): a 
+case report.
+
+Karimbayev K(1), Dzumanazarov N(2), Akhaibekov M(3), Berdikulov N(3), Karimbayev 
+A(4), Mustafayev A(3).
+
+Author information:
+(1)Department of Surgery, Akhmet Yassawi International Kazakh-Turkish University 
+Medical School, Turkestan, Kazakhstan. kkarimbayev@gmail.com.
+(2)Pathology Department, Akhmet Yassawi International Kazakh-Turkish University, 
+Medical School, Turkestan, Kazakhstan.
+(3)AkhmetYassawi International Kazakh-Turkish University, Clinical Diagnostic 
+Center, Turkestan, Kazakhstan.
+(4)ENKA Company, Turkestan, Kazakhstan.
+
+BACKGROUND: Pelvic dystopia of rudimentary multicystic dysplastic kidney as a 
+rare cause of bedwetting in children.
+CASE PRESENTATION: We report the case of a 14-year-old Kazakh girl who presented 
+with difficulty in starting the stream of urine and intermittent interruption of 
+the urinary stream while voiding as well as bedwetting, caused by a rare 
+congenital disease (pelvic dystopia of rudimentary multicystic dysplastic 
+kidney). The diagnostic workup, differential diagnosis, and management, and a 
+review of the literature are presented. Persistent since she was 2 years old, 
+bedwetting was stressful for both the parents and child. Initially detected 
+radiologically and endoscopically, a bladder mass was thought suspicious for 
+ureterocele, papilloma, or mixed tumor of the urinary bladder, but surprisingly, 
+turned out to be a pelvic dystopia of the rudimentary multicystic dysplastic 
+kidney. Transvesical excision of this mass was performed.
+CONCLUSIONS: The purpose of this case report is to draw attention to the fact 
+that a persistent case of bedwetting which does not respond to conventional 
+therapy should be subject to further examinations to exclude surgical causes of 
+the disease.
+
+DOI: 10.1186/s13256-018-1644-9
+PMCID: PMC5937041
+PMID: 29730988 [Indexed for MEDLINE]
+
+Conflict of interest statement: ETHICS APPROVAL AND CONSENT TO PARTICIPATE: Not 
+applicable. CONSENT FOR PUBLICATION: Written informed consent was obtained from 
+the patient’s legal guardian(s) for publication of this case report and any 
+accompanying images. A copy of the written consent is available for review by 
+the Editor-in Chief of this journal. COMPETING INTERESTS: The authors declare 
+that they have no competing interests, including specific financial interests or 
+relationships and affiliations relevant to the subject matter or materials 
+discussed in the manuscript. PUBLISHER’S NOTE: Springer Nature remains neutral 
+with regard to jurisdictional claims in published maps and institutional 
+affiliations.
+
+
+34. Saudi J Kidney Dis Transpl. 2017 Jul-Aug;28(4):916-920.
+
+Unilateral multicystic renal dysplasia: Prenatal diagnosis on ultrasound.
+
+Pandya VK(1), Sutariya HC(1).
+
+Author information:
+(1)Department of Radio Diagnosis and Imaging, G. R. Doshi and K. M. Mehta 
+Institute of Kidney Diseases and Research Centre - Dr. H. L. Trivedi Institute 
+of Transplantation Sciences, Civil Hospital Campus, Asarwa, Ahmedabad, Gujarat, 
+India.
+
+Multicystic renal dysplasia (MCRD) is the most common cause of abnormally 
+enlarged kidney, diagnosed on antenatal ultrasound examination. It is an 
+abnormality of the embryonic development in which the renal parenchyma is 
+substituted by nonfunctioning renal tissue made up of cysts which do not 
+communicate with each other. Vesicoureteric reflux (VUR), pelviureteric junction 
+obstruction, vesicoureteric junction obstruction, and ureterocele are the most 
+commonly seen abnormalities in contralateral kidney. Here, we report a case of 
+prenatal diagnosis of unilateral MCRD with VUR in contralateral kidney. In 
+conclusion, we want to emphasize optimal use of ultrasound imaging to detect 
+such abnormalities as early as possible to guide the proper management.
+
+PMID: 28748898 [Indexed for MEDLINE]
+
+
+35. J Clin Ultrasound. 2022 Jul;50(6):854-861. doi: 10.1002/jcu.23172. Epub 2022
+Mar  4.
+
+Utility of renal scintigraphy in diagnosis of multicystic dysplastic kidney.
+
+Hannallah A(1), Baker ZG(1), De Filippo RE(1), Sparks SS(1), Ko J(1), Vasquez 
+E(1).
+
+Author information:
+(1)Division of Urology, Children's Hospital Los Angeles, Los Angeles, 
+California, USA.
+
+Comment in
+    J Clin Ultrasound. 2022 Jul;50(6):843.
+
+PURPOSE: To compare the prevalence of vesicoureteral reflux (VUR), febrile 
+urinary tract infection (fUTI), and chronic kidney disease (CKD) among patients 
+with multicystic dysplastic kidney (MCDK) diagnosed by renal scintigraphy (RS) 
+versus follow-up renal ultrasound (RUS) alone.
+METHODS: This was a retrospective review of patients seen at a tertiary care 
+center from 2010 to 2020 with MCDK diagnosed by RS or follow-up RUS. Differences 
+in the prevalence of VUR, fUTI, and CKD by cohort were assessed using logistic 
+regression analysis, Pearson X2 , and Fisher's Exact tests. Temporal trends in 
+diagnostic methods used (RUS versus RUS + RS) were evaluated using the 
+Cochran-Armitage trend test.
+RESULTS: One-hundred seventy-two patients were included: 50% (n = 86) underwent 
+RUS + RS and 50% (n = 86) underwent RUS alone to diagnose MCDK. Prevalence of 
+VUR, fUTI, and CKD did not significantly vary between groups. Among patients who 
+had a VCUG, 4.4% had contralateral VUR (1.7% RUS + RS group; 7.4% RUS group; 
+p = 0.19) and 14.5% had at least one fUTI (16.3% RUS + RS group; 12.8% RUS 
+group; p = 0.52). Females were significantly more likely to have at least one 
+fUTI (p = 0.04). Four patients (2.3%) developed CKD, all in the RUS + RS cohort 
+(p = 0.12). Diagnosis of MCDK by RUS versus RUS + RS did not significantly vary 
+over time (p = 0.17).
+CONCLUSION: Patients with unilateral MCDK confirmed by RS versus RUS alone do 
+not significantly vary in the prevalence of VUR, fUTI, or CKD. Renal 
+scintigraphy studies may not be necessary in unilateral MCDK diagnosis but 
+continue to be used.
+
+© 2022 Wiley Periodicals LLC.
+
+DOI: 10.1002/jcu.23172
+PMID: 35246854 [Indexed for MEDLINE]
+
+
+36. Pediatrics. 2021 Aug;148(2):e2020035550. doi: 10.1542/peds.2020-035550. Epub 
+2021 Jul 6.
+
+Reducing Unnecessary Imaging in Children With Multicystic Dysplastic Kidney or 
+Solitary Kidney.
+
+Jawa NA(1)(2), Rosenblum ND(3)(4)(5), Radhakrishnan S(3)(5), Pearl RJ(3)(5), 
+Levin L(3)(5), Matsuda-Abedini M(3)(5).
+
+Author information:
+(1)Division of Nephrology and natasha.jawa@sickkids.ca.
+(2)Department of Pediatrics, Faculty of Medicine.
+(3)Division of Nephrology and.
+(4)Institute of Health Policy, Management, and Evaluation, University of 
+Toronto, Toronto, Ontario, Canada.
+(5)Developmental & Stem Cell Biology Program, Research Institute, The Hospital 
+for Sick Children, Toronto, Ontario, Canada.
+
+BACKGROUND AND OBJECTIVES: Children with isolated unilateral multicystic 
+dysplastic kidney (MCDK) or congenital solitary kidney (CSK) undergo serial 
+renal ultrasonography with variable frequency until they are transitioned to 
+adult care. A growing body of literature suggests the value of frequent 
+ultrasonography in this population is limited, providing no benefit to overall 
+outcomes. Despite emerging evidence, ultrasound remains overused, resulting in 
+avoidable health care expenditures and unnecessary use of resources. With our 
+initiative, we aimed to improve quality of care by reducing avoidable 
+ultrasounds in these children.
+METHODS: This was a single-center, prospective, interrupted time series of 
+children <18 years with ultrasound-confirmed isolated unilateral MCDK or CSK in 
+the outpatient nephrology clinic to evaluate the effect of a decision-making 
+algorithm on the proportion of children receiving an avoidable ultrasound. An 
+algorithm depicting a consensus, evidence-based protocol for managing pediatric 
+MCDK or CSK was refined through content expert feedback and usability testing to 
+standardize frequency of ultrasonography. Ultrasounds were deemed necessary 
+after birth, at 6 months, and at 2, 5, 10, and 15 years. Differences pre- and 
+postintervention were determined by using a U chart and t and F tests for 
+significance.
+RESULTS: The algorithm resulted in a 47% reduction (P < .001) in the proportion 
+of avoidable ultrasounds ordered in children with MCDK and CSK. This reduction 
+was sustainable over a 6-month period and would result in at least $46 000 
+annual savings.
+CONCLUSIONS: Introduction of a clinical decision-making algorithm was associated 
+with a reduction in avoidable ultrasound testing. Improving adherence across 
+providers may allow for an even more pronounced reduction.
+
+Copyright © 2021 by the American Academy of Pediatrics.
+
+DOI: 10.1542/peds.2020-035550
+PMID: 34230093 [Indexed for MEDLINE]
+
+Conflict of interest statement: POTENTIAL CONFLICT OF INTEREST: The authors have 
+indicated they have no potential conflicts of interest to disclose.
+
+
+37. Can J Urol. 2014 Oct;21(5):7515.
+
+Voiding cystourethrogram in multicystic dysplastic kidney: the pendulum has 
+swung.
+
+Friedman AA(1), Palmer LS.
+
+Author information:
+(1)North Shore-Long Island Jewish Health System, New Hyde Park, New York, USA.
+
+Comment on
+    Can J Urol. 2014 Oct;21(5):7510-4.
+
+PMID: 25347380 [Indexed for MEDLINE]
+
+
+38. Pediatr Nephrol. 2009 Feb;24(2):233-41. doi: 10.1007/s00467-008-0828-8. Epub 
+2008 May 15.
+
+Management and etiology of the unilateral multicystic dysplastic kidney: a 
+review.
+
+Hains DS(1), Bates CM, Ingraham S, Schwaderer AL.
+
+Author information:
+(1)Department of Pediatrics, Division of Pediatric Nephrology, The Ohio State 
+University College of Medicine, 700 Children's Drive, Columbus, OH 43205, USA.
+
+In children, unilateral multicystic dysplastic kidney (MCDK) is one of the most 
+frequently identified urinary tract abnormalities. A variety of proposed 
+etiologies has been associated with the underlying pathogenesis of MCDK. These 
+include genetic disturbances, teratogens, in utero infections, and urinary 
+outflow tract obstruction. From 5-43% of the time, MCDK has associated 
+genito-urinary anomalies, both structural and functional in nature. A review of 
+the literature reveals that involution rates are reported to be 19-73%, 
+compensatory hypertrophy of the contralateral kidney occurs from 24-81% of the 
+time, and estimated glomerular filtration rates (GFRs) (by the Schwartz formula) 
+range from 86-122 ml/min per 1.73 m(2) body surface area. Most authors suggest 
+serial ultrasonography to monitor contralateral growth, routine blood pressure 
+monitoring, and a serum creatinine monitoring algorithm. The risk of 
+hypertension in those with MCDKs does not appear to be greater than that of the 
+general population, and the rates of malignant transformation of MCDK are small, 
+if at all increased, in comparison with those in the general population. If the 
+patient develops a urinary tract infection or has abnormalities of the 
+contralateral kidney, shown on ultrasound, a voiding cystourethrogram is 
+recommended. Finally, the body of literature does not support the routine 
+surgical removal of MCDKs.
+
+DOI: 10.1007/s00467-008-0828-8
+PMID: 18481111 [Indexed for MEDLINE]
+
+
+39. BMC Nephrol. 2013 Feb 17;14:38. doi: 10.1186/1471-2369-14-38.
+
+Autosomal dominant polycystic kidney disease with ectopic unilateral multicystic 
+dysplastic kidney.
+
+Xu J(1), Chen DP, Mao ZG, Huang HF, Xu CM, Wang CR, Jia WP, Mei CL.
+
+Author information:
+(1)Division of Nephrology, Kidney Institute of CPLA, Changzheng Hospital, Second 
+Military Medical University, 415 Fengyang Rd, 200003, Shanghai, China.
+
+BACKGROUND: Autosomal dominant polycystic kidney disease (ADPKD) is the most 
+common hereditary renal disorder. In most cases, ADPKD similarly affects 
+bilateral kidneys.
+CASE PRESENTATION: Among the 605 ADPKD patients that were followed up by our 
+center, we identified two male patients with unilateral ADPKD. The cases were 
+remarkable because the patients also had ectopia and multicystic dysplasia in 
+the contralateral kidney, which are generally sporadic disease conditions. Both 
+patients tested positive for polycystic kidney disease 1 mutation, but negative 
+for hepatocyte nuclear factor 1 beta mutation. Moreover, the deterioration of 
+their kidney function seemed to be quicker than their age- and sex-matched 
+controls and siblings. Both patients had started a long-term hemodialysis in 
+their 40s.
+CONCLUSION: Anatomical and genetic abnormality in patients with ADPKD may be 
+more frequent and complex than previously believed. The compensatory capacity in 
+patients with ADPKD is fragile, and missing one kidney could accelerate the 
+deterioration of renal function.
+
+DOI: 10.1186/1471-2369-14-38
+PMCID: PMC3601018
+PMID: 23413949 [Indexed for MEDLINE]
+
+
+40. BMJ Case Rep. 2011 May 12;2011:bcr0320113989. doi: 10.1136/bcr.03.2011.3989.
+
+Multicystic renal dysplasia: a diagnostic dilemma.
+
+Alam K(1), Varshney M, Aziz M, Maheshwari V, Basha M, Gaur K, Ghani I.
+
+Author information:
+(1)Department of Pathology, JN Medical College, Aligarh, India.
+
+A 3-year-old male child had left-sided abdominal lump for 4 months. Radiological 
+examination revealed a cystic mass in the left kidney. A tentative diagnosis of 
+multicystic nephroma was made on clinical and radiological examination. Cytology 
+was inconclusive. Nephrectomy was done. A final diagnosis of multicystic 
+dysplasia was made on histological examination.
+
+DOI: 10.1136/bcr.03.2011.3989
+PMCID: PMC3094784
+PMID: 22696732 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests None.
+
+
+41. Fetal Diagn Ther. 2004 Mar-Apr;19(2):163-9. doi: 10.1159/000075143.
+
+Antenatal diagnostic aspects of unilateral multicystic kidney 
+dysplasia--sensitivity, specificity, predictive values, differential diagnoses, 
+associated malformations and consequences.
+
+Eckoldt F(1), Woderich R, Smith RD, Heling KS.
+
+Author information:
+(1)Klinik und Poliklinik für Kinderchirurgie, Medizinischen Fakultät, Berlin, 
+Germany. felieckholdt@gmx.de
+
+Comment in
+    J Urol. 2005 Aug;174(2):718.
+
+OBJECTIVES: Unilateral multicystic kidney dysplasia (MCKD) is the second most 
+common urinary tract abnormality diagnosed antenatally. Whilst an isolated 
+unilateral MCKD has a good prognosis, a poor outcome must be expected when MCKD 
+is associated with other complex abnormalities.
+MATERIAL: Out of 11,176 cases, 693 fetuses were suspected of having urinary 
+tract abnormalities. Urological findings were confirmed in 548 of them. 
+Unilateral cystic kidney was diagnosed prenatally in 85 cases.
+RESULTS: The study results in a total of 107 cases with proven MCKD. Eighty-five 
+pregnancies with a prenatal diagnosis of MCKD were analysed. The antenatal 
+diagnosis of MCKD was confirmed in 56 cases. Fifty-one children were found to 
+have unilateral MCKD where this had not been explicitly suspected from antenatal 
+scanning.
+CONCLUSION: Unilateral MCKD is a malformation with an excellent prognosis for 
+child survival and global renal function if encountered in isolation. However, 
+our analysis of live infants and autopsy cases demonstrates a high proportion of 
+severe associated malformations of the urinary tract and other organ systems.
+
+Copyright 2004 S. Karger AG, Basel
+
+DOI: 10.1159/000075143
+PMID: 14764963 [Indexed for MEDLINE]
+
+
+42. Pediatr Nephrol. 2018 Apr;33(4):553-571. doi: 10.1007/s00467-017-3629-0. Epub
+ 2017 Mar 13.
+
+The molecular biology of pelvi-ureteric junction obstruction.
+
+Jackson L(1)(2), Woodward M(3), Coward RJ(4)(3).
+
+Author information:
+(1)Bristol Renal Group, University of Bristol, Dorothy Hodgkin Building, Whitson 
+Street, Bristol, BS1 3NY, UK. laura.jackson@bristol.ac.uk.
+(2)Bristol Royal Hospital for Children, Bristol, UK. 
+laura.jackson@bristol.ac.uk.
+(3)Bristol Royal Hospital for Children, Bristol, UK.
+(4)Bristol Renal Group, University of Bristol, Dorothy Hodgkin Building, Whitson 
+Street, Bristol, BS1 3NY, UK.
+
+Over recent years routine ultrasound scanning has identified increasing numbers 
+of neonates as having hydronephrosis and pelvi-ureteric junction obstruction 
+(PUJO). This patient group presents a diagnostic and management challenge for 
+paediatric nephrologists and urologists. In this review we consider the known 
+molecular mechanisms underpinning PUJO and review the potential of utilising 
+this information to develop novel therapeutics and diagnostic biomarkers to 
+improve the care of children with this disorder.
+
+DOI: 10.1007/s00467-017-3629-0
+PMCID: PMC5859056
+PMID: 28286898 [Indexed for MEDLINE]
+
+Conflict of interest statement: FUNDING: Laura Jackson is funded by a joint 
+Royal College of Surgeons of England/British Association of Paediatric Surgeons 
+Fellowship (Awarded 2014). Richard Coward is funded by the Medical Research 
+Council as a Senior Clinical Fellow MR/K010492/1. CONFLICT OF INTEREST: The 
+authors declare that they have no conflict of interest.
+
+
+43. Arch Dis Child. 2005 Sep;90(9):921-4. doi: 10.1136/adc.2005.075333. Epub 2005
+ May 4.
+
+Risk of hypertension with multicystic kidney disease: a systematic review.
+
+Narchi H(1).
+
+Author information:
+(1)Paediatric Department, Sandwell General Hospital, West Bromwich B71 4HJ, UK. 
+hassibnarchi@hotmail.com
+
+Comment in
+    Arch Dis Child. 2006 Mar;91(3):277-8; author reply 277-8.
+
+BACKGROUND: Children with multicystic kidney disease (MCKD) are increasingly 
+managed conservatively, and are followed up throughout childhood because of the 
+risk of hypertension highlighted in some reports. With this risk still poorly 
+defined, the strategy and the duration of follow up do not seem to be based on 
+evidence.
+METHODS: Systematic review of the literature for all published cohort studies 
+(prospective and retrospective) of children diagnosed to have unilateral MCKD 
+and managed conservatively. Exclusion criteria were bilateral MCKD, and 
+nephrectomy (not for hypertension) during the follow up period. For children 
+with MCKD, the probability of developing hypertension during the follow up 
+period was estimated.
+RESULTS: From 29 reviewed studies, six cases of hypertension developed in 1115 
+eligible children. The mean probability of a child with unilateral MCKD 
+developing hypertension was therefore 5.4 per 1000 (95% CI estimated at 1.9 to 
+11.7 per 1000).
+CONCLUSION: Although the risk of hypertension in MCKD is low, the results of 
+this study do not allow firm recommendations on the frequency and duration of 
+blood pressure measurement follow up for these children. Large prospective 
+cohort studies with a very long duration of follow up are needed.
+
+DOI: 10.1136/adc.2005.075333
+PMCID: PMC1720574
+PMID: 15871982 [Indexed for MEDLINE]
+
+
+44. J Urol. 2011 Sep;186(3):1059-64. doi: 10.1016/j.juro.2011.04.105. Epub 2011
+Jul  23.
+
+Comparison of ultrasound and magnetic resonance urography for evaluation of 
+contralateral kidney in patients with multicystic dysplastic kidney disease.
+
+Kalisvaart J(1), Bootwala Y, Poonawala H, Elmore J, Kirsch A, Scherz H, Jones R, 
+Grattan-Smith JD, Smith E.
+
+Author information:
+(1)Emory University School of Medicine and Children's Healthcare of Atlanta, 
+Atlanta, Georgia 30342, USA. jonkalisvaart@gmail.com
+
+Comment in
+    J Urol. 2011 Sep;186(3):785-6.
+
+PURPOSE: The contralateral kidney is abnormal in up to 25% of patients with 
+multicystic dysplastic kidney. Traditionally, anatomical and functional 
+evaluation of the contralateral kidney has been performed with ultrasound and 
+dimercapto-succinic acid renal scintigraphy, as indicated. Recently magnetic 
+resonance urography has been used to evaluate renal anatomy and function in 
+other urological abnormalities. We compared the results of magnetic resonance 
+urography and ultrasound for evaluating the contralateral kidney in patients 
+with multicystic dysplastic kidney and we describe the range of findings 
+detected.
+MATERIALS AND METHODS: Patients with multicystic dysplastic kidney who underwent 
+magnetic resonance urography were identified. Anatomical findings on magnetic 
+resonance urography were analyzed and compared to those on renal ultrasound. 
+Additional functional information derived from magnetic resonance urography was 
+also recorded.
+RESULTS: We retrospectively identified 58 patients with a unilateral multicystic 
+dysplastic kidney who had undergone magnetic resonance urography, of whom 54 
+also underwent ultrasound. Of the patients 19 (32.8%) had a contralateral 
+abnormality. A discrepancy between magnetic resonance urography and ultrasound 
+was seen in 9 patients (16.7%). Of these patients only 1 had a completely normal 
+contralateral kidney by ultrasound on retrospective review. The incidence and 
+range of parenchymal abnormalities was wider than previously reported.
+CONCLUSIONS: Contralateral abnormalities in children with multicystic dysplastic 
+kidney are common and more definitively evaluated with magnetic resonance 
+urography vs ultrasound. Renal ultrasound remains the most appropriate modality 
+for the initial evaluation of children with multicystic dysplastic kidney, and 
+magnetic resonance urography is recommended when a functional study is required 
+either to confirm the diagnosis of multicystic dysplastic kidney or to evaluate 
+suspected abnormalities of the contralateral kidney.
+
+Copyright © 2011 American Urological Association Education and Research, Inc. 
+Published by Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.juro.2011.04.105
+PMID: 21784486 [Indexed for MEDLINE]
+
+
+45. Indian Pediatr. 2014 Aug;51(8):641-3. doi: 10.1007/s13312-014-0467-z.
+
+Multicystic dysplastic kidney: a retrospective study.
+
+Sharada S(1), Vijayakumar M, Nageswaran P, Ekambaram S, Udani A.
+
+Author information:
+(1)Departments of *Pediatrics and Pediatric Nephrology, Mehta Children's 
+Hospital, Chetpet, Chennai, India. Correspondence to: Dr M Vijayakumar, 
+Consultant Pediatric Nephrologist, Mehta Children's Hospital, No.2(e) Mc Nichols 
+Road, 3rd Lane, Chetpet, Chennai 600 031, Tamilnadu, India. doctormvk@gmail.com.
+
+OBJECTIVE: To report the renal structural and functional anomalies in children 
+with multicystic dysplastic kidneys.
+METHODS: Retrospective descriptive analysis of 47 children with multicystic 
+dysplastic kidney seen in a pediatric nephrology unit over a period of 6 years.
+RESULTS: Antenatal diagnosis of multicystic dysplastic kidney was made in 34 
+(72.3%) patients. On follow up of 31 children for more than 12 months, 21 (68%) 
+had involution, 4 [13%] had non-regression, and 4 (13%) were nephrectomized. 
+Vesico-ureteric reflux (n=13; 28%) was the commonest renal abnormality. The 
+serum creatinine values were higher (P=0.006) in children with contralateral 
+reflux. Sub-nephrotic proteinuria was noted in 9 (29%) and was significantly 
+associated with complete involution (P=<0.023). None of the patients developed 
+hypertension and 2 (6.4%) had renal failure.
+CONCLUSIONS: Close nephrological follow-up is needed in children with 
+multicystic dysplasia of kidneys.
+
+DOI: 10.1007/s13312-014-0467-z
+PMID: 25128997 [Indexed for MEDLINE]
+
+
+46. Kidney Int. 2006 Jan;69(1):190-3. doi: 10.1038/sj.ki.5000015.
+
+Unilateral multicystic dysplastic kidney.
+
+Woolf AS(1).
+
+Author information:
+(1)Nephro-Urology Unit, Institute of Child Health, University College London, 
+London, UK. a.woolf@ich.ucl.ac.uk
+
+DOI: 10.1038/sj.ki.5000015
+PMID: 16374443 [Indexed for MEDLINE]
+
+
+47. Pril (Makedon Akad Nauk Umet Odd Med Nauki). 2021 Apr 23;42(1):77-81. doi: 
+10.2478/prilozi-2021-0006.
+
+Posterior Urethral Valve and Prenataly Resolved Multicystic Dysplastic Kidney.
+
+Aluloska N(1), Palchevska S(2), Simeonov R(2), Gucev Z(1), Tasic V(1).
+
+Author information:
+(1)University Children's Hospital, Medical Faculty Skopje, RN Macedonia.
+(2)Clinical Hospital Adzibadem Sisitna, Skopje, RN Macedonia.
+
+Multicystic dysplastic kidney is a rare congenital anomaly of the kidney and 
+urinary tract. The association with the posterior urethral valve is also very 
+rare. Here we present a patient with both entities and prenatal resolution of 
+the cysts.A 10-week old baby was referred for nephrourological work up due to 
+prenatal diagnosis of the left multicystic kidney. He had serial US scans during 
+the pregnancy. Immediately before delivery the cysts were not seen (prenatal 
+resolution). There were no extrarenal anomalies. The first postnatal ultrasound 
+scan revealed normal sized right kidney without dilatation of the pelvicalyceal 
+system. The bladder had normal thickness of the wall. Technetium-99m 
+dimercaptosuccinic acid scan showed no activity on the left side, and the right 
+kidney appeared normal. At two months of age, a poor urinary steam was observed 
+and additional urologic work up was indicated on clinical suspicion of PUV. 
+Voiding urethrocystography revealed posterior urethral valve and the baby 
+underwent cytoscopic valve resection.Conclusion: We present a rare association 
+of two congenital anomalies of the kidney and urinary tract with prenatal 
+involution of the multicystic dysplastic kidney that is extremely rare event as 
+seen in our case. Presence of posterior urethral valve must be suspected in a 
+male baby with a poor urinary stream even when his ultrasound scan of urinary 
+system appears normal.
+
+© 2021 Natasha Aluloska et al., published by Sciendo.
+
+DOI: 10.2478/prilozi-2021-0006
+PMID: 33894118 [Indexed for MEDLINE]
+
+
+48. Urology. 2020 May;139:156-160. doi: 10.1016/j.urology.2020.02.005. Epub 2020
+Feb  18.
+
+Voiding Cystourethrogram in Children With Unilateral Multicystic Dysplastic 
+Kidney: Is It Still necessary?
+
+Blachman-Braun R(1), Camp MM(2), Becerra MF(3), Guevara CG(4), Velasquez MC(3), 
+Moscardi PRM(3), Ballesteros N(4), Gosalbez R(5), Labbie AS(5), Castellan MA(5), 
+Restrepo R(6), Alam A(7).
+
+Author information:
+(1)Division of Pediatric Urology, Nicklaus Children's Hospital, Miami, FL; 
+Department of Urology, University of Miami Miller School of Medicine, Miami, FL.
+(2)University of Miami Miller School of Medicine, Miami, FL.
+(3)Department of Urology, University of Miami Miller School of Medicine, Miami, 
+FL.
+(4)Division of Pediatric Urology, Nicklaus Children's Hospital, Miami, FL.
+(5)Division of Pediatric Urology, Nicklaus Children's Hospital, Miami, FL; 
+University of Miami Miller School of Medicine, Miami, FL; Division of Pediatric 
+Urology, Joe DiMaggio Children's Hospital, Hollywood, FL.
+(6)Department of Pediatric Radiology, Nicklaus Children's Hospital, Miami, FL.
+(7)Division of Pediatric Urology, Nicklaus Children's Hospital, Miami, FL; 
+University of Miami Miller School of Medicine, Miami, FL; Division of Pediatric 
+Urology, Joe DiMaggio Children's Hospital, Hollywood, FL. Electronic address: 
+aalamsaheb38@gmail.com.
+
+OBJECTIVE: To evaluate the value of the voiding cystourethrogram (VCUG) in 
+children with multicystic dysplastic kidney (MCDK) who have a normal versus 
+abnormal contralateral kidney and bladder ultrasound (US), and assess the risk 
+of having vesicoureteral reflux (VUR) or urinary tract infection (UTI) based on 
+the US results.
+METHODS: A retrospective chart review including children with unilateral MCDK 
+with postnatal US and VCUG available at our institution between January 2008 and 
+September 2017 was performed. Analysis was done to find association between 
+abnormal contralateral US and contralateral VUR and UTI.
+RESULTS: One hundred and fifty-six children were analyzed; 118(75.6%) patients 
+had a normal contralateral kidney US, while 38(24.4%) had abnormal US. The rate 
+of severe contralateral VUR (grade IV and V) was 2 (1.7%) and 5 (13.2%) in 
+children with normal and abnormal contralateral US, respectively. The risk 
+analysis demonstrated a significant association between severe VUR on the 
+contralateral kidney and an abnormal contralateral US (odds ratio = 7.73; 95%CI: 
+1.43-41.81; P = 0.018) and no significant association with UTI (odds 
+ratio = 1.58; 95%CI: 0.50-4.94; P = 0.435).
+CONCLUSION: Our data suggests, the rate of severe contralateral VUR in children 
+with unilateral MCDK and normal contralateral kidney is low. VCUG should be 
+considered for infants with proven MCKD and alterations on the contralateral 
+kidney on US. Following patients with MCDK and normal contralateral kidney 
+without the use of VCUG is a reasonable approach, unless there is development of 
+signs and symptoms of recurrent UTI or deterioration of the renal function. We 
+found that abnormal contralateral kidney US was associated with severe VUR.
+
+Copyright © 2020 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.urology.2020.02.005
+PMID: 32081673 [Indexed for MEDLINE]
+
+
+49. Actas Urol Esp. 2017 Jan-Feb;41(1):62-67. doi: 10.1016/j.acuro.2016.05.004.
+Epub  2016 Sep 22.
+
+Multicystic dysplastic kidney: Assessment of the need for renal scintigraphy and 
+the safety of conservative treatment.
+
+[Article in English, Spanish]
+
+Carazo-Palacios ME(1), Couselo-Jerez M(2), Serrano-Durbá A(3), Pemartín-Comella 
+B(2), Sangüesa-Nebot C(4), Estornell-Moragues F(3), Domínguez-Hinarejos C(3).
+
+Author information:
+(1)Cirugía Pediátrica, Hospital Universitario y Politécnico La Fe, Valencia, 
+España. Electronic address: hellencarazo@gmail.com.
+(2)Cirugía Pediátrica, Hospital Universitario y Politécnico La Fe, Valencia, 
+España.
+(3)Urología Infantil, Hospital Universitario y Politécnico La Fe, Valencia, 
+España.
+(4)Radiología Infantil, Hospital Universitario y Politécnico La Fe, Valencia, 
+España.
+
+OBJECTIVES: To assess the need for implementing renal scintigraphy in the 
+diagnosis of the multicystic dysplastic kidney (MCDK) and the safety of its 
+conservative treatment.
+MATERIAL AND METHODS: A retrospective study of patients with unilateral MCDK was 
+conducted at our centre from January 2005 to August 2015. We calculated the 
+positive predictive value (PPV) of ultrasonography, taking renal scintigraphy 
+and pathology as the gold standard. We calculated a survival curve according to 
+the Kaplan-Meier method to assess the annual probability of spontaneous 
+resolution of the multicystic kidney.
+RESULTS: Fifty-six patients were identified, 48 (85.7%) of whom had a prenatal 
+diagnosis. Thirty eight (67.9%) of the patients were males, and the left side 
+was affected in 33 (58.9%) of the patients. We observed associated urological 
+abnormalities in 22 (39.29%) patients, with vesicoureteral reflux the most 
+common (8, 14.29%). Seven patients (12.5%) developed renal failure. Forty-nine 
+(87.5%) patients developed compensatory contralateral renal hypertrophy. Of the 
+33 patients who underwent surgery, the pathology results confirmed the MCDK 
+diagnosis in 32. Compared with scintigraphy and pathology, the PPV of 
+ultrasonography was 100% and 97%, respectively. The rate of spontaneous 
+involution was 5.4% at 3 months of life, 11.3% at 2 years and 38.4% at 5 years.
+CONCLUSIONS: In our experience, the conservative treatment of MCDK, until at 
+least 5 years of age, is safe. Our data suggest that performing scintigraphy is 
+not required for these patients, which means lower radiation exposure, as well 
+as financial savings.
+
+Copyright © 2016 AEU. Publicado por Elsevier España, S.L.U. All rights reserved.
+
+DOI: 10.1016/j.acuro.2016.05.004
+PMID: 27666954 [Indexed for MEDLINE]
+
+
+50. Pediatr Nephrol. 2005 Aug;20(8):1200. doi: 10.1007/s00467-005-1881-1. Epub
+2005  May 24.
+
+Familial multicystic dysplastic kidney.
+
+Watanabe T, Yamazaki A, Kurabayashi T, Hanaoka J.
+
+DOI: 10.1007/s00467-005-1881-1
+PMID: 15912379 [Indexed for MEDLINE]
+
+
+51. Pediatr Nephrol. 2009 Jan;24(1):99-104. doi: 10.1007/s00467-008-0942-7. Epub 
+2008 Aug 12.
+
+Unilateral multicystic dysplastic kidney: single-center experience.
+
+Kiyak A(1), Yilmaz A, Turhan P, Sander S, Aydin G, Aydogan G.
+
+Author information:
+(1)Pediatric Nephrology Department, Bakirkoy Maternity and Childrens Hospital, 
+Istanbul, Turkey.
+
+Multicystic dysplastic kidney (MCDK) is one of the most common renal 
+abnormalities in children. The aim of our study was to evaluate the clinical 
+course and outcome of patients with MCDK. Ninety pediatric patients with 
+unilateral MCDK followed by the Pediatric Nephrology Department of Bakirkoy 
+Maternity and Children's Hospital between 1990 and 2007 were included in this 
+retrospective study. The dimercaptosuccinic acid radionuclide scan revealed no 
+function in MCDK in all of our patients. Voiding cystourethrogram was performed 
+in all patients. Twenty patients (22.2%) had abnormalities in the contralateral 
+kidney. Nephrectomy was performed in 41 patients (45.5%). Twelve patients had 
+undergone routine nephrectomy before 1996. Since then, patients have been 
+followed up conservatively, and nephrectomy has been performed only when 
+indicated. Indication of nephrectomy was arterial hypertension in 16 patients 
+(23.1%), recurrent urinary tract infection (UTI) in 11 (15.9%), and severe 
+abdominal pain in two (2.8%). Hypertension was noted within the first year of 
+life in all patients except two. MCDK completely involuted in 39.3% within 48 
+months. There was no malignant transformation, proteinuria, or renal failure. In 
+conclusion, hypertension is often noticed in infants with MCDK. Uninephrectomy 
+leads to normalization. However, prospective studies are needed to exclude a 
+spontaneous improvement of hypertension.
+
+DOI: 10.1007/s00467-008-0942-7
+PMID: 18696120 [Indexed for MEDLINE]
+
+
+52. J Pediatr Urol. 2014 Aug;10(4):645-9. doi: 10.1016/j.jpurol.2014.03.004. Epub
+ 2014 Mar 29.
+
+Multicystic dysplastic kidney: Impact of imaging modality selection on the 
+initial management and prognosis.
+
+Sarhan OM(1), Alghanbar M(2), Alsulaihim A(3), Alharbi B(4), Alotay A(5), 
+Nakshabandi Z(6).
+
+Author information:
+(1)Pediatric Urology Unit, Urology Department, Prince Sultan Military Medical 
+City, Riyadh, Saudi Arabia. Electronic address: o_sarhan2004@yahoo.com.
+(2)Pediatric Urology Unit, Urology Department, Prince Sultan Military Medical 
+City, Riyadh, Saudi Arabia. Electronic address: alghanbar@yahoo.com.
+(3)Pediatric Urology Unit, Urology Department, Prince Sultan Military Medical 
+City, Riyadh, Saudi Arabia. Electronic address: aalsulihem@yahoo.com.
+(4)Pediatric Urology Unit, Urology Department, Prince Sultan Military Medical 
+City, Riyadh, Saudi Arabia. Electronic address: dr__badr@hotmail.com.
+(5)Pediatric Urology Unit, Urology Department, Prince Sultan Military Medical 
+City, Riyadh, Saudi Arabia. Electronic address: alotay99@hotmail.com.
+(6)Pediatric Urology Unit, Urology Department, Prince Sultan Military Medical 
+City, Riyadh, Saudi Arabia. Electronic address: drziad@hotmail.com.
+
+OBJECTIVE: To evaluate the impact of imaging modalities on the evaluation and 
+prognosis of children with multicystic dysplastic kidney (MCDK) disease.
+PATIENTS AND METHODS: A retrospective analysis of all children with MCDK 
+diagnosed from 2004 until 2012 was performed. The study included 63 patients for 
+whom all postnatal imaging modalities were available: renal bladder ultrasound 
+(RBUS), dimercaptosuccinic acid scan (DMSA) and voiding cystourethrogram (VCUG). 
+Cases with major congenital abnormalities or incomplete data were excluded. 
+Abnormalities in the contralateral kidney and the fate of MCDK were also 
+addressed.
+RESULTS: At diagnosis, the average age was four-and-a-half months. The majority 
+of cases were detected antenatally (87%). Postnatal RBUS and DMSA scans 
+established the diagnosis of MCDK in 92% and 98% of patients, respectively. DMSA 
+showed photopenic areas in the contralateral kidneys in 10% of patients; all of 
+them had hydronephrosis and were confirmed to have vesicoureteral reflux (VUR). 
+Contralateral VUR was detected in 16 patients; 63% of them had hydronephrosis. 
+After a mean follow-up of three-and-a-half years, involution occurred in 62% of 
+patients and the involution rate was inversely proportional to the initial size.
+CONCLUSIONS: The classical appearance of MCDK on RBUS was sufficient to 
+establish the diagnosis in most patients. DMSA scan was more accurate in 
+confirming the diagnosis and evaluating the contralateral kidney. Selective 
+screening for VUR in patients with contralateral hydronephrotic kidney should be 
+considered.
+
+Copyright © 2014 Journal of Pediatric Urology Company. Published by Elsevier 
+Ltd. All rights reserved.
+
+DOI: 10.1016/j.jpurol.2014.03.004
+PMID: 24731390 [Indexed for MEDLINE]
+
+
+53. Urology. 2015 Nov;86(5):1001-3. doi: 10.1016/j.urology.2015.08.015. Epub 2015
+ Sep 2.
+
+Dermoid Cyst in a Multicystic Dysplastic Kidney: A Case Report and Literature 
+Review.
+
+Levin M(1), Steinhardt GF(2), Barber TD(2).
+
+Author information:
+(1)Wayne State University, Detroit, MI. Electronic address: 
+mlevin@med.wayne.edu.
+(2)Urologic Consultants, Helen Devos Children's Hospital, Grand Rapids, MI.
+
+Most multicystic dysplastic kidneys (MCDKs) are discovered prenatally. There is 
+no consensus regarding initial workup and appropriate follow-up. We present a 
+9-year-old female who was fetally diagnosed with a MCDK and without follow-up 
+returned with an 18-cm multicystic mass. The patient underwent laparoscopic 
+nephrectomy. Final pathology revealed a dermoid cyst arising in a pediatric 
+kidney, which to our knowledge has not been previously described. Patients with 
+MCDK have hypertension as a possible sequela and possible reflux to their 
+functioning kidney. Voiding cystourethrogram seems reasonable initially, and 
+renal ultrasound is ideally noninvasive. Focused clinical awareness of the 
+solitary kidney is important.
+
+Copyright © 2015 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.urology.2015.08.015
+PMID: 26342317 [Indexed for MEDLINE]
+
+
+54. Int Urol Nephrol. 2002;34(2):179-82. doi: 10.1023/a:1023241624095.
+
+Hydronephrotic obstructed kidney mimicking a congenital multicystic kidney: case 
+report with review of literature.
+
+Singh I(1), Sharma D, Singh N, Jain BK, Minocha VR.
+
+Author information:
+(1)Department of Surgery, Uinversity College of Medical Sciences (University of 
+Delhi) & Guru Teg Bahadur Hospital, Delhi-110095, India. iqbal@bol.net.in
+
+OBJECTIVE: To report a case of obstructed hydronephrotic kidney mimicking a 
+multicystic kidney and to review the literature regarding differentiation of the 
+hydronephrotic variant of multicystic kidney from the obstructed hydronephronic 
+kidney. To suggest a possible algorithm in distinguishing them.
+METHODS: We have reported a case of a 35-year-old male who presented with dull 
+aching pain and a palpable right-sided cystic flank mass of several years 
+duration. The initial workup suggested a nonfunctioning multicystic kidney while 
+the operative findings and histopathology were suggestive of an obstructed 
+hydroenphrotic kidney with pyelonephritic changes. We searched the literature 
+using the key words hydronephrotic dysplastic kidney and multicystic kidney.
+RESULTS: A detailed literature search did not reveal any such publication 
+describing the differentiation of the hydronephrotic multicystic dysplastic 
+kidney from the obstructed hydronephrotic kidney of pelviureteral obstruction. 
+We reviewed the existing literature on this subject, on the basis of which, we 
+have suggested a six-stepladder approach to distinguish such cases.
+CONCLUSION: By using the 6 step ladder protocol algorithm suggested by us one 
+can attempt to distinguish the hydronephrotic variant of multicystic dysplastic 
+kidney from the hydronephrotic kidney due to pelviureteral obstruction in 
+patients presenting with a symptomatic cystic flank masses of renal origin. 
+Differentiation between the two may be difficult at times due to the 
+medial/central placement of cysts in the former. This is necessary since renal 
+salvage may be possible in the latter while timely nephrectomy may be considered 
+in the former to prevent against the hazards of leaving behind a dysplastic 
+kidney in situ.
+
+DOI: 10.1023/a:1023241624095
+PMID: 12775088 [Indexed for MEDLINE]
+
+
+55. J Biol Regul Homeost Agents. 2019 Sep-Oct;33(5 Suppl. 1):25-31. Special
+Issue:  Focus on Pediatric Nephrology.
+
+Clinical course of a pediatric series of multicystic dysplastic kidney.
+
+D'Angelo G(1)(2), Manti S(3), Marseglia L(2), De Cola C(2), Betta P(4), 
+Cucinotta U(5), Concolino D(6), Falsaperla M(7), Fede C(8), Gitto E(2), Chimenz 
+R(9).
+
+Author information:
+(1)Department of Clinical and Experimental Medicine, University of Messina, 
+Italy.
+(2)Neonatal Intensive Care Unit, Department of Human Pathology in Adult and 
+Developmental Age "Gaetano Barresi", University of Messina, Italy.
+(3)Department of Human Pathology in Adult and Developmental Age "Gaetano 
+Barresi", Unit of Emergency Pediatrics.University of Messina, Policlinico "G. 
+Martino" Messina, Italy.
+(4)Neonatal Intensive Care Unit, Policlinico-Vittorio Emanuele" of Catania, 
+Italy.
+(5)Department of Human Pathology in Adult and Developmental Age "Gaetano 
+Barresi", Unit of Emergency Pediatrics, University of Messina, Policlinico 
+"G.Martino" Messina, Italy.
+(6)Department of Medical and Surgical Sciences, Pediatric Unit, "Magna Graecia" 
+University, Catanzaro, Italy.
+(7)Department of Urology, Vittorio Emanuele Hospital, Catania, Italy.
+(8)Department of Human Pathology in Adult and Developmental Age "Gaetano 
+Barresi", Unit of Pediatric Nephrology and Rheumatology with Dialysis, 
+University of Messina, Policlinico "G. Martino" Messina, Italy.
+(9)Department of Human Pathology in Adult and Developmental Age "Gaetano 
+Barresi", Unit of Pediatric Nephrology and Rheumatology with Dialysis, 
+University of Messina, Policlinico "G.Martino"Messina, Italy.
+
+PMID: 31630710 [Indexed for MEDLINE]
+
+
+56. Pediatr Surg Int. 2022 Jun;38(6):913-918. doi: 10.1007/s00383-022-05116-z.
+Epub  2022 Apr 8.
+
+Factors influencing the development of Multicystic Dysplastic Kidney (MCDK) 
+following urinary tract obstruction in the fetal lamb.
+
+Nishiya Y(1), Kawaguchi K(1), Kudo K(1), Kawaguchi T(1), Obayashi J(1), Tanaka 
+K(1), Ohyama K(1), Furuta S(1), Seki Y(1), Koike J(2), Pringle KC(3), Kitagawa 
+H(4).
+
+Author information:
+(1)Division of Pediatric Surgery, School of Medicine, St. Marianna University, 
+2-16-1, Sugao, Miyamae-ku, Kawasaki, Kanagawa, Japan, 216-8511.
+(2)Department of Pathology, School of Medicine, St. Marianna University, 2-16-1, 
+Sugao, Miyamae-ku, Kawasaki, Kanagawa, Japan, 216-8511.
+(3)Department of Obstetrics and Gynecology, University of Otago, Lambton Centre, 
+117 Lambton Quay, Wellington Central, Wellington, 6011, New Zealand.
+(4)Division of Pediatric Surgery, School of Medicine, St. Marianna University, 
+2-16-1, Sugao, Miyamae-ku, Kawasaki, Kanagawa, Japan, 216-8511. 
+h2kita@marianna-u.ac.jp.
+
+BACKGROUND: Creating obstructive uropathy (OU) during glomerulogenesis in the 
+fetal lamb results in multicystic dysplastic kidney (MCDK) at term. We explored 
+this using immunohistochemical techniques.
+METHOD: OU was created in fetal lambs at 60-day gestation, ligating the urethra 
+and urachus. The kidneys of MCDK lambs, 60-day gestation fetal lambs, full-term 
+lamb (145 days), term sham-operated lambs, and adult ewes were evaluated by HE 
+staining, and immunohistochemistry with paired box genes 2 (PAX2) and CD10.
+RESULTS: Multiple cysts were found in the MCDK model. CD10 was expressed in 
+proximal tubular epithelial cells, glomerular epithelial cells, and medullary 
+stromal cells in the kidneys of 60-day gestation fetal lambs and full-term lambs 
+and adult ewes. PAX2 expression was found in ureteric buds, C- and S-shaped 
+bodies, epithelial cells of collecting ducts, and Bowman's capsule of fetal 
+kidneys at 60-day gestation, but only in the collecting ducts of full-term fetal 
+lambs and adult ewes. Both CD10 and PAX2 were expressed in the cystic epithelial 
+cells of the MCDK model.
+DISCUSSION: PAX2 expression in cystic epithelial cells suggests that cyst 
+formation is associated with disturbed down-regulation of PAX2 in the 
+nephrogenic zone epithelial cells during the renal development in the OU model.
+
+© 2022. The Author(s), under exclusive licence to Springer-Verlag GmbH Germany, 
+part of Springer Nature.
+
+DOI: 10.1007/s00383-022-05116-z
+PMID: 35394167 [Indexed for MEDLINE]
+
+
+57. Iran J Kidney Dis. 2019 Jan;13(1):67-70.
+
+Multicystic Dysplastic Kidney and Incontinentia Pigmenti: Coexistence of 2 Rare 
+Diseases.
+
+Sürmeli Döven S(1), Delibas A, Türsen Ü, Ezgü FS.
+
+Author information:
+(1)Departments of Pediatric Nephrology, Mersin University Faculty of Medicine, 
+Mersin, Turkey. serrasurmel@yahoo.com.
+
+Multicystic dysplastic kidney is a congenital kidney malformation consisting of 
+multiple cysts of various sizes without a normal kidney morphology. 
+Incontinentia pigmenti is a rare X-linked dominant genodermatosis, which is 
+usually lethal in males, that presents clinically in 4 stages. Here, we report a 
+case of multicystic dysplastic kidney with ureterovesical junction obstruction 
+and incontinentia pigmenti. Coexistence of these two rare diseases may be a 
+coincidental phenomenon or an association between the two may exist.
+
+PMID: 30851721 [Indexed for MEDLINE]
+
+
+58. J Pediatr Urol. 2014 Dec;10(6):1059-62. doi: 10.1016/j.jpurol.2014.03.011.
+Epub  2014 May 2.
+
+Ultrasound diagnosis of multicystic dysplastic kidney: is a confirmatory nuclear 
+medicine scan necessary?
+
+Whittam BM(1), Calaway A(2), Szymanski KM(2), Carroll AE(3), Misseri R(2), 
+Kaefer M(2), Rink RC(2), Karmazyn B(4), Cain MP(2).
+
+Author information:
+(1)Division of Pediatric Urology, Riley Hospital for Children at Indiana 
+University School of Medicine, IN, USA. Electronic address: bwhittam@iupui.edu.
+(2)Division of Pediatric Urology, Riley Hospital for Children at Indiana 
+University School of Medicine, IN, USA.
+(3)Division of Pediatric Urology, Riley Hospital for Children at Indiana 
+University School of Medicine, IN, USA; Department of Pediatrics, Section of 
+Children's Health Services Research and Pediatric and Adolescent Comparative 
+Effectiveness Research, Indiana University School of Medicine, Indianapolis, IN, 
+USA.
+(4)Division of Pediatric Radiology, Riley Hospital For Children at Indiana 
+University School of Medicine, IN, USA.
+
+OBJECTIVE: It is critical to differentiate between a multicystic dysplastic 
+kidney (MCDK) and a kidney with severe hydronephrosis as the treatment varies 
+significantly. We designed a study to compare renal ultrasound (RUS) to nuclear 
+medicine (NM) scan in the diagnosis of MCDK, in order to determine if RUS can be 
+used for the definitive diagnosis of MCKD without use of NM scan.
+MATERIALS AND METHODS: We performed a retrospective review of children with 
+MCDK, who underwent both a RUS and Tc-99m MAG3 or DMSA scan. We planned to 
+calculate the positive predictive value of an RUS diagnosis of MCDK, using NM 
+scan diagnosis of a nonfunctioning kidney as the gold standard.
+RESULTS: The diagnosis of MCDK was made by RUS in 91 patients, 84 of whom had a 
+normal bladder US. NM confirmed the diagnosis of MCDK in all 84 of these 
+patients (100%).
+CONCLUSION: We have demonstrated a high predictive value for RUS in the 
+diagnosis of MCDK. Our data support that in healthy infants with RUS diagnosis 
+of unilateral MCDK and normal bladder US, NM scan may be unnecessary to confirm 
+the diagnosis.
+
+Copyright © 2014 Journal of Pediatric Urology Company. Published by Elsevier 
+Ltd. All rights reserved.
+
+DOI: 10.1016/j.jpurol.2014.03.011
+PMID: 24909606 [Indexed for MEDLINE]
+
+
+59. ANZ J Surg. 2010 Jun;80(6):470-1. doi: 10.1111/j.1445-2197.2010.05325.x.
+
+Multicystic dysplastic kidney and calyceal diverticulum - more of an association 
+than a coincidence?
+
+Raman A, Patel B, Arianayagam M, Webb NR, Farnsworth RH.
+
+DOI: 10.1111/j.1445-2197.2010.05325.x
+PMID: 20618213 [Indexed for MEDLINE]
+
+
+60. Ultrasound Obstet Gynecol. 2002 Feb;19(2):180-3. doi: 
+10.1046/j.0960-7692.2001.00497.x.
+
+Unilateral multicystic dysplastic kidney: a combined pre- and postnatal 
+assessment.
+
+van Eijk L(1), Cohen-Overbeek TE, den Hollander NS, Nijman JM, Wladimiroff JW.
+
+Author information:
+(1)Department of Obstetrics and Gynaecology, University Hospital Rotterdam 
+Dijkzigt, Rotterdam, The Netherlands.
+
+OBJECTIVE: To review the prenatal assessment of associated renal pathology, 
+non-renal pathology and renal biometry, fetal outcome and postnatal urological 
+management in the presence of unilateral fetal multicystic dysplastic kidney.
+METHODS: A total of 38 singleton pregnancies with fetal unilateral multicystic 
+dysplastic kidney was studied over a 13-year period. Prenatally, fetal biometry, 
+including head and abdominal circumferences and largest longitudinal diameter of 
+the affected and contralateral kidneys, was performed. The amount of amniotic 
+fluid was assessed. Fetal karyotyping was offered in cases of contralateral 
+renal or non-renal pathology. A MAG 3 scan and voiding cystogram was performed 
+approximately 4 weeks after delivery to establish renal function and to exclude 
+urinary reflux.
+RESULTS: Unilateral fetal multicystic dysplastic kidney was left-sided in 53% 
+and right-sided in 47% of cases. The fetus was male in 63% and female in 37% of 
+cases. Associated renal and non-renal pathology existed in 21% and 5% of cases, 
+respectively. The fetal karyotype in these subsets was always normal. The 
+longitudinal diameter of the multicystic dysplastic kidney was above the 95th 
+centile in 87%. There was polyhydramnios in three cases and oligohydramnios in 
+two cases. The prematurity rate was 16%. Postnatal examination revealed a 
+non-functional multicystic kidney in 87% (33/38) of cases. Following surgical 
+removal of the affected kidney, these infants progressed normally. Of the 
+remaining five infants, four died because of associated anomalies and one infant 
+developed normally without surgery.
+CONCLUSIONS: Fetal outcome is determined by associated renal and/or non-renal 
+structural pathology and not by the size/location of the unilateral multicystic 
+dysplastic kidney or amniotic fluid volume.
+
+DOI: 10.1046/j.0960-7692.2001.00497.x
+PMID: 11876812 [Indexed for MEDLINE]61. Eur J Radiol. 2018 Nov;108:128-132. doi: 10.1016/j.ejrad.2018.09.025. Epub
+2018  Sep 24.
+
+Magnetic resonance imaging for evaluation of foetal multicystic dysplastic 
+kidney.
+
+Ji H(1), Dong SZ(2).
+
+Author information:
+(1)Department of Radiology, Shanghai Children's Medical Center, Shanghai 
+Jiaotong University School of Medicine, Shanghai 200127, China.
+(2)Department of Radiology, Shanghai Children's Medical Center, Shanghai 
+Jiaotong University School of Medicine, Shanghai 200127, China. Electronic 
+address: dongsuzhen@126.com.
+
+We sought to evaluate the diagnostic value of foetal magnetic resonance imaging 
+(MRI) for multicystic dysplastic kidney (MCDK) disease. We retrospectively 
+identified 55 foetuses with MCDK diagnosed (51 unilateral; 4 bilateral) by 
+foetal MRI. We analysed the anatomical findings by prenatal MRI and compared 
+them with the prenatal ultrasound (US) and postnatal findings. Additional 
+diagnostic information added by MRI was recorded. The gestational age of the 55 
+foetuses ranged from 22 to 35 weeks (mean, 26.5 ± 3.6 weeks). The age of the 
+pregnant women ranged from 23 to 40 years (mean, 31 ± 4.2 years). All 55 cases 
+were performed at 1.5 T magnetic resonance unit. MRI sequences, including 
+steady-state free precession (SSFP), single-shot fast spin echo (SSFSE), 
+T1-weighted imaging (T1WI), and diffusion weighted imaging (DWI) sequences. 
+Follow-up was obtained for 53 cases (2 cases of autopsy, 51 cases of postnatal 
+imaging or surgery confirmed). Among the 51 unilateral cases, 16 cases were 
+associated with other urinary tract anomalies, 3 cases with extra-renal 
+anomalies, and the remaining 32 cases without associated anomalies. 2 of 16 
+cases with contralateral renal agenesis were with oligohydramnios and pulmonary 
+hypoplasia. 2 of 4 bilateral MCDK presented with oligohydramnios and pulmonary 
+hypoplasia. 52 of 53 cases were correctly diagnosed by MRI compared with the 
+final diagnoses; 40 of 53 (75.5%) cases were correctly diagnosed by prenatal 
+ultrasound. Both prenatal ultrasound and MRI failed to correctly diagnose one 
+case bilateral MCDK, and MRI correctly changed the ultrasound diagnosis in 12 
+cases. Foetal MRI can add additional diagnostic information to prenatal US in 
+the assessment of MCDK, even change the prenatal counselling and decisions.
+
+Copyright © 2018 Elsevier B.V. All rights reserved.
+
+DOI: 10.1016/j.ejrad.2018.09.025
+PMID: 30396644 [Indexed for MEDLINE]
+
+
+62. Turk J Pediatr. 2014 Jan-Feb;56(1):75-9.
+
+Unilateral multicystic dysplastic kidney in children.
+
+Doğan ÇS(1), Torun-Bayram M, Aybar MD.
+
+Author information:
+(1)Division of Pediatric Nephrology, Department of Pediatrics, Şanlıurfa 
+Children's Hospital, Şanlıurfa, Turkey. d.caglaserpil@yahoo.com.
+
+This study was performed to evaluate the clinical course and renal outcome of 
+patients with unilateral multicystic dysplastic kidney (MCDK). We 
+retrospectively reviewed the medical records of 59 cases with MCDK followed at 
+Şanlıurfa Children's Hospital between January 2009 and February 2013. The median 
+age of the patients (boys 52.5%) was 31 months (range: 6-197) and the median 
+follow-up period was 23 months (range: 6-111). Forty-two (71.2%) patients were 
+diagnosed antenatally. The MCDKs were found more often on the right side 
+(55.9%). The most frequently associated urological abnormality was contralateral 
+vesicoureteral reflux (VUR) (26.6%). A total of 3 (5%) patients developed 
+chronic renal insufficiency (CRI), 2 of whom had grade IV and V VUR; the other 
+patient with CRI had a small and hyperechogenic contralateral kidney, suggesting 
+dysplasia-hypoplasia, without any urological anomalies on imaging studies. The 
+size of MCDK was unchanged in 20 (34%), had regressed in 26 (44%), and had 
+increased in 9 (15.3%) patients. Total involution was documented in 4 (6.7%) 
+patients. Compensatory hypertrophy occurred in 36/45 (80%) patients, with a mean 
+age of 19.2±8.3 months. Proteinuria and hypertension were detected in 1 (1.7 %) 
+patient each. In conclusion, abnormalities in the contralateral kidney in 
+patients with MCDK increase the risk of renal failure. An initial investigation 
+for associated urinary tract malformations should be done and the growth and 
+function of the contralateral kidney, hypertension, and proteinuria should be 
+monitored in all children with MCDK.
+
+PMID: 24827951 [Indexed for MEDLINE]
+
+
+63. Kidney Int. 2021 Aug;100(2):483. doi: 10.1016/j.kint.2021.01.011.
+
+Unilateral polycystic kidney disease.
+
+Dumancas CY(1), Chebib FT(2).
+
+Author information:
+(1)Division of Nephrology and Hypertension, Mayo Clinic, Rochester, Minnesota, 
+USA.
+(2)Division of Nephrology and Hypertension, Mayo Clinic, Rochester, Minnesota, 
+USA. Electronic address: Chebib.Fouad@mayo.edu.
+
+DOI: 10.1016/j.kint.2021.01.011
+PMID: 34294212 [Indexed for MEDLINE]
+
+
+64. J Urol. 2018 Jan;199(1):280-286. doi: 10.1016/j.juro.2017.06.075. Epub 2017
+Jun  20.
+
+Natural History of Contralateral Hypertrophy in Patients with Multicystic 
+Dysplastic Kidneys.
+
+Gaither TW(1), Patel A(1), Patel C(1), Chuang KW(2), Cohen RA(3), Baskin LS(4).
+
+Author information:
+(1)Department of Urology, University of California, San Francisco, San 
+Francisco, California.
+(2)Department of Urology, University of California, Irvine, Irvine, California.
+(3)Department of Diagnostic Imaging, UCSF Benioff Children's Hospital Oakland, 
+Oakland, California.
+(4)Department of Urology, University of California, San Francisco, San 
+Francisco, California. Electronic address: Laurence.baskin@ucsf.edu.
+
+PURPOSE: We evaluated predictive factors for compensatory hypertrophy and renal 
+outcomes in a large cohort of patients with multicystic dysplastic kidneys.
+MATERIALS AND METHODS: We conducted a retrospective review from 1997 to 2016. 
+Contralateral kidney and multicystic dysplastic kidney length were recorded from 
+all ultrasounds as well as creatinine when available. We used generalized 
+estimating equations to determine predictors of contralateral kidney length.
+RESULTS: A total of 443 children with multicystic dysplastic kidneys were 
+identified based on sonographic findings and lack of function on nuclear scan. 
+Average followup was 3.2 years (IQR 1.5 to 5.7). Median time to involution in 
+patients diagnosed before age 2 years was 5.5 years (95% CI 3.8-7.0). In all 
+patients the median time to contralateral hypertrophy was 2.7 years (95% CI 
+2.2-3.3), and 90% of patients manifested contralateral hypertrophy by 10 years. 
+After adjusting for age, gender, multicystic dysplastic kidney side and cohort 
+status for each year of involution after age 2 years, the contralateral kidney 
+grows 0.35 cm longer (95% CI 0.01-0.68, p = 0.04) compared to cases without 
+involution. Patients with contralateral hypertrophy had greater creatinine 
+clearance at followup (83 vs 61 ml per minute, p = 0.07), although this finding 
+was not statistically significant due to limited data.
+CONCLUSIONS: The majority of children with multicystic dysplastic kidneys will 
+have contralateral hypertrophy by age 3 years. Multicystic dysplastic kidney 
+involution predicts contralateral kidney growth rate after age 2 years. A small 
+cohort of patients with multicystic dysplastic kidneys will not exhibit 
+contralateral hypertrophy and may be at risk for renal insufficiency.
+
+Copyright © 2018 American Urological Association Education and Research, Inc. 
+Published by Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.juro.2017.06.075
+PMID: 28645868 [Indexed for MEDLINE]
+
+
+65. Urology. 2015 Nov;86(5):1013-8. doi: 10.1016/j.urology.2015.07.031. Epub 2015
+ Aug 12.
+
+Conservative Management of Segmental Multicystic Dysplastic Kidney in Children.
+
+Han JH(1), Lee YS(1), Kim MJ(2), Lee MJ(2), Im YJ(1), Kim SW(1), Han SW(3).
+
+Author information:
+(1)Department of Urology, Urological Science Institute, Yonsei University 
+College of Medicine, Seoul, Korea.
+(2)Department of Radiology, Yonsei University College of Medicine, Seoul, Korea.
+(3)Department of Urology, Urological Science Institute, Yonsei University 
+College of Medicine, Seoul, Korea. Electronic address: swhan@yuhs.ac.
+
+OBJECTIVE: To assess the clinical characteristics and natural course of 
+segmental multicystic dysplastic kidney (MCDK).
+METHODS: We retrospectively analyzed the medical records of 40 patients (43 
+renal units) diagnosed as having segmental MCDK between January 2002 and June 
+2014. Segmental MCDK was classified as typical when it was localized to the 
+upper pole of a duplex collecting system, and otherwise as atypical. We 
+investigated involution, associated anomalies requiring surgery, and 
+complications of segmental MCDK.
+RESULTS: Of 43 renal units, 23 were typical and 20 were atypical. During 71.5 
+(interquartile range: 37.5-84.1) months of median follow-up period, complete and 
+partial involution were observed in 48% and 26% of the typical group and 30% and 
+35% of the atypical group, respectively. In the typical group, involution was 
+complete significantly earlier (P = .048) and ipsilateral anomalies were more 
+frequently observed (P = .002). The initiation point of involution and 
+contralateral anomalies were not different in the two groups. Hypertension 
+developed in 1 case with contralateral MCDK and 1 case with contralateral renal 
+agenesis.
+CONCLUSION: Segmental MCDK is not a rare disease entity, and conservative 
+treatment appears to be sufficient with thorough follow-up, including regular 
+monitoring of blood pressure and renal function, and with ultrasonography.
+
+Copyright © 2015 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.urology.2015.07.031
+PMID: 26277536 [Indexed for MEDLINE]
+
+
+66. BJU Int. 2022 Sep;130(3):285-290. doi: 10.1111/bju.15689. Epub 2022 Feb 5.
+
+Contemporary diagnosis and management of pelvi-ureteric junction obstruction.
+
+Rai A(1), Hsieh A(2), Smith A(1).
+
+Author information:
+(1)Smith Institute for Urology, Donald and Barbara Zucker School of Medicine at 
+Hofstra/Northwell, Northwell Health, New Hyde Park, NY, USA.
+(2)Scott Department of Urology, Baylor College of Medicine, Houston, TX, USA.
+
+Pelvi-ureteric junction obstruction (PUJO) is defined as a functionally 
+significant impairment of the flow of urine from the kidney's renal pelvis into 
+the proximal ureter. Symptomatically, the patient may experience flank pain, 
+recurrent infections, stone formation, and impairment of renal function. 
+Although many cases of intrinsic PUJO are diagnosed at birth, a minority of 
+patients may present in adulthood with previously silent disease or develop 
+secondary PUJO to other causes. PUJO is therefore broadly categorised into both 
+primary and secondary PUJO. A wide array of diagnostic scans and tests are 
+available to aid in diagnosing and monitoring patients with PUJO. In patients 
+with compromised renal function or symptomatic PUJO that require intervention, 
+minimally invasive techniques are the 'gold standard' for surgical intervention. 
+This review will detail the endoscopic, laparoscopic, and robotic options 
+available to the urologist practicing in 2021, including the use of autografts 
+and other emerging technologies.
+
+© 2022 The Authors BJU International © 2022 BJU International.
+
+DOI: 10.1111/bju.15689
+PMID: 35044033 [Indexed for MEDLINE]
+
+
+67. Rev Med Chil. 2007 Jan;135(1):111-20. doi: 10.4067/s0034-98872007000100016.
+Epub  2007 Mar 6.
+
+[A clinical approach to renal cysts].
+
+[Article in Spanish]
+
+Nardiello N A(1), Lagomarsino F E, Baquedano D P, Aglony I M.
+
+Author information:
+(1)Departamentos de Pediatría, Pontificia Universidad Católica de Chile, 
+Santiago, Chile. anardiel@puc.cl
+
+Many diseases can be associated with kidney cysts and they may be classified as 
+hereditary and non-hereditary renal cystic disease. The first group can be 
+sub-classified as autosomal recessive cystic disease, such as autosomal 
+recessive polycystic kidney disease and nephronophthisis, as autosomal dominant 
+kidney disease such as autosomal dominant polycystic kidney disease, 
+glomerulocystic disease and tuberous sclerosis, and as cysts associated with 
+syndromes. Cystic dysplasia, multicystic dysplastic kidney, simple cyst, 
+multilocular cysts, Wilm's tumor and acquired cystic kidney disease are 
+classified in the second group. The genetic study of renal cysts is becoming 
+increasingly important, due to the possible therapeutic interventions that could 
+be devised in the future. The aim of this review is to provide a fast and easy 
+clinical approach to renal cysts.
+
+DOI: 10.4067/s0034-98872007000100016
+PMID: 17369992 [Indexed for MEDLINE]
+
+
+68. Pediatr Nephrol. 2012 Aug;27(8):1335-40. doi: 10.1007/s00467-012-2141-9. Epub
+ 2012 Mar 13.
+
+Unilateral multicystic dysplastic kidney: does initial size matter?
+
+Hayes WN(1), Watson AR; Trent & Anglia MCDK Study Group.
+
+Collaborators: Ahluwalia J, Houtman P, Rhodes S, Scammell A, Bowker R, Moss G, 
+Crawford M, Mulenga H.
+
+Author information:
+(1)Children's Renal & Urology Unit, Nottingham Children's Hospital, Nottingham 
+University Hospitals NHS Trust, Nottingham, UK.
+
+Comment in
+    Pediatr Nephrol. 2012 Sep;27(9):1601-2.
+    J Urol. 2013 Jun;189(6):2305.
+    J Urol. 2013 Nov;190(5):1893-4.
+
+BACKGROUND: We report the long-term follow-up of children with antenatally 
+detected unilateral multicystic dysplastic kidney (MCDK) who were followed 
+between 1985 and 2009.
+METHODS: Involution rates were documented over time based on the initial size of 
+the MCDK, as documented on postnatal ultrasound (USS), as well as long-term 
+complications and renal function.
+RESULTS: In 323 patients (182 male), 10 % of MCDK had involuted, as evidenced on 
+the first postnatal USS, with survival function analysis showing the probability 
+of complete involution to be 35 % in 249 patients by 2 years of age, 47 % in 180 
+patients by 5 years of age and 62 % in 94 patients by 10 years of age. There was 
+a significant difference in the involution rates of MCKD at the 10-year 
+follow-up between MCDK with an initial size of >5 cm versus MCDK with an initial 
+size of ≤5 cm (p < 0.0001). No patients in the whole cohort developed sustained 
+hypertension or malignancy during a median follow-up of 10.1 years (range 
+0.3-15.4 years). Median estimated glomerular filtration rate (eGFR) in 76 
+patients (7 at 5 years, 69 at 10 years) was 93 ml/min/1.73 m(2) (range 46-175 
+ml/min/1.73 m(2)), with 40 (53%) having an eGFR of between 90 and 140 
+ml/min/1.73 m(2). Twenty-three (30 %) of the 76 patients at 10 years had normal 
+eGFR (90-140 ml/min/1.73 m(2)) as well as complete involution of the MCDK, 
+compensatory hypertrophy of the contralateral kidney, no proteinuria and no 
+hypertension.
+CONCLUSIONS: Larger MCDK at birth are less likely to involute during the first 
+decade of life. However, conservative management remains justified due to the 
+lack of complications. A minority of patients fulfil current criteria for 
+discharge from specialty follow-up at 10 years.
+
+DOI: 10.1007/s00467-012-2141-9
+PMID: 22410799 [Indexed for MEDLINE]
+
+
+69. Pediatr Surg Int. 2010 May;26(5):523-8. doi: 10.1007/s00383-010-2592-7. Epub 
+2010 Mar 26.
+
+Nephrectomy for multicystic dysplastic kidney and renal hypodysplasia in 
+children: where do we stand?
+
+Mattioli G(1), Pini-Prato A, Costanzo S, Avanzini S, Rossi V, Basile A, Ghiggeri 
+GM, Magnasco A, Leggio S, Rapuzzi G, Jasonni V.
+
+Author information:
+(1)Pediatric Surgery Department, Gaslini Research Institute and Children 
+Hospital, University of Genova, Largo G. Gaslini, 16100, Genoa, Italy.
+
+OBJECTIVES: Little is reported in literature regarding correct management of 
+benign lesions of the kidney. The aim of our study is to present a series of 
+total and partial nephrectomies performed in the last 5 years and to discuss 
+indications.
+MATERIALS AND METHODS: Patients with benign lesions who underwent nephrectomy 
+and partial nephrectomy at our institution in the period 2003-2008 were 
+retrospectively included in the study. Notes were carefully reviewed and 
+demographic data, symptoms onset, preoperative diagnosis, investigations, 
+medical and/or surgical treatment, postoperative complications and definitive 
+histological reports were collected.
+RESULTS: Forty procedures were performed. Twelve patients were preoperatively 
+diagnosed of having multicystic dysplastic kidney (MCDK), which was confirmed in 
+10, whereas the remaining 28 patients of having severe dysplasia or 
+hypodysplasia. Thirty-four patients underwent total nephrectomy, six underwent 
+partial nephrectomy. Histopathological analysis confirmed segmental or complete 
+abnormalities of the involved kidney in all cases. No malignancies were 
+detected.
+DISCUSSION: Our study confirmed the extremely low malignancy rate of MCDK and 
+hypodysplastic kidneys. The 20% mismatch of pre- and post-operative diagnosis 
+suggests a common aetiology and shared therapeutic strategies for MCDK and 
+hypodysplasia. At present, there is no consensus regarding correct indications 
+for nephrectomy in paediatric age. As nephrectomy seems not to provide any 
+advantage over preservation, but surgical and anesthesiological risks, we should 
+be prudent in preserving every asymptomatic poorly or non-functioning kidneys 
+maintaining a strict follow-up. Randomised controlled studies on larger 
+multicentric series are strongly warranted to define this topic.
+
+DOI: 10.1007/s00383-010-2592-7
+PMID: 20339852 [Indexed for MEDLINE]
+
+
+70. Indian J Pediatr. 2016 Nov;83(11):1358. doi: 10.1007/s12098-016-2145-8. Epub 
+2016 Jun 4.
+
+Nephrotic Syndrome Associated with Multicystic Kidney Disease with Concomitant 
+Cerebral Venous Thrombosis.
+
+Choudhary B(1), Bhatt GC(2), Dhingra B(2).
+
+Author information:
+(1)Department of Pediatrics, All India Institute of Medical Sciences, Saket 
+Nagar, Bhopal, Madhya Pradesh, 462020, India. drbharatpaeder@gmail.com.
+(2)Department of Pediatrics, All India Institute of Medical Sciences, Saket 
+Nagar, Bhopal, Madhya Pradesh, 462020, India.
+
+DOI: 10.1007/s12098-016-2145-8
+PMID: 27260147 [Indexed for MEDLINE]
+
+
+71. Turk J Med Sci. 2021 Jun 28;51(3):1331-1337. doi: 10.3906/sag-2011-175.
+
+Retrospective evaluation of the pediatric multicystic dysplastic kidney 
+patients: experience of two centers from southeastern Turkey.
+
+Akbalık Kara M(1), Taktak A(2), Alparslan C(3).
+
+Author information:
+(1)Department of Pediatric Nephrology, Faculty of Medicine, Gaziantep 
+University, Gaziantep, Turkey
+(2)Department of Pediatric Nephrology, Faculty of Medicine, Mustafa Kemal 
+University, Antakya, Turkey
+(3)Department of Pediatric Nephrology, İzmir Tepecik Training and Research 
+Hospital, İzmir, Turkey
+
+BACKGROUND/AIM: The objective of this study is to determine the clinical 
+features of unilateral multicystic dysplastic kidney (MCDK) patients.
+MATERIALS AND METHODS: The demographic, clinical, laboratory, and radiologic 
+features of MCDK patients at Diyarbakır Children’s Hospital and Diyarbakır Gazi 
+Yaşargil Training and Research Hospital between January 2008-June 2019 were 
+retrospectively evaluated.
+RESULTS: A total of 111 [59 (53.2%) male and 52(46.8%) female] patients with 
+MCDK were followed for a mean period of 41.89 ± 32.03 months. MCDK was located 
+on the left and right sides in 46 (41.4%) and 65 (58.6%) of the children, 
+respectively (p > 0.05). A total of 87 (78.4%) patients had antenatal diagnosis. 
+The mean age at diagnosis was 13.7 ± 34.2 months. Of the 49 voiding 
+cystourethrogram (VCUG)-performed patients, vesicoureteral reflux was detected 
+in 11 patients (22.4%). Other associated urological anomalies in the patients 
+were detected in 12 (10.8%) patients. On Tc-99m dimercaptosuccinic acid (DMSA) 
+scintigraphy which was performed in all patients showed scarring in four 
+children. Eight patients had history of UTI (7.2%). Renal failure, hypertension, 
+and proteinuria were diagnosed in three children (2.7%). Sixty-nine (62%) 
+patients developed compensatory hypertrophy.
+CONCLUSION: All cases should be followed up closely and VCUG should be reserved 
+for patients with recurrent UTI and other urological problems indicated by 
+ultrasonography and abnormal DMSA scan results.
+
+This work is licensed under a Creative Commons Attribution 4.0 International 
+License.
+
+DOI: 10.3906/sag-2011-175
+PMCID: PMC8283448
+PMID: 33512816 [Indexed for MEDLINE]
+
+Conflict of interest statement: none declared.
+
+
+72. Semin Nucl Med. 2007 Jul;37(4):249-60. doi: 10.1053/j.semnuclmed.2007.02.008.
+
+Antenatally detected hydronephrosis.
+
+Piepsz A(1).
+
+Author information:
+(1)Department of Radioisotopes, CHU St. Pierre, Brussels, Belgium. 
+amypiepsz@yahoo.com
+
+The strategy of management of children with hydronephrosis has considerably 
+changed as a result of the development of ultrasound techniques, allowing a 
+prenatal detection. Hydronephrosis is defined as a dilation of the renal 
+collecting system, and several entirely different clinical entities can be 
+considered this general heading, whereas early detection may have a different 
+impact depending on the entity considered. The present work aims to describe a 
+certain number of these clinical entities, to discuss the strategic options of 
+management that are proposed, and to evaluate the role of medical imaging, in 
+particular the radionuclide approach. Congenital ureteropelvic junction anomaly, 
+vesicoureteral reflux, posterior urethral valves, and duplex kidney will be 
+successively considered. Multicystic dysplastic kidney disease, although not 
+classified as hydronephrosis, will be mentioned because it may be mistaken for 
+hydronephrosis.
+
+DOI: 10.1053/j.semnuclmed.2007.02.008
+PMID: 17544625 [Indexed for MEDLINE]
+
+
+73. J Pediatr Urol. 2014 Aug;10(4):763-8. doi: 10.1016/j.jpurol.2014.03.008. Epub
+ 2014 Apr 30.
+
+Single center experience in patients with unilateral multicystic dysplastic 
+kidney.
+
+Moralıoğlu S(1), Celayir AC(2), Bosnalı O(3), Pektaş OZ(4), Bulut IK(5).
+
+Author information:
+(1)Zeynep Kamil Maternity and Children's Training and Research Hospital, 
+Department of Pediatric Surgery, Istanbul, Turkey. Electronic address: 
+serdarmoralioglu@gmail.com.
+(2)Zeynep Kamil Maternity and Children's Training and Research Hospital, 
+Department of Pediatric Surgery, Istanbul, Turkey. Electronic address: 
+acelayir@ttmail.com.
+(3)Zeynep Kamil Maternity and Children's Training and Research Hospital, 
+Department of Pediatric Surgery, Istanbul, Turkey. Electronic address: 
+droktav@gmail.com.
+(4)Zeynep Kamil Maternity and Children's Training and Research Hospital, 
+Department of Pediatric Surgery, Istanbul, Turkey. Electronic address: 
+ozpektas@hotmail.com.
+(5)Zeynep Kamil Maternity and Children's Training and Research Hospital, 
+Pediatric Nephrology, Istanbul, Turkey. Electronic address: 
+ikaplanbulut@gmail.com.
+
+OBJECTIVE: To determine the clinical features, long-term outcomes, and 
+additional urological anomalies of patients treated for multicystic dysplastic 
+kidney (MDK).
+MATERIALS AND METHODS: Patients with MDK who were followed between January 2004 
+and October 2012 were reviewed retrospectively. Demographic, clinical, 
+laboratory, and radiological data were evaluated.
+RESULTS: A total of 68 patients with MDK were followed for a mean period of 46.8 
+± 32.4 months. MDK was detected by antenatal ultrasound in 64 (94.1%) of the 
+patients. Ten patients had (14.7%) additional urological anomalies in 
+contralateral kidney. Vesicoureteral reflux was found in five patients (7.3%). 
+Other urological anomalies were megaureter (two), cortical renal cyst (two), 
+ureteropelvic junction obstruction (one), and renal ectopy (one). Urinary tract 
+infection was detected in 14 (20.5%) patients. Four (5.9%) patients had 
+hypertension. Compensatory hypertrophy was detected in 29 (42.6%) patients. 
+Eight (11.8%) of these 29 patients had glomerular hyperfiltration and three 
+(4.4%) of these eight patients also had proteinuria. Follow-up ultrasound 
+revealed complete involution in 19 (35.8%) patients. Nephrectomy was performed 
+in 15 (22.0%) patients. Indications of nephrectomy were, recurrent urinary 
+infection (four), hypertension (three), ureterocele (two), renal calculi (one), 
+flank pain (one), hematuria (one), persistent large cystic kidney (three), and 
+atypical US findings (two).
+CONCLUSION: In patients with MDK, depending on the clinical, laboratory, and 
+radiological findings, appropriate timing of operation by multidisciplinary 
+approach is important for early detection and treatment of any possible 
+complications.
+
+Copyright © 2014 Journal of Pediatric Urology Company. Published by Elsevier 
+Ltd. All rights reserved.
+
+DOI: 10.1016/j.jpurol.2014.03.008
+PMID: 24873872 [Indexed for MEDLINE]
+
+
+74. Urol Int. 2001;66(1):51-4. doi: 10.1159/000056567.
+
+Segmental multicystic dysplastic kidney in an adult woman.
+
+Suzuki K(1), Kurokawa S, Muraishi O, Tokue A.
+
+Author information:
+(1)Department of Urology, Jichi Medical School, Tochigi, Japan.
+
+We report a case of unilateral segmental multicystic dysplastic kidney (SMCDK) 
+in an adult woman. A 42-year-old woman presented with abdominal distension and 
+gross hematuria. The preoperative diagnosis was cystic renal cell carcinoma, and 
+a radical nephrectomy was performed. Histopathologically, the resected kidney 
+was SMCDK with severe hydronephrosis.
+
+DOI: 10.1159/000056567
+PMID: 11150956 [Indexed for MEDLINE]
+
+
+75. Urology. 2021 Mar;149:e11-e14. doi: 10.1016/j.urology.2020.11.050. Epub 2020
+Dec  10.
+
+Multicystic Dysplastic Kidney With Mass Effect in a Neonate Treated With 
+Nephrectomy: Case Report.
+
+Pettit SM(1), Devan WJ(2), Chalmers DJ(2), Zanno A(3).
+
+Author information:
+(1)Maine Medical Center Division of Urology, University of New England College 
+of Osteopathic Medicine, Biddeford, ME. Electronic address: spettit2@une.edu.
+(2)Maine Medical Center Division of Urology, Portland, ME.
+(3)Maine Medical Center Division of Neonatal-Perinatal Medicine, Portland, ME.
+
+Multicystic Dysplastic Kidney is a developmental disease that results in a 
+lobulated kidney of noncommunicating cysts and abnormal parenchymal tissue. 
+Dysplastic kidneys are usually benign and often involute over time with 
+conservative management. The second most common cause of palpable abdominal mass 
+in a neonate, Multicystic Dysplastic Kidney can cause respiratory distress 
+secondary to extrinsic compression. However, such cases are sparse. Here we 
+present the case of an otherwise healthy term newborn with an exceptionally 
+large MCDK requiring CPAP support and intubation. His respiratory distress 
+improved immediately after nephrectomy. Communication about cases like this will 
+inform management of future comparable cases.
+
+Copyright © 2020 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.urology.2020.11.050
+PMID: 33309706 [Indexed for MEDLINE]
+
+
+76. Arch Dis Child. 2006 Oct;91(10):820-3. doi: 10.1136/adc.2006.095786. Epub
+2006  Jun 5.
+
+Unilateral multicystic dysplastic kidney: long term outcomes.
+
+Aslam M(1), Watson AR; Trent & Anglia MCDK Study Group.
+
+Author information:
+(1)Children & Young People's Kidney Unit, Nottingham University Hospitals, 
+Nottingham, UK.
+
+AIMS: To report the long term follow up of children with antenatally detected 
+unilateral multicystic dysplastic kidney (MCDK) with documentation of 
+complications, involution rate with time, and renal function at 10 years.
+METHODS: Data were retrieved from a prospective regional registry of patients 
+with MCDK between 1985 and 2004. Children were followed using a common protocol 
+of investigation with follow up ultrasound scans (USS) at 2 (165 patients), 5 
+(117 patients), and 10 years (43 patients).
+RESULTS: Serial USS showed that 33% of the MCDK kidneys had completely involuted 
+at 2 years of age, 47% at 5 years, and 59% at 10 years. No patients developed 
+hypertension, significant proteinuria, or malignancy, but two developed 
+pelviureteric junction obstruction in the contralateral kidney. Twenty seven of 
+143 children (19%) had vesicoureteric reflux (VUR) (96% mild to moderate VUR) 
+into the contralateral kidney with no difference in the incidence of urinary 
+tract infections or renal scarring between those with or without VUR. The mean 
+estimated glomerular filtration rate (GFR) was 86.4 ml/min/1.73 m2 (range 
+48-125) in 31 of 43 patients followed to 10 years.
+CONCLUSIONS: Conservative management of unilateral MCDK is justified with 
+clinical review and infrequent USS but longer term follow up continues in the 
+41% still with renal remnants at 10 years and those with impaired GFR. It is 
+suggested that the initial micturating cystogram is deferred unless abnormal USS 
+features are present in the contralateral kidney or ureter.
+
+DOI: 10.1136/adc.2006.095786
+PMCID: PMC2066018
+PMID: 16754654 [Indexed for MEDLINE]
+
+Conflict of interest statement: Competing interests: none declared
+
+
+77. J Urol. 2015 May;193(5 Suppl):1784-90. doi: 10.1016/j.juro.2014.08.122. Epub 
+2014 Oct 6.
+
+Transcriptional dysregulation in the ureteric bud causes multicystic dysplastic 
+kidney by branching morphogenesis defect.
+
+Guo Q(1), Tripathi P(2), Manson SR(3), Austin PF(3), Chen F(4).
+
+Author information:
+(1)Washington University School of Medicine, St. Louis, Missouri.
+(2)Renal Division, Department of Medicine, Washington University School of 
+Medicine, St. Louis, Missouri.
+(3)Division of Urology, Department of Surgery, Washington University School of 
+Medicine, St. Louis, Missouri.
+(4)Renal Division, Department of Medicine, Washington University School of 
+Medicine, St. Louis, Missouri. Electronic address: fchen@dom.wustl.edu.
+
+PURPOSE: The calcineurin-NFAT signaling pathway regulates the transcription of 
+genes important for development. It is impacted by various genetic and 
+environmental factors. We investigated the potential role of NFAT induced 
+transcriptional dysregulation in the pathogenesis of congenital abnormalities of 
+the kidneys and urinary tract.
+MATERIALS AND METHODS: A murine model of conditional NFATc1 activation in 
+the ureteric bud was generated and examined for histopathological changes. 
+Metanephroi were also cultured in vitro to analyze branching morphogenesis in 
+real time.
+RESULTS: NFATc1 activation led to defects resembling multicystic dysplastic 
+kidney. These mutants showed severe disorganization of branching morphogenesis 
+characterized by decreased ureteric bud branching and the disconnection of 
+ureteric bud derivatives from the main collecting system. The orphan ureteric 
+bud derivatives may have continued to induce nephrogenesis and likely 
+contributed to the subsequent formation of blunt ended filtration units and 
+cysts. The ureter also showed irregularities consistent with impaired 
+epithelial-mesenchymal interaction.
+CONCLUSIONS: This study reveals the profound effects of NFAT signaling 
+dysregulation on the ureteric bud and provides insight into the pathogenesis 
+of multicystic dysplastic kidney. Our results suggest that the obstruction 
+hypothesis and the bud theory may not be mutually exclusive to explain 
+the pathogenesis of multicystic dysplastic kidney. Ureteric bud dysfunction such 
+as that induced by NFAT activation can disrupt ureteric bud-metanephric 
+mesenchyma interaction, causing primary defects in branching morphogenesis, 
+subsequent dysplasia and cyst formation. Obstruction of the main collecting 
+system can further enhance these defects, producing the pathological changes 
+associated with multicystic dysplastic kidney.
+
+Copyright © 2015. Published by Elsevier Inc.
+
+DOI: 10.1016/j.juro.2014.08.122
+PMCID: PMC4504205
+PMID: 25301096 [Indexed for MEDLINE]
+
+Conflict of interest statement: Financial interest and/or other relationship 
+with Allergan and Astellas.
+
+
+78. Nephrol Dial Transplant. 2016 Oct;31(10):1693-8. doi: 10.1093/ndt/gfv465.
+Epub  2016 Feb 29.
+
+Prenatal diagnosis of fetal multicystic dysplastic kidney via high-resolution 
+whole-genome array.
+
+Fu F(1), Chen F(1), Li R(1), Zhang Y(1), Pan M(1), Li D(1), Liao C(1).
+
+Author information:
+(1)Department of Prenatal Diagnostic Center, Guangzhou Women and Children's 
+Medical Centre, Guangzhou Medical University, Guangzhou, Guangdong, China.
+
+BACKGROUND: Women with fetal multicystic dysplastic kidneys (MCDK) are commonly 
+referred for genetic counseling, for which identification of the correct 
+etiology is a prerequisite.
+METHODS: A total of 72 women with fetal MCDK at Guangzhou Women and Children's 
+Medical Center were examined via invasive prenatal diagnosis from May 2010 to 
+June 2015. Standard karyotyping analysis was provided to all fetuses, and 
+chromosomal microarray with Affymetrix CytoSan HD arrays was offered to cases 
+whose DNA samples were available.
+RESULTS: Abnormal karyotypes were detected in 3 of 72 (4.17%) fetuses. Of the 69 
+(95.8%, 69/72) fetuses with normal karyotypes, 30 (42%, 30/69) underwent 
+chromosome microarray analysis (CMA) testing. The CMA identified pathogenic copy 
+number variations in five fetuses, leading to a pathogenic detection rate of 
+16.7% (5/30). Well-known microdeletion or microduplication syndromes including 
+renal cysts and diabetes (RCAD) syndrome and Williams-Beuren syndrome (WBS) were 
+identified in three cases. Moreover, four chromosomal imbalanced regions were 
+also identified in our MCDK fetuses: 22q11.1 duplication, 4q35.2 deletion, 
+22q13.33 duplication and 1p33 duplication. Genes PEX26, ELN, HNF1B, ALG12, FRG1, 
+FRG2 and CYP4A11 were possible candidates for fetal MCDK. The proportions of 
+variants of unknown significance before and after parental analysis were 13.3% 
+(4/30) and 3.3% (1/30), respectively.
+CONCLUSIONS: In the present study, the frequency of chromosomal abnormalities in 
+MCDK fetuses was 4.17% and all rearrangements were imbalanced aberrations. CMA 
+was able to increase the pathogenic detection rate to 16.7% in MCDK fetuses with 
+normal karyotype. Critical regions for RCAD syndrome, WBS and copy number 
+variants of 22q11.1 duplication, 4q35.2 deletion, 22q13.33 duplication and 1p33 
+duplication were associated with fetal MCDK. Genes PEX26, ELN, HNF1B, ALG12, 
+FRG1, FRG2 and CYP4A11 were possible candidates for fetal MCDK.
+
+© The Author 2016. Published by Oxford University Press on behalf of ERA-EDTA. 
+All rights reserved.
+
+DOI: 10.1093/ndt/gfv465
+PMID: 26932690 [Indexed for MEDLINE]
+
+
+79. J Pediatr. 2005 Jun;146(6):723-5. doi: 10.1016/j.jpeds.2005.02.027.
+
+The changing approach to multicystic dysplastic kidney in children.
+
+Welch TR, Wacksman J.
+
+Comment on
+    J Pediatr. 2005 Jun;146(6):759-63.
+
+DOI: 10.1016/j.jpeds.2005.02.027
+PMID: 15973306 [Indexed for MEDLINE]
+
+
+80. J Matern Fetal Neonatal Med. 2003 Sep;14(3):177-86. doi: 
+10.1080/jmf.14.3.177.186.
+
+Follow-up of unilateral multicystic kidney dysplasia after prenatal diagnosis.
+
+Eckoldt F(1), Woderich R, Wolke S, Heling KS, Stöver B, Tennstedt C.
+
+Author information:
+(1)Klinik und Poliklinik for Kinderchirurgie, der Medizinischen Fakultät 
+(Charité) der Humboldt--Universität zu Berlin, Germany.
+
+OBJECTIVES: Since the introduction of antenatal diagnostic screening, 
+multicystic kidney dysplasia (MCKD) has been diagnosed in 1 of 4300 live births. 
+We analyze our own experience and demonstrate a management regime based on these 
+results and existing studies.
+METHODS: Retrospective data analysis was carried out in 110 patients, prenatally 
+diagnosed with MCDK. A total of 93 patients with confirmed diagnosis of 
+unilateral MCDK were born alive and followed up in our institutions.
+RESULTS: A total of 110 unilateral cystic kidneys were prenatally diagnosed; 93 
+were confirmed postnatally. These children were retrospectively allocated to two 
+treatment groups: 51 were operated upon; 42 were treated conservatively. A 
+micturition cystourethrogram was performed 88 times, yielding 20 pathological 
+findings. Vesicoureteral reflux was identified 11 times (12.5%). Eleven children 
+(12%) had associated non-urological abnormalities. Cardiac and musculoskeletal 
+malformations predominated. After 1995, nephrectomy was performed only when 
+clinically indicated. Thirty-seven children were treated conservatively for 
+between 4 months and 6 years (mean 33 months); 28 dysplastic kidneys exhibited 
+size reduction. Complete involution was noted in 16 of 28 children between 7 and 
+29 months (mean 16.2 months).
+CONCLUSION: This study provides evidence that neonatal nephrectomy of unilateral 
+MCDK is rarely required. It also shows that the discussed malformation is not an 
+isolated developmental abnormality. In a high proportion, associated urogenital 
+abnormalities were present and therapeutically relevant, and determined the 
+overall prognosis.
+
+DOI: 10.1080/jmf.14.3.177.186
+PMID: 14694973 [Indexed for MEDLINE]
+
+
+81. J Pediatr Urol. 2014 Aug;10(4):655-61. doi: 10.1016/j.jpurol.2014.06.001.
+Epub  2014 Jul 4.
+
+The natural history of the multicystic dysplastic kidney--is limited follow-up 
+warranted?
+
+Eickmeyer AB(1), Casanova NF(2), He C(3), Smith EA(4), Wan J(5), Bloom DA(6), 
+Dillman JR(7).
+
+Author information:
+(1)The University of Michigan, Departments of Urology and Radiology, 1500 E 
+Medical Center Drive, Ann Arbor, MI 48109, USA. Electronic address: 
+eickmeya@med.umich.edu.
+(2)The University of Michigan, Departments of Urology and Radiology, 1500 E 
+Medical Center Drive, Ann Arbor, MI 48109, USA. Electronic address: 
+ncasanov@med.umich.edu.
+(3)The University of Michigan, Departments of Urology and Radiology, 1500 E 
+Medical Center Drive, Ann Arbor, MI 48109, USA. Electronic address: 
+change@med.umich.edu.
+(4)The University of Michigan, Departments of Urology and Radiology, 1500 E 
+Medical Center Drive, Ann Arbor, MI 48109, USA. Electronic address: 
+ethans@med.umich.edu.
+(5)The University of Michigan, Departments of Urology and Radiology, 1500 E 
+Medical Center Drive, Ann Arbor, MI 48109, USA. Electronic address: 
+juliwan@med.umich.edu.
+(6)The University of Michigan, Departments of Urology and Radiology, 1500 E 
+Medical Center Drive, Ann Arbor, MI 48109, USA. Electronic address: 
+dabloom@med.umich.edu.
+(7)The University of Michigan, Departments of Urology and Radiology, 1500 E 
+Medical Center Drive, Ann Arbor, MI 48109, USA. Electronic address: 
+jonadill@med.umich.edu.
+
+OBJECTIVE: Imaging of patients with multicystic dysplastic kidney (MCDK) has 
+increased over the past three decades. This increased use of imaging has 
+provided additional insights into the natural history of MCDK. The present study 
+looked at this data for predictors of involution and associated anomalies.
+METHODS AND MATERIALS: Institutional review board approval was obtained for this 
+retrospective study. The University of Michigan Departments of Urology and 
+Radiology records were searched to identify unilateral MCDK patients during 
+1980-2012. Available clinical, radiological and surgical records were reviewed, 
+and pertinent data were recorded. The log-rank test and a Cox proportional 
+regression analysis were performed to identify predictors of MCDK involution. 
+Probability of involution over time was assessed using Kaplan-Meier methodology.
+RESULTS: 301 unilateral MCDKs were identified; 195 (64.8%) were detected 
+antenatally. Of the MCDKs found, 136 (45.2%) were in girls; 160 (53.2%) were 
+right-sided. Mean size at baseline was 5.0 ± 0.2 cm (Mean ± SE). Associated 
+abnormalities included: contralateral ureteropelvic junction obstruction (n = 
+10; 3.3%); contralateral ureterovesical junction obstruction/primary megaureter 
+(n = 6; 2.0%); ipsilateral VUR (n = 21; 7.0%); contralateral VUR (n = 63; 
+20.1%); and renal fusion anomaly (n = 4; 1.3%). The cumulative probability of 
+involution was: 9.8% at one year, 38.5% at five years, and 53.5% at ten years of 
+age. Baseline MCDK size was the only significant predictor of involution at 
+bivariate (p < 0.0001) and multivariate (p < 0.0001; HR 0.58 [95% CI: 0.49, 
+0.69]) analyses. No MCDK developed malignancy during the follow-up period.
+CONCLUSION: As many MCDKs eventually involute and the risk of associated 
+malignancy appears to be very low, there is no absolute indication for 
+nephrectomy. Based on the data and other recent studies, it is believed that 
+pediatric MCDK patients with no other urologic abnormalities can safely tolerate 
+more limited urological and radiological follow-up.
+
+Copyright © 2014 Journal of Pediatric Urology Company. Published by Elsevier 
+Ltd. All rights reserved.
+
+DOI: 10.1016/j.jpurol.2014.06.001
+PMID: 25087179 [Indexed for MEDLINE]
+
+
+82. J Urol. 2006 Oct;176(4 Pt 1):1607-11. doi: 10.1016/j.juro.2006.06.035.
+
+Natural history of patients with multicystic dysplastic kidney-what followup is 
+needed?
+
+Onal B(1), Kogan BA.
+
+Author information:
+(1)Division of Urology, Albany Medical College, Albany, New York, USA.
+
+PURPOSE: Most clinicians recommend followup with annual ultrasound for patients 
+with multicystic dysplastic kidney. The aim of this study was to determine 
+whether followup ultrasound provides any clinical benefit.
+MATERIALS AND METHODS: We retrospectively reviewed the charts of 73 patients who 
+were diagnosed with multicystic dysplastic kidney between October 1991 and 
+August 2005. Data were analyzed with respect to patient characteristics and 
+followup information.
+RESULTS: We identified 61 patients (43 boys and 18 girls) with adequate 
+followup. A total of 49 patients (80%) were diagnosed prenatally and 12 (20%) 
+postnatally. Associated urological anomalies were noted in 16 patients (26%). 
+Median followup was 2.6 years (range 6 months to 37.5 years). Ultrasound 
+examinations showed complete involution in 25 patients (41%) and partial 
+regression in 18 (30%). The size of the multicystic dysplastic kidney increased 
+in 1 patient (1.6%) and was unchanged in 17 (28%) without any pathological 
+manifestations. Median age at complete involution was 2.1 years (range 36 days 
+to 13.7 years). Patients with contralateral compensatory hypertrophy had more 
+rapid complete involution. Urinary tract infection developed in 6 patients, of 
+whom 1 was ultimately found to have reflux and 1 had ureteropelvic junction 
+obstruction.
+CONCLUSIONS: In our patients with unilateral multicystic dysplastic kidney 
+ultrasound provided little clinically important information. Our data and a 
+review of the literature suggest that once the diagnosis is made, no urological 
+followup is needed. The primary care provider should monitor patients with 
+multicystic dysplastic kidney for hypertension, abdominal mass and urinary tract 
+infection.
+
+DOI: 10.1016/j.juro.2006.06.035
+PMID: 16952700 [Indexed for MEDLINE]
+
+
+83. BJU Int. 2004 Feb;93(3):388-92. doi: 10.1111/j.1464-410x.2003.04623.x.
+
+Unilateral multicystic dysplastic kidney: experience in children.
+
+Kuwertz-Broeking E(1), Brinkmann OA, Von Lengerke HJ, Sciuk J, Fruend S, Bulla 
+M, Harms E, Hertle L.
+
+Author information:
+(1)Department of Paediatric Nephrology, University Children's Hospital, 
+Westphalian-Wilhelms University of Münster, Germany. broeking@uni-muenster.de
+
+OBJECTIVES: To report a retrospective study of unilateral multicystic dysplastic 
+kidneys (MCDK) in children, assessing the contralateral kidneys and urinary 
+tract, the functional consequences, and the urological and nephrological 
+management and outcome, as unilateral MCDK is the most common cause of renal 
+cystic disease in children, and malformations of the contralateral urinary tract 
+and kidney (pelvi-ureteric obstruction, megaureter, reflux, renal dysplasia) 
+have been reported.
+PATIENTS AND METHODS: The study included 97 patients (60 boys, 37 girls) with 
+MCDK seen between 1985 and 1998; 82 were diagnosed in utero by ultrasonography 
+(US). After birth, the diagnosis was verified by US, renal scanning (in 93) or 
+intravenous urography (in four), and 89 (92%) had voiding cysto-urethrography 
+(VCUG). Of the 97 children, 87 (90% had a mean (range) follow-up of 44.3 
+(15-115) months.
+RESULTS: The MCDK was removed in 17 children; the follow-up of 75 children (five 
+lost to follow-up) showed total involution of the MCDK in 25%, shrinkage in 60% 
+and a stable size in 15%. None had any sign of malignancy. The contralateral 
+kidney showed anomalies in 19 of 97 children (20%); 12 had a dilated renal 
+pelvis (two with megaureter), six had a high echogenicity of the contralateral 
+kidney (one had reflux, and two also pelvic dilatation). In only four of the 89 
+children was reflux found by VCUG; 16 of the 19 anomalies were detected by US. 
+Five children needed surgery on the contralateral urinary tract (three a 
+pyeloplasty, and one each a pyeloplasty plus ureteroneocystostomy, and an 
+antireflux procedure). Of the contralateral kidneys 43% showed compensatory 
+hypertrophy. There was mild renal insufficiency in three children; renal 
+function seemed to be slightly impaired in many. Five infants had hypertension 
+(four with spontaneous resolution) caused by renal scarring after pyelonephritis 
+or inborn dysplasia of the contralateral kidney. There were symptomatic urinary 
+tract infections in seven children.
+CONCLUSION: US can be used safely to diagnose unilateral MCDKs and malformations 
+of the contralateral urinary tract and kidney. In cases where US of the 
+dysplastic kidney remains uncertain renal scintigraphy is necessary to detect 
+the lack of renal function. The low rate of reflux makes routine VCUG 
+unnecessary if the contralateral upper urinary tract and kidney appear to be 
+normal on US. Nephrectomy of the dysplastic kidney in typical cases is also 
+unnecessary. A long-term nephro-urological follow-up of children with MCDK is 
+recommended.
+
+DOI: 10.1111/j.1464-410x.2003.04623.x
+PMID: 14764144 [Indexed for MEDLINE]
+
+
+84. Ren Fail. 2005;27(2):189-92.
+
+Multicystic dysplastic kidney: conservative management and follow-up.
+
+Al-Ghwery S(1), Al-Asmari A.
+
+Author information:
+(1)Department of Pediatrics, Riyadh Military Hospital, Riyadh, Saudi Arabia.
+
+This study reports our experience in the conservative management of multicystic 
+dysplastic kidney (MCDK) disease. Between 1992 and 2003, 35 children, 18 male 
+(51.4%) and 17 female (48.6%), were diagnosed with MCDK and prospectively 
+followed at the Riyadh Armed Forces Hospital. Static scintigraphy with 
+dimercaptosuccinic acid and micturating cystourethrogram were performed in all 
+patients. Ultrasonography (US) examinations were conducted every 3 months, and 
+then annually. Mean age at diagnosis during the postnatal period was 2.4 days. 
+Median follow-up time was 33.75 months. Follow-up US examinations showed partial 
+involution in 17 (48.6%), complete involution in 13 (37.1%), and 5 (14.3%) 
+showed an unchanged size without any pathological manifestations. The mean age 
+at complete or partial involution of the lesion was 43.7 months. No child 
+developed complications such as hypertension or tumors, and all maintained 
+normal growth and development. In conclusion, MCDK lesions are often benign, and 
+the affected kidneys tend to show involution with time.
+
+PMID: 15807184 [Indexed for MEDLINE]
+
+
+85. Semin Fetal Neonatal Med. 2008 Jun;13(3):189-95. doi: 
+10.1016/j.siny.2007.10.003. Epub 2007 Nov 26.
+
+Prenatally diagnosed urinary tract abnormalities: long-term outcome.
+
+Thomas DF(1).
+
+Author information:
+(1)Department Paediatric Surgery, St James's University Hospital, University of 
+Leeds, Leeds Teaching Hospitals NHS Trust, Leeds, UK. d.f.m.thomas@leeds.ac.uk
+
+The long-term outcomes of prenatally detected uropathies are poorly documented. 
+Limited data on fetal intervention show a possible reduction in early mortality 
+from pulmonary hypoplasia, but no beneficial effect on long-term prognosis for 
+renal function. Prenatally detected vesicoureteric reflux (VUR) is characterised 
+by males with high-grade primary reflux, who are at long-term risk of renal 
+impairment. Prenatal diagnosis and surgical intervention have contributed to a 
+reduction in long-term morbidity in children with pelviureteric junction (PUJ) 
+obstruction. By the same token, many children have almost certainly undergone 
+unnecessary early pyeloplasty for an obstruction that would have resolved 
+spontaneously. Multicystic dysplastic kidney (MCDK) carries a low (1%) risk of 
+hypertension in childhood. The limited evidence on the long-term outcome of mild 
+dilatation (pelvicaliectasis) indicates this is a largely innocent finding, 
+which carries no increased risk of morbidity.
+
+DOI: 10.1016/j.siny.2007.10.003
+PMID: 18037084 [Indexed for MEDLINE]
+
+
+86. Diagn Interv Imaging. 2015 Apr;96(4):393-5. doi: 10.1016/j.diii.2014.11.017. 
+Epub 2014 Dec 12.
+
+Multicystic kidney disease: a complication of crizotinib.
+
+Souteyrand P(1), Burtey S(2), Barlesi F(3).
+
+Author information:
+(1)APHM, Conception, Service d'Imagerie Médicale, 13005 Marseille, France; 
+Aix-Marseille University, LIIE-Laboratoire d'Imagerie Interventionnelle 
+Expérimentale, EA 4264, 13005 Marseille, France. Electronic address: 
+philippe.souteyrand@ap-hm.fr.
+(2)Aix-Marseille University, UMRS-1076, VRCM, Marseille, France; Centre de 
+néphrologie et transplantation rénale, APHM, Marseille, France.
+(3)Aix-Marseille University, APHM, Multidisciplinary Oncology and Therapeutic 
+Innovations department and Inserm U911 CRO2, Marseille, France.
+
+DOI: 10.1016/j.diii.2014.11.017
+PMID: 25512036 [Indexed for MEDLINE]
+
+
+87. J Pediatr Urol. 2019 Feb;15(1):77.e1-77.e7. doi:
+10.1016/j.jpurol.2018.10.023.  Epub 2018 Nov 3.
+
+A meta-analysis of the incidence and fate of contralateral vesicoureteral reflux 
+in unilateral multicystic dysplastic kidney.
+
+Erlich T(1), Lipsky AM(2), Braga LH(3).
+
+Author information:
+(1)Chaim Sheba Medical Center, Tel-Hashomer, Israel. Electronic address: 
+Tomer.Erlich@gmail.com.
+(2)Department of Emergency Medicine, Rambam Health Care Campus, Haifa, Israel. 
+Electronic address: aril@alum.mit.edu.
+(3)McMaster Pediatric Surgery Research Collaborative (MPSRC), McMaster 
+University, Hamilton, Ontario, Canada; McMaster University/McMaster Children's 
+Hospital, Department of Surgery, Division of Urology, Hamilton, Ontario, Canada. 
+Electronic address: braga@mcmaster.ca.
+
+Comment in
+    J Urol. 2020 Feb;203(2):241.
+
+INTRODUCTION: Multicystic dysplastic kidney (MCDK) is the most common type of 
+renal cystic disease. It is associated with urinary tract abnormalities in the 
+contralateral kidney in up to 30% of cases, most commonly vesicoureteral reflux 
+(VUR).
+OBJECTIVES: The objective of this study was to describe the incidence and 
+selected issues in management and evolution for each VUR grade in the 
+contralateral kidney of patients with unilateral MCDK, in order to strengthen 
+the scientific basis regarding the need for voiding cystourethrography (VCUG) 
+screening.
+METHODS: A comprehensive search of standard and gray literature was performed. 
+Full-text screening, data abstraction, and quality appraisal were conducted in 
+duplicates. Included studies reported a primary diagnosis of unilateral MCDK 
+with contralateral VUR determined by VCUG. Articles had to include a 
+distribution of VUR grade to meet the eligibility criteria.
+RESULTS: From 698 retrieved articles, 37 studies enrolling 2057 patients were 
+analyzed. Of the patients, 80% were male; 50% had left unilateral MCDK; and 87% 
+were diagnosed prenatally. A total of 1800 patients had VCUG, of whom 303 had 
+VUR (weighted proportion: 17%; 95% confidence interval [CI]: 14-20%). Weighted 
+proportions of VUR were 9%, 7%, and 17% for grades I-II, III-V, and I-V, 
+respectively. Of the patients, 99% (95% CI: 97-100%) were on continuous 
+antibiotic prophylaxis (CAP) and 18% (95% CI: 8-37%) had urinary tract 
+infections (UTIs), with a higher rate of UTIs (23% vs 10%) in patients with 
+dilating (grades III-V) VUR, over a mean follow-up of 40 months. In patients 
+with dilating VUR, reflux resolved or downgraded to grade I in 52% (95% CI: 
+37-67%) of patients, and 32% (95% CI: 19-49%) had surgical correction of VUR.
+CONCLUSIONS: Among patients with unilateral MCDK, 17% have VUR in the 
+contralateral kidney, 41% of which is dilating VUR. Of the cases with dilating 
+VUR, half will resolve or downgrade to grade I during follow-up; 23% will 
+develop a UTI despite CAP; and one-third will undergo ureteral re-implantation. 
+While many physicians may thus choose to forego routine VCUG screening of the 
+single functional kidney, shared decision-making with the patient's caregivers 
+is currently recommended, where the risks and benefits of the different 
+approaches can be discussed. The data from this analysis can help inform the 
+discussions.
+
+Copyright © 2018 Journal of Pediatric Urology Company. Published by Elsevier 
+Ltd. All rights reserved.
+
+DOI: 10.1016/j.jpurol.2018.10.023
+PMID: 30482499 [Indexed for MEDLINE]
+
+
+88. Indian J Pediatr. 2009 Aug;76(8):809-12. doi: 10.1007/s12098-009-0117-y. Epub
+ 2009 Apr 16.
+
+Multicystic dysplastic kidney in children--a need for conservative and long term 
+approach.
+
+Singh JK(1), Kanojia RP, Narasimhan KL.
+
+Author information:
+(1)Department of Pediatric Surgery, Advanced Pediatric Center, Post Graduate 
+Institute of Medical Education and Research, Chandigarh 160012, India.
+
+OBJECTIVE: We retrospectively studied our cases of Multicystic Dysplastic Kidney 
+(MCDK). The review was aimed at identifying the pattern of the disease in Indian 
+Scenario and the required management thereof.
+METHODS: We studied the clinical, radiological and nuclear scan findings of 22 
+patients with unilateral MCDK. They were diagnosed and/or treated in our unit 
+from 1999 to 2007. The diagnosis was achieved by Ultrasound and further 
+confirmed by DMSA scans. Other ancillary investigations like Micturating 
+cystourethrogram were done if indicated. These patients were followed and 
+followup investigations consisted of renal ultrasound, blood pressure 
+measurement, and urinalysis and blood biochemistry
+RESULTS: A total of 22 patients (18 boys and 4 girls) with unilateral MCDK were 
+investigated and followed for a mean period of 41 months. MCDK was detected on 
+antenatal ultrasound only in 12(55%) and postnatally in 10(45%) babies. Mean age 
+for postnatal diagnosis was 20 months. Follow up ultrasound revealed complete 
+involution of MCDK in 3 patients and partial regression in 11 patients. The size 
+of dysplastic kidney was unchanged in 4 patients and a further 4 patients 
+underwent nephrectomy. Indications of nephrectomy were parental anxiety in 2, 
+hypertension in 1 and palpable mass in 1.
+CONCLUSION: Large proportion (45%) of patients in presented series are diagnosed 
+post natally contrary to western world where more than 80% are diagnosed 
+antenatally. Uncomplicated isolated MCDK carry good prognosis with nephrectomy 
+required in only a few patients. Association with other urological anomalies in 
+ipsilateral/contralateral genitourinary tract is important to identify as they 
+have worse outcome in terms of ultimate renal function. All patients with 
+simple/complex unilateral MCDK should be advised long term follow up for the 
+possible development of hypertension and/or hyper infiltration injury.
+
+DOI: 10.1007/s12098-009-0117-y
+PMID: 19381503 [Indexed for MEDLINE]
+
+
+89. Urol Clin North Am. 2015 Feb;42(1):43-52. doi: 10.1016/j.ucl.2014.09.004.
+Epub  2014 Oct 12.
+
+The laparoscopic pyeloplasty: is there a role in the age of robotics?
+
+Reddy MN(1), Nerli RB(2).
+
+Author information:
+(1)Division of Pediatric Urology, Department of Urology, KLES Kidney Foundation, 
+KLES Dr Prabhakar Kore Hospital and MRC, KLES University's JN Medical College, 
+Belgaum 590010, India. Electronic address: director@kleskf.org.
+(2)Division of Pediatric Urology, Department of Urology, KLES Kidney Foundation, 
+KLES Dr Prabhakar Kore Hospital and MRC, KLES University's JN Medical College, 
+Belgaum 590010, India.
+
+Ureteropelvic junction (UPJ) obstruction is a common anomaly, and presents 
+clinically in all pediatric age groups. The past 3 decades have witnessed an 
+evolution in the surgical correction of UPJ obstruction on several fronts, with 
+open surgical techniques yielding way to endoscopic, laparoscopic, and 
+robotic-assisted approaches. Robotic-assisted surgery has several advantages in 
+complex laparoscopic reconstructive procedures such as pyeloplasty. Comparative 
+studies of laparoscopic and robot-assisted repairs have demonstrated similar 
+success rates. Laparoscopic pyeloplasty is here to stay because of its 
+advantages of safety, efficacy, decreased morbidity, reduced hospital stay, and, 
+perhaps most importantly, cost-effectiveness.
+
+Copyright © 2015 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.ucl.2014.09.004
+PMID: 25455171 [Indexed for MEDLINE]
+
+
+90. Urol Clin North Am. 2015 Feb;42(1):89-97. doi: 10.1016/j.ucl.2014.09.008.
+Epub  2014 Nov 20.
+
+The robotic-assisted laparoscopic pyeloplasty: gateway to advanced 
+reconstruction.
+
+Tasian GE(1), Casale P(2).
+
+Author information:
+(1)Division of Urology, Department of Surgery, Center for Pediatric Clinical 
+Effectiveness, The Children's Hospital of Philadelphia, Perelman School of 
+Medicine at the University of Pennsylvania, 3rd Floor, Wood Center, 34th Street 
+and Civic Center Boulevard, Philadelphia, PA 19104, USA. Electronic address: 
+TasianG@chop.edu.
+(2)Department of Urology, Morgan Stanley Children's Hospital, Columbia 
+University Medical Center, 3959 Broadway, 11th Floor, New York, NY 10032, USA.
+
+Robotic pyeloplasty is now commonly performed for children with ureteropelvic 
+junction obstruction. Because surgical robotics is a tool that facilitates 
+pyeloplasty and other reconstructive urologic operations, the indications for 
+robotic-assisted laparoscopic pyeloplasty are the same as those for an open 
+pyeloplasty but offer distinct advantages with respect to visualization, range 
+of motion, and ease of laparoscopic suturing. In this review, the authors 
+discuss the operative approach for robotic pyeloplasty in children and the 
+extensions of the basic techniques to challenging clinical scenarios.
+
+Copyright © 2015 Elsevier Inc. All rights reserved.
+
+DOI: 10.1016/j.ucl.2014.09.008
+PMID: 25455175 [Indexed for MEDLINE]
+
+
+91. Curr Opin Pediatr. 2009 Apr;21(2):207-13. doi: 10.1097/mop.0b013e32832772a8.
+
+Postnatal evaluation of infants with an abnormal antenatal renal sonogram.
+
+Becker AM(1).
+
+Author information:
+(1)Department of Pediatrics, U.T. Southwestern Medical Center, 5323 Harry Hines 
+Blvd., Dallas, TX 75390-9063, USA. Amy.Becker@UTSouthwestern.edu
+
+PURPOSE OF REVIEW: Antenatally detected renal abnormalities are frequently 
+encountered. Recommended postnatal evaluation of these infants has evolved to 
+minimize invasive testing while maximizing detection of significant 
+abnormalities.
+RECENT FINDINGS: There is a low rate of detectable renal abnormalities in 
+infants with a normal postnatal sonogram at 4-6 weeks of age. Routine 
+prophylactic antibiotics are not indicated in infants with isolated antenatal 
+hydronephrosis. Infants with a multicystic dysplastic kidney and a normal 
+contralateral kidney on renal ultrasound do not require further evaluation. 
+Parents of these children should be counseled on symptoms of urinary tract 
+infections to allow prompt diagnosis.
+SUMMARY: All infants with abnormalities on antenatal sonogram should undergo 
+postnatal evaluation with a sonogram after birth and at 4-6 weeks of age. 
+Further evaluation can be safely limited when the postnatal sonogram is normal 
+at 6 weeks of age.
+
+DOI: 10.1097/mop.0b013e32832772a8
+PMCID: PMC2730885
+PMID: 19663038 [Indexed for MEDLINE]
+
+
+92. Pediatr Radiol. 2008 Jan;38 Suppl 1:S70-5. doi: 10.1007/s00247-007-0586-y.
+Epub  2007 Dec 11.
+
+Renal dysplasia and MRI: a clinician's perspective.
+
+Greenbaum LA(1).
+
+Author information:
+(1)Division of Pediatric Nephrology, Children's Healthcare of Atlanta, Emory 
+University, 2015 Uppergate Drive NE, Atlanta, GA 30322, USA. 
+Larry_Greenbaum@oz.ped.emory.edu
+
+Renal dysplasia is a common abnormality in children. The role of MRI in 
+evaluating children with renal dysplasia is evolving. More information is 
+clearly necessary before MRI replaces conventional imaging modalities. In order 
+to appropriately use MRI, the radiologist must have an understanding of the 
+clinical questions that are important in the management of children with renal 
+dysplasia. This review provides background information on renal dysplasia for 
+the pediatric radiologist. The focus is on unilateral disease, especially 
+multicystic dysplastic kidneys, and bilateral dysplasia, which is the most 
+common cause of kidney failure in children. The emphasis is on the important 
+clinical issues, and the potential of MRI as a methodology for providing 
+clinically useful information not otherwise available from other imaging 
+modalities.
+
+DOI: 10.1007/s00247-007-0586-y
+PMID: 18071696 [Indexed for MEDLINE]
+
+
+93. Exp Biol Med (Maywood). 2023 May;248(10):858-865. doi: 
+10.1177/15353702231164933. Epub 2023 May 19.
+
+Classifying and evaluating fetuses with multicystic dysplastic kidney in 
+etiologic studies.
+
+Cai M(1), Guo C(2), Wang X(1), Lin M(1), Xu S(3), Huang H(1), Lin N(1), Xu L(1).
+
+Author information:
+(1)Medical Genetic Diagnosis and Therapy Center, Fujian Maternity and Child 
+Health Hospital College of Clinical Medicine for Obstetrics & Gynecology and 
+Pediatrics, Fujian Medical University, Fujian Key Laboratory for Prenatal 
+Diagnosis and Birth Defect, Fuzhou 350001, China.
+(2)Child Healthcare Department, Fujian Maternity and Child Health Hospital 
+College of Clinical Medicine for Obstetrics & Gynecology and Pediatrics, Fujian 
+Medical University, Fuzhou 350001, China.
+(3)Guangxi Medical University, Guangxi 541000, China.
+
+Multicystic dysplastic kidney (MCDK) is one of the most common fetal 
+malformations, but its etiology remains unclear. Identification of the molecular 
+etiology could provide a basis for prenatal diagnosis, consultation, and 
+prognosis evaluation for MCDK fetuses. We used chromosome microarray analysis 
+(CMA) and whole-exome sequencing (WES) to conduct genetic tests on MCDK fetuses 
+and explore their genetic etiology. A total of 108 MCDK fetuses with or without 
+other extrarenal abnormalities were selected. Karyotype analysis of 108 MCDK 
+fetuses showed an abnormal karyotype in 4 (3.7%, 4/108) of the fetuses. However, 
+CMA detected 15 abnormal copy number variations (CNVs) (14 pathogenic CNVs, and 
+one variant of unknown significance [VUS] CNVs), in addition to four cases that 
+were consistent with the results of karyotype analysis. Out of the 14 pathogenic 
+CNVs cases, three were of 17q12 microdeletion, two of 22q11.21 microdeletion, 
+22q11.21 microduplication uniparental disomy (UPD), and one case of 4q31.3q32.2 
+microdeletion, 7q11.23 microduplication, 15q11.2 microdeletion, 16p11.2 
+microdeletion, and 17p12 microdeletion. Of the 89 MCDK fetuses with normal 
+karyotype analysis and CMA, 15 were tested by WES. Two (13.3%, 2/15) fetuses 
+were identified by WES as Bardet-Biedl syndrome (BBS) 1 and BBS2. Combined 
+application of CMA-WES to detect MCDK fetuses can significantly improve the 
+detection rate of genetic etiology, providing a basis for consultation, and 
+prognosis evaluation.
+
+DOI: 10.1177/15353702231164933
+PMCID: PMC10484196
+PMID: 37208928 [Indexed for MEDLINE]
+
+Conflict of interest statement: The author(s) declared no potential conflicts of 
+interest with respect to the research, authorship, and/or publication of this 
+article.
+
+
+94. Urol Int. 2010;85(1):106-11. doi: 10.1159/000296285. Epub 2010 Mar 13.
+
+Molecular events involved in the morphogenesis of multicystic dysplastic kidney.
+
+Arena S(1), Fazzari C, Scuderi MG, Implatini A, Villari D, Torre S, Arena F, Di 
+Benedetto V.
+
+Author information:
+(1)Unit of Pediatric Surgery, Department of Pediatric Surgery, University of 
+Catania, Catania, Italy. arenasal @ inwind.it
+
+INTRODUCTION: Wnt-1 is capable of inducing metanephric mesenchyme to undergo 
+tubulogenesis. A relationship between the degree of cystogenesis and reduced 
+E-cadherin (E-cad) expression was described. Syndecan-1 (Sdc-1) has a critical 
+role in kidney development.
+MATERIALS AND METHODS: Ten multicystic dysplastic kidneys (MCDKs) were stained 
+with hematoxylin and eosin and immunohistochemistry was performed using Wnt-1, 
+E-cad and Sdc-1 antibodies. Eight unaffected kidneys were used as controls.
+RESULTS: Strong Wnt-1 immunostaining occurred inside cystic/tubular epithelial 
+cells and in blastematous foci. An immunoreaction was observed in glomerular 
+epithelial cells. In controls, just weak cytoplasmic Wnt-1 positivity was seen 
+in tubular epithelial cells. E-cad reaction was negative in MCDKs while strong 
+immunostaining was common in tubular cells of controls. A strong Sdc-1 
+immunoreaction depicted cystic, tubular and glomerular epithelial cells in MCDKs 
+while Sdc-1 expression documented weak positivity in tubular epithelium alone.
+CONCLUSIONS: Our data are in accordance with an involvement of Wnt-1 in normal 
+nephrogenesis and with its role in altered epithelial differentiation of 
+metanephric mesenchyme in MCDKs. Wnt-1 signal may function to suppress E-cad 
+expression, a predisposing event for cystogenesis. High expression of Sdc-1 in 
+tubular/cystic epithelial cells of MCDKs might alter the normal transition of 
+stages of the developmental process and modify the anion charge of the 
+glomerular barrier.
+
+Copyright (c) 2010 S. Karger AG, Basel.
+
+DOI: 10.1159/000296285
+PMID: 20224260 [Indexed for MEDLINE]
+
+
+95. Eur J Pediatr Surg. 2017 Dec;27(6):533-537. doi: 10.1055/s-0037-1599837. Epub
+ 2017 Mar 27.
+
+Early Nephrectomy in Unilateral Multicystic Dysplastic Kidney in Children Cures 
+Hypertension Early: An Observation.
+
+Kumar B(1), Upadhyaya VD(1), Gupta MK(1), Bharti LK(2), Rao RN(3), Kumar S(4).
+
+Author information:
+(1)Department of Pediatric Surgical Superspeciality, Sanjay Gandhi Postgraduate 
+Institute of Medical Sciences, Lucknow, Uttar Pradesh, India.
+(2)Department of Pediatric Gastroenterology, Sanjay Gandhi Postgraduate 
+Institute of Medical Sciences, Lucknow, Uttar Pradesh, India.
+(3)Department of Pathology, Sanjay Gandhi Postgraduate Institute of Medical 
+Sciences, Lucknow, Uttar Pradesh, India.
+(4)Department of Radiodiagnosis, Sanjay Gandhi Postgraduate Institute of Medical 
+Sciences, Lucknow, Uttar Pradesh, India.
+
+Objective Surgery is still indicated as the treatment of choice in subset of 
+patients with unilateral multicystic dysplastic kidney (UMCDK) because of its 
+potential complications and malignant change. The purpose of this study is to 
+present our observation that early nephrectomy may cure hypertension early in 
+children with UMCDK and review the literature. Materials and Methods We report 
+here four children (two males and two females) with antenatally diagnosed UMCDK 
+with hypertension, treated in the past 4 years. All have antenatal diagnosis of 
+UMCDK and referred to us after their birth. Diagnosis of hypertension (blood 
+pressure > 95th percentile) was made after 3 months of follow-up in all 
+patients. Nephrectomy was performed in all children in variable time duration. 
+Hypertension, urinary tract infection, and desire of parents were the main 
+indication of surgery. Results All children showed decrease in the size of their 
+dysplastic kidney with time, but hypertension was persistent and needed 
+antihypertensive drugs; even increase in the doses in successive follow-up. 
+After nephrectomy, three children who were operated early got cured having 
+normal blood pressure within variable time duration, while a child, operated 
+late, still had high blood pressure and needed antihypertensive drugs. 
+Conclusion Early nephrectomy in recently diagnosed hypertension in UMCDK is 
+advisable and can cure hypertension early. Levels of Evidence The level of 
+evidence is IV (case series with no comparison group).
+
+Georg Thieme Verlag KG Stuttgart · New York.
+
+DOI: 10.1055/s-0037-1599837
+PMID: 28346956 [Indexed for MEDLINE]
+
+Conflict of interest statement: Conflict of Interest: None.
+
+
+96. J Pediatr Urol. 2019 May;15(3):267.e1-267.e5. doi:
+10.1016/j.jpurol.2019.03.013.  Epub 2019 Mar 22.
+
+Knowledge of vesicoureteral reflux obtained by screening voiding 
+cystourethrogram in children with multicystic dysplastic kidney does not change 
+patient management or prevent febrile urinary tract infection.
+
+Brown C(1), McLeod D(2), Ching C(2).
+
+Author information:
+(1)Nationwide Children's Hospital, 700 Children's Drive, Columbus, OH 43205, 
+USA. Electronic address: Christopher.brown@nationwidechildrens.org.
+(2)Nationwide Children's Hospital, 700 Children's Drive, Columbus, OH 43205, 
+USA.
+
+INTRODUCTION: While children with multicystic dysplastic kidneys (MCDK) are 
+predisposed to contralateral kidney (CK) vesicoureteral reflux (VUR), it is 
+unknown if this results in an increased risk of urinary tract infection (UTI). 
+The authors hypothesized that knowledge of VUR via voiding cystourethrogram 
+(VCUG) would enable altered practices to prevent UTI and thus reduce the number 
+of febrile urinary tract infections (fUTIs).
+METHODS: The authors performed a retrospective chart review of all patients at 
+their institution of multiple providers caring for patients with a diagnosis of 
+MCDK from 1/1/07 to 7/14/17. Patients were evaluated for age, sex, circumcision 
+status, race, imaging results on renal ultrasound (RUS) and/or VCUG, occurrence 
+of fUTI, and prophylactic antibiotic (ppx) use.
+RESULTS: One hundred sixty-five patients were identified; 70% of patients were 
+diagnosed with MCDK on prenatal imaging. Seventy-seven (47%) patients had a 
+screening VCUG after diagnosis of MCDK. Eighteen patients with VCUG had VUR with 
+13 (17%) having VUR in the CK. Only children undergoing VCUG were placed on ppx 
+with no difference in the use of ppx in patients with and without dilating VUR 
+(45% vs 43%; p = 0.91). Overall, 11 patients experienced a fUTI. There was no 
+significant difference in fUTI between those children who underwent VCUG 
+compared with those who did not (10% vs 3%; p = 0.07). Use of ppx and presence 
+of CK renal anomaly on RUS had no impact on incidence of subsequent fUTI.
+CONCLUSION: Knowledge of VUR based on VCUG results did not reduce the rate of 
+fUTI or predict ppx use in the practice of multiple providers. The authors feel 
+this confirms the low utility of VCUG in the practical management of otherwise 
+healthy children with MCDK.
+
+Copyright © 2019 Journal of Pediatric Urology Company. Published by Elsevier 
+Ltd. All rights reserved.
+
+DOI: 10.1016/j.jpurol.2019.03.013
+PMID: 30992197 [Indexed for MEDLINE]
+
+
+97. J Perinatol. 2018 Jun;38(6):658-664. doi: 10.1038/s41372-018-0093-z. Epub
+2018  Mar 23.
+
+Predictors of poor neonatal outcomes in prenatally diagnosed multicystic 
+dysplastic kidney disease.
+
+Balasundaram M(1)(2), Chock VY(3)(4), Wu HY(4)(5), Blumenfeld YJ(4)(6), Hintz 
+SR(3)(4).
+
+Author information:
+(1)Department of Pediatrics, Division of Neonatology, Stanford University School 
+of Medicine, Stanford, CA, USA. malathib@stanford.edu.
+(2)Fetal and Pregnancy Health Program, Lucile Packard Children's Hospital 
+Stanford, Palo Alto, CA, USA. malathib@stanford.edu.
+(3)Department of Pediatrics, Division of Neonatology, Stanford University School 
+of Medicine, Stanford, CA, USA.
+(4)Fetal and Pregnancy Health Program, Lucile Packard Children's Hospital 
+Stanford, Palo Alto, CA, USA.
+(5)Division of Urology, Stanford University School of Medicine, Stanford, CA, 
+USA.
+(6)Department of Obstetrics & Gynecology, Maternal Fetal Medicine, Stanford 
+University School of Medicine, Stanford, CA, USA.
+
+OBJECTIVE: Multicystic dysplastic kidney (MCDK) is one of the most common 
+anomalies detected by prenatal ultrasound. Our objective was to identify factors 
+associated with severe adverse neonatal outcomes of prenatally diagnosed MCDK 
+STUDY DESIGN: A retrospective review of prenatally diagnosed MCDK (1 January 
+2009 to 30 December 2014) from a single academic center was conducted. The 
+primary outcome was death or need for dialysis among live-born infants. 
+Associations between prenatal characteristics and outcome were analyzed by 
+Fisher's exact test and Mann-Whitney test.
+RESULTS: A total of 53 cases of prenatally suspected MCDK were included, of 
+which 46 cases were live-born and confirmed postnatally (38 survivors, 8 
+non-survivors). Prenatally diagnosed extrarenal anomalies, bilateral MCDK, 
+contralateral renal anomalies, and anhydramnios were significantly associated 
+with death or need for dialysis (all p < 0.0001).
+CONCLUSIONS: Prenatally identified findings are associated with adverse neonatal 
+outcome, and can guide counseling and management planning. In the absence of 
+significant associated findings, prenatally diagnosed unilateral MCDK has a 
+benign neonatal course.
+
+DOI: 10.1038/s41372-018-0093-z
+PMID: 29572458 [Indexed for MEDLINE]
+
+
+98. Abdom Imaging. 2013 Jun;38(3):603-7. doi: 10.1007/s00261-012-9938-7.
+
+Segmental multicystic dysplastic kidney in an adult: usefulness of enhanced CT 
+in excretory phase.
+
+Takeuchi M(1), Kamishima Y, Hara M, Horibe Y, Ishii M, Okumura K, Shibamoto Y.
+
+Author information:
+(1)Department of Radiology, Nagoya City University Graduate School of Medical 
+Sciences and Medical School, 1 Kawasumi Mizuho-cho, Mizuho-ku, Nagoya, Aichi, 
+Japan. m2rbimn@gmail.com
+
+We present an adult case of segmental multicystic dysplastic kidney (SMCDK). The 
+patient had a 10 × 6 cm oval-shaped mass consisting of a solid and multilocular 
+cystic component at the right upper renal sinus. The solid component showed 
+gradual and mild enhancement on dual-phase enhanced CT. Excretory-phase CT 
+demonstrated the excretion of contrast medium into the septa and cysts. Dilation 
+of the upper calices and renal pelvis and atretic renal pelvis in the mass were 
+also clearly visualized in the excretory phase. The signal intensity of the 
+solid component was slightly lower than that of the renal parenchyma on 
+T2-weighted images and similar to that of the medulla on diffusion-weighted 
+images. Right nephrectomy showed a multilocular cystic component within the 
+renal sinus and some of the cysts contained blood. The renal pelvis of the upper 
+moiety was blind, as suggested by CT. Microscopically, there were multiple 
+non-communicating small cysts, as shown by CT, and the wall was lined with 
+immature tubule-like cells. In addition, immature tubule-like cells were seen in 
+the septa. Immature mesenchymal cells were seen around the cysts. The solid 
+component mainly consisted of fibroconnective tissue with immature tubule-like 
+cells. The pathological diagnosis was confirmed as SMCDK. Excretion of contrast 
+media into the septum and cystic component might be a characteristic finding of 
+SMCDK in addition to the finding of a multilocular cystic mass in the upper 
+moiety with urinary tract abnormality.
+
+DOI: 10.1007/s00261-012-9938-7
+PMID: 22782317 [Indexed for MEDLINE]
+
+
+99. Nephron. 2018;140(1):18-23. doi: 10.1159/000490200. Epub 2018 Jun 7.
+
+Trajectory of Estimated Glomerular Filtration Rate Predicts Renal Injury in 
+Children with Multicystic Dysplastic Kidney.
+
+Matsumura K, Sugii K, Awazu M.
+
+BACKGROUND/AIMS: Children with a solitary functioning kidney have a risk of 
+renal injury caused by hyperfiltration. Timely intervention with 
+renin-angiotensin inhibitors may be beneficial. We examined whether trajectory 
+of estimated glomerular filtration rate (eGFR) would predict renal injury, 
+defined as microalbuminuria/proteinuria, hypertension, and/or a decline in eGFR.
+METHODS: Seventeen patients (male 7, female 10) with multicystic dysplastic 
+kidney (MCDK; median age 13 years, range 6-19 years) followed in our clinic were 
+examined retrospectively. An eGFR decline was defined as a fall to < 90 
+mL/min/1.73 m2 or a decline of > 5 mL/min/1.73 m2/year for those with baseline 
+eGFR of ≥90 or < 90 mL/min/1.73 m2 respectively.
+RESULTS: Nine patients had renal injury at the time of investigation. Compared 
+with 8 patients without renal injury, those with renal injury tended to be older 
+(14.7 ± 4.2 vs. 11.4 ± 4.6 years) and the birth weight was smaller (2,538 ± 281 
+vs. 2,966 ± 361 g, p < 0.05). The frequency of contralateral congenital anomaly 
+of kidney and urinary tract (cyst, hydronephrosis, or vesicoureteral reflux) 
+were not different. The trajectory of eGFR in those without renal injury was 
+either an increase (n = 3) or unidentifiable (n = 5), whereas that in the renal 
+injury group was exclusively an increase followed by decline (p < 0.05). The 
+average age of the onset of eGFR decline was 9.4 ± 4.2 years and that of the 
+start of renal injury (albuminuria/proteinuria 5, eGFR decline 4, hypertension 
+1) was 12.5 ± 4.2 years.
+CONCLUSION: All the children with MCDK who developed renal injury had eGFR 
+trajectory of increase followed by decline. Renal injury followed the peak eGFR 
+by 3 years on average. This observation is in agreement with the hyperfiltration 
+theory and underscores the importance of following eGFR trajectory closely.
+
+© 2018 S. Karger AG, Basel.
+
+DOI: 10.1159/000490200
+PMID: 29879710 [Indexed for MEDLINE]
+
+
+100. J Cutan Pathol. 2016 Aug;43(8):697-701. doi: 10.1111/cup.12718. Epub 2016
+May 8.
+
+Coccygeal polypoid eccrine nevus associated with imperforate anus and unilateral 
+multicystic kidney dysplasia.
+
+Frouin E(1), Riviere B(2), Maillet O(3), Willems M(4), Kalfa N(3), Costes V(2), 
+Bessis D(5).
+
+Author information:
+(1)Department of Pathology, CHU Poitiers, Poitiers, France.
+(2)Department of Pathology, CHU and University of Montpellier, Montpellier, 
+France.
+(3)Department of Pediatric Surgery, CHU Montpellier and University of 
+Montpellier, Montpellier, France.
+(4)Department of Medical Genetics, CHU Montpellier and University of 
+Montpellier, Montpellier, France.
+(5)Department of Dermatology, CHU de Montpellier and University of Montpellier, 
+Montpellier, France.
+
+Eccrine nevi are rare hamartomas characterized by an increase in the number or 
+size of eccrine glands. A polypoid form located in the coccygeal area has been 
+described in a few cases and termed coccygeal polypoid eccrine nevus (CPEN). No 
+association with internal malformations was reported in any of these cases. We 
+describe herein a case of CPEN associated with imperforate anus and unilateral 
+multicystic kidney dysplasia. We review the clinical and pathological 
+characteristics of CPENs and discuss the differential diagnoses.
+
+© 2016 John Wiley & Sons A/S. Published by John Wiley & Sons Ltd.
+
+DOI: 10.1111/cup.12718
+PMID: 27080330 [Indexed for MEDLINE]
