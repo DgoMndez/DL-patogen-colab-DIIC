@@ -19,7 +19,7 @@ f = open(f'{rDir}/phenotypes-22-12-15.csv', 'w')
 pha = onto.get_hpo_object('HP:0000118')
 
 sAux = [pha]
-nodosHoja = []
+nodosHoja = set()
 
 while not sAux == []:
     p = sAux.pop()
@@ -27,7 +27,7 @@ while not sAux == []:
         for c in p.children:
             sAux.append(c)
     else:
-        nodosHoja.append(p)
+        nodosHoja.add(p)
 
 nodosHoja = sorted(nodosHoja, key=lambda x: x.id)
 
