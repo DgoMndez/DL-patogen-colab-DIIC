@@ -14,9 +14,9 @@ with open('../../auth/pubmed/email.txt', 'r') as file:
 with open('../../auth/pubmed/api-key.txt', 'r') as file:
     Entrez.api_key = file.read().strip()
 
-PATH_RESULT = "abstracts/"
+PATH_RESULT = "abstracts"
 PATH_FENOTIPOS = "results/phenotypes-22-12-15.csv"
-Entrez.sleep_between_tries = 4
+Entrez.sleep_between_tries = 5
 SEED = 42
 NSAMPLE = 100
 RETMAX = 1000
@@ -29,6 +29,7 @@ def search(query):
                             datetype='pdat',
                             mindate='2000/01/01',
                             maxdate='2023/12/31',
+                            rettype='abstract',
                             term=query)
     results = Entrez.read(handle)
     return results
@@ -36,7 +37,7 @@ def search(query):
 def fetch(ids):
     handle = Entrez.efetch(db='pubmed',
                            retmode='xml',
-                           rettype='medline',
+                           rettype='abstract',
                            id=ids)
     return Entrez.read(handle)
 
@@ -50,11 +51,13 @@ def get_sample_phenotypes(n):
     
 if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
-    
+    if not os.path.exists(PATH_RESULT):
+        os.makedirs(PATH_RESULT)
     # Pasos:
     # 1. Obtener muestra de los fenotipos
     # 2. Para cada fenotipo, obtener todos los ids de los papers
     # 3. Para cada id, obtener el abstract
+    # 4. Escribir información en un csv
 
     # 1. Obtener muestra de los fenotipos
     dfPhen = get_sample_phenotypes(NSAMPLE)
@@ -64,6 +67,14 @@ if __name__ == '__main__':
     # 2. Para cada fenotipo, obtener todos los ids de los papers
     papers_without_abstracts = []
     i = 1
+
+    # 4. Escribir información en un csv
+    # Header
+    outputCsv = open(PATH_RESULT + '/abstracts.csv', 'w')
+    outputCsv.write('paperId\tphenotypeId\tphenotypeName\ttitle\tabstract\n')
+    outIndexPhen = open(PATH_RESULT + '/index-phenotypes.csv', 'w')
+    outIndexPhen.write('phenotypeId\tphenotypeName\tnumberPapers\tpaperList\n')
+
     for index, row in dfPhen.iterrows():
         # Crear subdirectorio para el fenotipo
         name = row['Phenotype']
@@ -71,7 +82,7 @@ if __name__ == '__main__':
 
         logging.debug("Fenotipo " + str(i) + ": " + idPhen + ' - ' + name + "\n")
 
-        dir = PATH_RESULT + '/' + idPhen
+        dir = PATH_RESULT + '/text/' + idPhen
         if not os.path.exists(dir):
             os.makedirs(dir)
             
@@ -80,15 +91,9 @@ if __name__ == '__main__':
         
         count = len(idList)
 
-        # Escribir resumen de la búsqueda
-        with open(PATH_RESULT + '/' + idPhen + '-summary.txt', 'w') as file:
-            file.write('Phenotype: ' + name + '\n')
-            file.write('Id: ' + idPhen + '\n')
-            file.write('Number of papers: ' + str(count) + '\n')
-            file.write('Ids: ' + str(idList) + '\n')
-
+        outIndexPhen.write(idPhen + '\t' + name + '\t' + str(count) + '\t' + ','.join(idList) + '\n')
         if int(dfIds["Count"]) == 0:
-            logging.debug('No hay papers para ' + idPhen + ' - ' + name + "\n")
+            logging.debug('0 papers para ' + idPhen + ' - ' + name + "\n")
             continue
 
         logging.debug('(' + idPhen + ') ' + str(count) + ' papers:' + str(idList) + '\n')
@@ -100,19 +105,25 @@ if __name__ == '__main__':
         for paper in dfAbstracts['PubmedArticle']:
             id = paper['MedlineCitation']['PMID']
             if 'Abstract' in paper['MedlineCitation']['Article']:
+                # quizá sea necesario strip('\"')
                 abstract = paper['MedlineCitation']['Article']['Abstract']['AbstractText'][0]
+                logging.debug('Paper ' + str(j) + ' procesado: ' + str(id) + '\n')
+                with open(dir + '/' + id + '.txt', 'w') as file:
+                    file.write(abstract)
             else:
                 papers_without_abstracts.append(id)
                 logging.debug('Paper ' + str(j) + ' NO TIENE ABSTRACT: ' + str(id) + '\n')
-                continue
-            logging.debug('Paper ' + str(j) + ' procesado: ' + str(id) + '\n')
-            with open(dir + '/' + id + '.txt', 'w') as file:
-                file.write(abstract)
+                abstract=''
+            # 4. Escribir información en un csv
+            outputCsv.write(id + '\t' + idPhen + '\t' + name + '\t'
+                + "\"" + paper['MedlineCitation']['Article']['ArticleTitle'] + '\"\t'
+                + "\"" + abstract + '\"\n')
             j = j+1
         i = i+1
 
-    logging.debug('Papers sin abstract: ' + str(papers_without_abstracts) + '\n')
+    papers_string = ','.join(papers_without_abstracts)
+    logging.debug('Papers sin abstract: ' + papers_string + '\n')
     with open(PATH_RESULT + '/papers_without_abstracts.txt', 'w') as file:
-        file.write(str(papers_without_abstracts))
-
-
+        count = len(papers_without_abstracts)
+        file.write(str(count)+'\n')
+        file.write(papers_string+'\n')

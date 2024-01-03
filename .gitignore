@@ -1,3 +1,3 @@
 /auth
-*abstracts
+/src/pubmed-queries/abstracts/text
 *.old
