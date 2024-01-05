@@ -126,6 +126,7 @@ if __name__ == '__main__':
                             k = k+1
                 logging.debug('Paper ' + str(j) + ' procesado: ' + str(id) + '\n')
                 logging.debug('Abstract: ' + abstract + '\n')
+                #abstract = abstract.strip('"') # Duda existencial
                 with open(dir + '/' + id + '.txt', 'w') as file:
                     file.write(abstract)
             else:
