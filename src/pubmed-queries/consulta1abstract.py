@@ -120,7 +120,10 @@ if __name__ == '__main__':
     logging.debug('(' + idPhen + ') ' + str(count) + ' papers:' + str(idList) + '\n')
     
     # 3. Para cada id, obtener los abstracts
-    rec_handler = search_medline("Temporomandibular joint ankylosis")
+    
+
+
+    rec_handler = search_medline(idPhen)
     for rec_id in rec_handler['IdList']:
         rec = fetch_rec(rec_id, rec_handler)
         rec_file = StringIO(rec)
