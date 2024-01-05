@@ -4,9 +4,13 @@ from Bio import Entrez
 import pandas as pd
 import os
 import logging
+from sklearn.model_selection import train_test_split
 
 PATH_DATA = '../pubmed-queries/abstracts'
 PATH_DATA_CSV = PATH_DATA + '/abstracts.csv'
+PATH_DATA_FENOTIPOS = '../pubmed-queries/results/phenotypes-22-12-15.csv'
+SEED = 42
+VERBOSE_COMP = False
 if __name__ == '__main__':
     
     #TODO:
@@ -15,16 +19,23 @@ if __name__ == '__main__':
     # 3. Guardar en un csv los ids de train, validation y test con el abstract
 
     # 1. Imprimir información de los papers del csv: id, titulo y fenotipo
-    for cad in [PATH_DATA_CSV, PATH_DATA+'/index-phenotypes.csv']:
-        df = pd.read_csv(cad, sep='\t', low_memory=False, na_values=[''])
-        print(df.shape)
-        j = 1
-        for index, row in df.iterrows():
-            l = []
-            for col in df.columns:
-                l.append(str(row[col]))
-            print(';'.join(l))
-            j = j+1
-            if j >= 1000:
-                break
+    if VERBOSE_COMP:
+        for cad in [PATH_DATA_CSV, PATH_DATA+'/index-phenotypes.csv']:
+            df = pd.read_csv(cad, sep='\t', low_memory=False, na_values=[''])
+            print(df.shape)
+            j = 1
+            for index, row in df.iterrows():
+                l = []
+                for col in df.columns:
+                    l.append(str(row[col]))
+                print(';'.join(l))
+                j = j+1
+                if j >= 1000:
+                    break
+        
+    dfPapers = pd.read_csv(PATH_DATA_CSV, sep='\t', low_memory=False, na_values=[''])
+    dfPhenotypes = pd.read_csv(PATH_DATA_FENOTIPOS, sep=';', low_memory=False, na_values=[''])
+    # Assuming dfPapers is your DataFrame
+    train_df, test_df = train_test_split(dfPapers, test_size=0.2, random_state=42)
+
 

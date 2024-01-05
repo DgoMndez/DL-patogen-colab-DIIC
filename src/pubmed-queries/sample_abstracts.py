@@ -19,7 +19,7 @@ PATH_FENOTIPOS = "results/phenotypes-22-12-15.csv"
 Entrez.sleep_between_tries = 5
 SEED = 42
 NSAMPLE = 100
-RETMAX = 1000
+RETMAX = 500
 
 def search(query):
     handle = Entrez.esearch(db='pubmed',
@@ -106,8 +106,26 @@ if __name__ == '__main__':
             id = paper['MedlineCitation']['PMID']
             if 'Abstract' in paper['MedlineCitation']['Article']:
                 # quizá sea necesario strip('\"')
-                abstract = paper['MedlineCitation']['Article']['Abstract']['AbstractText'][0]
+                abstract = ''
+                k = 1
+                if 'Abstract' in paper['MedlineCitation']['Article']:
+                    for abstractText in paper['MedlineCitation']['Article']['Abstract']['AbstractText']:
+                        if 'Label' in abstractText.attributes:
+                            text = abstractText.attributes['Label'] + ": " + abstractText
+                            abstract = abstract + text
+                            logging.debug('Abstract text ' + str(k)
+                                          + ' con etiqueta: ' + abstractText.attributes['Label'] + '\n')
+                            k = k+1
+                        else:
+                            if k > 1:
+                                abstract = abstract + ' ' + abstractText
+                            else:
+                                abstract = abstract + abstractText
+                            logging.debug('Abstract text ' + str(k)
+                                          + ' sin etiqueta: ' + str(id) + '\n')
+                            k = k+1
                 logging.debug('Paper ' + str(j) + ' procesado: ' + str(id) + '\n')
+                logging.debug('Abstract: ' + abstract + '\n')
                 with open(dir + '/' + id + '.txt', 'w') as file:
                     file.write(abstract)
             else:
