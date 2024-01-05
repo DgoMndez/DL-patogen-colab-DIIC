@@ -86,7 +86,7 @@ if __name__ == '__main__':
         if not os.path.exists(dir):
             os.makedirs(dir)
             
-        dfIds = search(name) # parsed XML
+        dfIds = search(idPhen) # parsed XML
         idList = dfIds['IdList']
         
         count = len(idList)
@@ -112,21 +112,20 @@ if __name__ == '__main__':
                     for abstractText in paper['MedlineCitation']['Article']['Abstract']['AbstractText']:
                         if 'Label' in abstractText.attributes:
                             text = abstractText.attributes['Label'] + ": " + abstractText
-                            abstract = abstract + text
                             logging.debug('Abstract text ' + str(k)
                                           + ' con etiqueta: ' + abstractText.attributes['Label'] + '\n')
-                            k = k+1
                         else:
-                            if k > 1:
-                                abstract = abstract + ' ' + abstractText
-                            else:
-                                abstract = abstract + abstractText
+                            text = abstractText
                             logging.debug('Abstract text ' + str(k)
                                           + ' sin etiqueta: ' + str(id) + '\n')
-                            k = k+1
+                        if k > 1:
+                            abstract = abstract + ' ' + text
+                        else:
+                            abstract = abstract + text
+                        k = k+1
                 logging.debug('Paper ' + str(j) + ' procesado: ' + str(id) + '\n')
                 logging.debug('Abstract: ' + abstract + '\n')
-                #abstract = abstract.strip('"') # Duda existencial
+                abstract = abstract.strip('"') # Duda existencial
                 with open(dir + '/' + id + '.txt', 'w') as file:
                     file.write(abstract)
             else:

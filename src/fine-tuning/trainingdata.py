@@ -10,7 +10,7 @@ PATH_DATA = '../pubmed-queries/abstracts'
 PATH_DATA_CSV = PATH_DATA + '/abstracts.csv'
 PATH_DATA_FENOTIPOS = '../pubmed-queries/results/phenotypes-22-12-15.csv'
 SEED = 42
-VERBOSE_COMP = False
+VERBOSE_COMP = True
 if __name__ == '__main__':
     
     #TODO:
