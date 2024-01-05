@@ -85,8 +85,9 @@ if __name__ == '__main__':
         dir = PATH_RESULT + '/text/' + idPhen
         if not os.path.exists(dir):
             os.makedirs(dir)
-            
-        dfIds = search(idPhen) # parsed XML
+
+        query = 'English [Language] ' + name   
+        dfIds = search(query) # parsed XML
         idList = dfIds['IdList']
         
         count = len(idList)

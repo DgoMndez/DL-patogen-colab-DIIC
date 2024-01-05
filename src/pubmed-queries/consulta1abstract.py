@@ -123,7 +123,7 @@ if __name__ == '__main__':
     
 
 
-    rec_handler = search_medline(idPhen)
+    rec_handler = search_medline(name)
     for rec_id in rec_handler['IdList']:
         rec = fetch_rec(rec_id, rec_handler)
         rec_file = StringIO(rec)
