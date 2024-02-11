@@ -67,6 +67,8 @@ if __name__ == '__main__':
 
     df = dfPapers.sample(10, random_state=SEED)
     for index, row in df.iterrows():
+        if pd.isna(row['abstract']):
+            continue
         abstract = row['abstract']
         abstract = clean_abstract(abstract)
         print(abstract)
