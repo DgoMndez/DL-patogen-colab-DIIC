@@ -2,3 +2,6 @@
 /src/pubmed-queries/abstracts/text
 *.old
 *-wtf*
+/src/fine-tuning/output
+/src/fine-tuning/checkpoint
+*.zip

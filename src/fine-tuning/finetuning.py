@@ -76,12 +76,21 @@ onto = Ontology('../pubmed-queries/hpo-22-12-15-data')
 
 # %%
 # phenotypeId	phenotypeName	numberPapers	paperList
+from itertools import combinations
 
 # Tomar la lista de fenotipos = tags
 tags = dfIndex['phenotypeName']
 numlabels = len(tags)
 print(numlabels, 'tags')
 print(tags[:5])
+
+# Tomar muestra aleatoria de pares de fenotipos
+unique_pairs = combinations(dfIndex['phenotypeName'].drop_duplicates(), 2)
+df_pairs = pd.DataFrame(unique_pairs, columns=['phenotype1', 'phenotype2']).sample(frac=0.2, random_state=SEED)
+df_pairs['distance']=df_pairs.apply(lambda x: onto.distance(x['phenotype1'], x['phenotype2']), axis=1)
+margin = min(df_pairs['distance'])
+print('Margin:', margin)
+
 # Separar abstracts en train, validation y test
 
 # quitar NA's en la columna abstract
@@ -89,6 +98,7 @@ print('Na\'s:', dfPapers['abstract'].isna().sum())
 dfPapers = dfPapers.dropna(subset=['abstract'])
 
 train = dfPapers.sample(frac=0.1, random_state=SEED)
+num_examples = len(train)
 dTest = dfPapers.drop(train.index).sample(frac=0.2, random_state=SEED)
 dVal = train.sample(frac=0.2, random_state=SEED)
 dTrain = train.drop(dVal.index)
@@ -116,7 +126,7 @@ from torch.utils.data import DataLoader, Dataset
 from sentence_transformers import SentenceTransformer, SentencesDataset, losses, evaluation, InputExample
 torch.manual_seed(SEED)
 
-num_epochs = 2
+num_epochs = 1
 
 model = bertmodel
 
@@ -151,7 +161,7 @@ test_dataloader = DataLoader(dTest, shuffle=False, batch_size=16)
 print("Preparing loss and evaluator...")
 soft_loss = losses.SoftmaxLoss(model=model, sentence_embedding_dimension=model.get_sentence_embedding_dimension(), num_labels=numlabels)
 # Esta no sirve porque recibe un par de sentencias y un label, no una sentencia y un label
-train_loss = losses.BatchAllTripletLoss(model=model)
+train_loss = losses.BatchAllTripletLoss(model=model, distance_metric=losses.BatchAllTripletLoss.DistanceFunction.COSINE_SIMILARITY, margin=margin)
 
 evaluator = evaluation.LabelAccuracyEvaluator(val_dataloader, '', softmax_model=soft_loss, write_csv=True)
 
@@ -164,7 +174,7 @@ model.fit(
     #evaluator=evaluator,
     epochs=num_epochs,
     #evaluation_steps=4,
-    warmup_steps=2,
+    warmup_steps=int(0.25*num_examples),
     output_path='./output/fine-tuned-bio-bert',
     save_best_model=True,
     checkpoint_path='./checkpoint',
