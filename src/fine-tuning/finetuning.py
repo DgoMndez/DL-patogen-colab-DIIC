@@ -10,20 +10,22 @@
 from cmath import nan
 import sentence_transformers
 import torch
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, util
 import numpy as np
 import pandas as pd
 import nltk
 import string
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+from torch.utils.data import DataLoader, Dataset
+from sentence_transformers import SentenceTransformer, SentencesDataset, losses, evaluation, InputExample
 
 # Cargar el BERT de partida
 
 BERTBASE =  'sentence-transformers/stsb-bert-base'
 PRITAMDEKAMODEL = 'pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb'
-bertmodel = SentenceTransformer(PRITAMDEKAMODEL)
-# Se puede aumentar max_seq_length?
+model = bertmodel = SentenceTransformer(PRITAMDEKAMODEL)
+# Se puede aumentar max_seq_length? Suponemos que no
 
 # Función clean abstract
 
@@ -85,11 +87,16 @@ print(numlabels, 'tags')
 print(tags[:5])
 
 # Tomar muestra aleatoria de pares de fenotipos
-unique_pairs = combinations(dfIndex['phenotypeName'].drop_duplicates(), 2)
-df_pairs = pd.DataFrame(unique_pairs, columns=['phenotype1', 'phenotype2']).sample(frac=0.2, random_state=SEED)
-df_pairs['distance']=df_pairs.apply(lambda x: onto.distance(x['phenotype1'], x['phenotype2']), axis=1)
-margin = min(df_pairs['distance'])
-print('Margin:', margin)
+MARGIN = 0.3743
+if MARGIN == 0: # Estimar un margin apropiado
+    unique_pairs = combinations(dfIndex['phenotypeName'].drop_duplicates(), 2)
+    df_pairs = pd.DataFrame(unique_pairs, columns=['phenotype1', 'phenotype2']).sample(frac=0.2, random_state=SEED)
+    print('Unique pairs:', len(df_pairs))
+    print('Pair 1:', df_pairs.iloc[0])
+    #df_pairs['distance']=df_pairs.apply(lambda x: float(losses.SiameseDistanceMetric.COSINE_DISTANCE(torch.from_numpy(model.encode(x['phenotype1'])), torch.from_numpy(model.encode(x['phenotype2'])))), axis=1)
+    df_pairs['distance'] = df_pairs.apply(lambda x: 1-util.cos_sim(model.encode(x['phenotype1']), model.encode(x['phenotype2'])), axis=1)
+    margin = min(df_pairs['distance']).numpy()[0][0]
+    print('Margin:', margin)
 
 # Separar abstracts en train, validation y test
 
@@ -98,10 +105,12 @@ print('Na\'s:', dfPapers['abstract'].isna().sum())
 dfPapers = dfPapers.dropna(subset=['abstract'])
 
 train = dfPapers.sample(frac=0.1, random_state=SEED)
-num_examples = len(train)
+
 dTest = dfPapers.drop(train.index).sample(frac=0.2, random_state=SEED)
 dVal = train.sample(frac=0.2, random_state=SEED)
 dTrain = train.drop(dVal.index)
+num_examples = len(dTrain)
+print(num_examples,'examples in train')
 
 # Considerar train_test_split
 
@@ -122,8 +131,6 @@ for j in range(0, 3):
 # 
 
 # %%
-from torch.utils.data import DataLoader, Dataset
-from sentence_transformers import SentenceTransformer, SentencesDataset, losses, evaluation, InputExample
 torch.manual_seed(SEED)
 
 num_epochs = 1
@@ -161,7 +168,7 @@ test_dataloader = DataLoader(dTest, shuffle=False, batch_size=16)
 print("Preparing loss and evaluator...")
 soft_loss = losses.SoftmaxLoss(model=model, sentence_embedding_dimension=model.get_sentence_embedding_dimension(), num_labels=numlabels)
 # Esta no sirve porque recibe un par de sentencias y un label, no una sentencia y un label
-train_loss = losses.BatchAllTripletLoss(model=model, distance_metric=losses.BatchAllTripletLoss.DistanceFunction.COSINE_SIMILARITY, margin=margin)
+train_loss = losses.BatchAllTripletLoss(model=model, distance_metric=losses.BatchHardTripletLossDistanceFunction.cosine_distance, margin=MARGIN)
 
 evaluator = evaluation.LabelAccuracyEvaluator(val_dataloader, '', softmax_model=soft_loss, write_csv=True)
 
@@ -174,7 +181,7 @@ model.fit(
     #evaluator=evaluator,
     epochs=num_epochs,
     #evaluation_steps=4,
-    warmup_steps=int(0.25*num_examples),
+    warmup_steps=int(0.25*(num_examples//16)),
     output_path='./output/fine-tuned-bio-bert',
     save_best_model=True,
     checkpoint_path='./checkpoint',
