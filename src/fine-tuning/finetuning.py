@@ -104,9 +104,9 @@ if MARGIN == 0: # Estimar un margin apropiado
 print('Na\'s:', dfPapers['abstract'].isna().sum())
 dfPapers = dfPapers.dropna(subset=['abstract'])
 
-train = dfPapers.sample(frac=0.1, random_state=SEED)
+train = dfPapers.sample(frac=0.9, random_state=SEED)
 
-dTest = dfPapers.drop(train.index).sample(frac=0.2, random_state=SEED)
+dTest = dfPapers.drop(train.index)
 dVal = train.sample(frac=0.2, random_state=SEED)
 dTrain = train.drop(dVal.index)
 num_examples = len(dTrain)
