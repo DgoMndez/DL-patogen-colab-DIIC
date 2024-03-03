@@ -1,0 +1,8 @@
+Índice de fenotipos: ../pubmed-queries/abstracts/index-phenotypes.csv
+Modelo original: pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb
+Modelo tuneado: ./output/fine-tuned-bio-bert
+Distancias utilizadas: 1-acos(cos_sim(e1,e2))/pi, Lin
+MSE Original: 0.020686321530443433
+MSE Tuned: 0.037398450822142375
+Correlación Original: 0.3896878431254724
+Correlación Tuned: 0.24957384991554177
