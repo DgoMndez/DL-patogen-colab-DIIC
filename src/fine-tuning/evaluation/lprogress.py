@@ -169,7 +169,7 @@ from torch.utils.data import DataLoader, Dataset
 from sentence_transformers import SentenceTransformer, SentencesDataset, losses, evaluation, InputExample
 
 PROFILING = True
-SAMPLEPERCENT = 0.01 if PROFILING else 1.0
+SAMPLEPERCENT = 0.2 if PROFILING else 1.0
 SEED = 42
 torch.manual_seed(SEED)
 
@@ -222,7 +222,7 @@ def random_combination(iterable, r):
 
 # Obtén una lista de todos los valores únicos en la columna 'phenotypeName'
 
-num_samples = 500  # Number of combinations to sample
+num_samples = 1000  # Number of combinations to sample
 print('Number of test pairs samples:', num_samples)
 
 # Usa random_combination para obtener una muestra aleatoria de 2000 pares
@@ -248,6 +248,7 @@ dfTest.to_csv(PATH_TRAINDATA + '/evaluation/pairs-test.csv', sep='\t', index=Fal
 
 # %%
 # Loss function
+from sentence_transformers.evaluation import SimilarityFunction
 
 MARGIN = 0.3743
 print(f'Loss Function: BatchAllTripletLoss(margin={MARGIN})')
@@ -257,8 +258,10 @@ train_loss = losses.BatchAllTripletLoss(model=model, distance_metric=losses.Batc
 
 # a)
 
-evaluatorTrain=sentence_transformers.evaluation.EmbeddingSimilarityEvaluator(ltrain1, ltrain2, goldTrain)
-evaluatorTest=sentence_transformers.evaluation.EmbeddingSimilarityEvaluator(ltest1, ltest2, goldTest)
+evaluatorTrain=sentence_transformers.evaluation.EmbeddingSimilarityEvaluator(ltrain1, ltrain2, goldTrain,
+                                                                             main_similarity=SimilarityFunction.COSINE)
+evaluatorTest=sentence_transformers.evaluation.EmbeddingSimilarityEvaluator(ltest1, ltest2, goldTest,
+                                                                            main_similarity=SimilarityFunction.COSINE)
 combined_evaluator = evaluation.SequentialEvaluator([evaluatorTrain, evaluatorTest])
 print('Evaluator: EmbeddingSimilarityEvaluator(cosine_similarity)')
 
@@ -268,14 +271,20 @@ print('Evaluator: EmbeddingSimilarityEvaluator(cosine_similarity)')
 # %%
 num_epochs = 5
 num_examples = len(dTrain)
-ev_steps = num_examples//16
+ev_steps = len(train_dataloader)//4 # 4 evaluations per epoch
 
 if not os.path.exists(SRCPATH + '/output'):
     os.makedirs(SRCPATH + '/output')
 
 print(f'Fit parameters: num_epochs={num_epochs},',
       f'evaluation_steps={ev_steps},warmup_steps={int(0.25*(num_examples//16))}')
+
+# %%
 print("Fitting...")
+import time
+
+start_time = time.time()
+
 fmodel = model.fit(
     train_objectives=[(train_dataloader, train_loss)],
     evaluator=combined_evaluator,
@@ -283,11 +292,16 @@ fmodel = model.fit(
     #evaluation_steps=(num_examples//16)//num_epochs//2,
     evaluation_steps=ev_steps,
     warmup_steps=int(0.25*(num_examples//16)),
-    output_path=SRCPATH+'/output/fine-tuned-bio-bert',
+    output_path=SRCPATH+'/output/fine-tuned-bio-bert-ev',
     #save_best_model=True,
     checkpoint_path='./checkpoint',
     checkpoint_save_steps=ev_steps,
     checkpoint_save_total_limit=num_epochs
 )
+
+end_time = time.time()
+execution_time = end_time - start_time
+
+print(f"Execution time for model.fit: {execution_time:.2f} seconds")
 
 
