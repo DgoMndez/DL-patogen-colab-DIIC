@@ -257,8 +257,8 @@ train_loss = losses.BatchAllTripletLoss(model=model, distance_metric=losses.Batc
 
 # a)
 
-evaluatorTrain=sentence_transformers.evaluation.EmbeddingSimilarityEvaluator(ltrain1, ltrain2, goldTrain, main_similarity=torch.cosine_similarity)
-evaluatorTest=sentence_transformers.evaluation.EmbeddingSimilarityEvaluator(ltest1, ltest2, goldTest, main_similarity=torch.cosine_similarity)
+evaluatorTrain=sentence_transformers.evaluation.EmbeddingSimilarityEvaluator(ltrain1, ltrain2, goldTrain)
+evaluatorTest=sentence_transformers.evaluation.EmbeddingSimilarityEvaluator(ltest1, ltest2, goldTest)
 combined_evaluator = evaluation.SequentialEvaluator([evaluatorTrain, evaluatorTest])
 print('Evaluator: EmbeddingSimilarityEvaluator(cosine_similarity)')
 
