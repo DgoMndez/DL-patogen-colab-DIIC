@@ -2,6 +2,12 @@
 /src/pubmed-queries/abstracts/text
 *.old
 *-wtf*
+/src/output
 /src/fine-tuning/output
 /src/fine-tuning/checkpoint
+/src/traindata
+np
+pd
+torch
 *.zip
+*checkpoint
