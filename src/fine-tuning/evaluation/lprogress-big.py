@@ -47,13 +47,13 @@ from nltk.corpus import stopwords
 
 dfhiper = pd.read_csv('hiperparams.csv', sep=';')
 
-SAMPLEPERCENT = dfhiper['percent'] if 'percent' in dfhiper else 1
-NUM_EPOCHS = dfhiper['num_epochs'] if 'num_epochs' in dfhiper else 5
-STEPS = dfhiper['ev_steps'] if 'ev_steps' in dfhiper else 5
-WARMUP_STEPS_FRAC = dfhiper['warmup_steps'] if 'warmup_steps' in dfhiper else 5
-MARGIN = dfhiper['margin'] if 'margin' in dfhiper else 0.3743
+SAMPLEPERCENT = dfhiper['percent'].iloc[0] if 'percent' in dfhiper else 1
+NUM_EPOCHS = dfhiper['num_epochs'].iloc[0] if 'num_epochs' in dfhiper else 5
+STEPS = dfhiper['ev_steps'].iloc[0] if 'ev_steps' in dfhiper else 5
+WARMUP_STEPS_FRAC = dfhiper['warmup_steps'].iloc[0] if 'warmup_steps' in dfhiper else 5
+MARGIN = dfhiper['margin'].iloc[0] if 'margin' in dfhiper else 0.3743
 NUM_SAMPLE_PAIRS = 1000
-BERTNAME = dfhiper['name'] if 'name' in dfhiper else 'fine-tuned-bio-bert-ev'
+BERTNAME = dfhiper['name'].iloc[0] if 'name' in dfhiper else 'fine-tuned-bio-bert-ev'
 
 # ## 1. Cargar todos los datos
 
@@ -183,7 +183,7 @@ from torch.utils.data import DataLoader, Dataset
 from sentence_transformers import SentenceTransformer, SentencesDataset, losses, evaluation, InputExample
 
 PROFILING = True
-sample_frac = SAMPLEPERCENT/100 if PROFILING else 1.0
+sample_frac = SAMPLEPERCENT*0.01 if PROFILING else 1.0
 SEED = 42
 torch.manual_seed(SEED)
 
