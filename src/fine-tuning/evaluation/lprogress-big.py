@@ -354,22 +354,25 @@ from matplotlib import pyplot as plt
 dfScoreTrain = pd.read_csv(EVPATH + '/similarity_evaluation_train_results.csv')
 dfScoreTest = pd.read_csv(EVPATH + '/similarity_evaluation_test_results.csv')
 
-def sort_dfScores(df, ev_steps, tam_epoch):
-    df['batch_count'] = df['epoch']*tam_epoch + df['steps']*ev_steps
-    return df.sort_values('batch_count')
+ev_path = EVPATH
+num_batches = len(train_dataloader)
 
-dfScoreTrain = sort_dfScores(dfScoreTrain, ev_steps, len(train_dataloader))
-dfScoreTest = sort_dfScores(dfScoreTest, ev_steps, len(train_dataloader))
+# 2. Obtener los y=pearson, x=steps
 
-def get_data(df, ev_steps, train_dataloader):
+dfScoreTrain = pd.read_csv(ev_path + '/similarity_evaluation_train_results.csv')
+dfScoreTest = pd.read_csv(ev_path + '/similarity_evaluation_test_results.csv')
+
+
+def get_data(df):
     x = []
     y = []
     z = []
 
     for row in df.iterrows():
-        if row[1]['steps'] <= 0:
-            continue
-        x_val = row[1]['batch_count']
+        if row[1]['steps'] == -1:
+            x_val = (row[1]['epoch']+1) * num_batches
+        else :
+            x_val = row[1]['steps'] + row[1]['epoch'] * num_batches
         y_val = row[1]['cosine_pearson']
         z_val = row[1]['cosine_spearman']
         x.append(x_val)
@@ -385,14 +388,16 @@ def plot_data(xtrain, ytrain, xtest, ytest, ylabel):
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
     plt.title(ylabel + ' vs ' + xlabel)
+    titleString = ylabel + ' vs ' + xlabel
+    titleString.replace(' ', '_')
     plt.legend()
     # Save the plot to a file
-    plt.savefig(ylabel + '_vs_' + xlabel + '.png')
+    plt.savefig(ev_path + '/' + titleString + '.png')
     plt.close()
 
 # 2. Obtener los datos
-xtrain, ytrain, ztrain = get_data(dfScoreTrain, ev_steps, train_dataloader)
-xtest, ytest, ztest = get_data(dfScoreTest, ev_steps, train_dataloader)
+xtrain, ytrain, ztrain = get_data(dfScoreTrain)
+xtest, ytest, ztest = get_data(dfScoreTest)
 
 # 3. Graficar
 plot_data(xtrain, ytrain, xtest, ytest, 'Pearson Correlation')
