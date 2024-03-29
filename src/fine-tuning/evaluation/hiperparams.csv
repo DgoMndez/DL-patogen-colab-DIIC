@@ -1,2 +1,2 @@
 percent;num_epochs;ev_steps;warmup_steps;margin;name
-20;8;5;5;0.3;0.3743;"fine-tuned-bio-bert-ev-29-3-24"
+50;8;5;5;0.3;0.3743;"fine-tuned-bio-bert-ev-29-3-24"

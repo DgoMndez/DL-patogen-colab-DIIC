@@ -28,20 +28,6 @@
 #   * Gráfica correlación / etapa (train/test)
 # 
 
-# 0. Get hiperparams
-
-dfhiper = pd.read_csv('hiperparams.csv', sep=';')
-
-SAMPLEPERCENT = dfhiper['percent'] if 'percent' in dfhiper else 1
-NUM_EPOCHS = dfhiper['num_epochs'] if 'num_epochs' in dfhiper else 5
-STEPS = dfhiper['ev_steps'] if 'ev_steps' in dfhiper else 5
-WARMUP_STEPS_FRAC = dfhiper['warmup_steps'] if 'warmup_steps' in dfhiper else 5
-MARGIN = dfhiper['margin'] if 'margin' in dfhiper else 0.3743
-NUM_SAMPLE_PAIRS = 1000
-BERTNAME = dfhiper['name'] if 'name' in dfhiper else 'fine-tuned-bio-bert-ev'
-
-# ## 1. Cargar todos los datos
-
 # %%
 # IMPORTS
 from cmath import nan
@@ -56,6 +42,21 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
 # %%
+
+# 0. Get hiperparams
+
+dfhiper = pd.read_csv('hiperparams.csv', sep=';')
+
+SAMPLEPERCENT = dfhiper['percent'] if 'percent' in dfhiper else 1
+NUM_EPOCHS = dfhiper['num_epochs'] if 'num_epochs' in dfhiper else 5
+STEPS = dfhiper['ev_steps'] if 'ev_steps' in dfhiper else 5
+WARMUP_STEPS_FRAC = dfhiper['warmup_steps'] if 'warmup_steps' in dfhiper else 5
+MARGIN = dfhiper['margin'] if 'margin' in dfhiper else 0.3743
+NUM_SAMPLE_PAIRS = 1000
+BERTNAME = dfhiper['name'] if 'name' in dfhiper else 'fine-tuned-bio-bert-ev'
+
+# ## 1. Cargar todos los datos
+
 # 1. Cargar todos los datos (crudos)
 from pyhpo import Ontology
 import os
@@ -337,7 +338,7 @@ bertmodel = SentenceTransformer(PRITAMDEKAMODEL)
 fmodel = model
 model = bertmodel
 
-# 1. Calcular score final
+# 1. Calcular score original
 
 EVPATH = SRCPATH + '/output/fine-tuned-bio-bert-ev/eval'
 scoreTrain = evaluatorTrain.__call__(model=bertmodel, output_path=EVPATH, epoch=0, steps=0)
