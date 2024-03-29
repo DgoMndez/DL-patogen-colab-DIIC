@@ -47,13 +47,13 @@ from nltk.corpus import stopwords
 
 dfhiper = pd.read_csv('hiperparams.csv', sep=';', low_memory=False, na_values=['', nan])
 
-SAMPLEPERCENT = dfhiper['percent'].iloc[0] if 'percent' in dfhiper else 1
-NUM_EPOCHS = dfhiper['num_epochs'].iloc[0] if 'num_epochs' in dfhiper else 5
-STEPS = dfhiper['ev_steps'].iloc[0] if 'ev_steps' in dfhiper else 5
-WARMUP_STEPS_FRAC = dfhiper['warmup_steps'].iloc[0] if 'warmup_steps' in dfhiper else 5
-MARGIN = dfhiper['margin'].iloc[0] if 'margin' in dfhiper else 0.3743
+SAMPLEPERCENT = float(dfhiper['percent'].iloc[0]) if 'percent' in dfhiper else 1
+NUM_EPOCHS = int(dfhiper['num_epochs'].iloc[0]) if 'num_epochs' in dfhiper else 5
+STEPS = int(dfhiper['ev_steps'].iloc[0]) if 'ev_steps' in dfhiper else 5
+WARMUP_STEPS_FRAC = int(dfhiper['warmup_steps'].iloc[0]) if 'warmup_steps' in dfhiper else 5
+MARGIN = float(dfhiper['margin'].iloc[0]) if 'margin' in dfhiper else 0.3743
 NUM_SAMPLE_PAIRS = 1000
-BERTNAME = dfhiper['name'].iloc[0] if 'name' in dfhiper else 'fine-tuned-bio-bert-ev'
+BERTNAME = str(dfhiper['name'].iloc[0]) if 'name' in dfhiper else 'fine-tuned-bio-bert-ev'
 
 print(f'Hiperparams: SAMPLEPERCENT={SAMPLEPERCENT}, NUM_EPOCHS={NUM_EPOCHS}, STEPS={STEPS}, WARMUP_STEPS_FRAC={WARMUP_STEPS_FRAC}, MARGIN={MARGIN}, NUM_SAMPLE_PAIRS={NUM_SAMPLE_PAIRS}, BERTNAME={BERTNAME}')
 # ## 1. Cargar todos los datos
