@@ -5,7 +5,7 @@
 /src/output
 /src/fine-tuning/output
 /src/fine-tuning/checkpoint
-/src/traindata
+/src/traindata/onto
 np
 pd
 torch

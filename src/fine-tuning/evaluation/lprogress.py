@@ -169,7 +169,7 @@ from torch.utils.data import DataLoader, Dataset
 from sentence_transformers import SentenceTransformer, SentencesDataset, losses, evaluation, InputExample
 
 PROFILING = True
-SAMPLEPERCENT = 0.2 if PROFILING else 1.0
+SAMPLEPERCENT = 0.005 if PROFILING else 1.0
 SEED = 42
 torch.manual_seed(SEED)
 
@@ -194,11 +194,11 @@ import random
 
 # Ejemplos de evaluación (train)
 
-def onto_distance(name1, name2):
+def onto_sim(name1, name2):
     phen1 = onto.get_hpo_object(name1)
     phen2 = onto.get_hpo_object(name2)
-    dist = max(1-phen1.similarity_score(phen2, method='lin'),0)
-    return dist
+    sim = min(phen1.similarity_score(phen2, method='lin'),1)
+    return sim
 
 # Son pares de fenotipos (con su gold score si es necesario)
 dmp = pd.DataFrame(dfIndex, columns=['phenotypeName'])
@@ -207,7 +207,7 @@ index_pairs = combinations(range(0,len(dmp)), 2)
 lpairs = list(combinations(dmp['phenotypeName'], 2))
 ltrain1, ltrain2 = zip(*lpairs) # 2 listas diferentes para pasar como parámetro al evaluator
 
-goldTrain = [onto_distance(pair[0], pair[1]) for pair in lpairs]
+goldTrain = [onto_sim(pair[0], pair[1]) for pair in lpairs]
 
 # Ejemplos de evaluación (test)
 
@@ -222,14 +222,14 @@ def random_combination(iterable, r):
 
 # Obtén una lista de todos los valores únicos en la columna 'phenotypeName'
 
-num_samples = 1000  # Number of combinations to sample
+num_samples = 100  # Number of combinations to sample
 print('Number of test pairs samples:', num_samples)
 
 # Usa random_combination para obtener una muestra aleatoria de 2000 pares
 sample_pairs = [random_combination(dfPhenotypes['Phenotype'], 2) for _ in range(num_samples)]
 ltest1, ltest2 = zip(*sample_pairs)
 
-goldTest = [onto_distance(pair[0], pair[1]) for pair in sample_pairs]
+goldTest = [onto_sim(pair[0], pair[1]) for pair in sample_pairs]
 
 # Guardar los pares de evaluación
 
@@ -259,19 +259,24 @@ train_loss = losses.BatchAllTripletLoss(model=model, distance_metric=losses.Batc
 # a)
 
 evaluatorTrain=sentence_transformers.evaluation.EmbeddingSimilarityEvaluator(ltrain1, ltrain2, goldTrain,
-                                                                             main_similarity=SimilarityFunction.COSINE)
+                                                                             main_similarity=SimilarityFunction.COSINE,
+                                                                             name='train')
 evaluatorTest=sentence_transformers.evaluation.EmbeddingSimilarityEvaluator(ltest1, ltest2, goldTest,
-                                                                            main_similarity=SimilarityFunction.COSINE)
-combined_evaluator = evaluation.SequentialEvaluator([evaluatorTrain, evaluatorTest])
+                                                                            main_similarity=SimilarityFunction.COSINE,
+                                                                            name='test')
+combined_evaluator = evaluation.SequentialEvaluator([evaluatorTrain, evaluatorTest],
+                                                    main_score_function=lambda scores: scores[1])
+# test score prevalece
+
 print('Evaluator: EmbeddingSimilarityEvaluator(cosine_similarity)')
 
 # %% [markdown]
 # ### 3. Fit
 
 # %%
-num_epochs = 5
+num_epochs = 2
 num_examples = len(dTrain)
-ev_steps = len(train_dataloader)//4 # 4 evaluations per epoch
+ev_steps = len(train_dataloader)//5 # 5 evaluations per epoch
 
 if not os.path.exists(SRCPATH + '/output'):
     os.makedirs(SRCPATH + '/output')
@@ -293,7 +298,7 @@ fmodel = model.fit(
     evaluation_steps=ev_steps,
     warmup_steps=int(0.25*(num_examples//16)),
     output_path=SRCPATH+'/output/fine-tuned-bio-bert-ev',
-    #save_best_model=True,
+    save_best_model=True,
     checkpoint_path='./checkpoint',
     checkpoint_save_steps=ev_steps,
     checkpoint_save_total_limit=num_epochs
@@ -303,5 +308,93 @@ end_time = time.time()
 execution_time = end_time - start_time
 
 print(f"Execution time for model.fit: {execution_time:.2f} seconds")
+
+# %% [markdown]
+#  ## Resultados
+# El modelo obtenido queda en el directorio [src/output/fine-tuned-bio-bert-ev](../../output/fine-tuned-bio-bert-ev/README.md) y en él hay un subdirectorio eval donde están los csv resultantes de los pasos de evaluación. Los pasos a seguir para analizar los resultados son:
+# 1. Calcular score original del modelo model (train y test)
+# 2. Obtener los y=scores (pearson) y x = train_step
+# 3. Dibujar las gráficas de correlación de train y test
+# 4. Analizar los resultados y determinar el próximo objetivo
+
+# %%
+# Cargar modelo de nuevo (se sobreescribe al hacer fit)
+bertmodel = SentenceTransformer(PRITAMDEKAMODEL)
+model = bertmodel
+
+# 1. Calcular score original
+
+EVPATH = SRCPATH + '/output/fine-tuned-bio-bert-ev/eval'
+scoreTrain = evaluatorTrain.__call__(model=bertmodel, output_path=EVPATH, epoch=0, steps=0)
+scoreTest = evaluatorTest.__call__(model=bertmodel, output_path=EVPATH, epoch=0, steps=0)
+print(f'Original score (spearman): {scoreTrain} (train), {scoreTest} (test)')
+
+# %%
+from matplotlib import pyplot as plt
+
+# 2. Obtener los y=pearson, x=steps
+
+dfScoreTrain = pd.read_csv(EVPATH + '/similarity_evaluation_train_results.csv')
+dfScoreTest = pd.read_csv(EVPATH + '/similarity_evaluation_test_results.csv')
+
+def sort_dfScores(df, ev_steps, tam_epoch):
+    df['batch_count'] = df['epoch']*tam_epoch + df['steps']*ev_steps
+    return df.sort_values('batch_count')
+
+dfScoreTrain = sort_dfScores(dfScoreTrain, ev_steps, len(train_dataloader))
+dfScoreTest = sort_dfScores(dfScoreTest, ev_steps, len(train_dataloader))
+
+def get_data(df, ev_steps, train_dataloader):
+    x = []
+    y = []
+    z = []
+
+    for row in df.iterrows():
+        if row[1]['steps'] <= 0:
+            continue
+        x_val = row[1]['batch_count']
+        y_val = row[1]['cosine_pearson']
+        z_val = row[1]['cosine_spearman']
+        x.append(x_val)
+        y.append(y_val)
+        z.append(z_val)
+    
+    return x, y, z
+
+def plot_data(xtrain, ytrain, xtest, ytest, ylabel):
+    plt.plot(xtrain, ytrain, label='Train')
+    plt.plot(xtest, ytest, label='Test')
+    xlabel = 'Batches'
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+    plt.title(ylabel + ' vs ' + xlabel)
+    plt.legend()
+    plt.show()
+
+# 2. Obtener los datos
+xtrain, ytrain, ztrain = get_data(dfScoreTrain, ev_steps, train_dataloader)
+xtest, ytest, ztest = get_data(dfScoreTest, ev_steps, train_dataloader)
+
+# 3. Graficar
+plot_data(xtrain, ytrain, xtest, ytest, 'Pearson Correlation')
+plot_data(xtrain, ztrain, xtest, ztest, 'Spearman Correlation')
+
+# %% [markdown]
+# ## Interpretación
+# Vemos que la correlación de Pearson aumenta durante todo el entrenamiento pero la de Spearman disminuye en el caso de los pares de Test. He puesto la de Spearman también porque en la función EmbeddingSimilarityEvaluator de la librería es la que se usa por defecto para determinar el mejor modelo. Hace falta una prueba con un tamaño mayor y más epochs para sacar conclusiones. Así se verá cuándo empieza a bajar la curva de Pearson, que es cuando seguro el modelo está sobreaprendiendo.
+# 
+# La prueba de Spearman sugiere que va a haber malos resultados pero todavía quedan cosas por probar para mejorarlos:
+# * Falta ver el MSE.
+# * Utilizar un conjunto de fenotipos más apropiado.
+#   * Los nodos hoja no están bien representados en la ontología (casi todos tienen similitud lin ~ 0 seguramente porque no aparecen frecuentemente).
+#   * Consecuentemente, volver a obtener un corpus de abstracts con las búsquedas de los nuevos fenotipos.
+#   * Volver a obtener los pares de evaluación de train y test.
+# * Cambiar los hiperparámetros. Aquí habíamos usado:
+#   * warmup_steps = $0.25 * N // batch_{size}$
+#   * $lr = 2^{-5}$
+#   * weight_decay = 0.01
+# * Cambiar la función de pérdida:
+#   * BatchAllTripletLoss(margin=0.3743): podemos seguir usándola o cambiar el margin. Yo pienso que tiene sentido para estos pares (abstract,fenotipo) porque al buscarlos en pubmed el abstract deberá ser parecido al fenotipo (con un margen).
+#   * Usar otra: CosineSimilarityLoss, CoSENTLoss... Estas funciones requieren otro tipo de datos de entrenamiento y por eso las descarté al principio. Necesitan un par de textos (abstract1, abstract2) y su label de similitud "gold". En este caso podríamos tomar como gold la distancia lin entre los fenotipos de búsqueda. El sesgo que se introduce es que se supone que la distancia entre los abstracts será parecida a la de los fenotipos. Es lo más parecido a usar directamente "deltas" en la pérdida $$\Delta(x,y) = (cos_{dist}(x,y) - gold) ^2$$
 
 
