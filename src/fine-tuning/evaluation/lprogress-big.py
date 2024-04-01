@@ -40,6 +40,8 @@ import nltk
 import string
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
+import MSESimilarityEvaluator as MSim
+from MSESimilarityEvaluator import MSESimilarityEvaluator
 
 # %%
 
@@ -54,6 +56,7 @@ WARMUP_STEPS_FRAC = int(dfhiper['warmup_steps'].iloc[0]) if 'warmup_steps' in df
 MARGIN = float(dfhiper['margin'].iloc[0]) if 'margin' in dfhiper else 0.3743
 NUM_SAMPLE_PAIRS = 1000
 BERTNAME = str(dfhiper['name'].iloc[0]) if 'name' in dfhiper else 'fine-tuned-bio-bert-ev'
+BERTNAME = BERTNAME + '-' + pd.Timestamp("today").strftime("%d-%m-%Y")
 
 print(f'Hiperparams: SAMPLEPERCENT={SAMPLEPERCENT}, NUM_EPOCHS={NUM_EPOCHS}, STEPS={STEPS}, WARMUP_STEPS_FRAC={WARMUP_STEPS_FRAC}, MARGIN={MARGIN}, NUM_SAMPLE_PAIRS={NUM_SAMPLE_PAIRS}, BERTNAME={BERTNAME}')
 # ## 1. Cargar todos los datos
@@ -273,14 +276,16 @@ train_loss = losses.BatchAllTripletLoss(model=model, distance_metric=losses.Batc
 
 # a)
 
-evaluatorTrain=sentence_transformers.evaluation.EmbeddingSimilarityEvaluator(ltrain1, ltrain2, goldTrain,
+evaluatorTrain1=sentence_transformers.evaluation.EmbeddingSimilarityEvaluator(ltrain1, ltrain2, goldTrain,
                                                                              main_similarity=SimilarityFunction.COSINE,
                                                                              name='train')
-evaluatorTest=sentence_transformers.evaluation.EmbeddingSimilarityEvaluator(ltest1, ltest2, goldTest,
+evaluatorTrain2=MSESimilarityEvaluator(ltrain1, ltrain2, goldTrain, main_similarity=SimilarityFunction.COSINE,name='train')
+evaluatorTest1=sentence_transformers.evaluation.EmbeddingSimilarityEvaluator(ltest1, ltest2, goldTest,
                                                                             main_similarity=SimilarityFunction.COSINE,
                                                                             name='test')
-combined_evaluator = evaluation.SequentialEvaluator([evaluatorTrain, evaluatorTest],
-                                                    main_score_function=lambda scores: scores[1])
+evaluatorTest2=MSESimilarityEvaluator(ltest1, ltest2, goldTest, main_similarity=SimilarityFunction.COSINE,name='test')
+combined_evaluator = evaluation.SequentialEvaluator([evaluatorTrain1, evaluatorTrain2, evaluatorTest1, evaluatorTest2],
+                                                    main_score_function=lambda scores: scores[2])
 # test score prevalece
 
 print('Evaluator: EmbeddingSimilarityEvaluator(cosine_similarity)')
@@ -335,51 +340,54 @@ print(f"Execution time for model.fit: {execution_time:.2f} seconds")
 
 # %%
 # Cargar modelo de nuevo (se sobreescribe al hacer fit)
-bertmodel = SentenceTransformer(PRITAMDEKAMODEL)
 fmodel = model
-model = bertmodel
+bertmodel = SentenceTransformer(PRITAMDEKAMODEL)
 
 # 1. Calcular score original
 
-EVPATH = SRCPATH + '/output/fine-tuned-bio-bert-ev/eval'
-scoreTrain = evaluatorTrain.__call__(model=bertmodel, output_path=EVPATH, epoch=0, steps=0)
-scoreTest = evaluatorTest.__call__(model=bertmodel, output_path=EVPATH, epoch=0, steps=0)
+EVPATH = SRCPATH + '/output/'+BERTNAME+'/eval'
+with open(EVPATH + '/time.txt', 'w') as file:
+    file.write(f'{execution_time:.2f} seconds')
+
+scoreTrain = evaluatorTrain1.__call__(model=bertmodel, output_path=EVPATH, epoch=0, steps=0)
+scoreTest = evaluatorTest1.__call__(model=bertmodel, output_path=EVPATH, epoch=0, steps=0)
 print(f'Original score (spearman): {scoreTrain} (train), {scoreTest} (test)')
+
+MSETrain = evaluatorTrain2.__call__(model=bertmodel, output_path=EVPATH, epoch=0, steps=0)
+MSETest = evaluatorTest2.__call__(model=bertmodel, output_path=EVPATH, epoch=0, steps=0)
+print(f'Original score (MSE): {MSETrain} (train), {MSETest} (test)')
 
 # %%
 from matplotlib import pyplot as plt
 
 # 2. Obtener los y=pearson, x=steps
 
-dfScoreTrain = pd.read_csv(EVPATH + '/similarity_evaluation_train_results.csv')
-dfScoreTest = pd.read_csv(EVPATH + '/similarity_evaluation_test_results.csv')
-
 ev_path = EVPATH
 num_batches = len(train_dataloader)
 
-# 2. Obtener los y=pearson, x=steps
-
 dfScoreTrain = pd.read_csv(ev_path + '/similarity_evaluation_train_results.csv')
 dfScoreTest = pd.read_csv(ev_path + '/similarity_evaluation_test_results.csv')
+dfMSETrain = pd.read_csv(ev_path + '/MSE_similarity_evaluation_train_results.csv')
+dfMSETest = pd.read_csv(ev_path + '/MSE_similarity_evaluation_test_results.csv')
 
+def get_data(df, columns):
+    k = len(columns)
 
-def get_data(df):
     x = []
-    y = []
-    z = []
+    y = [[] for i in range(k)]
 
     for row in df.iterrows():
         if row[1]['steps'] == -1:
             x_val = (row[1]['epoch']+1) * num_batches
         else :
             x_val = row[1]['steps'] + row[1]['epoch'] * num_batches
-        y_val = row[1]['cosine_pearson']
-        z_val = row[1]['cosine_spearman']
+        for i in range(k):
+            z = row[1][columns[i]]
+            y[i].append(z)
         x.append(x_val)
-        y.append(y_val)
-        z.append(z_val)
     
-    return x, y, z
+    return x, y
+
 
 def plot_data(xtrain, ytrain, xtest, ytest, ylabel):
     plt.plot(xtrain, ytrain, label='Train')
@@ -396,12 +404,17 @@ def plot_data(xtrain, ytrain, xtest, ytest, ylabel):
     plt.close()
 
 # 2. Obtener los datos
-xtrain, ytrain, ztrain = get_data(dfScoreTrain)
-xtest, ytest, ztest = get_data(dfScoreTest)
+xtrain, ytrain = get_data(dfScoreTrain, ['cosine_pearson', 'cosine_spearman'])
+xtest, ytest = get_data(dfScoreTest, ['cosine_pearson', 'cosine_spearman'])
 
-# 3. Graficar
-plot_data(xtrain, ytrain, xtest, ytest, 'Pearson Correlation')
-plot_data(xtrain, ztrain, xtest, ztest, 'Spearman Correlation')
+# 3. Graficar Correlation
+plot_data(xtrain, ytrain[0], xtest, ytest[0], 'Pearson Correlation')
+plot_data(xtrain, ytrain[1], xtest, ytest[1], 'Spearman Correlation')
+
+xtrain, ytrain = get_data(dfMSETrain, ['MSE_cosine'])
+xtest, ytest = get_data(dfMSETest, ['MSE_cosine'])
+
+plot_data(xtrain, ytrain[0], xtest, ytest[0], 'MSE')
 
 # %% [markdown]
 # ## Interpretación
@@ -420,5 +433,3 @@ plot_data(xtrain, ztrain, xtest, ztest, 'Spearman Correlation')
 # * Cambiar la función de pérdida:
 #   * BatchAllTripletLoss(margin=0.3743): podemos seguir usándola o cambiar el margin. Yo pienso que tiene sentido para estos pares (abstract,fenotipo) porque al buscarlos en pubmed el abstract deberá ser parecido al fenotipo (con un margen).
 #   * Usar otra: CosineSimilarityLoss, CoSENTLoss... Estas funciones requieren otro tipo de datos de entrenamiento y por eso las descarté al principio. Necesitan un par de textos (abstract1, abstract2) y su label de similitud "gold". En este caso podríamos tomar como gold la distancia lin entre los fenotipos de búsqueda. El sesgo que se introduce es que se supone que la distancia entre los abstracts será parecida a la de los fenotipos. Es lo más parecido a usar directamente "deltas" en la pérdida $$\Delta(x,y) = (cos_{dist}(x,y) - gold) ^2$$
-
-

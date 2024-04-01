@@ -13,29 +13,32 @@ args = parser.parse_args()
 ev_path = args.path
 num_batches = args.num_batches
 
+# %%
 # 2. Obtener los y=pearson, x=steps
 
 dfScoreTrain = pd.read_csv(ev_path + '/similarity_evaluation_train_results.csv')
 dfScoreTest = pd.read_csv(ev_path + '/similarity_evaluation_test_results.csv')
+dfMSETrain = pd.read_csv(ev_path + '/MSE_similarity_evaluation_train_results.csv')
+dfMSETest = pd.read_csv(ev_path + '/MSE_similarity_evaluation_test_results.csv')
 
+def get_data(df, columns):
+    k = len(columns)
 
-def get_data(df):
     x = []
-    y = []
-    z = []
+    y = [[] for i in range(k)]
 
     for row in df.iterrows():
         if row[1]['steps'] == -1:
             x_val = (row[1]['epoch']+1) * num_batches
         else :
             x_val = row[1]['steps'] + row[1]['epoch'] * num_batches
-        y_val = row[1]['cosine_pearson']
-        z_val = row[1]['cosine_spearman']
+        for i in range(k):
+            z = row[1][columns[i]]
+            y[i].append(z)
         x.append(x_val)
-        y.append(y_val)
-        z.append(z_val)
     
-    return x, y, z
+    return x, y
+
 
 def plot_data(xtrain, ytrain, xtest, ytest, ylabel):
     plt.plot(xtrain, ytrain, label='Train')
@@ -52,9 +55,14 @@ def plot_data(xtrain, ytrain, xtest, ytest, ylabel):
     plt.close()
 
 # 2. Obtener los datos
-xtrain, ytrain, ztrain = get_data(dfScoreTrain)
-xtest, ytest, ztest = get_data(dfScoreTest)
+xtrain, ytrain = get_data(dfScoreTrain, ['cosine_pearson', 'cosine_spearman'])
+xtest, ytest = get_data(dfScoreTest, ['cosine_pearson', 'cosine_spearman'])
 
-# 3. Graficar
-plot_data(xtrain, ytrain, xtest, ytest, 'Pearson Correlation')
-plot_data(xtrain, ztrain, xtest, ztest, 'Spearman Correlation')
+# 3. Graficar Correlation
+plot_data(xtrain, ytrain[0], xtest, ytest[0], 'Pearson Correlation')
+plot_data(xtrain, ytrain[1], xtest, ytest[1], 'Spearman Correlation')
+
+xtrain, ytrain = get_data(dfMSETrain, ['MSE_cosine'])
+xtest, ytest = get_data(dfMSETest, ['MSE_cosine'])
+
+plot_data(xtrain, ytrain[0], xtest, ytest[0], 'MSE')
