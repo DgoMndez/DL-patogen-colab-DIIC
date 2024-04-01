@@ -3,7 +3,6 @@ import logging
 import os
 import csv
 from sklearn.metrics.pairwise import paired_cosine_distances, paired_euclidean_distances, paired_manhattan_distances
-from scipy.stats import pearsonr, spearmanr
 import numpy as np
 from typing import List, Literal, Optional
 from sentence_transformers import InputExample

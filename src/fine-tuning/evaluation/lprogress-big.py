@@ -370,6 +370,27 @@ dfScoreTest = pd.read_csv(ev_path + '/similarity_evaluation_test_results.csv')
 dfMSETrain = pd.read_csv(ev_path + '/MSE_similarity_evaluation_train_results.csv')
 dfMSETest = pd.read_csv(ev_path + '/MSE_similarity_evaluation_test_results.csv')
 
+def move_last_row_to_first(df):
+    # Obtén los índices actuales del DataFrame
+    indices = df.index.tolist()
+
+    # Mueve el último índice al principio de la lista
+    indices = [indices[-1]] + indices[:-1]
+
+    # Reindexa el DataFrame
+    df = df.reindex(indices)
+
+    # Resetea los índices del DataFrame
+    df = df.reset_index(drop=True)
+
+    return df
+
+# Para mover la fila epoch=0, step=0 al principio
+dfScoreTrain = move_last_row_to_first(dfScoreTrain)
+dfScoreTest = move_last_row_to_first(dfScoreTest)
+dfMSETrain = move_last_row_to_first(dfMSETrain)
+dfMSETest = move_last_row_to_first(dfMSETest)
+
 def get_data(df, columns):
     k = len(columns)
 
