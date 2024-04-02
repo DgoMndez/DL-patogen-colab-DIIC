@@ -11,3 +11,6 @@ pd
 torch
 *.zip
 *checkpoint
+*onto
+*.pyc
+
