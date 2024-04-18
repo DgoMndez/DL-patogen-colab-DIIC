@@ -7538,6 +7538,29 @@ a.anchor-link {
 </ul>
 <h2 id="Problema:-representaci%C3%B3n-de-fenotipos-de-HPO">Problema: representación de fenotipos de HPO<a class="anchor-link" href="#Problema:-representaci%C3%B3n-de-fenotipos-de-HPO">¶</a></h2><p>El modelo BERT es un Sentence-Transformer que mapea textos a vectores de 768 componentes que llamamos "embeddings", y puede adaptarse a diferentes tareas. Está especializado en textos científicos y médicos pero queremos fine-tunearlo usando un corpus de abstracts de PUBMED para mejorar su desempeño como etapa en PhenoLinker, un sistema que infiere relaciones entre genes y fenotipos para predecir patogenicidad. Los fenotipos que consideramos son los de la subontología Phenotypic Abnormality de HPO (que abreviamos HPO:PA). El objetivo entonces es conseguir que el embedding del nombre de un fenotipo represente mejor al fenotipo como nodo de la ontología. Para medir esto comparamos la similitud de los fenotipos en HPO (Lin) con la similitud coseno entre embeddings.</p>
 <h2 id="Evaluaci%C3%B3n-del-experimento-de-finetuning">Evaluación del experimento de finetuning<a class="anchor-link" href="#Evaluaci%C3%B3n-del-experimento-de-finetuning">¶</a></h2><p>Notebook del experimento en <a href="https://github.com/DgoMndez/DL-patogen-colab-DIIC/blob/main/src/fine-tuning/evaluation/results-lprogress.ipynb">results-lprogress.ipynb</a>, con un resumen de cómo se ha entrenado al principio.</p>
+<h3 id="Datos:">Datos:<a class="anchor-link" href="#Datos:">¶</a></h3><ul>
+<li><strong>Ejemplos de entrenamiento:</strong> pares (abstract, fenotipo).</li>
+<li><strong>Ejemplos de evaluación:</strong> (fenotipo1, fenotipo2, gold), donde gold es la similitud Lin entre los fenotipos y se compara con la similitud coseno entre embeddings.</li>
+</ul>
+<p>En concreto:</p>
+<ul>
+<li>Muestra fenotipos/etiquetas: <a href="../../data/phenotypes/index.csv">index.csv</a><ul>
+<li>$M = 100$ tags o fenotipos de entrenamiento.</li>
+<li>Todos los pares de tags fueron usados para la evaluación de training.</li>
+</ul>
+</li>
+<li>Abstracts de los que se tomó la muestra: <a href="../../data/abstracts/abstracts.csv">abstracts.csv</a><ul>
+<li>$N = 11613$ abstracts.</li>
+<li>Obtenidos de una búsqueda en <a href="https://pubmed.ncbi.nlm.nih.gov/">pubmed</a></li>
+</ul>
+</li>
+<li>Fenotipos test: <a href="../../data/phenotypes/leaf-phenotypes.csv">leaf-phenotypes.csv</a> = nodos hoja HPO:PhenotypicAbnormality.<ul>
+<li>Muestra de 1000 pares de fenotipos para la evaluación de test <a href="../data/evaluation/pairs-test.csv">pairs-test.csv</a>.</li>
+</ul>
+</li>
+</ul>
+<h2 id="Resumen-del-modelo:">Resumen del modelo:<a class="anchor-link" href="#Resumen-del-modelo:">¶</a></h2><p>Modelo original: <a href="https://huggingface.co/pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb">pritamdeka</a>.<br/>
+Modelo obtenido: <a href="../../output/fine-tuned-bio-bert-ev-mse-01-04-2024/README.md">README.md</a></p>
 <ul>
 <li>Medidas:</li>
 </ul>
@@ -7560,15 +7583,37 @@ a.anchor-link {
 <p>La distribución del IC de los fenotipos es bimodal por la gran cantidad de fenotipos con IC=0 ("nulos"). Estos fenotipos estimamos que causan problemas porque: la medida de similitud no es fiable (no hay ejemplos en la ontología para calcular el IC) y es muy probable que no se encuentren suficientes papers en PUBMED sobre ellos.</p>
 <p>"The information content of each node in the HPO can be estimated through its frequency among annotations of the entire OMIM corpus." - <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2668030/">The Human Phenotype Ontology: A Tool for Annotating and Analyzing Human Hereditary Disease</a></p>
 <h2 id="An%C3%A1lisis-de-la-ontolog%C3%ADa">Análisis de la ontología<a class="anchor-link" href="#An%C3%A1lisis-de-la-ontolog%C3%ADa">¶</a></h2><p>A partir de los resultados anteriores queremos seleccionar un conjunto de fenotipos etiqueta que represente HPO:PA y nos sirva para entrenar, que llamaremos índice. El primer índice de fenotipos era una muestra de tamaño 100 de los nodos hoja de HPO:PA y no funcionó como deseábamos. Para obtener un mejor conjunto de etiquetas (fenotipos) hemos analizado HPO:PA para tomar una decisión.</p>
-<h3 id="IC-y-profundidad">IC y profundidad<a class="anchor-link" href="#IC-y-profundidad">¶</a></h3><p>Tanto el IC como la profundidad son estimadores de la especifidad de un término de HPO. La profundidad se basa únicamente en la estructura de la ontología mientras que el IC se basa en la frecuencia del término (y sus hijos) en el corpus de referencia para la ontología. Por eso usaremos el IC medio de un índice como medida de bondad. Para seleccionar el índice "cortamos" el árbol a cierta profundidad $d$ y nos quedamos con los nodos hoja de ese subárbol:</p>
+<h3 id="IC-y-profundidad">IC y profundidad<a class="anchor-link" href="#IC-y-profundidad">¶</a></h3><figure>
+<img alt="IC-hist-full" src="./figures/ic-hist-full.png"/>
+<figcaption>Histograma de IC para HPO:PA completa</figcaption>
+</figure>
+<p>El histograma de IC de HPO:PA muestra la gran cantidad de fenotipos nulos que hay.</p>
+<figure>
+<img alt="meandepth" src="./figures/meandepth.png"/>
+<figcaption>Profundidad media vs Porcentaje de nodos</figcaption>
+</figure>
+<p>En el eje X tenemos porcentajes de muestra. La profundidad media en Y quiere decir la profundidad media del X% de nodos menos profundos de la ontología. Esta idea de selección fue descartada por la siguiente.</p>
+<p>Tanto el IC como la profundidad son estimadores de la especifidad de un término de HPO. La profundidad se basa únicamente en la estructura de la ontología mientras que el IC se basa en la frecuencia del término (y sus hijos) en el corpus de referencia para la ontología. Por eso usaremos el IC medio de un índice como medida de bondad. Para seleccionar el índice "cortamos" el árbol a cierta profundidad $d$ y nos quedamos con los nodos hoja de ese subárbol:
+<a name="selection-method"></a></p>
 <ul>
 <li>Escogemos una profundidad $d$.</li>
 <li>Seleccionamos todos los nodos hoja a profundidad menor que $d$.</li>
-<li>Seleccionamos todos los nodos a profundidad $d$.</li>
-<li>Quitamos todos los nodos nulos (IC=0).</li>
+<li>Seleccionamos todos los nodos a profundidad $d$.<ul>
+<li>Quitamos todos los nodos nulos (IC=0). Después del análisis añadimos este paso.</li>
+</ul>
+</li>
 <li>El índice será una muestra de tamaño 2000 de los fenotipos que quedan. El tamaño viene determinado por la capacidad de búsqueda de abstracts en PUBMED y la potencia de cálculo para el finetuning. Antes habíamos entrenado con un tamaño 100 de índice y una CPU, tardando 8h, ahora hemos tomado un índice 20 veces mayor esperando que con GPU tengamos un finetuning mucho más rápido.</li>
 </ul>
-<h3 id="Resultados-del-an%C3%A1lisis">Resultados del análisis<a class="anchor-link" href="#Resultados-del-an%C3%A1lisis">¶</a></h3>
+<figure>
+<img alt="tags_vs_depth" src="./figures/tags-vs-depth.png"/>
+<figcaption>Número de etiquetas del índice vs Profundidad</figcaption>
+</figure>
+<p>La gráfica muestra el número de etiquetas de índice del corte (contando los nulos), lo que nos dio la primera idea del tamaño de muestra a cada profundidad.</p>
+<h3 id="Resultados-del-an%C3%A1lisis">Resultados del análisis<a class="anchor-link" href="#Resultados-del-an%C3%A1lisis">¶</a></h3><p>Para realizar el análisis se tomaron varias medidas a cada profundidad con el objetivo de escoger la más apropiada.</p>
+<ol>
+<li><strong>Contar</strong></li>
+</ol>
+<p>Lo primero fue contar el número de nodos (count), nodos hoja (leafs), nodos nulos (zeros), media y cuasivarianza de IC (mean, var) y tamaño de la selección (chosen) a cada profundidad. En este primer conteo no se habían eliminado los nulos de la selección.</p>
 </div>
 </div>
 </div>
@@ -7582,8 +7627,8 @@ a.anchor-link {
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 <span class="n">dfDepth</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">'results/depth_count.csv'</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s1">'</span><span class="se">\t</span><span class="s1">'</span><span class="p">)</span>
-<span class="n">columnsDrop</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'subtree'</span><span class="p">,</span> <span class="s1">'subtreePercent'</span><span class="p">,</span> <span class="s1">'fullCover'</span><span class="p">,</span> <span class="s1">'sample'</span><span class="p">,</span> <span class="s1">'out'</span><span class="p">]</span>
-<span class="n">display</span><span class="p">(</span><span class="n">dfDepth</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="n">columnsDrop</span><span class="p">))</span>
+<span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'depth'</span><span class="p">,</span> <span class="s1">'count'</span><span class="p">,</span> <span class="s1">'leafs'</span><span class="p">,</span> <span class="s1">'zeros'</span><span class="p">,</span> <span class="s1">'chosen'</span><span class="p">,</span> <span class="s1">'mean'</span><span class="p">,</span> <span class="s1">'var'</span><span class="p">]</span>
+<span class="n">display</span><span class="p">(</span><span class="n">dfDepth</span><span class="p">[</span><span class="n">columns</span><span class="p">])</span>
 </pre></div>
 </div>
 </div>
@@ -7617,18 +7662,10 @@ a.anchor-link {
 <th>depth</th>
 <th>count</th>
 <th>leafs</th>
+<th>zeros</th>
 <th>chosen</th>
 <th>mean</th>
 <th>var</th>
-<th>trueCount</th>
-<th>zeros</th>
-<th>notZeros</th>
-<th>meanGTZ</th>
-<th>varGTZ</th>
-<th>trueMean</th>
-<th>trueVar</th>
-<th>sampleCover</th>
-<th>sampleCoverPercent</th>
 </tr>
 </thead>
 <tbody>
@@ -7637,270 +7674,150 @@ a.anchor-link {
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>0.0</td>
 <td>1</td>
 <td>0.000817</td>
 <td>NaN</td>
-<td>1.0</td>
-<td>0.0</td>
-<td>1.0</td>
-<td>0.000817</td>
-<td>NaN</td>
-<td>0.000817</td>
-<td>NaN</td>
-<td>6106</td>
-<td>100.000000</td>
 </tr>
 <tr>
 <th>1</th>
 <td>1</td>
 <td>23</td>
 <td>0</td>
+<td>0.0</td>
 <td>23</td>
 <td>1.177510</td>
 <td>0.920597</td>
-<td>23.0</td>
-<td>0.0</td>
-<td>23.0</td>
-<td>1.177510</td>
-<td>0.920597</td>
-<td>1.177510</td>
-<td>0.920597</td>
-<td>6106</td>
-<td>100.000000</td>
 </tr>
 <tr>
 <th>2</th>
 <td>2</td>
 <td>155</td>
 <td>28</td>
+<td>17.0</td>
 <td>155</td>
 <td>3.186360</td>
 <td>5.403676</td>
-<td>138.0</td>
-<td>17.0</td>
-<td>138.0</td>
-<td>3.578882</td>
-<td>4.659159</td>
-<td>3.578882</td>
-<td>4.659159</td>
-<td>6106</td>
-<td>100.000000</td>
 </tr>
 <tr>
 <th>3</th>
 <td>3</td>
 <td>800</td>
 <td>318</td>
+<td>138.0</td>
 <td>828</td>
 <td>4.368461</td>
 <td>8.009591</td>
-<td>680.0</td>
-<td>138.0</td>
-<td>662.0</td>
-<td>5.279107</td>
-<td>4.867119</td>
-<td>5.308145</td>
-<td>4.819274</td>
-<td>6106</td>
-<td>100.000000</td>
 </tr>
 <tr>
 <th>4</th>
 <td>4</td>
 <td>2157</td>
 <td>1198</td>
+<td>535.0</td>
 <td>2503</td>
 <td>4.306913</td>
 <td>9.162556</td>
-<td>1846.0</td>
-<td>535.0</td>
-<td>1622.0</td>
-<td>5.727504</td>
-<td>4.045136</td>
-<td>5.876124</td>
-<td>3.957335</td>
-<td>6106</td>
-<td>100.000000</td>
 </tr>
 <tr>
 <th>5</th>
 <td>5</td>
 <td>3789</td>
 <td>2502</td>
+<td>1158.0</td>
 <td>5333</td>
 <td>4.230784</td>
 <td>10.081808</td>
-<td>3610.0</td>
-<td>1158.0</td>
-<td>2631.0</td>
-<td>6.092907</td>
-<td>3.170809</td>
-<td>6.336812</td>
-<td>2.997269</td>
-<td>3835</td>
-<td>62.807075</td>
 </tr>
 <tr>
 <th>6</th>
 <td>6</td>
 <td>3696</td>
 <td>2569</td>
+<td>1227.0</td>
 <td>7742</td>
 <td>4.321174</td>
 <td>11.109246</td>
-<td>4942.0</td>
-<td>1227.0</td>
-<td>2469.0</td>
-<td>6.468634</td>
-<td>2.735594</td>
-<td>6.688773</td>
-<td>2.387720</td>
-<td>2628</td>
-<td>43.039633</td>
 </tr>
 <tr>
 <th>7</th>
 <td>7</td>
 <td>2886</td>
 <td>1985</td>
+<td>1217.0</td>
 <td>9501</td>
 <td>3.920541</td>
 <td>12.640566</td>
-<td>5688.0</td>
-<td>1217.0</td>
-<td>1669.0</td>
-<td>6.779318</td>
-<td>2.471154</td>
-<td>6.905436</td>
-<td>2.055930</td>
-<td>2267</td>
-<td>37.127416</td>
 </tr>
 <tr>
 <th>8</th>
 <td>8</td>
 <td>1870</td>
 <td>1535</td>
+<td>1077.0</td>
 <td>10470</td>
 <td>2.890284</td>
 <td>12.384680</td>
-<td>5916.0</td>
-<td>1077.0</td>
-<td>793.0</td>
-<td>6.815676</td>
-<td>2.437992</td>
-<td>6.978093</td>
-<td>1.920782</td>
-<td>2092</td>
-<td>34.261382</td>
 </tr>
 <tr>
 <th>9</th>
 <td>9</td>
 <td>678</td>
 <td>543</td>
+<td>330.0</td>
 <td>10813</td>
 <td>3.428010</td>
 <td>12.456000</td>
-<td>6049.0</td>
-<td>330.0</td>
-<td>348.0</td>
-<td>6.678709</td>
-<td>2.528724</td>
-<td>7.003977</td>
-<td>1.859949</td>
-<td>2039</td>
-<td>33.393384</td>
 </tr>
 <tr>
 <th>10</th>
 <td>10</td>
 <td>334</td>
 <td>277</td>
+<td>172.0</td>
 <td>11012</td>
 <td>3.247502</td>
 <td>12.554429</td>
-<td>6107.0</td>
-<td>172.0</td>
-<td>162.0</td>
-<td>6.695467</td>
-<td>2.737492</td>
-<td>7.021452</td>
-<td>1.836241</td>
-<td>2004</td>
-<td>32.820177</td>
 </tr>
 <tr>
 <th>11</th>
 <td>11</td>
 <td>106</td>
 <td>95</td>
+<td>72.0</td>
 <td>11061</td>
 <td>2.298786</td>
 <td>11.704755</td>
-<td>6109.0</td>
-<td>72.0</td>
-<td>34.0</td>
-<td>7.166804</td>
-<td>1.297056</td>
-<td>7.028559</td>
-<td>1.825223</td>
-<td>2000</td>
-<td>32.754668</td>
 </tr>
 <tr>
 <th>12</th>
 <td>12</td>
 <td>27</td>
 <td>20</td>
+<td>21.0</td>
 <td>11077</td>
 <td>1.613097</td>
 <td>9.726571</td>
-<td>6109.0</td>
-<td>21.0</td>
-<td>6.0</td>
-<td>7.258935</td>
-<td>1.398842</td>
-<td>7.029655</td>
-<td>1.824508</td>
-<td>2000</td>
-<td>32.754668</td>
 </tr>
 <tr>
 <th>13</th>
 <td>13</td>
 <td>13</td>
 <td>12</td>
+<td>13.0</td>
 <td>11083</td>
 <td>0.000000</td>
 <td>0.000000</td>
-<td>6106.0</td>
-<td>13.0</td>
-<td>0.0</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>7.029791</td>
-<td>1.824605</td>
-<td>2000</td>
-<td>32.754668</td>
 </tr>
 <tr>
 <th>14</th>
 <td>14</td>
 <td>2</td>
 <td>2</td>
+<td>2.0</td>
 <td>11084</td>
 <td>0.000000</td>
 <td>0.000000</td>
-<td>6106.0</td>
-<td>2.0</td>
-<td>0.0</td>
-<td>NaN</td>
-<td>NaN</td>
-<td>7.029791</td>
-<td>1.824605</td>
-<td>2000</td>
-<td>32.754668</td>
 </tr>
 </tbody>
 </table>
@@ -7916,6 +7833,494 @@ a.anchor-link {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Lo que vi fue que el IC medio aumentaba hasta profundidad 6 y después disminuía, y por la alta varianza especialmente a profundidades mayores me di cuenta de que los nulos y el carácter bimodal del IC tenían mucho que ver. Al principio pensaba que solo había tantos nulos a profundidades mayores, que son las que pensaba que tenían nodos más específicos. Al ver que había muchos nodos nulos en todas las profundidades decidí quitarlos y repetir los análisis de IC medio y varianza sin ellos.</p>
+<figure>
+<img alt="hist d=5" src="./results/images/ic_depth_5.png"/>
+<figcaption>Histograma de IC a profundidad 5</figcaption>
+</figure>
+<p>En cualquier histograma a cualquier profundidad notamos una gran cantidad de nulos.</p>
+<ol start="2">
+<li><strong>Nulos vs no-nulos</strong></li>
+</ol>
+<p>Ahora repetía el conteo midiendo por separado el IC medio (meanGTZ) y varianza (varGTZ) de los no nulos a cada profundidad.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'depth'</span><span class="p">,</span> <span class="s1">'count'</span><span class="p">,</span> <span class="s1">'chosen'</span><span class="p">,</span> <span class="s1">'zeros'</span><span class="p">,</span> <span class="s1">'notZeros'</span><span class="p">,</span> <span class="s1">'meanGTZ'</span><span class="p">,</span> <span class="s1">'varGTZ'</span><span class="p">,</span> <span class="s1">'mean'</span><span class="p">,</span> <span class="s1">'var'</span><span class="p">]</span>
+<span class="n">display</span><span class="p">(</span><span class="n">dfDepth</span><span class="p">[</span><span class="n">columns</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>depth</th>
+<th>count</th>
+<th>chosen</th>
+<th>zeros</th>
+<th>notZeros</th>
+<th>meanGTZ</th>
+<th>varGTZ</th>
+<th>mean</th>
+<th>var</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0.0</td>
+<td>1.0</td>
+<td>0.000817</td>
+<td>NaN</td>
+<td>0.000817</td>
+<td>NaN</td>
+</tr>
+<tr>
+<th>1</th>
+<td>1</td>
+<td>23</td>
+<td>23</td>
+<td>0.0</td>
+<td>23.0</td>
+<td>1.177510</td>
+<td>0.920597</td>
+<td>1.177510</td>
+<td>0.920597</td>
+</tr>
+<tr>
+<th>2</th>
+<td>2</td>
+<td>155</td>
+<td>155</td>
+<td>17.0</td>
+<td>138.0</td>
+<td>3.578882</td>
+<td>4.659159</td>
+<td>3.186360</td>
+<td>5.403676</td>
+</tr>
+<tr>
+<th>3</th>
+<td>3</td>
+<td>800</td>
+<td>828</td>
+<td>138.0</td>
+<td>662.0</td>
+<td>5.279107</td>
+<td>4.867119</td>
+<td>4.368461</td>
+<td>8.009591</td>
+</tr>
+<tr>
+<th>4</th>
+<td>4</td>
+<td>2157</td>
+<td>2503</td>
+<td>535.0</td>
+<td>1622.0</td>
+<td>5.727504</td>
+<td>4.045136</td>
+<td>4.306913</td>
+<td>9.162556</td>
+</tr>
+<tr>
+<th>5</th>
+<td>5</td>
+<td>3789</td>
+<td>5333</td>
+<td>1158.0</td>
+<td>2631.0</td>
+<td>6.092907</td>
+<td>3.170809</td>
+<td>4.230784</td>
+<td>10.081808</td>
+</tr>
+<tr>
+<th>6</th>
+<td>6</td>
+<td>3696</td>
+<td>7742</td>
+<td>1227.0</td>
+<td>2469.0</td>
+<td>6.468634</td>
+<td>2.735594</td>
+<td>4.321174</td>
+<td>11.109246</td>
+</tr>
+<tr>
+<th>7</th>
+<td>7</td>
+<td>2886</td>
+<td>9501</td>
+<td>1217.0</td>
+<td>1669.0</td>
+<td>6.779318</td>
+<td>2.471154</td>
+<td>3.920541</td>
+<td>12.640566</td>
+</tr>
+<tr>
+<th>8</th>
+<td>8</td>
+<td>1870</td>
+<td>10470</td>
+<td>1077.0</td>
+<td>793.0</td>
+<td>6.815676</td>
+<td>2.437992</td>
+<td>2.890284</td>
+<td>12.384680</td>
+</tr>
+<tr>
+<th>9</th>
+<td>9</td>
+<td>678</td>
+<td>10813</td>
+<td>330.0</td>
+<td>348.0</td>
+<td>6.678709</td>
+<td>2.528724</td>
+<td>3.428010</td>
+<td>12.456000</td>
+</tr>
+<tr>
+<th>10</th>
+<td>10</td>
+<td>334</td>
+<td>11012</td>
+<td>172.0</td>
+<td>162.0</td>
+<td>6.695467</td>
+<td>2.737492</td>
+<td>3.247502</td>
+<td>12.554429</td>
+</tr>
+<tr>
+<th>11</th>
+<td>11</td>
+<td>106</td>
+<td>11061</td>
+<td>72.0</td>
+<td>34.0</td>
+<td>7.166804</td>
+<td>1.297056</td>
+<td>2.298786</td>
+<td>11.704755</td>
+</tr>
+<tr>
+<th>12</th>
+<td>12</td>
+<td>27</td>
+<td>11077</td>
+<td>21.0</td>
+<td>6.0</td>
+<td>7.258935</td>
+<td>1.398842</td>
+<td>1.613097</td>
+<td>9.726571</td>
+</tr>
+<tr>
+<th>13</th>
+<td>13</td>
+<td>13</td>
+<td>11083</td>
+<td>13.0</td>
+<td>0.0</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>0.000000</td>
+<td>0.000000</td>
+</tr>
+<tr>
+<th>14</th>
+<td>14</td>
+<td>2</td>
+<td>11084</td>
+<td>2.0</td>
+<td>0.0</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>0.000000</td>
+<td>0.000000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>Lo que vi fue que la varianza se reducía considerablemente y ahora el IC medio era creciente con la profundidad (salvo profundidades 13 y 14 que solo tienen nulos). Así que a partir de aquí la hipótesis era utilizar una profundidad de 10, que es muy alta y a partir de ahí se añaden muy pocos no nulos.</p>
+<figure>
+<img alt="hist IC&gt;0 d=10" src="./results/images/ic_depth_10_not_zeros.png"/>
+<figcaption>Histograma de IC&gt;0 a profundidad 10</figcaption>
+</figure>
+<p>Ahora al  quitar los nulos en cualquier profundidad (por ejemplo 10) vemos que predominan los nodos con mayor IC en la selección y esperamos que esto signifique una similitud Lin más fiable entre pares de fenotipos.</p>
+<p>Pero antes de tomar la decisión final debía repetir los conteos en lugar de considerando la profundidad $d$ justa, considerando la selección (añadiendo en cada fila los nodos hoja de profundidad $&lt;d$). También debía añadir el % cubierto de ontología con una muestra de tamaño 2000, para garantizar que la muestra es suficientemente grande como para representar la ontología.</p>
+<ol start="3">
+<li><strong>Selección y muestra final</strong></li>
+</ol>
+<p>Se realizaron los conteos y medidas del IC para la selección especificada en <a href="#ic-y-profundidad">IC y profundidad</a> y finalmente se calculó para cada profundiad el % de ontología cubierto por una muestra aleatoria de tamaño 2000.</p>
+<p>El % de ontología cubierto $cub(F)$ de un conjunto de fenotipos $F$ se define de la siguiente manera:</p>
+<ul>
+<li>Tomar $S$ el conjunto de nodos hoja alcanzables desde algún nodo de $F$ por las aristas de relación padre-hijo de la ontología.</li>
+<li>Tomar $S^*$ el subconjunto de los nodos no nulos de $S$.</li>
+<li>$cub(F) = 100|S|/H^*\%$ donde $H^*$ es el conjunto de nodos hoja no nulos de HPO:PA.</li>
+</ul>
+<p>Ahora trueCount, trueMean y trueVar son el número de nodos, la media de IC y la cuasivarianza para la selección especificada a profundidad $d$. sample  es el tamaño de muestra y sampleCoverPercent el % de ontología cubierto por la muestra.</p>
+<figure>
+<img alt="hist d=10" src="./results/images/ic_depth_10_true.png"/>
+<figcaption>Histograma de IC de la selección a profundidad 10</figcaption>
+</figure>
+<p>La distribución del IC de la selección es similar a la de profundidad 10, los nodos con más información son más frecuentes, pero en este caso hemos considerado toda la selección de los 6107 nodos no nulos.</p>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+<div class="cm-editor cm-s-jupyter">
+<div class="highlight hl-ipython3"><pre><span></span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">'depth'</span><span class="p">,</span> <span class="s1">'trueCount'</span><span class="p">,</span> <span class="s1">'trueMean'</span><span class="p">,</span> <span class="s1">'trueVar'</span><span class="p">,</span> <span class="s1">'sampleCoverPercent'</span><span class="p">,</span> <span class="s1">'sample'</span><span class="p">]</span>
+<span class="n">display</span><span class="p">(</span><span class="n">dfDepth</span><span class="p">[</span><span class="n">columns</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>depth</th>
+<th>trueCount</th>
+<th>trueMean</th>
+<th>trueVar</th>
+<th>sampleCoverPercent</th>
+<th>sample</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>0</td>
+<td>1.0</td>
+<td>0.000817</td>
+<td>NaN</td>
+<td>100.000000</td>
+<td>1</td>
+</tr>
+<tr>
+<th>1</th>
+<td>1</td>
+<td>23.0</td>
+<td>1.177510</td>
+<td>0.920597</td>
+<td>100.000000</td>
+<td>23</td>
+</tr>
+<tr>
+<th>2</th>
+<td>2</td>
+<td>138.0</td>
+<td>3.578882</td>
+<td>4.659159</td>
+<td>100.000000</td>
+<td>138</td>
+</tr>
+<tr>
+<th>3</th>
+<td>3</td>
+<td>680.0</td>
+<td>5.308145</td>
+<td>4.819274</td>
+<td>100.000000</td>
+<td>680</td>
+</tr>
+<tr>
+<th>4</th>
+<td>4</td>
+<td>1846.0</td>
+<td>5.876124</td>
+<td>3.957335</td>
+<td>100.000000</td>
+<td>1846</td>
+</tr>
+<tr>
+<th>5</th>
+<td>5</td>
+<td>3610.0</td>
+<td>6.336812</td>
+<td>2.997269</td>
+<td>62.807075</td>
+<td>2000</td>
+</tr>
+<tr>
+<th>6</th>
+<td>6</td>
+<td>4942.0</td>
+<td>6.688773</td>
+<td>2.387720</td>
+<td>43.039633</td>
+<td>2000</td>
+</tr>
+<tr>
+<th>7</th>
+<td>7</td>
+<td>5688.0</td>
+<td>6.905436</td>
+<td>2.055930</td>
+<td>37.127416</td>
+<td>2000</td>
+</tr>
+<tr>
+<th>8</th>
+<td>8</td>
+<td>5916.0</td>
+<td>6.978093</td>
+<td>1.920782</td>
+<td>34.261382</td>
+<td>2000</td>
+</tr>
+<tr>
+<th>9</th>
+<td>9</td>
+<td>6049.0</td>
+<td>7.003977</td>
+<td>1.859949</td>
+<td>33.393384</td>
+<td>2000</td>
+</tr>
+<tr>
+<th>10</th>
+<td>10</td>
+<td>6107.0</td>
+<td>7.021452</td>
+<td>1.836241</td>
+<td>32.820177</td>
+<td>2000</td>
+</tr>
+<tr>
+<th>11</th>
+<td>11</td>
+<td>6109.0</td>
+<td>7.028559</td>
+<td>1.825223</td>
+<td>32.754668</td>
+<td>2000</td>
+</tr>
+<tr>
+<th>12</th>
+<td>12</td>
+<td>6109.0</td>
+<td>7.029655</td>
+<td>1.824508</td>
+<td>32.754668</td>
+<td>2000</td>
+</tr>
+<tr>
+<th>13</th>
+<td>13</td>
+<td>6106.0</td>
+<td>7.029791</td>
+<td>1.824605</td>
+<td>32.754668</td>
+<td>2000</td>
+</tr>
+<tr>
+<th>14</th>
+<td>14</td>
+<td>6106.0</td>
+<td>7.029791</td>
+<td>1.824605</td>
+<td>32.754668</td>
+<td>2000</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<figure>
+<img alt="samplecover" src="./figures/samplecover.png"/>
+<figcaption>% Cubierto de H* vs profundidad</figcaption>
+</figure>
+<p>En la tabla vemos que se repite la tendencia creciente del IC con la profundidad y que el % cubierto de la ontología decrece con la profundidad hasta el 32.75%. Con esto se toma la decisión final de a qué profundidad tomar la selección y si la muestra de tamaño 2000 es válida.</p>
 <p><strong>Decisión</strong>: tomar la selección (sin nulos) a profundidad $d=10$ porque:</p>
 <ul>
 <li>El IC medio de la selección crece con la profundidad, pero se estanca a esa profundidad 10 en las centésimas, aparte de que a partir de esa profundidad se añaden muy pocos nodos no nulos.</li>
