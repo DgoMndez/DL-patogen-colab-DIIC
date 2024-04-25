@@ -25,6 +25,9 @@ with open(PATH_AUTH+ '/pubmed/email.txt', 'r') as file:
 with open(PATH_AUTH + '/pubmed/api-key.txt', 'r') as file:
     PUBMED_API_KEY = file.read().strip()
 
+Entrez.email = EMAIL
+Entrez.api_key = PUBMED_API_KEY
+
 PATH_RESULT = PATH_ABSTRACTS
 PATH_DFPHEN = PATH_PHENOTYPES + "/phenotypes_nz_10.csv"
 Entrez.sleep_between_tries = 5
