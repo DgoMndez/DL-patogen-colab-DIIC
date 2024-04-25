@@ -26,6 +26,10 @@ with open(PATH_AUTH + '/pubmed/api-key.txt', 'r') as file:
 BERTBASE =  'sentence-transformers/stsb-bert-base'
 PRITAMDEKAMODEL = 'pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb'
 
+# Subontology root
+
+ROOTPHEN = 'HP:0000118' # Phenotypic abnormality
+
 # Misc
 SEED = 42
 MARGIN = 0.3743

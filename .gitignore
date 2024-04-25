@@ -13,4 +13,4 @@ torch
 *checkpoint
 *onto
 *.pyc
-
+/data/abstracts/text
