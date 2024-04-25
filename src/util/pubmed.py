@@ -162,8 +162,10 @@ if __name__ == '__main__':
                 logging.debug('Paper ' + str(j) + ' procesado: ' + str(id) + '\n')
                 logging.debug('Abstract: ' + abstract + '\n')
                 abstract = abstract.strip('"') # Duda existencial
-                with open(dir + '/' + id + '.txt', 'w') as file:
+                with open(dir + f'/{idPhen}-all.txt', 'a') as file:
+                    file.write(id + '\n')
                     file.write(abstract)
+                    file.write('\n\n')
             else:
                 papers_without_abstracts.append(id)
                 logging.debug('Paper ' + str(j) + ' NO TIENE ABSTRACT: ' + str(id) + '\n')
