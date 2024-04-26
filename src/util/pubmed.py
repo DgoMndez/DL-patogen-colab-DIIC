@@ -79,6 +79,7 @@ if __name__ == '__main__':
     parser.add_argument('-r', '--retmax', default=RETMAX, help='Max number of papers to retrieve', type=int)
     parser.add_argument('-a', '--name', default=ABSTRACTS_NAME, help='Name of the output file')
     parser.add_argument('-i', '--index', default=INDEX_NAME, help='Name of the index file')
+    parser.add_argument('-v', '--verbose', action='store_true', help='Verbose mode')
     args = parser.parse_args()
 
     n = args.n
@@ -87,6 +88,7 @@ if __name__ == '__main__':
     retmax = args.retmax
     name = args.name.replace('.csv','')
     indexName = args.index.replace('.csv','')
+    verbose = args.verbose
 
     logging.basicConfig(level=logging.DEBUG)
     if not os.path.exists(PATH_RESULT):
@@ -125,7 +127,7 @@ if __name__ == '__main__':
             os.makedirs(dir)
 
         query = 'English [Language] ' + name   
-        dfIds = search(query) # parsed XML
+        dfIds = search(query, retmax) # parsed XML
         idList = dfIds['IdList']
         
         count = len(idList)
@@ -135,7 +137,11 @@ if __name__ == '__main__':
             logging.debug('0 papers para ' + idPhen + ' - ' + name + "\n")
             continue
 
-        logging.debug('(' + idPhen + ') ' + str(count) + ' papers:' + str(idList) + '\n')
+        logging.debug('(' + idPhen + ') ' + str(count) + ' papers')
+        if verbose:
+            logging.debug(': ' + ','.join(idList) + '\n')
+        else:
+            logging.debug('\n')
         
         # 3. Para cada id, obtener los abstracts
         dfAbstracts = fetch(idList)
@@ -151,19 +157,22 @@ if __name__ == '__main__':
                     for abstractText in paper['MedlineCitation']['Article']['Abstract']['AbstractText']:
                         if 'Label' in abstractText.attributes:
                             text = abstractText.attributes['Label'] + ": " + abstractText
-                            logging.debug('Abstract text ' + str(k)
+                            if verbose:
+                                logging.debug('Abstract text ' + str(k)
                                           + ' con etiqueta: ' + abstractText.attributes['Label'] + '\n')
                         else:
                             text = abstractText
-                            logging.debug('Abstract text ' + str(k)
+                            if verbose:
+                                logging.debug('Abstract text ' + str(k)
                                           + ' sin etiqueta: ' + str(id) + '\n')
                         if k > 1:
                             abstract = abstract + ' ' + text
                         else:
                             abstract = abstract + text
                         k = k+1
-                logging.debug('Paper ' + str(j) + ' procesado: ' + str(id) + '\n')
-                logging.debug('Abstract: ' + abstract + '\n')
+                if verbose:
+                    logging.debug('Paper ' + str(j) + ' procesado: ' + str(id) + '\n')
+                    logging.debug('Abstract: ' + abstract + '\n')
                 abstract = abstract.strip('"') # Duda existencial
                 with open(dir + f'/{idPhen}-all.txt', 'a') as file:
                     file.write(id + '\n')
