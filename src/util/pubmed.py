@@ -10,6 +10,7 @@ import logging
 
 import os
 import sys
+import time
 
 # Add src to sys.path to import modules
 file_path = os.path.realpath(__file__)
@@ -37,25 +38,42 @@ RETMAX = 2000
 ABSTRACTS_NAME = 'abstracts-'+datetime.today().strftime("%d-%m")
 INDEX_NAME = 'index-' + datetime.today().strftime("%d-%m")
 
+ntries = 0
+
 def search(query, retmax=RETMAX):
-    handle = Entrez.esearch(db='pubmed',
-                            sort='relevance',
-                            retmax=retmax,
-                            retmode='xml',
-                            datetype='pdat',
-                            mindate='2000/01/01',
-                            maxdate='2023/12/31',
-                            rettype='abstract',
-                            term=query)
-    results = Entrez.read(handle)
-    return results
+    try:
+        global ntries
+        handle = Entrez.esearch(db='pubmed',
+                                sort='relevance',
+                                retmax=retmax,
+                                retmode='xml',
+                                datetype='pdat',
+                                mindate='2000/01/01',
+                                maxdate='2023/12/31',
+                                rettype='abstract',
+                                term=query)
+        results = Entrez.read(handle)
+        return results
+    except RuntimeError:
+        ntries = (ntries + 1) % 180
+        logging.debug('Error en search: f{query}. Intento ' + str(ntries) + '\n')
+        time.sleep((20*ntries % 3600))
+        return search(query, retmax)
 
 def fetch(ids):
-    handle = Entrez.efetch(db='pubmed',
-                           retmode='xml',
-                           rettype='abstract',
-                           id=ids)
-    return Entrez.read(handle)
+    global ntries
+    try:
+        handle = Entrez.efetch(db='pubmed',
+                            retmode='xml',
+                            rettype='abstract',
+                            id=ids)
+        results = Entrez.read(handle)
+        return results
+    except RuntimeError:
+        ntries = (ntries + 1) % 180
+        logging.debug('Error en fetch. Intento ' + str(ntries) + '\n')
+        time.sleep((20*ntries % 3600))
+        return fetch(ids)
 
 def get_all_phenotypes(path=PATH_DFPHEN):
     df = pd.read_csv(path, sep='\t', low_memory=False)
@@ -93,6 +111,7 @@ if __name__ == '__main__':
     logging.basicConfig(level=logging.DEBUG)
     if not os.path.exists(PATH_RESULT):
         os.makedirs(PATH_RESULT)
+
     # Pasos:
     # 1. Obtener muestra de los fenotipos
     # 2. Para cada fenotipo, obtener todos los ids de los papers
