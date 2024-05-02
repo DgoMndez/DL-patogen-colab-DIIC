@@ -56,7 +56,7 @@ def search(query, retmax=RETMAX):
                                 maxdate='2023/12/31',
                                 rettype='abstract',
                                 term=query)
-        results = Entrez.read(handle)
+        results = Entrez.read(handle, validate=False)
         return results
     except RuntimeError:
         ntries = (ntries + 1) % 180
@@ -81,7 +81,7 @@ def fetch(ids):
                             retmode='xml',
                             rettype='abstract',
                             id=ids)
-        results = Entrez.read(handle)
+        results = Entrez.read(handle, validate=False)
         return results
     except RuntimeError:
         ntries = (ntries + 1) % 180
