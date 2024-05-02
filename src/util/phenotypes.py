@@ -55,6 +55,34 @@ def getNull(dfPhen, filename=None):
         df.to_csv(filename, index=False, sep='\t')
     return df
 
+# https://stackoverflow.com/a/28882020/23198260
+def split_dataframe(df, num_chunks=10): 
+    chunks = list()
+    chunk_size = len(df) // num_chunks
+    m = len(df) % num_chunks
+    prev = 0
+    for i in range(m):
+        chunks.append(df[prev:prev+chunk_size+1])
+        prev += chunk_size + 1
+    for i in range(m, num_chunks):
+        chunks.append(df[prev:prev+chunk_size])
+        prev += chunk_size
+    return chunks
+
+def csv2Lotes(filename, n, path, name):
+    df = pd.read_csv(filename, sep='\t')
+    writeLotes(df, n, path, name)
+
+def writeLotes(df, n, path, name):
+    df_split = split_dataframe(df, n)
+    i = 1
+    dir = path + '/' + name + '-batches/'
+    if not os.path.exists(dir):
+        os.makedirs(dir)
+    for df_sample in df_split:
+        df_sample.to_csv(dir+'batch-' + str(i) + '.csv', sep='\t', index=False)
+        i += 1
+
 PATH_RESULTS = PATH_PHENOTYPES
 NAME_DFPHEN = 'phenotypic_abnormality'
 NAME_SELECT = 'phenotypes_nz'
@@ -65,10 +93,13 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='Get phenotype csv files from HPO:PA')
     parser.add_argument('--phen', default=ROOTPHEN, help='Root phenotype')
-    parser.add_argument('--depth', default=10, help='Depth selection', type=int)
+    parser.add_argument('-d', '--depth', default=10, help='Depth selection', type=int)
     parser.add_argument('-p','--path', default=PATH_RESULTS, help='Path to results directory')
     parser.add_argument('-a','--name_all', default=NAME_DFPHEN, help='Filename for all phenotypes csv')
     parser.add_argument('-s','--name_select', default=NAME_SELECT, help='Filename for selection csv')
+    parser.add_argument('-b', '--batches', default=0, help='Number of batches', type=int)
+    parser.add_argument('-l', '--blength', default=0, help='Batch length', type=int)
+    parser.add_argument('-w', '--write', action='store_true', help='Just divide the file in batches')
 
     args = parser.parse_args()
 
@@ -77,6 +108,18 @@ if __name__ == '__main__':
     path_all = args.path
     name_all = args.name_all.replace('.csv','')
     name_select = args.name_select.replace('.csv','')
+    batches = args.batches
+    l = args.blength
+    w = args.write
 
-    dfPhen = getSubOntologyDf(phen, path_all + '/' + name_all + '.csv')
-    dfTrue = getSelection(dfPhen, depth, path_all + '/' + name_select + f'_{depth}'+'.csv')
+    if w:
+        dfTrue = pd.read_csv(path_all + '/' + name_select + f'_{depth}'+'.csv', sep='\t')
+    else:
+        dfPhen = getSubOntologyDf(phen, path_all + '/' + name_all + '.csv')
+        dfTrue = getSelection(dfPhen, depth, path_all + '/' + name_select + f'_{depth}'+'.csv')
+
+    if l > 0:
+        writeLotes(dfTrue, int(len(dfTrue)/l), path_all, name_select + f'_{depth}')
+    elif batches > 0:
+        writeLotes(dfTrue, batches, path_all, name_select + f'_{depth}')
+
