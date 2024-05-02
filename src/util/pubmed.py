@@ -224,6 +224,7 @@ if __name__ == '__main__':
             dfAbstracts = fetch(idList)
 
             j = 1
+            fileText = open(dir + f'/{idPhen}-all.txt', 'w')
             for paper in dfAbstracts['PubmedArticle']:
                 id = paper['MedlineCitation']['PMID']
                 if 'Abstract' in paper['MedlineCitation']['Article']:
@@ -251,7 +252,7 @@ if __name__ == '__main__':
                         logging.debug('Paper ' + str(j) + ' procesado: ' + str(id) + '\n')
                         logging.debug('Abstract: ' + abstract + '\n')
                     abstract = abstract.strip('"') # Duda existencial
-                    with open(dir + f'/{idPhen}-all.txt', 'a') as file:
+                    with fileText as file:
                         file.write(id + '\n')
                         file.write(abstract)
                         file.write('\n\n')
