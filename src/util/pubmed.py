@@ -5,6 +5,7 @@ from Bio import Entrez
 import pandas as pd
 import os
 import logging
+from urllib.error import HTTPError
 
 # Import global variables from project_config.py
 
@@ -41,6 +42,7 @@ ABSTRACTS_NAME = 'abstracts-'+datetime.today().strftime("%d-%m")
 INDEX_NAME = 'index-' + datetime.today().strftime("%d-%m")
 
 ntries = 0
+htries = 0
 
 def search(query, retmax=RETMAX):
     try:
@@ -61,7 +63,17 @@ def search(query, retmax=RETMAX):
         logging.debug('Error en search: f{query}. Intento ' + str(ntries) + '\n')
         time.sleep((20*ntries % 3600))
         return search(query, retmax)
-
+    except HTTPError as e:
+        htries = (htries + 1)
+        logging.error(f'HTTP error: {e}.\n')
+        logging.debug('Error en search: f{query}. Intento HTTP ' + str(htries) + '\n')
+        time.sleep((20*htries % 3600))
+        if htries < 360:
+            return search(query, retmax)
+        else:
+            logging.error('Demasiados intentos. Abortando.\n')
+            raise e
+    
 def fetch(ids):
     global ntries
     try:
@@ -76,6 +88,16 @@ def fetch(ids):
         logging.debug('Error en fetch. Intento ' + str(ntries) + '\n')
         time.sleep((20*ntries % 3600))
         return fetch(ids)
+    except HTTPError as e:
+        htries = (htries + 1)
+        logging.error(f'HTTP error: {e}.\n')
+        logging.debug('Error en fetch: f{query}. Intento HTTP ' + str(htries) + '\n')
+        time.sleep((20*htries % 3600))
+        if htries < 360:
+            return fetch(ids)
+        else:
+            logging.error('Demasiados intentos. Abortando.\n')
+            raise e
 
 def get_all_phenotypes(path=PATH_DFPHEN):
     df = pd.read_csv(path, sep='\t', low_memory=False)
