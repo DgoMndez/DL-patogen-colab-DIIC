@@ -1,5 +1,6 @@
 import collections
 from datetime import datetime
+import http
 import itertools
 from Bio import Entrez
 import pandas as pd
@@ -45,8 +46,8 @@ ntries = 0
 htries = 0
 
 def search(query, retmax=RETMAX):
+    global ntries, htries
     try:
-        global ntries
         handle = Entrez.esearch(db='pubmed',
                                 sort='relevance',
                                 retmax=retmax,
@@ -88,7 +89,7 @@ def fetch(ids):
         logging.debug('Error en fetch. Intento ' + str(ntries) + '\n')
         time.sleep((20*ntries % 3600))
         return fetch(ids)
-    except HTTPError as e:
+    except (HTTPError, http.client.IncompleteRead) as e:
         htries = (htries + 1)
         logging.error(f'HTTP error: {e}.\n')
         logging.debug('Error en fetch: f{query}. Intento HTTP ' + str(htries) + '\n')
@@ -98,6 +99,7 @@ def fetch(ids):
         else:
             logging.error('Demasiados intentos. Abortando.\n')
             raise e
+    
 
 def get_all_phenotypes(path=PATH_DFPHEN):
     df = pd.read_csv(path, sep='\t', low_memory=False)
@@ -171,8 +173,9 @@ if __name__ == '__main__':
     for chunk in range(lower,upper):
 
         dfPhen = get_sample_phenotypes(n, phenPath, chunk)
-
+        chunkStr = ''
         if chunk > 0:
+            chunkStr = '-' + str(chunk)
             logging.debug("Lote " + str(chunk) + "\n")
         
         logging.debug("Muestra de fenotipos: " + str(dfPhen.shape[0]) + "\n")
@@ -197,7 +200,7 @@ if __name__ == '__main__':
             name = row['name']
             idPhen = row['id']
 
-            logging.debug("Fenotipo " + str(i) + ": " + idPhen + ' - ' + name + "\n")
+            logging.debug("Fenotipo " + str(chunk)+'.'+str(i) + ": " + idPhen + ' - ' + name + "\n")
 
             dir = PATH_RESULT + '/text/' + idPhen
             if not os.path.exists(dir):
@@ -268,7 +271,7 @@ if __name__ == '__main__':
 
         papers_string = ','.join(papers_without_abstracts)
         logging.debug('Papers sin abstract: ' + papers_string + '\n')
-        with open(results_dir + '/papers_without_abstracts.txt', 'w') as file:
+        with open(results_dir + '/papers_without_abstracts'+chunkStr+'.txt', 'w') as file:
             count = len(papers_without_abstracts)
             file.write(str(count)+'\n')
             file.write(papers_string+'\n')

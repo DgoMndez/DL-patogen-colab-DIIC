@@ -1,5 +1,6 @@
 # Import global variables from project_config.py
 
+from datetime import datetime
 import os
 import sys
 
@@ -74,7 +75,8 @@ def csv2Lotes(filename, n, path, name):
     writeLotes(df, n, path, name)
 
 def writeLotes(df, n, path, name):
-    df_split = split_dataframe(df, n)
+    df_shuffled = df.sample(frac=1)
+    df_split = split_dataframe(df_shuffled, n)
     i = 1
     dir = path + '/' + name + '-batches/'
     if not os.path.exists(dir):
@@ -85,7 +87,7 @@ def writeLotes(df, n, path, name):
 
 PATH_RESULTS = PATH_PHENOTYPES
 NAME_DFPHEN = 'phenotypic_abnormality'
-NAME_SELECT = 'phenotypes_nz'
+NAME_SELECT = 'phenotypes_nz_' + datetime.today().strftime("%d-%m")
 
 import argparse
 
