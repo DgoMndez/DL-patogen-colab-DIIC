@@ -58,13 +58,15 @@ def search(query, retmax=RETMAX):
                                 rettype='abstract',
                                 term=query)
         results = Entrez.read(handle, validate=False)
+        ntries = 0
+        htries = 0
         return results
     except RuntimeError:
         ntries = (ntries + 1) % 180
         logging.debug('Error en search: f{query}. Intento ' + str(ntries) + '\n')
         time.sleep((20*ntries % 3600))
         return search(query, retmax)
-    except HTTPError as e:
+    except (HTTPError, http.client.IncompleteRead) as e:
         htries = (htries + 1)
         logging.error(f'HTTP error: {e}.\n')
         logging.debug('Error en search: f{query}. Intento HTTP ' + str(htries) + '\n')
@@ -76,13 +78,15 @@ def search(query, retmax=RETMAX):
             raise e
     
 def fetch(ids):
-    global ntries
+    global ntries, htries
     try:
         handle = Entrez.efetch(db='pubmed',
                             retmode='xml',
                             rettype='abstract',
                             id=ids)
         results = Entrez.read(handle, validate=False)
+        ntries = 0
+        htries = 0
         return results
     except RuntimeError:
         ntries = (ntries + 1) % 180
