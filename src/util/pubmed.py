@@ -1,6 +1,7 @@
 import collections
 from datetime import datetime
 import http
+import http.client
 import itertools
 from Bio import Entrez
 import pandas as pd
@@ -96,7 +97,7 @@ def fetch(ids):
     except (HTTPError, http.client.IncompleteRead) as e:
         htries = (htries + 1)
         logging.error(f'HTTP error: {e}.\n')
-        logging.debug('Error en fetch: f{query}. Intento HTTP ' + str(htries) + '\n')
+        logging.debug(f'Error en fetch: {query}. Intento HTTP ' + str(htries) + '\n')
         time.sleep((20*htries % 3600))
         if htries < 360:
             return fetch(ids)
