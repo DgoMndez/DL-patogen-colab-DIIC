@@ -85,6 +85,9 @@ def writeLotes(df, n, path, name):
         df_sample.to_csv(dir+'batch-' + str(i) + '.csv', sep='\t', index=False)
         i += 1
 
+def getPhenotypeName(phenotypeId):
+    return onto.get_hpo_object(phenotypeId).name
+
 PATH_RESULTS = PATH_PHENOTYPES
 NAME_DFPHEN = 'phenotypic_abnormality'
 NAME_SELECT = 'phenotypes_nz_' + datetime.today().strftime("%d-%m")

@@ -1,4 +1,5 @@
 from cmath import nan
+from nis import cat
 import numpy as np
 import pandas as pd
 import nltk
@@ -7,11 +8,14 @@ from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 import os
 import sys
+import regex as re
 
 src_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(src_path)
 
 from project_config import *
+from util.pubmed import *
+from util.phenotypes import getPhenotypeName
 
 # Función clean abstract
 
@@ -19,14 +23,21 @@ from project_config import *
 
 nltk.download('punkt')
 nltk.download('stopwords')
-
 cached_stopwords = stopwords.words('english')
+pattern = re.compile(r'<([^<>]*)>([^<>]*)</\1>')
 
 def clean_abstract(abstract):
+    
     if isinstance(abstract, float) and np.isnan(abstract):
         return ''
     # Convert the text to lowercase
     abstract = abstract.lower() # type: ignore
+
+    # Remove all <*> tags
+    # Hasta 2 niveles de anidacion
+    # TODO: Usar alguna libreria de HTML o GLC para parsearLo bien?
+    for i in range(2):
+        abstract = pattern.sub(r'\2', abstract)
 
     # Remove punctuation
     abstract = abstract.translate(str.maketrans('', '', string.punctuation))
@@ -42,13 +53,19 @@ def clean_abstract(abstract):
 
     return abstract
 
-from pubmed import *
-
 OUTPUT_NAME = ABSTRACTS_NAME + '-clean'
 OUTPUT_INDEX_NAME = INDEX_NAME + '-clean'
 
 def countPapers(dfAbstracts, phenotypeId):
     return dfAbstracts[dfAbstracts['phenotypeId'] == phenotypeId].shape[0]
+
+def getIndex(dfAbstracts):
+    mapIndex = dfAbstracts.groupby('phenotypeId').size().to_dict()
+    mapIndex[None] = 0
+    dfIndex = pd.DataFrame(mapIndex.items(), columns=['phenotypeId', 'numberPapers'])
+    dfIndex.dropna(subset=['phenotypeId'], inplace=True)
+    dfIndex['phenotypeName'] = dfIndex['phenotypeId'].apply(lambda x: getPhenotypeName(x))
+    return dfIndex
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Clean abstracts from a csv to a new file')

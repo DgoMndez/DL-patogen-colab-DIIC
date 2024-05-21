@@ -124,16 +124,16 @@ import argparse
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='Sample abstracts from Pubmed')
-    parser.add_argument('--n', default=NSAMPLE, help='Number of phenotypes to sample', type=int)
-    parser.add_argument('-d', '--path', default=PATH_RESULT, help='Path to abstracts results directory')
-    parser.add_argument('-p', '--phen', default=PATH_DFPHEN, help='Path to phenotypes dataframe')
-    parser.add_argument('-r', '--retmax', default=RETMAX, help='Max number of papers to retrieve', type=int)
-    parser.add_argument('-a', '--name', default=ABSTRACTS_NAME, help='Name of the output file')
-    parser.add_argument('-i', '--index', default=INDEX_NAME, help='Name of the index file')
+    parser.add_argument('--n', default=NSAMPLE, help=f'Number of phenotypes to sample (default: {NSAMPLE})', type=int)
+    parser.add_argument('-d', '--path', default=PATH_RESULT, help=f'Path to abstracts results directory (default: {PATH_RESULT})')
+    parser.add_argument('-p', '--phen', default=PATH_DFPHEN, help=f'Path to phenotypes dataframe (default: {PATH_DFPHEN})')
+    parser.add_argument('-r', '--retmax', default=RETMAX, help=f'Max number of papers to retrieve (default: {RETMAX})', type=int)
+    parser.add_argument('-a', '--name', default=ABSTRACTS_NAME, help=f'Name of the output file (default: {ABSTRACTS_NAME})')
+    parser.add_argument('-i', '--index', default=INDEX_NAME, help=f'Name of the index file (default: {INDEX_NAME})')
     parser.add_argument('-v', '--verbose', action='store_true', help='Verbose mode')
-    parser.add_argument('-l', '--lower', default=0, help='Lower bound for batches', type=int)
-    parser.add_argument('-u', '--upper', default=1, help='Upper bound for batches', type=int)
-    parser.add_argument('-b', '--path_batch', default=PATH_BATCH_DIR, help='Path to batches directory')
+    parser.add_argument('-l', '--lower', default=0, help=f'Lower bound for batches (default: 0)', type=int)
+    parser.add_argument('-u', '--upper', default=1, help=f'Upper bound for batches (default: 1)', type=int)
+    parser.add_argument('-b', '--path_batch', default=PATH_BATCH_DIR, help=f'Path to batches directory (default: {PATH_BATCH_DIR})')
     args = parser.parse_args()
 
     n = args.n
@@ -213,6 +213,7 @@ if __name__ == '__main__':
 
             query = 'English [Language] ' + name   
             dfIds = search(query, retmax) # parsed XML
+            
             idList = dfIds['IdList']
             
             count = len(idList)
