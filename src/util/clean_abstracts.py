@@ -100,7 +100,7 @@ if __name__ == '__main__':
     # 3. Remove the original abstracts
 
     abstracts = abstracts.drop(columns=['abstract'])
-    abstracts['length'] = abstracts['clean_abstract'].apply(len)
+    abstracts['length'] = abstracts['clean_abstract'].apply(lambda x : len(x.split()))
 
     # 4. Remove null abstracts
 
