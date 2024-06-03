@@ -52,7 +52,7 @@ parser.add_argument('-e', '--epochs', type=int, default=NUM_EPOCHS, help='Number
 parser.add_argument('-p', '--percent', type=float, default=0.1, help='Percent of training data to use for profiling')
 parser.add_argument('-s', '--steps', type=float, default=5, help='Number of evaluation steps per epoch')
 parser.add_argument('--eval_percent', type=float, default = 20, help='Percent of evaluation pairs used')
-parser.add_argument('--save_best', action='store_true', help='Save best model')
+parser.add_argument('--save_best', type=bool, default=True, help='Save best model (0/1)')
 parser.add_argument('-o', '--output', type=str, default='grid/fine-tuned-bio-bert', help='Output name')
 
 margins = parser.parse_args().margin
@@ -279,15 +279,15 @@ for params in param_combinations:
             save_best_model=SAVE_BEST,
             checkpoint_path='./checkpoint',
             checkpoint_save_steps=ev_steps,
-            checkpoint_save_total_limit=num_epochs,
-            output_path_ignore_not_empty=True
+            checkpoint_save_total_limit=num_epochs
         )
 
         end_time = time.time()
         execution_time = end_time - start_time
 
     print(f"Execution time for model.fit: {execution_time:.2f} seconds")
-    model.save(output_path)
+    if not SAVE_BEST:
+        model.save(output_path)
     fmodel = model # finetuned model
 
     # %% [markdown]
