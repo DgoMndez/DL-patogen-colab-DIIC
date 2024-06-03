@@ -17,7 +17,6 @@ src_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 sys.path.append(src_path)
 
 from project_config.project_config import *
-print(f"SEED={SEED}")
 
 # %%
 # IMPORTS
@@ -45,13 +44,13 @@ print(torch.cuda.is_available())
 # MARGIN, lr, weight_decay, warmup_steps_frac, num_epochs, save_best, output
 parser = argparse.ArgumentParser(description='Grid search for BERT finetuning')
 parser.add_argument('-M', '--margin', type=float, nargs='+', default=[0.3743, 0.6829, 0.8974], help='List of margins for triplet loss')
-parser.add_argument('--lr', type=float, nargs='+', default=[1e-07, 5e-06], help='List of learning rates')
+parser.add_argument('--lr', type=float, nargs='+', default=[1e-06, 5e-06], help='List of learning rates')
 parser.add_argument('--wd', type=float, nargs='+', default=[0, 0.005], help='List of weight decays')
-parser.add_argument('--wsf', type=float, nargs='+', default=[1, 5], help='List of warmup steps fractions to try')
+parser.add_argument('--wsf', type=float, nargs='+', default=[1], help='List of warmup steps fractions to try')
 parser.add_argument('-e', '--epochs', type=int, default=NUM_EPOCHS, help='Number of epochs')
 parser.add_argument('-p', '--percent', type=float, default=0.1, help='Percent of training data to use for profiling')
 parser.add_argument('-s', '--steps', type=float, default=5, help='Number of evaluation steps per epoch')
-parser.add_argument('--eval_percent', type=float, default = 20, help='Percent of evaluation pairs used')
+parser.add_argument('--eval_percent', type=float, default = 12.5, help='Percent of evaluation pairs used')
 parser.add_argument('--save_best', type=bool, default=True, help='Save best model (0/1)')
 parser.add_argument('-o', '--output', type=str, default='grid/fine-tuned-bio-bert', help='Output name')
 parser.add_argument('--download', action='store_true', help='Download BERT model')
@@ -80,6 +79,10 @@ param_grid = {
     'wd': wds,
     'wsf': wsfs
 }
+
+np.random.seed(SEED)
+print(f"SEED={SEED}")
+
 
 # %%
 # 0. GPU
