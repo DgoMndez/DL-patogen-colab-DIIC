@@ -34,4 +34,5 @@ ROOTPHEN = 'HP:0000118' # Phenotypic abnormality
 SEED = 42
 MARGIN = 0.3743
 BATCH_SIZE = 16
-SAVE_BEST = False
+NUM_EPOCHS = 10
+SAVE_BEST = True
