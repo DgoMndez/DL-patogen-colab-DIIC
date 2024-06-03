@@ -54,6 +54,7 @@ parser.add_argument('-s', '--steps', type=float, default=5, help='Number of eval
 parser.add_argument('--eval_percent', type=float, default = 20, help='Percent of evaluation pairs used')
 parser.add_argument('--save_best', type=bool, default=True, help='Save best model (0/1)')
 parser.add_argument('-o', '--output', type=str, default='grid/fine-tuned-bio-bert', help='Output name')
+parser.add_argument('--download', action='store_true', help='Download BERT model')
 
 margins = parser.parse_args().margin
 lrs = parser.parse_args().lr
@@ -65,6 +66,7 @@ ev_samp = parser.parse_args().eval_percent / 100
 output_name = parser.parse_args().output
 SAVE_BEST = parser.parse_args().save_best
 steps_epoch = parser.parse_args().steps
+download = parser.parse_args().download
 
 if f_samp > 0:
     PROFILING = True
@@ -95,7 +97,15 @@ torch.cuda.empty_cache()
 # 1.1 BERT de partida
 
 MAX_SEQ_LENGTH = 256
-bertmodel = SentenceTransformer(PRITAMDEKAMODEL, device=device) # Original
+
+PATH_BASE = os.path.join(PATH_OUTPUT, 'base')
+
+if download:
+    bertmodel = SentenceTransformer(PRITAMDEKAMODEL, device=device) # Original
+    bertmodel.save(PATH_BASE)
+else:
+    bertmodel = SentenceTransformer(PATH_BASE)
+
 model = bertmodel # Para finetunear
 
 # 1.2 Ontología
@@ -196,7 +206,7 @@ scoreTest = evaluatorTest1.__call__(model=bertmodel, output_path='./results/orig
 print(f'Original score (spearman): {scoreTrain} (train), {scoreTest} (test)')
 
 # CSV to save all results
-path_scores_csv = PATH_OUTPUT+'/best_scores.csv'
+path_scores_csv = PATH_OUTPUT+f'/best_scores-{pd.Timestamp("today").strftime("%d-%m-%Y")}.csv'
 if not os.path.exists(path_scores_csv):
     with open(path_scores_csv, 'w') as f:
         f.write("BERTNAME,train_spearman,test_spearman, train_pearson, test_pearson, train_MSE, test_MSE, time\n")
@@ -236,8 +246,7 @@ for params in param_combinations:
     ev_steps = num_batches // STEPS
     warmup_steps = num_batches // WARMUP_STEPS_FRAC
 
-    bertmodel = SentenceTransformer(PRITAMDEKAMODEL, device=device) # Original
-    model = bertmodel # Para finetunear
+    model = SentenceTransformer(PATH_BASE)
     model.max_seq_length = MAX_SEQ_LENGTH
 
     print("max_seq_length = ", model.get_max_seq_length())
