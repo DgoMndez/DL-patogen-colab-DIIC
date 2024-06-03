@@ -13,10 +13,10 @@ import os
 import sys
 import argparse
 
-src_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+src_path = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.append(src_path)
 
-from project_config import *
+from project_config.project_config import *
 print(f"SEED={SEED}")
 
 # %%
@@ -53,7 +53,7 @@ parser.add_argument('-p', '--percent', type=float, default=0.1, help='Percent of
 parser.add_argument('-s', '--steps', type=float, default=5, help='Number of evaluation steps per epoch')
 parser.add_argument('--eval_percent', type=float, default = 20, help='Percent of evaluation pairs used')
 parser.add_argument('--save_best', action='store_true', help='Save best model')
-parser.add_argument('-o', '--output', type=str, default='fine-tuned-bio-bert-grid', help='Output name')
+parser.add_argument('-o', '--output', type=str, default='grid/fine-tuned-bio-bert', help='Output name')
 
 margins = parser.parse_args().margin
 lrs = parser.parse_args().lr
@@ -83,7 +83,9 @@ param_grid = {
 # 0. GPU
 import torch
 
-device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
+init_time = time.time()
+
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Device: {device}")
 torch.cuda.empty_cache()
 
@@ -206,7 +208,7 @@ best_params = None
 param_combinations = list(itertools.product(*param_grid.values()))
 
 i = 0
-
+j = 0
 for params in param_combinations:
 
     params_dict = dict(zip(param_grid.keys(), params))
@@ -228,13 +230,16 @@ for params in param_combinations:
 
     BERTNAME = output_name + f'-{i}-MARGIN={MARGIN}-lr={lr}-wd={wd}-wsf={WARMUP_STEPS_FRAC}'
     output_path = os.path.join(PATH_OUTPUT, BERTNAME + '-' + pd.Timestamp("today").strftime("%d-%m-%Y"))
-
+    print(f'Output path: {output_path}')
     print(f'Hiperparams: N={num_batches}, lr={lr}, wd={wd} NUM_EPOCHS={NUM_EPOCHS}, STEPS={STEPS}, WARMUP_STEPS_FRAC={WARMUP_STEPS_FRAC}, MARGIN={MARGIN}, BERTNAME={BERTNAME}')
 
     ev_steps = num_batches // STEPS
     warmup_steps = num_batches // WARMUP_STEPS_FRAC
 
+    bertmodel = SentenceTransformer(PRITAMDEKAMODEL, device=device) # Original
+    model = bertmodel # Para finetunear
     model.max_seq_length = MAX_SEQ_LENGTH
+
     print("max_seq_length = ", model.get_max_seq_length())
 
     # %% [markdown]
@@ -274,13 +279,15 @@ for params in param_combinations:
             save_best_model=SAVE_BEST,
             checkpoint_path='./checkpoint',
             checkpoint_save_steps=ev_steps,
-            checkpoint_save_total_limit=num_epochs
+            checkpoint_save_total_limit=num_epochs,
+            output_path_ignore_not_empty=True
         )
 
         end_time = time.time()
         execution_time = end_time - start_time
 
     print(f"Execution time for model.fit: {execution_time:.2f} seconds")
+    model.save(output_path)
     fmodel = model # finetuned model
 
     # %% [markdown]
@@ -313,5 +320,15 @@ for params in param_combinations:
         rows = f"{BERTNAME},{bests['cosine_spearman'][0]},{bests['cosine_spearman'][1]},{bests['cosine_pearson'][0]},{bests['cosine_pearson'][1]},{bests['MSE_cosine'][0]},{bests['MSE_cosine'][1]},{execution_time}\n"
         f.write(rows)
         print(rows)
+
+    if bests['cosine_spearman'][1] > best_score:
+        best_score = bests['cosine_spearman'][1]
+        best_params = params_dict
+        j = i
     
     i += 1
+
+total_time = time.time() - init_time
+print(f"Total time: {total_time:.2f} seconds")
+
+print(f"Best comb: {j}, score: {best_score}, params: {best_params}")
