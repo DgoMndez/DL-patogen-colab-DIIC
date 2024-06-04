@@ -212,10 +212,12 @@ print(f'Original score (spearman): {scoreTrain} (train), {scoreTest} (test)')
 path_scores_csv = PATH_OUTPUT+f'/best_scores-{pd.Timestamp("today").strftime("%d-%m-%Y")}.csv'
 if not os.path.exists(path_scores_csv):
     with open(path_scores_csv, 'w') as f:
-        f.write("BERTNAME,train_spearman,test_spearman, train_pearson, test_pearson, train_MSE, test_MSE, time\n")
+        f.write("BERTNAME,train_spearman,test_spearman, train_pearson, test_pearson, train_MSE, test_MSE, time")
+        f.write(",train_spearman_step, test_spearman_step, train_pearson_step, test_pearson_step, train_MSE_step, test_MSE_step\n")
 
 # Grid search
 best_score = -1
+best_step = 0
 best_params = None
     
 param_combinations = list(itertools.product(*param_grid.values()))
@@ -320,21 +322,25 @@ for params in param_combinations:
     print('Test best scores:\n', dfScoreTest)
 
     bests = {'cosine_pearson': [], 'cosine_spearman': [], 'MSE_cosine' : []}
-
+    steps_best = {'cosine_pearson': [], 'cosine_spearman': [], 'MSE_cosine' : []}
     for metric in ['cosine_pearson', 'cosine_spearman', 'MSE_cosine']:
         for df in [dfScoreTrain, dfScoreTest]:
             bests[metric].append(df.where(df['metric'] == metric)['value'].max())
+            steps_best[metric].append(df.where(df['metric'] == metric)['step'].max())
 
     #"BERTNAME,train_spearman,test_spearman, train_pearson, test_pearson, train_MSE, test_MSE, time\n"
 
     # append best scores for each param combination to the csv
     with open(path_scores_csv, 'a') as f:
-        rows = f"{BERTNAME},{bests['cosine_spearman'][0]},{bests['cosine_spearman'][1]},{bests['cosine_pearson'][0]},{bests['cosine_pearson'][1]},{bests['MSE_cosine'][0]},{bests['MSE_cosine'][1]},{execution_time}\n"
+        rows = f"{BERTNAME},{bests['cosine_spearman'][0]},{bests['cosine_spearman'][1]},{bests['cosine_pearson'][0]},{bests['cosine_pearson'][1]},{bests['MSE_cosine'][0]},{bests['MSE_cosine'][1]},{execution_time}"
+        rows += f",{steps_best['cosine_spearman'][0]},{steps_best['cosine_spearman'][1]},{steps_best['cosine_pearson'][0]},{steps_best['cosine_pearson'][1]},{steps_best['MSE_cosine'][0]},{steps_best['MSE_cosine'][1]}"
+        rows += '\n'
         f.write(rows)
         print(rows)
 
     if bests['cosine_spearman'][1] > best_score:
         best_score = bests['cosine_spearman'][1]
+        best_step = steps_best['cosine_spearman'][1]
         best_params = params_dict
         j = i
     
@@ -343,4 +349,4 @@ for params in param_combinations:
 total_time = time.time() - init_time
 print(f"Total time: {total_time:.2f} seconds")
 
-print(f"Best comb: {j}, score: {best_score}, params: {best_params}")
+print(f"Best comb: {j}, score: {best_score}, step: {best_step}, params: {best_params}")
