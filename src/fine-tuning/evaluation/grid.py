@@ -317,7 +317,7 @@ for params in param_combinations:
 
     path_eval = os.path.join(output_path, 'eval')
 
-    dfScoreTrain, dfScoreTest = plot_eval(path_eval, num_batches, save=False)
+    dfScoreTrain, dfScoreTest = plot_eval(path_eval, num_batches, save=True)
     print('Train best scores:\n', dfScoreTrain)
     print('Test best scores:\n', dfScoreTest)
 
