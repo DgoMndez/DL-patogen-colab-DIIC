@@ -50,7 +50,7 @@ parser.add_argument('--wsf', type=float, nargs='+', default=[1], help='List of w
 parser.add_argument('-e', '--epochs', type=int, default=NUM_EPOCHS, help='Number of epochs')
 parser.add_argument('-p', '--percent', type=float, default=0.1, help='Percent of training data to use for profiling')
 parser.add_argument('-s', '--steps', type=float, default=5, help='Number of evaluation steps per epoch')
-parser.add_argument('--eval_percent', type=float, default = 12.5, help='Percent of evaluation pairs used')
+parser.add_argument('--eval_percent', type=float, default = 20, help='Percent of evaluation pairs used')
 parser.add_argument('--save_best', type=bool, default=True, help='Save best model (0/1)')
 parser.add_argument('-o', '--output', type=str, default='grid/fine-tuned-bio-bert', help='Output name')
 parser.add_argument('--download', action='store_true', help='Download BERT model')
