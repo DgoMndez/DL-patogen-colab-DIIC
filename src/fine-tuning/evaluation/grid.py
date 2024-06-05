@@ -108,7 +108,6 @@ import torch
 init_time = time.time()
 
 device = torch.device(device_str if torch.cuda.is_available() else "cpu")
-torch.cuda.set_device(device)
 print(f"Device: {device}")
 torch.cuda.empty_cache()
 
@@ -269,7 +268,7 @@ for params in param_combinations:
     ev_steps = num_batches // STEPS
     warmup_steps = num_batches // WARMUP_STEPS_FRAC
 
-    model = SentenceTransformer(PATH_BASE)
+    model = SentenceTransformer(PATH_BASE, device=device)
     model.max_seq_length = MAX_SEQ_LENGTH
 
     print("max_seq_length = ", model.get_max_seq_length())
