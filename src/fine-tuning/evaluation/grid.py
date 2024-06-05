@@ -70,7 +70,7 @@ output_name = args.output
 SAVE_BEST = args.save_best
 steps_epoch = args.steps
 download = args.download
-scores_name = args.scores.remove('.csv')
+scores_name = args.scores.split('.csv')[0]
 
 if args.cuda:
     device_str = f"cuda:{args.cuda}"
