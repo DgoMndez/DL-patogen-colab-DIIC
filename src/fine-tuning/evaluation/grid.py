@@ -80,6 +80,8 @@ param_grid = {
     'wsf': wsfs
 }
 
+print(param_grid)
+
 np.random.seed(SEED)
 print(f"SEED={SEED}")
 
