@@ -81,7 +81,7 @@ else:
 if args.split_size:
     os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb" + str(args.split_size)
     print(f"PYTORCH_CUDA_ALLOC_CONF={os.environ['PYTORCH_CUDA_ALLOC_CONF']}")
-    
+
 if f_samp > 0:
     PROFILING = True
 
@@ -108,6 +108,7 @@ import torch
 init_time = time.time()
 
 device = torch.device(device_str if torch.cuda.is_available() else "cpu")
+torch.cuda.set_device(device)
 print(f"Device: {device}")
 torch.cuda.empty_cache()
 
