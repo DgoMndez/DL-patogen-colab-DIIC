@@ -56,6 +56,7 @@ parser.add_argument('-o', '--output', type=str, default='grid/fine-tuned-bio-ber
 parser.add_argument('--download', action='store_true', help='Download BERT model')
 parser.add_argument('--cuda', type=int, help='CUDA device to use')
 parser.add_argument('--scores', type=str, default='best_scores', help='Name of CSV file to save scores')
+parser.add_argument('--split_size', type=int, help='Max split size for CUDA memory allocation (MB)')
 
 args = parser.parse_args()
 
@@ -77,6 +78,10 @@ if args.cuda:
 else:
     device_str = "cuda"
 
+if args.split_size:
+    os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb" + str(args.split_size)
+    print(f"PYTORCH_CUDA_ALLOC_CONF={os.environ['PYTORCH_CUDA_ALLOC_CONF']}")
+    
 if f_samp > 0:
     PROFILING = True
 
