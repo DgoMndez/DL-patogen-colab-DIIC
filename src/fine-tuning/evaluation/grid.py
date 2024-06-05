@@ -55,6 +55,7 @@ parser.add_argument('--save_best', type=bool, default=True, help='Save best mode
 parser.add_argument('-o', '--output', type=str, default='grid/fine-tuned-bio-bert', help='Output name')
 parser.add_argument('--download', action='store_true', help='Download BERT model')
 parser.add_argument('--cuda', type=int, help='CUDA device to use')
+parser.add_argument('--scores', type=str, default='best_scores', help='Name of CSV file to save scores')
 
 args = parser.parse_args()
 
@@ -69,6 +70,7 @@ output_name = args.output
 SAVE_BEST = args.save_best
 steps_epoch = args.steps
 download = args.download
+scores_name = args.scores.remove('.csv')
 
 if args.cuda:
     device_str = f"cuda:{args.cuda}"
@@ -219,7 +221,7 @@ scoreTest = evaluatorTest1.__call__(model=bertmodel, output_path='./results/orig
 print(f'Original score (spearman): {scoreTrain} (train), {scoreTest} (test)')
 
 # CSV to save all results
-path_scores_csv = PATH_OUTPUT+f'/best_scores-{pd.Timestamp("today").strftime("%d-%m-%Y")}.csv'
+path_scores_csv = PATH_OUTPUT+'/'+scores_name+f'-{pd.Timestamp("today").strftime("%d-%m-%Y")}.csv'
 if not os.path.exists(path_scores_csv):
     with open(path_scores_csv, 'w') as f:
         f.write("BERTNAME,train_spearman,test_spearman, train_pearson, test_pearson, train_MSE, test_MSE, time")
