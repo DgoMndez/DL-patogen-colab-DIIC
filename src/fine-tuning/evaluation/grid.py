@@ -54,18 +54,26 @@ parser.add_argument('--eval_percent', type=float, default = 20, help='Percent of
 parser.add_argument('--save_best', type=bool, default=True, help='Save best model (0/1)')
 parser.add_argument('-o', '--output', type=str, default='grid/fine-tuned-bio-bert', help='Output name')
 parser.add_argument('--download', action='store_true', help='Download BERT model')
+parser.add_argument('--cuda', type=int, help='CUDA device to use')
 
-margins = parser.parse_args().margin
-lrs = parser.parse_args().lr
-wds = parser.parse_args().wd
-wsfs = parser.parse_args().wsf
-num_epochs = parser.parse_args().epochs
-f_samp = parser.parse_args().percent / 100
-ev_samp = parser.parse_args().eval_percent / 100 
-output_name = parser.parse_args().output
-SAVE_BEST = parser.parse_args().save_best
-steps_epoch = parser.parse_args().steps
-download = parser.parse_args().download
+args = parser.parse_args()
+
+margins = args.margin
+lrs = args.lr
+wds = args.wd
+wsfs = args.wsf
+num_epochs = args.epochs
+f_samp = args.percent / 100
+ev_samp = args.eval_percent / 100 
+output_name = args.output
+SAVE_BEST = args.save_best
+steps_epoch = args.steps
+download = args.download
+
+if args.cuda:
+    device_str = f"cuda:{args.cuda}"
+else:
+    device_str = "cuda"
 
 if f_samp > 0:
     PROFILING = True
@@ -92,7 +100,7 @@ import torch
 
 init_time = time.time()
 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+device = torch.device(device_str if torch.cuda.is_available() else "cpu")
 print(f"Device: {device}")
 torch.cuda.empty_cache()
 
