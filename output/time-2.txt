@@ -1,0 +1,3 @@
+Total time: 68587.38 seconds
+Best comb: 6, score: 0.2478827917884195, step: 5271.0, params: {'margin': 0.6829, 'lr': 5e-06, 'wd': 0, 'wsf': 1}
+
