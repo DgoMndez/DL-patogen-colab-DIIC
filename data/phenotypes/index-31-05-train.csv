@@ -1,0 +1,4071 @@
+phenotypeId	numberPapers	phenotypeName
+HP:0000003	239	Multicystic kidney dysplasia
+HP:0000011	239	Neurogenic bladder
+HP:0000012	239	Urinary urgency
+HP:0000013	239	Hypoplasia of the uterus
+HP:0000017	239	Nocturia
+HP:0000019	239	Urinary hesitancy
+HP:0000021	239	Megacystis
+HP:0000023	239	Inguinal hernia
+HP:0000026	239	Male hypogonadism
+HP:0000029	239	Testicular atrophy
+HP:0000030	142	Testicular gonadoblastoma
+HP:0000031	239	Epididymitis
+HP:0000039	239	Epispadias
+HP:0000040	239	Long penis
+HP:0000041	239	Chordee
+HP:0000042	204	Absent external genitalia
+HP:0000044	239	Hypogonadotropic hypogonadism
+HP:0000046	239	Small scrotum
+HP:0000048	102	Bifid scrotum
+HP:0000051	239	Perineal hypospadias
+HP:0000054	239	Micropenis
+HP:0000060	184	Clitoral hypoplasia
+HP:0000061	239	Ambiguous genitalia, female
+HP:0000070	239	Ureterocele
+HP:0000074	239	Ureteropelvic junction obstruction
+HP:0000081	239	Duplicated collecting system
+HP:0000085	239	Horseshoe kidney
+HP:0000090	239	Nephronophthisis
+HP:0000097	239	Focal segmental glomerulosclerosis
+HP:0000103	239	Polyuria
+HP:0000105	239	Enlarged kidney
+HP:0000108	81	Renal corticomedullary cysts
+HP:0000112	239	Nephropathy
+HP:0000113	239	Polycystic kidney dysplasia
+HP:0000117	239	Renal phosphate wasting
+HP:0000125	239	Pelvic kidney
+HP:0000126	239	Hydronephrosis
+HP:0000127	239	Renal salt wasting
+HP:0000128	239	Renal potassium wasting
+HP:0000131	239	Uterine leiomyoma
+HP:0000132	239	Menorrhagia
+HP:0000134	239	Female hypogonadism
+HP:0000139	239	Uterine prolapse
+HP:0000143	239	Rectovaginal fistula
+HP:0000145	149	Transverse vaginal septum
+HP:0000148	239	Vaginal atresia
+HP:0000149	209	Ovarian gonadoblastoma
+HP:0000151	239	Aplasia of the uterus
+HP:0000154	239	Wide mouth
+HP:0000155	239	Oral ulcer
+HP:0000160	239	Narrow mouth
+HP:0000161	239	Median cleft lip
+HP:0000162	239	Glossoptosis
+HP:0000166	239	Severe periodontitis
+HP:0000169	239	Gingival fibromatosis
+HP:0000171	239	Microglossia
+HP:0000179	45	Thick lower lip vermilion
+HP:0000180	103	Lobulated tongue
+HP:0000183	181	Difficulty in tongue movements
+HP:0000188	239	Short upper lip
+HP:0000193	165	Bifid uvula
+HP:0000198	49	Absence of Stensen duct
+HP:0000199	239	Tongue nodules
+HP:0000200	116	Short lingual frenulum
+HP:0000201	239	Pierre-Robin sequence
+HP:0000206	239	Glossitis
+HP:0000211	239	Trismus
+HP:0000212	239	Gingival overgrowth
+HP:0000214	42	Lip telangiectasia
+HP:0000215	62	Thick upper lip vermilion
+HP:0000217	239	Xerostomia
+HP:0000219	39	Thin upper lip vermilion
+HP:0000220	239	Velopharyngeal insufficiency
+HP:0000222	124	Gingival hyperkeratosis
+HP:0000224	239	Hypogeusia
+HP:0000225	239	Gingival bleeding
+HP:0000227	62	Tongue telangiectasia
+HP:0000237	56	Small anterior fontanelle
+HP:0000243	239	Trigonocephaly
+HP:0000250	239	Dense calvaria
+HP:0000253	239	Progressive microcephaly
+HP:0000260	40	Wide anterior fontanel
+HP:0000263	239	Oxycephaly
+HP:0000265	239	Mastoiditis
+HP:0000269	53	Prominent occiput
+HP:0000272	87	Malar flattening
+HP:0000273	239	Facial grimacing
+HP:0000275	239	Narrow face
+HP:0000276	239	Long face
+HP:0000283	239	Broad face
+HP:0000287	239	Increased facial adipose tissue
+HP:0000289	239	Broad philtrum
+HP:0000293	239	Full cheeks
+HP:0000297	239	Facial hypotonia
+HP:0000298	54	Mask-like facies
+HP:0000300	239	Oval face
+HP:0000303	239	Mandibular prognathia
+HP:0000307	239	Pointed chin
+HP:0000308	97	Microretrognathia
+HP:0000311	239	Round face
+HP:0000316	239	Hypertelorism
+HP:0000317	239	Facial myokymia
+HP:0000319	239	Smooth philtrum
+HP:0000320	42	Bird-like facies
+HP:0000321	239	Square face
+HP:0000322	239	Short philtrum
+HP:0000325	239	Triangular face
+HP:0000331	239	Short chin
+HP:0000339	239	Pugilistic facies
+HP:0000340	75	Sloping forehead
+HP:0000341	189	Narrow forehead
+HP:0000343	239	Long philtrum
+HP:0000348	239	High forehead
+HP:0000350	239	Small forehead
+HP:0000362	239	Otosclerosis
+HP:0000368	70	Low-set, posteriorly rotated ears
+HP:0000371	239	Acute otitis media
+HP:0000376	42	Incomplete partition of the cochlea type II
+HP:0000385	84	Small earlobe
+HP:0000389	239	Chronic otitis media
+HP:0000394	44	Lop ear
+HP:0000395	68	Prominent antihelix
+HP:0000399	239	Prelingual sensorineural hearing impairment
+HP:0000403	239	Recurrent otitis media
+HP:0000410	239	Mixed hearing impairment
+HP:0000411	239	Protruding ear
+HP:0000414	218	Bulbous nose
+HP:0000417	39	Slender nose
+HP:0000418	49	Narrow nasal ridge
+HP:0000420	239	Short nasal septum
+HP:0000426	239	Prominent nasal bridge
+HP:0000431	183	Wide nasal bridge
+HP:0000434	82	Nasal mucosa telangiectasia
+HP:0000437	114	Depressed nasal tip
+HP:0000446	126	Narrow nasal bridge
+HP:0000448	239	Prominent nose
+HP:0000455	168	Broad nasal tip
+HP:0000456	53	Bifid nasal tip
+HP:0000460	239	Narrow nose
+HP:0000463	105	Anteverted nares
+HP:0000465	214	Webbed neck
+HP:0000466	239	Limited neck range of motion
+HP:0000470	239	Short neck
+HP:0000471	239	Gastrointestinal angiodysplasia
+HP:0000472	239	Long neck
+HP:0000475	239	Broad neck
+HP:0000482	239	Microcornea
+HP:0000484	239	Hyperopic astigmatism
+HP:0000485	125	Megalocornea
+HP:0000495	239	Recurrent corneal erosions
+HP:0000506	239	Telecanthus
+HP:0000519	239	Developmental cataract
+HP:0000522	190	Alacrima
+HP:0000524	80	Conjunctival telangiectasia
+HP:0000526	239	Aniridia
+HP:0000531	239	Corneal crystals
+HP:0000537	223	Epicanthus inversus
+HP:0000538	108	Pseudopapilledema
+HP:0000542	48	Impaired ocular adduction
+HP:0000550	123	Undetectable electroretinogram
+HP:0000552	239	Tritanomaly
+HP:0000555	239	Leukocoria
+HP:0000557	239	Buphthalmos
+HP:0000558	239	Rieger anomaly
+HP:0000559	239	Corneal scarring
+HP:0000563	239	Keratoconus
+HP:0000564	239	Lacrimal duct atresia
+HP:0000574	179	Thick eyebrow
+HP:0000576	239	Centrocecal scotoma
+HP:0000581	239	Blepharophimosis
+HP:0000585	218	Band keratopathy
+HP:0000586	239	Shallow orbits
+HP:0000588	228	Optic disc coloboma
+HP:0000590	239	Progressive external ophthalmoplegia
+HP:0000592	239	Blue sclerae
+HP:0000601	171	Hypotelorism
+HP:0000603	239	Central scotoma
+HP:0000607	239	Periorbital wrinkles
+HP:0000612	239	Iris coloboma
+HP:0000613	239	Photophobia
+HP:0000619	239	Impaired convergence
+HP:0000620	239	Dacryocystitis
+HP:0000623	239	Supranuclear ophthalmoplegia
+HP:0000627	106	Posterior embryotoxon
+HP:0000634	71	Impaired ocular abduction
+HP:0000635	65	Blue irides
+HP:0000636	43	Upper eyelid coloboma
+HP:0000637	238	Long palpebral fissure
+HP:0000643	239	Blepharospasm
+HP:0000646	239	Amblyopia
+HP:0000647	99	Sclerocornea
+HP:0000650	103	Abnormal amplitude of pattern reversal visual evoked potentials
+HP:0000651	239	Diplopia
+HP:0000654	83	Decreased light- and dark-adapted electroretinogram amplitude
+HP:0000658	113	Eyelid apraxia
+HP:0000659	239	Peters anomaly
+HP:0000660	68	Lipemia retinalis
+HP:0000664	121	Synophrys
+HP:0000667	239	Phthisis bulbi
+HP:0000668	239	Hypodontia
+HP:0000670	239	Carious teeth
+HP:0000674	239	Anodontia
+HP:0000677	239	Oligodontia
+HP:0000678	239	Dental crowding
+HP:0000680	239	Delayed eruption of primary teeth
+HP:0000694	142	Odontodysplasia
+HP:0000695	239	Natal tooth
+HP:0000696	239	Delayed eruption of permanent teeth
+HP:0000700	239	Periapical bone loss
+HP:0000705	239	Amelogenesis imperfecta
+HP:0000710	69	Hyperorality
+HP:0000712	239	Emotional lability
+HP:0000713	239	Agitation
+HP:0000716	239	Depression
+HP:0000717	239	Autism
+HP:0000718	239	Aggressive behavior
+HP:0000721	239	Lack of spontaneous play
+HP:0000723	239	Restrictive behavior
+HP:0000727	239	Frontal lobe dementia
+HP:0000732	239	Inflexible adherence to routines or rituals
+HP:0000737	239	Irritability
+HP:0000740	75	Episodic paroxysmal anxiety
+HP:0000741	239	Apathy
+HP:0000743	239	Frontal release signs
+HP:0000744	99	Low frustration tolerance
+HP:0000751	239	Personality changes
+HP:0000756	239	Agoraphobia
+HP:0000757	239	Lack of insight
+HP:0000771	239	Gynecomastia
+HP:0000774	239	Narrow chest
+HP:0000778	239	Hypoplasia of the thymus
+HP:0000786	239	Primary amenorrhea
+HP:0000793	239	Membranoproliferative glomerulonephritis
+HP:0000794	239	IgA deposition in the glomerulus
+HP:0000799	239	Renal steatosis
+HP:0000800	239	Cystic renal dysplasia
+HP:0000802	239	Impotence
+HP:0000804	239	Xanthine nephrolithiasis
+HP:0000807	82	Glandular hypospadias
+HP:0000808	239	Penoscrotal hypospadias
+HP:0000813	239	Bicornuate uterus
+HP:0000815	239	Hypergonadotropic hypogonadism
+HP:0000817	239	Poor eye contact
+HP:0000825	239	Hyperinsulinemic hypoglycemia
+HP:0000832	239	Primary hypothyroidism
+HP:0000839	239	Pituitary dwarfism
+HP:0000840	239	Adrenogenital syndrome
+HP:0000841	188	Hyperactive renin-angiotensin system
+HP:0000845	239	Elevated circulating growth hormone concentration
+HP:0000848	239	Increased circulating renin level
+HP:0000851	239	Congenital hypothyroidism
+HP:0000852	239	Pseudohypoparathyroidism
+HP:0000860	239	Parathyroid hypoplasia
+HP:0000863	239	Central diabetes insipidus
+HP:0000867	239	Secondary hyperparathyroidism
+HP:0000869	239	Secondary amenorrhea
+HP:0000870	239	Increased circulating prolactin concentration
+HP:0000872	239	Hashimoto thyroiditis
+HP:0000875	239	Episodic hypertension
+HP:0000876	239	Oligomenorrhea
+HP:0000877	239	Insulin-resistant diabetes mellitus at puberty
+HP:0000878	44	11 pairs of ribs
+HP:0000883	147	Thin ribs
+HP:0000884	57	Prominent sternum
+HP:0000886	239	Deformed rib cage
+HP:0000888	93	Horizontal ribs
+HP:0000890	239	Long clavicles
+HP:0000891	239	Cervical ribs
+HP:0000892	78	Bifid ribs
+HP:0000896	51	Rib exostoses
+HP:0000900	77	Thickened ribs
+HP:0000910	141	Wide-cupped costochondral junctions
+HP:0000912	124	Sprengel anomaly
+HP:0000913	239	Posterior rib fusion
+HP:0000914	239	Shield chest
+HP:0000916	44	Broad clavicles
+HP:0000938	239	Osteopenia
+HP:0000941	239	Short diaphyses
+HP:0000943	239	Dysostosis multiplex
+HP:0000956	239	Acanthosis nigricans
+HP:0000958	239	Dry skin
+HP:0000960	97	Sacral dimple
+HP:0000963	239	Thin skin
+HP:0000965	239	Cutis marmorata
+HP:0000967	239	Petechiae
+HP:0000970	239	Anhidrosis
+HP:0000976	239	Eczematoid dermatitis
+HP:0000978	118	Bruising susceptibility
+HP:0000982	239	Palmoplantar keratoderma
+HP:0000997	158	Axillary freckling
+HP:0000999	239	Pyoderma
+HP:0001003	239	Multiple lentigines
+HP:0001008	169	Accumulation of melanosomes in melanocytes
+HP:0001013	120	Eruptive xanthomas
+HP:0001017	49	Anemic pallor
+HP:0001022	239	Albinism
+HP:0001026	91	Penetrating foot ulcers
+HP:0001029	239	Poikiloderma
+HP:0001033	79	Facial flushing after alcohol intake
+HP:0001038	78	Warfarin-induced skin necrosis
+HP:0001039	239	Atheroeruptive xanthoma
+HP:0001040	78	Multiple pterygia
+HP:0001041	239	Facial erythema
+HP:0001046	178	Intermittent jaundice
+HP:0001050	239	Plethora
+HP:0001054	239	Numerous nevi
+HP:0001055	239	Erysipelas
+HP:0001056	239	Milia
+HP:0001058	239	Poor wound healing
+HP:0001062	239	Atypical nevus
+HP:0001063	207	Acrocyanosis
+HP:0001065	239	Striae distensae
+HP:0001069	83	Episodic hyperhidrosis
+HP:0001071	239	Angiokeratoma corporis diffusum
+HP:0001082	239	Cholecystitis
+HP:0001084	130	Corneal arcus
+HP:0001085	239	Papilledema
+HP:0001092	62	Absent lacrimal punctum
+HP:0001093	239	Optic nerve dysplasia
+HP:0001094	239	Iridocyclitis
+HP:0001095	239	Hypertensive retinopathy
+HP:0001097	239	Keratoconjunctivitis sicca
+HP:0001099	239	Fundus atrophy
+HP:0001101	239	Iritis
+HP:0001104	239	Macular hypoplasia
+HP:0001106	133	Periorbital hyperpigmentation
+HP:0001107	239	Ocular albinism
+HP:0001112	239	Leber optic atrophy
+HP:0001114	239	Xanthelasma
+HP:0001115	176	Posterior polar cataract
+HP:0001117	239	Sudden loss of visual acuity
+HP:0001118	239	Juvenile cataract
+HP:0001119	239	Keratoglobus
+HP:0001126	105	Cryptophthalmos
+HP:0001128	239	Trichiasis
+HP:0001129	121	Large central visual field defect
+HP:0001135	239	Chorioretinal dystrophy
+HP:0001136	159	Retinal arteriolar tortuosity
+HP:0001137	217	Alternating esotropia
+HP:0001140	104	Limbal dermoid
+HP:0001141	239	Severely reduced visual acuity
+HP:0001149	239	Lattice corneal dystrophy
+HP:0001166	239	Arachnodactyly
+HP:0001169	239	Broad palm
+HP:0001171	239	Split hand
+HP:0001176	239	Large hands
+HP:0001177	174	Preaxial hand polydactyly
+HP:0001178	77	Ulnar claw
+HP:0001181	239	Adducted thumb
+HP:0001182	188	Tapered finger
+HP:0001188	239	Hand clenching
+HP:0001195	239	Single umbilical artery
+HP:0001196	239	Short umbilical cord
+HP:0001225	239	Wrist swelling
+HP:0001256	239	Intellectual disability, mild
+HP:0001262	239	Excessive daytime somnolence
+HP:0001264	239	Spastic diplegia
+HP:0001271	239	Polyneuropathy
+HP:0001281	239	Tetany
+HP:0001283	239	Bulbar palsy
+HP:0001285	239	Spastic tetraparesis
+HP:0001304	239	Torsion dystonia
+HP:0001305	239	Dandy-Walker malformation
+HP:0001308	239	Tongue fasciculations
+HP:0001312	95	Giant somatosensory evoked potentials
+HP:0001325	239	Hypoglycemic coma
+HP:0001334	239	Communicating hydrocephalus
+HP:0001338	239	Partial agenesis of the corpus callosum
+HP:0001341	239	Olfactory lobe agenesis
+HP:0001343	239	Kernicterus
+HP:0001344	239	Absent speech
+HP:0001348	236	Brisk reflexes
+HP:0001362	239	Calvarial skull defect
+HP:0001385	239	Hip dysplasia
+HP:0001386	239	Joint swelling
+HP:0001401	239	Intrahepatic biliary dysgenesis
+HP:0001402	239	Hepatocellular carcinoma
+HP:0001403	239	Macrovesicular hepatic steatosis
+HP:0001404	239	Hepatocellular necrosis
+HP:0001405	239	Periportal fibrosis
+HP:0001408	239	Bile duct proliferation
+HP:0001413	122	Micronodular cirrhosis
+HP:0001414	239	Microvesicular hepatic steatosis
+HP:0001433	239	Hepatosplenomegaly
+HP:0001489	239	Posterior vitreous detachment
+HP:0001491	189	Congenital fibrosis of extraocular muscles
+HP:0001501	239	6 metacarpals
+HP:0001518	239	Small for gestational age
+HP:0001520	239	Large for gestational age
+HP:0001525	239	Severe failure to thrive
+HP:0001530	239	Mild postnatal growth retardation
+HP:0001531	239	Failure to thrive in infancy
+HP:0001533	144	Slender build
+HP:0001537	239	Umbilical hernia
+HP:0001538	78	Protuberant abdomen
+HP:0001539	239	Omphalocele
+HP:0001540	224	Diastasis recti
+HP:0001543	239	Gastroschisis
+HP:0001548	239	Overgrowth
+HP:0001555	175	Asymmetry of the thorax
+HP:0001561	239	Polyhydramnios
+HP:0001562	239	Oligohydramnios
+HP:0001563	75	Fetal polyuria
+HP:0001579	239	Primary hypercortisolism
+HP:0001583	239	Rotary nystagmus
+HP:0001586	239	Vesicovaginal fistula
+HP:0001591	45	Bell-shaped thorax
+HP:0001592	239	Selective tooth agenesis
+HP:0001601	239	Laryngomalacia
+HP:0001607	239	Subglottic stenosis
+HP:0001611	239	Nasal speech
+HP:0001612	110	Weak cry
+HP:0001620	239	High pitched voice
+HP:0001621	239	Weak voice
+HP:0001640	239	Cardiomegaly
+HP:0001644	239	Dilated cardiomyopathy
+HP:0001645	239	Sudden cardiac death
+HP:0001648	239	Cor pulmonale
+HP:0001650	239	Aortic valve stenosis
+HP:0001653	239	Mitral regurgitation
+HP:0001655	239	Patent foramen ovale
+HP:0001658	239	Myocardial infarction
+HP:0001659	239	Aortic regurgitation
+HP:0001663	239	Ventricular fibrillation
+HP:0001664	239	Torsade de pointes
+HP:0001667	239	Right ventricular hypertrophy
+HP:0001670	239	Asymmetric septal hypertrophy
+HP:0001674	239	Complete atrioventricular canal defect
+HP:0001681	239	Angina pectoris
+HP:0001684	239	Secundum atrial septal defect
+HP:0001686	239	Loss of voice
+HP:0001688	239	Sinus bradycardia
+HP:0001694	239	Right-to-left shunt
+HP:0001696	239	Situs inversus totalis
+HP:0001700	239	Myocardial necrosis
+HP:0001704	239	Tricuspid valve prolapse
+HP:0001705	239	Right ventricular outlet tract obstruction
+HP:0001706	239	Endocardial fibroelastosis
+HP:0001708	239	Right ventricular failure
+HP:0001716	239	Wolff-Parkinson-White syndrome
+HP:0001717	239	Coronary artery calcification
+HP:0001722	239	High-output congestive heart failure
+HP:0001723	239	Restrictive cardiomyopathy
+HP:0001727	239	Thromboembolic stroke
+HP:0001734	239	Annular pancreas
+HP:0001735	239	Acute pancreatitis
+HP:0001737	239	Pancreatic cysts
+HP:0001738	239	Exocrine pancreatic insufficiency
+HP:0001741	239	Phimosis
+HP:0001742	239	Nasal congestion
+HP:0001746	239	Asplenia
+HP:0001747	239	Accessory spleen
+HP:0001748	239	Polysplenia
+HP:0001757	239	High-frequency sensorineural hearing impairment
+HP:0001765	239	Hammertoe
+HP:0001769	239	Broad foot
+HP:0001771	185	Achilles tendon contracture
+HP:0001772	239	Talipes equinovalgus
+HP:0001773	239	Short foot
+HP:0001775	239	Tarsal osteovalgus
+HP:0001785	239	Ankle swelling
+HP:0001786	239	Narrow foot
+HP:0001790	239	Nonimmune hydrops fetalis
+HP:0001791	239	Fetal ascites
+HP:0001799	239	Short nail
+HP:0001803	39	Nail pits
+HP:0001807	223	Ridged nail
+HP:0001808	42	Fragile nails
+HP:0001809	239	Split nail
+HP:0001810	239	Dystrophic toenail
+HP:0001818	239	Paronychia
+HP:0001820	131	Leukonychia
+HP:0001821	239	Broad nail
+HP:0001822	239	Hallux valgus
+HP:0001833	239	Long foot
+HP:0001838	239	Rocker bottom foot
+HP:0001839	239	Split foot
+HP:0001840	239	Metatarsus adductus
+HP:0001845	239	Overlapping toe
+HP:0001847	239	Long hallux
+HP:0001882	239	Leukopenia
+HP:0001886	239	Foot osteomyelitis
+HP:0001890	239	Autoimmune hemolytic anemia
+HP:0001894	239	Thrombocytosis
+HP:0001895	239	Normochromic anemia
+HP:0001896	189	Reticulocytopenia
+HP:0001897	239	Normocytic anemia
+HP:0001898	239	Increased red blood cell mass
+HP:0001899	239	Increased hematocrit
+HP:0001900	239	Increased hemoglobin
+HP:0001902	239	Giant platelets
+HP:0001915	239	Aplastic anemia
+HP:0001919	239	Acute kidney injury
+HP:0001920	239	Renal artery stenosis
+HP:0001922	239	Vacuolated lymphocytes
+HP:0001923	239	Reticulocytosis
+HP:0001927	239	Acanthocytosis
+HP:0001929	239	Reduced factor XI activity
+HP:0001930	239	Nonspherocytic hemolytic anemia
+HP:0001934	239	Persistent bleeding after trauma
+HP:0001937	239	Microangiopathic hemolytic anemia
+HP:0001950	239	Respiratory alkalosis
+HP:0001953	239	Diabetic ketoacidosis
+HP:0001955	239	Unexplained fevers
+HP:0001958	96	Nonketotic hypoglycemia
+HP:0001959	239	Polydipsia
+HP:0001962	239	Palpitations
+HP:0001963	239	Abnormal speech discrimination
+HP:0001967	114	Diffuse mesangial sclerosis
+HP:0001971	239	Hypersplenism
+HP:0001973	239	Autoimmune thrombocytopenia
+HP:0001975	239	Decreased platelet glycoprotein IIb-IIIa
+HP:0001976	239	Reduced antithrombin III activity
+HP:0001978	239	Extramedullary hematopoiesis
+HP:0001980	232	Megaloblastic bone marrow
+HP:0001981	67	Schistocytosis
+HP:0001985	218	Hypoketotic hypoglycemia
+HP:0001989	45	Fetal akinesia sequence
+HP:0001994	239	Renal Fanconi syndrome
+HP:0001996	239	Chronic metabolic acidosis
+HP:0001998	239	Neonatal hypoglycemia
+HP:0002000	167	Short columella
+HP:0002003	239	Large forehead
+HP:0002007	239	Frontal bossing
+HP:0002009	169	Potter facies
+HP:0002010	239	Narrow maxilla
+HP:0002020	239	Gastroesophageal reflux
+HP:0002021	239	Pyloric stenosis
+HP:0002023	239	Anal atresia
+HP:0002025	239	Anal stenosis
+HP:0002028	239	Chronic diarrhea
+HP:0002033	78	Poor suck
+HP:0002036	239	Hiatus hernia
+HP:0002038	239	Protein avoidance
+HP:0002039	239	Anorexia
+HP:0002040	239	Esophageal varix
+HP:0002041	239	Intractable diarrhea
+HP:0002043	239	Esophageal stricture
+HP:0002044	239	Zollinger-Ellison syndrome
+HP:0002046	239	Heat intolerance
+HP:0002047	239	Malignant hyperthermia
+HP:0002048	239	Renal cortical atrophy
+HP:0002058	87	Myopathic facies
+HP:0002067	239	Bradykinesia
+HP:0002068	239	Neuromuscular dysphagia
+HP:0002070	239	Limb ataxia
+HP:0002073	239	Progressive cerebellar ataxia
+HP:0002077	239	Migraine with aura
+HP:0002080	239	Intention tremor
+HP:0002083	239	Migraine without aura
+HP:0002085	239	Occipital encephalocele
+HP:0002089	239	Pulmonary hypoplasia
+HP:0002091	239	Restrictive ventilatory defect
+HP:0002100	239	Recurrent aspiration pneumonia
+HP:0002102	239	Pleuritis
+HP:0002105	239	Hemoptysis
+HP:0002110	239	Bronchiectasis
+HP:0002127	239	Abnormal upper motor neuron morphology
+HP:0002131	239	Episodic ataxia
+HP:0002132	143	Porencephalic cyst
+HP:0002135	239	Basal ganglia calcification
+HP:0002138	239	Subarachnoid hemorrhage
+HP:0002139	239	Arrhinencephaly
+HP:0002141	239	Gait imbalance
+HP:0002144	239	Tethered cord
+HP:0002149	239	Hyperuricemia
+HP:0002150	239	Hypercalciuria
+HP:0002152	169	Hyperproteinemia
+HP:0002153	239	Hyperkalemia
+HP:0002156	239	Homocystinuria
+HP:0002159	68	Heparan sulfate excretion in urine
+HP:0002160	94	Hyperhomocystinemia
+HP:0002162	73	Low posterior hairline
+HP:0002168	239	Scanning speech
+HP:0002173	239	Hypoglycemic seizures
+HP:0002181	239	Cerebral edema
+HP:0002183	239	Phonophobia
+HP:0002185	239	Neurofibrillary tangles
+HP:0002187	239	Intellectual disability, profound
+HP:0002188	239	Delayed CNS myelination
+HP:0002190	239	Choroid plexus cyst
+HP:0002193	54	Pseudobulbar behavioral symptoms
+HP:0002195	239	Dysgenesis of the cerebellar vermis
+HP:0002199	153	Hypocalcemic seizures
+HP:0002203	239	Respiratory paralysis
+HP:0002207	239	Diffuse reticular or finely nodular infiltrations
+HP:0002208	239	Coarse hair
+HP:0002211	57	White forelock
+HP:0002212	239	Curly hair
+HP:0002213	239	Fine hair
+HP:0002223	83	Absent eyebrow
+HP:0002226	121	White eyebrow
+HP:0002227	54	White eyelashes
+HP:0002230	239	Generalized hirsutism
+HP:0002231	117	Sparse body hair
+HP:0002234	239	Early balding
+HP:0002243	239	Protein-losing enteropathy
+HP:0002245	239	Meckel diverticulum
+HP:0002247	239	Duodenal atresia
+HP:0002248	239	Hematemesis
+HP:0002249	239	Melena
+HP:0002253	239	Colonic diverticula
+HP:0002254	239	Intermittent diarrhea
+HP:0002267	239	Exaggerated startle response
+HP:0002268	239	Paroxysmal dystonia
+HP:0002280	135	Enlarged cisterna magna
+HP:0002283	239	Global brain atrophy
+HP:0002286	239	Fair hair
+HP:0002287	239	Progressive alopecia
+HP:0002289	239	Alopecia universalis
+HP:0002290	117	Poliosis
+HP:0002292	239	Frontal balding
+HP:0002296	239	Progressive hypotrichosis
+HP:0002297	239	Red hair
+HP:0002300	239	Mutism
+HP:0002307	239	Drooling
+HP:0002310	239	Orofacial dyskinesia
+HP:0002312	239	Clumsiness
+HP:0002314	219	Degeneration of the lateral corticospinal tracts
+HP:0002326	239	Transient ischemic attack
+HP:0002330	52	Paroxysmal drowsiness
+HP:0002331	127	Recurrent paroxysmal headache
+HP:0002333	239	Motor deterioration
+HP:0002335	239	Agenesis of cerebellar vermis
+HP:0002339	239	Abnormal caudate nucleus morphology
+HP:0002340	239	Caudate atrophy
+HP:0002341	239	Cervical cord compression
+HP:0002342	239	Intellectual disability, moderate
+HP:0002355	239	Difficulty walking
+HP:0002356	239	Writer's cramp
+HP:0002359	239	Frequent falls
+HP:0002361	239	Psychomotor deterioration
+HP:0002365	239	Hypoplasia of the brainstem
+HP:0002366	239	Abnormal lower motor neuron morphology
+HP:0002367	239	Visual hallucinations
+HP:0002371	239	Loss of speech
+HP:0002378	239	Hand tremor
+HP:0002389	239	Cavum septum pellucidum
+HP:0002390	239	Spinal arteriovenous malformation
+HP:0002392	76	EEG with polyspike wave complexes
+HP:0002396	239	Cogwheel rigidity
+HP:0002398	239	Degeneration of anterior horn cells
+HP:0002401	239	Stroke-like episode
+HP:0002403	56	Positive Romberg sign
+HP:0002408	239	Cerebral arteriovenous malformation
+HP:0002410	239	Aqueductal stenosis
+HP:0002416	111	Subependymal cysts
+HP:0002419	171	Molar tooth sign on MRI
+HP:0002421	239	Poor head control
+HP:0002423	162	Long-tract signs
+HP:0002425	147	Anarthria
+HP:0002427	239	Expressive aphasia
+HP:0002442	239	Dyscalculia
+HP:0002444	239	Hypothalamic hamartoma
+HP:0002448	239	Progressive encephalopathy
+HP:0002464	239	Spastic dysarthria
+HP:0002465	239	Poor speech
+HP:0002470	132	Nonprogressive cerebellar ataxia
+HP:0002478	239	Progressive spastic quadriplegia
+HP:0002483	239	Bulbar signs
+HP:0002487	239	Hyperkinetic movements
+HP:0002490	239	Increased CSF lactate
+HP:0002491	43	Spasticity of facial muscles
+HP:0002494	239	Abnormal rapid eye movement sleep
+HP:0002497	239	Spastic ataxia
+HP:0002504	116	Calcification of the small brain vessels
+HP:0002507	239	Semilobar holoprosencephaly
+HP:0002508	239	Brainstem dysplasia
+HP:0002510	239	Spastic tetraplegia
+HP:0002511	239	Alzheimer disease
+HP:0002512	239	Brain stem compression
+HP:0002515	239	Waddling gait
+HP:0002516	239	Increased intracranial pressure
+HP:0002519	239	Hypnagogic hallucinations
+HP:0002521	239	Hypsarrhythmia
+HP:0002524	239	Cataplexy
+HP:0002527	239	Falls
+HP:0002528	112	Granulovacuolar degeneration
+HP:0002529	239	Neuronal loss in central nervous system
+HP:0002530	239	Axial dystonia
+HP:0002542	239	Olivopontocerebellar atrophy
+HP:0002544	239	Retrocollis
+HP:0002546	46	Incomprehensible speech
+HP:0002548	47	Parkinsonism with favorable response to dopaminergic medication
+HP:0002549	239	Deficit in phonologic short-term memory
+HP:0002552	123	Trichodysplasia
+HP:0002555	51	Absent pubic hair
+HP:0002557	66	Hypoplastic nipples
+HP:0002558	96	Supernumerary nipple
+HP:0002563	239	Constrictive pericarditis
+HP:0002570	239	Steatorrhea
+HP:0002571	239	Achalasia
+HP:0002572	239	Episodic vomiting
+HP:0002573	239	Hematochezia
+HP:0002574	239	Episodic abdominal pain
+HP:0002575	239	Tracheoesophageal fistula
+HP:0002578	239	Gastroparesis
+HP:0002580	239	Volvulus
+HP:0002582	239	Atrophic gastritis
+HP:0002587	148	Projectile vomiting
+HP:0002588	239	Duodenal ulcer
+HP:0002590	239	Paralytic ileus
+HP:0002591	239	Polyphagia
+HP:0002592	239	Gastric ulcer
+HP:0002593	239	Intestinal lymphangiectasia
+HP:0002594	239	Pancreatic hypoplasia
+HP:0002604	239	Gastrointestinal telangiectasia
+HP:0002608	239	Celiac disease
+HP:0002612	239	Congenital hepatic fibrosis
+HP:0002613	239	Biliary cirrhosis
+HP:0002614	177	Hepatic periportal necrosis
+HP:0002616	239	Aortic root aneurysm
+HP:0002635	134	Type IV atherosclerotic lesion
+HP:0002638	239	Superficial thrombophlebitis
+HP:0002639	239	Budd-Chiari syndrome
+HP:0002641	239	Peripheral thrombosis
+HP:0002645	131	Wormian bones
+HP:0002653	239	Bone pain
+HP:0002654	239	Multiple epiphyseal dysplasia
+HP:0002655	239	Spondyloepiphyseal dysplasia
+HP:0002656	239	Epiphyseal dysplasia
+HP:0002657	110	Spondylometaphyseal dysplasia
+HP:0002661	239	Painless fractures due to injury
+HP:0002667	239	Nephroblastoma
+HP:0002669	239	Osteosarcoma
+HP:0002676	83	Cloverleaf skull
+HP:0002677	206	Small foramen magnum
+HP:0002678	239	Skull asymmetry
+HP:0002682	239	Broad skull
+HP:0002684	239	Thickened calvaria
+HP:0002688	48	Absent frontal sinuses
+HP:0002690	221	Large sella turcica
+HP:0002691	228	Platybasia
+HP:0002697	77	Parietal foramina
+HP:0002700	202	Large foramen magnum
+HP:0002705	193	High, narrow palate
+HP:0002714	64	Downturned corners of mouth
+HP:0002724	239	Recurrent Aspergillus infections
+HP:0002725	239	Systemic lupus erythematosus
+HP:0002726	239	Recurrent Staphylococcus aureus infections
+HP:0002729	239	Follicular hyperplasia
+HP:0002732	239	Lymph node hypoplasia
+HP:0002737	239	Thick skull base
+HP:0002740	239	Recurrent E. coli infections
+HP:0002741	51	Recurrent Serratia marcescens infections
+HP:0002742	239	Recurrent Klebsiella infections
+HP:0002745	239	Oral leukoplakia
+HP:0002749	239	Osteomalacia
+HP:0002752	67	Sparse bone trabeculae
+HP:0002756	239	Pathologic fracture
+HP:0002761	239	Generalized joint laxity
+HP:0002766	239	Relatively short spine
+HP:0002787	167	Tracheal calcification
+HP:0002790	59	Neonatal breathing dysregulation
+HP:0002792	239	Reduced vital capacity
+HP:0002804	239	Arthrogryposis multiplex congenita
+HP:0002805	60	Accelerated bone age after puberty
+HP:0002812	239	Coxa vara
+HP:0002816	239	Genu recurvatum
+HP:0002821	239	Neuropathic arthropathy
+HP:0002822	108	Hyperplasia of the femoral trochanters
+HP:0002825	229	Caudal appendage
+HP:0002828	239	Multiple joint contractures
+HP:0002835	239	Aspiration
+HP:0002836	239	Bladder exstrophy
+HP:0002839	239	Urinary bladder sphincter dysfunction
+HP:0002840	239	Lymphadenitis
+HP:0002842	160	Recurrent Burkholderia cepacia infections
+HP:0002847	239	Impaired memory B cell generation
+HP:0002849	239	Absence of lymph node germinal center
+HP:0002850	87	Decreased circulating total IgM
+HP:0002853	239	Increased proportion of HLA DR+ T cells
+HP:0002865	239	Medullary thyroid carcinoma
+HP:0002870	239	Obstructive sleep apnea
+HP:0002875	239	Exertional dyspnea
+HP:0002876	192	Episodic tachypnea
+HP:0002877	239	Nocturnal hypoventilation
+HP:0002878	239	Respiratory failure
+HP:0002882	122	Sudden episodic apnea
+HP:0002884	239	Hepatoblastoma
+HP:0002886	171	Vagal paraganglioma
+HP:0002888	239	Ependymoma
+HP:0002891	239	Uterine leiomyosarcoma
+HP:0002895	239	Papillary thyroid carcinoma
+HP:0002897	239	Parathyroid adenoma
+HP:0002902	239	Hyponatremia
+HP:0002907	239	Microscopic hematuria
+HP:0002908	239	Conjugated hyperbilirubinemia
+HP:0002909	100	Generalized aminoaciduria
+HP:0002912	239	Methylmalonic acidemia
+HP:0002917	239	Hypomagnesemia
+HP:0002918	239	Hypermagnesemia
+HP:0002920	239	Decreased circulating ACTH level
+HP:0002922	239	Increased CSF protein concentration
+HP:0002923	239	Rheumatoid factor positive
+HP:0002925	77	Elevated circulating thyroid-stimulating hormone concentration
+HP:0002928	239	Decreased activity of the pyruvate dehydrogenase complex
+HP:0002930	239	Impaired sensitivity to thyroid hormone
+HP:0002932	110	Aldehyde oxidase deficiency
+HP:0002947	239	Cervical kyphosis
+HP:0002953	239	Vertebral compression fracture
+HP:0002958	239	Immune dysregulation
+HP:0002961	239	Dysgammaglobulinemia
+HP:0002965	54	Cutaneous anergy
+HP:0002967	239	Cubitus valgus
+HP:0002972	239	Reduced delayed hypersensitivity
+HP:0002986	120	Radial bowing
+HP:0002987	239	Elbow flexion contracture
+HP:0002990	239	Fibular aplasia
+HP:0003001	239	Glomus jugular tumor
+HP:0003003	239	Colon cancer
+HP:0003020	239	Enlargement of the wrists
+HP:0003029	239	Enlargement of the ankles
+HP:0003031	85	Ulnar bowing
+HP:0003044	238	Shoulder flexion contracture
+HP:0003049	239	Ulnar deviation of the wrist
+HP:0003065	239	Patellar hypoplasia
+HP:0003066	239	Limited knee extension
+HP:0003067	149	Madelung deformity
+HP:0003070	127	Elbow ankylosis
+HP:0003073	239	Hypoalbuminemia
+HP:0003076	239	Glycosuria
+HP:0003081	239	Increased urinary potassium
+HP:0003085	239	Long fibula
+HP:0003088	239	Premature osteoarthritis
+HP:0003089	147	Hamstring contractures
+HP:0003090	104	Hypoplasia of the capital femoral epiphysis
+HP:0003091	121	Trophic limb changes
+HP:0003093	239	Limited hip extension
+HP:0003095	239	Septic arthritis
+HP:0003097	239	Short femur
+HP:0003102	239	Increased carrying angle
+HP:0003106	106	Subperiosteal bone resorption
+HP:0003109	239	Hyperphosphaturia
+HP:0003113	239	Hypochloremia
+HP:0003126	239	Low-molecular-weight proteinuria
+HP:0003127	239	Hypocalciuria
+HP:0003131	239	Cystinuria
+HP:0003138	239	Increased blood urea nitrogen
+HP:0003141	239	Increased LDL cholesterol concentration
+HP:0003144	239	Increased serum serotonin
+HP:0003145	64	Decreased adenosylcobalamin
+HP:0003146	239	Hypocholesterolemia
+HP:0003148	239	Elevated serum acid phosphatase
+HP:0003149	239	Hyperuricosuria
+HP:0003150	239	Glutaric aciduria
+HP:0003154	239	Increased circulating ACTH level
+HP:0003158	66	Hyposthenuria
+HP:0003159	239	Hyperoxaluria
+HP:0003162	239	Fasting hypoglycemia
+HP:0003163	55	Elevated urinary delta-aminolevulinic acid
+HP:0003164	239	Hypothalamic gonadotropin-releasing hormone deficiency
+HP:0003165	203	Elevated circulating parathyroid hormone level
+HP:0003177	109	Squared iliac bones
+HP:0003179	111	Protrusio acetabuli
+HP:0003183	41	Wide pubic symphysis
+HP:0003184	239	Decreased hip abduction
+HP:0003186	212	Inverted nipples
+HP:0003189	239	Long nose
+HP:0003193	239	Allergic rhinitis
+HP:0003194	239	Short nasal bridge
+HP:0003196	239	Short nose
+HP:0003199	239	Decreased muscle mass
+HP:0003203	239	Impaired oxidative burst
+HP:0003206	239	Decreased activity of NADPH oxidase
+HP:0003209	239	Decreased pyruvate carboxylase activity
+HP:0003210	46	Decreased methylmalonyl-CoA mutase activity
+HP:0003213	63	Deficient excision of UV-induced pyrimidine dimers in DNA
+HP:0003214	239	Prolonged G2 phase of cell cycle
+HP:0003216	239	Generalized amyloid deposition
+HP:0003223	124	Decreased methylcobalamin
+HP:0003224	239	Increased cellular sensitivity to UV light
+HP:0003225	239	Reduced coagulation factor V activity
+HP:0003232	143	Mitochondrial malic enzyme reduced
+HP:0003233	239	Decreased HDL cholesterol concentration
+HP:0003235	139	Hypermethioninemia
+HP:0003244	239	Penile hypospadias
+HP:0003248	239	Gonadal tissue inappropriate for external genitalia or chromosomal sex
+HP:0003249	239	Genital ulcers
+HP:0003251	239	Male infertility
+HP:0003258	71	Glyoxalase deficiency
+HP:0003259	228	Elevated circulating creatinine concentration
+HP:0003262	239	Smooth muscle antibody positivity
+HP:0003264	239	Deficiency of N-acetylglucosamine-1-phosphotransferase
+HP:0003265	239	Neonatal hyperbilirubinemia
+HP:0003269	239	Sudanophilic leukodystrophy
+HP:0003273	239	Hip contracture
+HP:0003275	176	Narrow pelvis bone
+HP:0003276	68	Pelvic bone exostoses
+HP:0003278	195	Square pelvis bone
+HP:0003279	51	Coxa magna
+HP:0003281	150	Increased circulating ferritin concentration
+HP:0003292	239	Decreased serum leptin
+HP:0003304	239	Spondylolysis
+HP:0003305	239	Block vertebrae
+HP:0003306	239	Spinal rigidity
+HP:0003311	212	Hypoplasia of the odontoid process
+HP:0003316	146	Butterfly vertebrae
+HP:0003320	239	C1-C2 subluxation
+HP:0003324	239	Generalized muscle weakness
+HP:0003327	239	Axial muscle weakness
+HP:0003333	239	Increased serum beta-hexosaminidase
+HP:0003334	239	Elevated circulating catecholamine level
+HP:0003337	139	Reduced prothrombin consumption
+HP:0003341	239	Lamina lucida cleavage
+HP:0003343	239	Reduced glutathione synthetase level
+HP:0003344	59	3-Methylglutaric aciduria
+HP:0003345	239	Elevated urinary norepinephrine
+HP:0003347	88	Impaired lymphocyte transformation with phytohemagglutinin
+HP:0003349	58	Low cholesterol esterification rate
+HP:0003351	239	Decreased circulating renin level
+HP:0003353	239	Propionyl-CoA carboxylase deficiency
+HP:0003359	239	Decreased urinary sulfate
+HP:0003362	239	Increased VLDL cholesterol concentration
+HP:0003363	239	Abdominal situs inversus
+HP:0003365	239	Arthralgia of the hip
+HP:0003376	239	Steppage gait
+HP:0003382	239	Hypertrophic nerve changes
+HP:0003384	239	Peripheral axonal atrophy
+HP:0003388	239	Easy fatigability
+HP:0003390	239	Sensory axonal neuropathy
+HP:0003393	121	Thenar muscle atrophy
+HP:0003396	239	Syringomyelia
+HP:0003402	108	Decreased miniature endplate potentials
+HP:0003405	239	Diffuse axonal swelling
+HP:0003406	239	Peripheral nerve compression
+HP:0003419	239	Low back pain
+HP:0003423	125	Thoracolumbar kyphoscoliosis
+HP:0003427	78	Thenar muscle weakness
+HP:0003431	239	Decreased motor nerve conduction velocity
+HP:0003434	174	Sensory ataxic neuropathy
+HP:0003438	239	Absent Achilles reflex
+HP:0003440	149	Horizontal sacrum
+HP:0003443	239	Decreased size of nerve terminals
+HP:0003444	212	EMG: chronic denervation signs
+HP:0003447	239	Axonal loss
+HP:0003448	239	Decreased sensory nerve conduction velocity
+HP:0003454	239	Platelet antibody positive
+HP:0003458	160	EMG: myopathic abnormalities
+HP:0003459	66	Polyclonal elevation of IgM
+HP:0003460	62	Decreased circulating total IgA
+HP:0003467	239	Atlantoaxial instability
+HP:0003469	176	Peripheral dysmyelination
+HP:0003487	239	Babinski sign
+HP:0003495	220	GM2-ganglioside accumulation
+HP:0003502	239	Mild short stature
+HP:0003510	239	Severe short stature
+HP:0003514	239	Deficiency or absence of cytochrome b(-245)
+HP:0003524	239	Decreased methionine synthase activity
+HP:0003533	82	Reduced acetaldehyde dehydrogenase level
+HP:0003534	196	Reduced xanthine dehydrogenase level
+HP:0003535	169	3-Methylglutaconic aciduria
+HP:0003536	69	Decreased fumarate hydratase activity
+HP:0003537	239	Hypouricemia
+HP:0003538	39	Increased iduronate sulfatase level
+HP:0003542	239	Increased serum pyruvate
+HP:0003547	189	Shoulder girdle muscle weakness
+HP:0003555	239	Muscle fiber splitting
+HP:0003557	59	Increased variability in muscle fiber diameter
+HP:0003559	47	Muscle hyperirritability
+HP:0003565	239	Elevated erythrocyte sedimentation rate
+HP:0003568	71	Decreased glucosephosphate isomerase level
+HP:0003570	129	Molybdenum cofactor deficiency
+HP:0003573	239	Increased total bilirubin
+HP:0003575	239	Increased intracellular sodium
+HP:0003614	119	Trimethylaminuria
+HP:0003634	98	Amyoplasia
+HP:0003639	179	Elevated urinary epinephrine
+HP:0003643	95	Sulfite oxidase deficiency
+HP:0003645	239	Prolonged partial thromboplastin time
+HP:0003652	112	Recurrent myoglobinuria
+HP:0003654	77	Reduced dihydropyrimidine dehydrogenase level
+HP:0003656	170	Decreased beta-glucocerebrosidase level
+HP:0003687	99	Centrally nucleated skeletal muscle fibers
+HP:0003688	69	Cytochrome C oxidase-negative muscle fibers
+HP:0003689	239	Multiple mitochondrial DNA deletions
+HP:0003691	239	Scapular winging
+HP:0003694	161	Late-onset proximal muscle weakness
+HP:0003697	43	Scapuloperoneal amyotrophy
+HP:0003698	239	Difficulty standing
+HP:0003715	239	Myofibrillar myopathy
+HP:0003719	111	Muscle mounding
+HP:0003720	239	Generalized muscle hypertrophy
+HP:0003722	117	Neck flexor weakness
+HP:0003724	74	Shoulder girdle muscle atrophy
+HP:0003725	239	Firm muscles
+HP:0003731	239	Quadriceps muscle weakness
+HP:0003733	239	Thigh hypertrophy
+HP:0003736	239	Autophagic vacuoles
+HP:0003738	239	Exercise-induced myalgia
+HP:0003741	239	Congenital muscular dystrophy
+HP:0003752	56	Episodic flaccid weakness
+HP:0003756	239	Skeletal myopathy
+HP:0003759	239	Hypoplasia of lymphatic vessels
+HP:0003761	239	Calcinosis
+HP:0003762	239	Uterus didelphys
+HP:0003763	239	Bruxism
+HP:0003765	239	Psoriasiform dermatitis
+HP:0003771	239	Pulp calcification
+HP:0003774	239	Stage 5 chronic kidney disease
+HP:0003777	63	Pili torti
+HP:0003779	51	Antegonial notching of mandible
+HP:0003785	41	Decreased CSF homovanillic acid concentration
+HP:0003791	239	Deposits immunoreactive to beta-amyloid protein
+HP:0003798	154	Nemaline bodies
+HP:0003799	109	Marked delay in bone age
+HP:0003803	114	Type 1 muscle fiber predominance
+HP:0003805	239	Rimmed vacuoles
+HP:0003810	76	Late-onset distal muscle weakness
+HP:0003835	239	Shoulder subluxation
+HP:0003862	131	Absent humerus
+HP:0003863	185	Angulated humerus
+HP:0003874	239	Humerus varus
+HP:0003879	82	Humeral pseudarthrosis
+HP:0003886	239	Wide humerus
+HP:0003940	239	Osteoarthritis of the elbow
+HP:0003944	58	Narrow joint spaces of the elbow
+HP:0003977	239	Deformed radius
+HP:0003978	239	Fractured radius
+HP:0003982	239	Aplasia of the ulna
+HP:0003993	67	Broad ulna
+HP:0003994	239	Dislocated wrist
+HP:0004050	239	Absent hand
+HP:0004283	120	Narrow palm
+HP:0004319	239	Decreased circulating aldosterone level
+HP:0004326	239	Cachexia
+HP:0004333	239	Bone-marrow foam cells
+HP:0004336	54	Myelin outfoldings
+HP:0004337	239	Abnormality of amino acid metabolism
+HP:0004381	239	Supravalvular aortic stenosis
+HP:0004383	239	Hypoplastic left heart
+HP:0004385	239	Protracted diarrhea
+HP:0004388	174	Microcolon
+HP:0004389	239	Intestinal pseudo-obstruction
+HP:0004392	239	Prune belly
+HP:0004394	239	Multiple gastric polyps
+HP:0004395	239	Malnutrition
+HP:0004396	239	Poor appetite
+HP:0004399	66	Congenital pyloric atresia
+HP:0004401	239	Meconium ileus
+HP:0004405	93	Prominent nipples
+HP:0004406	76	Spontaneous, recurrent epistaxis
+HP:0004416	58	Precocious atherosclerosis
+HP:0004417	239	Intermittent claudication
+HP:0004419	239	Recurrent thrombophlebitis
+HP:0004423	84	Cranium bifidum occultum
+HP:0004425	145	Flat forehead
+HP:0004430	239	Severe combined immunodeficiency
+HP:0004433	232	Secretory IgA deficiency
+HP:0004438	86	Hyperostosis frontalis interna
+HP:0004442	239	Sagittal craniosynostosis
+HP:0004446	183	Stomatocytosis
+HP:0004459	87	Exostosis of the external auditory canal
+HP:0004467	39	Preauricular pit
+HP:0004469	239	Chronic bronchitis
+HP:0004472	239	Mandibular hyperostosis
+HP:0004478	150	Ethmoidal encephalocele
+HP:0004481	239	Progressive macrocephaly
+HP:0004482	239	Relative macrocephaly
+HP:0004484	239	Craniofacial asymmetry
+HP:0004485	135	Cessation of head growth
+HP:0004488	227	Macrocephaly at birth
+HP:0004491	39	Large posterior fontanelle
+HP:0004523	239	Long eyebrows
+HP:0004524	131	Temporal hypotrichosis
+HP:0004528	239	Generalized hypotrichosis
+HP:0004540	81	Congenital, generalized hypertrichosis
+HP:0004552	239	Scarring alopecia of scalp
+HP:0004554	236	Generalized hypertrichosis
+HP:0004557	239	Anterior vertebral fusion
+HP:0004563	239	Increased spinal bone density
+HP:0004576	139	Sclerotic vertebral endplates
+HP:0004582	128	Irregularity of vertebral bodies
+HP:0004602	193	Cervical C2/C3 vertebral fusion
+HP:0004611	75	Anterior concavity of thoracic vertebrae
+HP:0004616	159	Cleft vertebral arch
+HP:0004619	206	Lumbar kyphoscoliosis
+HP:0004621	188	Enlarged vertebral pedicles
+HP:0004622	69	Progressive intervertebral space narrowing
+HP:0004629	206	Small cervical vertebral bodies
+HP:0004632	239	Cervical segmentation defect
+HP:0004633	239	Lower thoracic kyphosis
+HP:0004635	239	Cervical C5/C6 vertebrae fusion
+HP:0004637	239	Decreased cervical spine mobility
+HP:0004646	239	Hypoplasia of the nasal bone
+HP:0004660	49	Hypoplasia of facial musculature
+HP:0004679	239	Large tarsal bones
+HP:0004684	239	Talipes valgus
+HP:0004686	49	Short third metatarsal
+HP:0004688	54	Irregular tarsal bones
+HP:0004689	43	Short fourth metatarsal
+HP:0004690	149	Thickened Achilles tendon
+HP:0004691	46	2-3 toe syndactyly
+HP:0004704	75	Short fifth metatarsal
+HP:0004719	174	Hyperechogenic kidneys
+HP:0004727	239	Impaired renal concentrating ability
+HP:0004732	73	Impaired renal uric acid clearance
+HP:0004734	39	Renal cortical microcysts
+HP:0004737	239	Global glomerulosclerosis
+HP:0004743	239	Chronic tubulointerstitial nephritis
+HP:0004746	75	Glomerular subendothelial electron-dense deposits
+HP:0004754	239	Permanent atrial fibrillation
+HP:0004757	239	Paroxysmal atrial fibrillation
+HP:0004761	67	Post-angioplasty coronary artery restenosis
+HP:0004762	239	Hypoplasia of right ventricle
+HP:0004764	212	Myxomatous mitral valve degeneration
+HP:0004783	239	Duodenal polyposis
+HP:0004784	234	Juvenile gastrointestinal polyposis
+HP:0004785	201	Malrotation of colon
+HP:0004787	239	Fulminant hepatitis
+HP:0004789	239	Lactose intolerance
+HP:0004791	239	Esophageal ulceration
+HP:0004792	63	Rectoperineal fistula
+HP:0004795	128	Hamartomatous stomach polyps
+HP:0004802	239	Episodic hemolytic anemia
+HP:0004804	239	Congenital hemolytic anemia
+HP:0004808	239	Acute myeloid leukemia
+HP:0004809	239	Neonatal alloimmune thrombocytopenia
+HP:0004810	239	Congenital hypoplastic anemia
+HP:0004812	239	B Acute Lymphoblastic Leukemia
+HP:0004818	239	Paroxysmal nocturnal hemoglobinuria
+HP:0004820	239	Acute myelomonocytic leukemia
+HP:0004823	41	Anisopoikilocytosis
+HP:0004826	239	Folate-unresponsive megaloblastic anemia
+HP:0004828	185	Refractory anemia with ringed sideroblasts
+HP:0004831	239	Recurrent thromboembolism
+HP:0004836	239	Acute promyelocytic leukemia
+HP:0004839	46	Pyropoikilocytosis
+HP:0004840	239	Hypochromic microcytic anemia
+HP:0004841	239	Reduced factor XII activity
+HP:0004844	102	Coombs-positive hemolytic anemia
+HP:0004845	239	Acute monocytic leukemia
+HP:0004846	239	Prolonged bleeding after surgery
+HP:0004848	239	Ph-positive acute lymphoblastic leukemia
+HP:0004850	239	Recurrent deep vein thrombosis
+HP:0004854	239	Intermittent thrombocytopenia
+HP:0004855	239	Reduced protein S activity
+HP:0004856	75	Normochromic microcytic anemia
+HP:0004859	179	Amegakaryocytic thrombocytopenia
+HP:0004860	109	Thiamine-responsive megaloblastic anemia
+HP:0004861	43	Refractory macrocytic anemia
+HP:0004863	239	Compensated hemolytic anemia
+HP:0004866	99	Impaired ADP-induced platelet aggregation
+HP:0004870	239	Chronic hemolytic anemia
+HP:0004872	239	Incisional hernia
+HP:0004876	119	Spontaneous neonatal pneumothorax
+HP:0004885	239	Episodic respiratory distress
+HP:0004886	161	Congenital laryngeal stridor
+HP:0004891	239	Recurrent infections due to aspiration
+HP:0004894	239	Laryngotracheal stenosis
+HP:0004902	239	Congenital lactic acidosis
+HP:0004904	239	Maturity-onset diabetes of the young
+HP:0004906	145	Hypernatremic dehydration
+HP:0004911	239	Episodic metabolic acidosis
+HP:0004912	239	Hypophosphatemic rickets
+HP:0004918	239	Hyperchloremic metabolic acidosis
+HP:0004919	239	Galactose intolerance
+HP:0004923	239	Hyperphenylalaninemia
+HP:0004924	239	Abnormal oral glucose tolerance
+HP:0004925	239	Chronic lactic acidosis
+HP:0004926	239	Orthostatic hypotension due to autonomic dysfunction
+HP:0004931	162	Arteriosclerosis of small cerebral arteries
+HP:0004933	239	Ascending aortic dissection
+HP:0004935	239	Pulmonary artery atresia
+HP:0004937	239	Pulmonary artery aneurysm
+HP:0004938	199	Tortuous cerebral arteries
+HP:0004940	239	Generalized arterial calcification
+HP:0004943	239	Accelerated atherosclerosis
+HP:0004955	47	Generalized arterial tortuosity
+HP:0004960	239	Absent pulmonary artery
+HP:0004961	239	Pulmonary artery sling
+HP:0004964	239	Pulmonary arterial medial hypertrophy
+HP:0004966	81	Medial calcification of large arteries
+HP:0004968	239	Recurrent cerebral hemorrhage
+HP:0004969	239	Peripheral pulmonary artery stenosis
+HP:0004971	239	Pulmonary artery hypoplasia
+HP:0004972	239	Elevated mean arterial pressure
+HP:0004977	239	Bilateral radial aplasia
+HP:0005001	239	Recurrent patellar dislocation
+HP:0005019	153	Diaphyseal thickening
+HP:0005021	139	Bilateral elbow dislocations
+HP:0005048	96	Synostosis of carpal bones
+HP:0005060	144	Limited elbow flexion/extension
+HP:0005084	150	Anterior radial head dislocation
+HP:0005085	148	Limited knee flexion/extension
+HP:0005086	239	Knee osteoarthritis
+HP:0005090	186	Lateral femoral bowing
+HP:0005096	176	Distal femoral bowing
+HP:0005100	239	Premature birth following premature rupture of fetal membranes
+HP:0005102	239	Cochlear degeneration
+HP:0005103	63	Calcification of the auricular cartilage
+HP:0005117	239	Elevated diastolic blood pressure
+HP:0005129	239	Congenital hypertrophy of left ventricle
+HP:0005132	239	Pericardial constriction
+HP:0005133	239	Right ventricular dilatation
+HP:0005136	239	Mitral annular calcification
+HP:0005144	239	Ventricular septal hypertrophy
+HP:0005145	239	Coronary artery stenosis
+HP:0005148	239	Pulmonary valve defects
+HP:0005155	151	Ventricular escape rhythm
+HP:0005156	191	Hypoplastic left atrium
+HP:0005157	184	Concentric hypertrophic cardiomyopathy
+HP:0005168	239	Elevated right atrial pressure
+HP:0005172	239	Left posterior fascicular block
+HP:0005176	62	Dysplastic aortic valve
+HP:0005177	239	Premature arteriosclerosis
+HP:0005180	239	Tricuspid regurgitation
+HP:0005181	239	Premature coronary artery atherosclerosis
+HP:0005184	239	Prolonged QTc interval
+HP:0005186	239	Synovial hypertrophy
+HP:0005187	239	Progressive joint destruction
+HP:0005191	221	Congenital knee dislocation
+HP:0005193	163	Restricted large joint movement
+HP:0005197	239	Generalized morning stiffness
+HP:0005198	239	Stiff interphalangeal joints
+HP:0005200	239	Retroperitoneal fibrosis
+HP:0005202	239	Helicobacter pylori infection
+HP:0005203	239	Spontaneous esophageal perforation
+HP:0005206	239	Pancreatic pseudocyst
+HP:0005208	239	Secretory diarrhea
+HP:0005209	239	Intrahepatic bile duct cysts
+HP:0005211	239	Midgut malrotation
+HP:0005213	239	Pancreatic calcification
+HP:0005215	195	Frequent Giardia lamblia infestation
+HP:0005216	239	Impaired mastication
+HP:0005217	204	Duplication of internal organs
+HP:0005219	239	Absence of intrinsic factor
+HP:0005224	239	Rectal abscess
+HP:0005227	239	Adenomatous colonic polyposis
+HP:0005230	239	Biliary tract obstruction
+HP:0005231	239	Chronic gastritis
+HP:0005235	239	Jejunal atresia
+HP:0005236	100	Chronic calcifying pancreatitis
+HP:0005241	239	Total intestinal aganglionosis
+HP:0005242	239	Extrahepatic biliary duct atresia
+HP:0005248	239	Intrahepatic biliary atresia
+HP:0005249	239	Functional intestinal obstruction
+HP:0005254	239	Unilateral chest hypoplasia
+HP:0005255	122	Absence of pectoralis minor muscle
+HP:0005261	239	Joint hemorrhage
+HP:0005267	239	Premature delivery because of cervical insufficiency or membrane fragility
+HP:0005274	168	Prominent nasal tip
+HP:0005278	39	Hypoplastic nasal tip
+HP:0005280	237	Depressed nasal bridge
+HP:0005281	85	Hypoplastic nasal bridge
+HP:0005285	60	Absent nasal bridge
+HP:0005290	239	Internal carotid artery hypoplasia
+HP:0005292	239	Intimal thickening in the coronary arteries
+HP:0005297	63	Premature occlusive vascular stenosis
+HP:0005302	239	Carotid artery tortuosity
+HP:0005303	239	Aortic arch calcification
+HP:0005304	139	Hypoplastic pulmonary veins
+HP:0005305	239	Cerebral venous thrombosis
+HP:0005308	239	Pulmonary artery vasoconstriction
+HP:0005310	239	Large vessel vasculitis
+HP:0005311	239	Agenesis of pulmonary vessels
+HP:0005313	239	Arterial fibromuscular dysplasia
+HP:0005316	208	Peripheral pulmonary vessel aplasia
+HP:0005317	239	Increased pulmonary vascular resistance
+HP:0005318	239	Cerebral vasculitis
+HP:0005321	239	Mandibulofacial dysostosis
+HP:0005322	98	Prominent nasal septum
+HP:0005326	233	Hypoplastic philtrum
+HP:0005327	239	Loss of facial expression
+HP:0005328	50	Progeroid facial appearance
+HP:0005329	193	Fixed facial expression
+HP:0005332	70	Recurrent mandibular subluxations
+HP:0005336	108	Forehead hyperpigmentation
+HP:0005341	239	Autonomic bladder dysfunction
+HP:0005343	239	Hypoplasia of the bladder
+HP:0005349	156	Hypoplasia of the epiglottis
+HP:0005352	239	Severe T-cell immunodeficiency
+HP:0005354	239	Lack of T cell function
+HP:0005357	239	Defective B cell differentiation
+HP:0005359	239	Aplasia of the thymus
+HP:0005360	239	Susceptibility to chickenpox
+HP:0005363	239	Humoral immunodeficiency
+HP:0005366	239	Recurrent streptococcus pneumoniae infections
+HP:0005376	239	Recurrent Haemophilus influenzae infections
+HP:0005381	128	Recurrent meningococcal disease
+HP:0005389	66	Depletion of components of the alternative complement pathway
+HP:0005390	239	Recurrent opportunistic infections
+HP:0005401	239	Recurrent candida infections
+HP:0005404	239	Increased B cell count
+HP:0005407	74	Decreased proportion of CD4-positive helper T cells
+HP:0005413	239	Increased alpha-globulin
+HP:0005416	39	Decreased serum complement factor B
+HP:0005419	239	Decreased T cell activation
+HP:0005421	239	Decreased serum complement C3
+HP:0005422	239	Absence of CD8-positive T cells
+HP:0005423	239	Dysfunctional alternative complement pathway
+HP:0005424	239	Absent specific antibody response
+HP:0005425	239	Recurrent sinopulmonary infections
+HP:0005428	120	Severe recurrent varicella
+HP:0005437	74	Recurrent infections in infancy and early childhood
+HP:0005446	71	Obtuse angle of mandible
+HP:0005449	92	Bridged sella turcica
+HP:0005451	46	Decreased cranial base ossification
+HP:0005461	69	Craniofacial disproportion
+HP:0005462	187	Calcification of falx cerebri
+HP:0005466	239	Hypoplasia of the frontal bone
+HP:0005472	239	Orbital craniosynostosis
+HP:0005478	68	Prominent frontal sinuses
+HP:0005490	209	Postnatal macrocephaly
+HP:0005502	239	Increased red cell osmotic fragility
+HP:0005505	239	Refractory anemia
+HP:0005506	239	Chronic myelogenous leukemia
+HP:0005511	96	Heinz body anemia
+HP:0005513	239	Increased megakaryocyte count
+HP:0005518	239	Increased mean corpuscular volume
+HP:0005535	47	Exercise-induced hemolysis
+HP:0005541	179	Congenital agranulocytosis
+HP:0005542	239	Prolonged whole-blood clotting time
+HP:0005543	239	Reduced protein C activity
+HP:0005546	183	Increased red cell osmotic resistance
+HP:0005550	239	Chronic lymphatic leukemia
+HP:0005562	239	Multiple renal cysts
+HP:0005563	239	Decreased numbers of nephrons
+HP:0005571	239	Increased renal tubular phosphate reabsorption
+HP:0005572	134	Decreased renal tubular phosphate excretion
+HP:0005575	239	Hemolytic-uremic syndrome
+HP:0005576	239	Tubulointerstitial fibrosis
+HP:0005579	105	Impaired renal ltubular reabsorption of chloride
+HP:0005580	120	Duplication of renal pelvis
+HP:0005595	239	Generalized hyperkeratosis
+HP:0005600	239	Congenital giant melanocytic nevus
+HP:0005602	239	Progressive vitiligo
+HP:0005603	51	Numerous congenital melanocytic nevi
+HP:0005609	239	Gallbladder dysfunction
+HP:0005617	61	Bilateral camptodactyly
+HP:0005623	86	Absent ossification of calvaria
+HP:0005627	40	Type D brachydactyly
+HP:0005632	239	Absent forearm
+HP:0005640	239	Abnormal vertebral segmentation and fusion
+HP:0005645	239	Intervertebral disk calcification
+HP:0005652	239	Cortical sclerosis
+HP:0005655	72	Multiple digital exostoses
+HP:0005659	239	Thoracic kyphoscoliosis
+HP:0005661	230	Salmonella osteomyelitis
+HP:0005678	42	Anterior atlanto-occipital dislocation
+HP:0005679	239	Dupuytren contracture
+HP:0005681	239	Juvenile rheumatoid arthritis
+HP:0005682	88	Talocalcaneal synostosis
+HP:0005696	85	Postaxial polydactyly type A
+HP:0005701	239	Multiple enchondromatosis
+HP:0005716	239	Lethal skeletal dysplasia
+HP:0005720	239	Shortening of all metacarpals
+HP:0005743	239	Avascular necrosis of the capital femoral epiphysis
+HP:0005745	104	Congenital foot contractures
+HP:0005746	59	Osteosclerosis of the base of the skull
+HP:0005758	239	Basilar impression
+HP:0005764	239	Polyarticular arthritis
+HP:0005775	239	Multiple skeletal anomalies
+HP:0005781	239	Contractures of the large joints
+HP:0005789	239	Generalized osteosclerosis
+HP:0005792	239	Short humerus
+HP:0005807	53	Absent distal phalanges
+HP:0005831	51	Type B brachydactyly
+HP:0005852	131	Limited elbow extension and supination
+HP:0005855	68	Multiple prenatal fractures
+HP:0005856	239	Ulnar radial head dislocation
+HP:0005857	239	Cervical spina bifida
+HP:0005863	95	Type E brachydactyly
+HP:0005871	161	Metaphyseal chondrodysplasia
+HP:0005876	239	Progressive flexion contractures
+HP:0005877	111	Multiple small vertebral fractures
+HP:0005879	52	Congenital finger flexion contractures
+HP:0005892	39	Proximal tibial and fibular fusion
+HP:0005897	239	Severe generalized osteoporosis
+HP:0005947	239	Decreased sensitivity to hypoxemia
+HP:0005949	220	Apneic episodes in infancy
+HP:0005950	239	Laryngeal web
+HP:0005951	94	Progressive inspiratory stridor
+HP:0005954	140	Pulmonary capillary hemangiomatosis
+HP:0005959	239	Impaired gluconeogenesis
+HP:0005964	236	Intermittent hypothermia
+HP:0005967	191	Mixed respiratory and metabolic acidosis
+HP:0005968	239	Temperature instability
+HP:0005974	239	Episodic ketoacidosis
+HP:0005976	93	Hyperkalemic metabolic acidosis
+HP:0005979	239	Metabolic ketoacidosis
+HP:0005984	166	Elevated maternal serum alpha-fetoprotein
+HP:0005987	239	Multinodular goiter
+HP:0005989	91	Redundant neck skin
+HP:0005990	239	Thyroid hypoplasia
+HP:0005991	239	Limited neck flexion
+HP:0005997	173	Neck joint contracture
+HP:0005999	239	Ureteral atresia
+HP:0006040	87	Long second metacarpal
+HP:0006064	56	Limited interphalangeal movement
+HP:0006070	239	Metacarpophalangeal joint contracture
+HP:0006092	80	Malaligned carpal bone
+HP:0006110	40	Shortening of all middle phalanges of the fingers
+HP:0006114	71	Multiple palmar creases
+HP:0006121	239	Acral ulceration
+HP:0006127	146	Long proximal phalanx of finger
+HP:0006136	75	Bilateral postaxial polydactyly
+HP:0006160	52	Irregular metacarpals
+HP:0006162	80	Soft tissue swelling of interphalangeal joints
+HP:0006163	92	Enlarged metacarpophalangeal joints
+HP:0006185	75	Enlarged proximal interphalangeal joints
+HP:0006190	239	Radially deviated wrists
+HP:0006207	109	Partial fusion of carpals
+HP:0006217	108	Limited mobility of proximal interphalangeal joint
+HP:0006226	239	Osteoarthritis of the first carpometacarpal joint
+HP:0006228	117	Valgus hand deformity
+HP:0006233	239	Osteoarthritis of the distal interphalangeal joint
+HP:0006243	180	Phalangeal dislocation
+HP:0006251	239	Limited wrist extension
+HP:0006252	239	Interphalangeal joint erosions
+HP:0006266	239	Small placenta
+HP:0006270	55	Hypoplastic spleen
+HP:0006274	239	Reduced pancreatic beta cells
+HP:0006276	39	Hyperechogenic pancreas
+HP:0006277	239	Pancreatic hyperplasia
+HP:0006279	239	Beta-cell dysfunction
+HP:0006280	239	Chronic pancreatitis
+HP:0006283	143	Multiple unerupted teeth
+HP:0006298	55	Prolonged bleeding after dental extraction
+HP:0006308	239	Atrophy of alveolar ridges
+HP:0006315	70	Solitary median maxillary central incisor
+HP:0006323	221	Premature loss of primary teeth
+HP:0006329	239	Alveolar process hypoplasia
+HP:0006332	239	Supernumerary maxillary incisor
+HP:0006333	239	Crowded maxillary incisors
+HP:0006334	239	Hypoplasia of the primary teeth
+HP:0006335	239	Persistence of primary teeth
+HP:0006344	239	Abnormality of primary molar morphology
+HP:0006347	58	Microdontia of primary teeth
+HP:0006349	239	Agenesis of permanent teeth
+HP:0006350	239	Pulp obliteration
+HP:0006352	115	Failure of eruption of permanent teeth
+HP:0006353	197	Hypoplasia of the tooth germ
+HP:0006357	146	Premature loss of permanent teeth
+HP:0006368	123	Forearm reduction defects
+HP:0006379	239	Proximal tibial hypoplasia
+HP:0006380	239	Knee flexion contracture
+HP:0006385	239	Short lower limbs
+HP:0006389	239	Limited knee flexion
+HP:0006390	67	Anterior tibial bowing
+HP:0006397	239	Lateral displacement of patellae
+HP:0006402	239	Distal shortening of limbs
+HP:0006408	146	Distal tapering femur
+HP:0006414	138	Distal tibial bowing
+HP:0006424	239	Elongated radius
+HP:0006429	93	Broad femoral neck
+HP:0006434	150	Hypoplasia of proximal radius
+HP:0006439	239	Radioulnar dislocation
+HP:0006440	167	Increased density of long bone diaphyses
+HP:0006442	95	Hypoplasia of proximal fibula
+HP:0006443	239	Patellar aplasia
+HP:0006446	80	Dysplastic patella
+HP:0006453	172	Lateral displacement of the femoral head
+HP:0006459	86	Dorsal subluxation of ulna
+HP:0006460	164	Increased laxity of ankles
+HP:0006461	239	Proximal femoral epiphysiolysis
+HP:0006462	176	Generalized bone demineralization
+HP:0006463	142	Rickets of the lower limbs
+HP:0006471	239	Fixed elbow flexion
+HP:0006485	239	Agenesis of incisor
+HP:0006510	239	Chronic pulmonary obstruction
+HP:0006511	239	Laryngeal stridor
+HP:0006516	239	Hypersensitivity pneumonitis
+HP:0006518	239	Pulmonary venous occlusion
+HP:0006519	239	Alveolar cell carcinoma
+HP:0006520	239	Progressive pulmonary function impairment
+HP:0006521	185	Pulmonary lymphangiectasia
+HP:0006527	239	Lymphocytic interstitial pneumonia
+HP:0006528	239	Chronic lung disease
+HP:0006531	99	Pleural lymphangiectasia
+HP:0006535	57	Recurrent intrapulmonary hemorrhage
+HP:0006538	239	Recurrent bronchopulmonary infections
+HP:0006543	239	Cardiorespiratory arrest
+HP:0006548	239	Pulmonary arteriovenous malformation
+HP:0006549	44	Unilateral primary pulmonary dysgenesis
+HP:0006552	46	Fibrocystic lung disease
+HP:0006555	239	Diffuse hepatic steatosis
+HP:0006557	239	Polycystic liver disease
+HP:0006558	66	Decreased mitochondrial complex III activity in liver tissue
+HP:0006559	239	Hepatic calcification
+HP:0006560	239	Biliary hyperplasia
+HP:0006563	134	Malformation of the hepatic ductal plate
+HP:0006565	126	Increased hepatocellular lipid droplets
+HP:0006566	239	Neonatal cholestatic liver disease
+HP:0006568	239	Increased hepatic glycogen content
+HP:0006571	93	Reduced number of intrahepatic bile ducts
+HP:0006573	239	Acute hepatic steatosis
+HP:0006574	239	Hepatic arteriovenous malformation
+HP:0006575	48	Intrahepatic cholestasis with episodic jaundice
+HP:0006576	239	Hepatic vascular malformations
+HP:0006577	57	Macronodular cirrhosis
+HP:0006579	239	Prolonged neonatal jaundice
+HP:0006580	239	Portal fibrosis
+HP:0006581	239	Depletion of mitochondrial DNA in liver
+HP:0006583	40	Fatal liver failure in infancy
+HP:0006596	239	Restricted chest movement
+HP:0006597	239	Diaphragmatic paralysis
+HP:0006633	65	Glenoid fossa hypoplasia
+HP:0006640	239	Multiple rib fractures
+HP:0006644	239	Thoracic dysplasia
+HP:0006646	62	Costal cartilage calcification
+HP:0006655	155	Rib segmentation abnormalities
+HP:0006657	236	Hypoplasia of first ribs
+HP:0006670	239	Impaired myocardial contractility
+HP:0006671	239	Paroxysmal atrial tachycardia
+HP:0006677	239	Prolonged QRS complex
+HP:0006685	239	Endocardial fibrosis
+HP:0006687	239	Aortic tortuosity
+HP:0006689	239	Bacterial endocarditis
+HP:0006690	239	Myocardial calcification
+HP:0006691	111	Pulmonic valve myxoma
+HP:0006693	239	Myocardial steatosis
+HP:0006699	239	Premature atrial contractions
+HP:0006702	239	Coronary artery dissection
+HP:0006715	108	Glomus tympanicum paraganglioma
+HP:0006716	239	Hereditary nonpolyposis colorectal carcinoma
+HP:0006719	239	Benign gastrointestinal tract tumors
+HP:0006722	239	Small intestine carcinoid
+HP:0006725	239	Pancreatic adenocarcinoma
+HP:0006727	239	T-cell acute lymphoblastic leukemias
+HP:0006731	239	Follicular thyroid carcinoma
+HP:0006732	239	Papillary renal cell carcinoma type 2
+HP:0006733	239	Acute megakaryocytic leukemia
+HP:0006735	234	Renal cortical adenoma
+HP:0006737	239	Extraadrenal pheochromocytoma
+HP:0006739	239	Squamous cell carcinoma of the skin
+HP:0006740	239	Transitional cell carcinoma of the bladder
+HP:0006743	239	Embryonal rhabdomyosarcoma
+HP:0006744	239	Adrenocortical carcinoma
+HP:0006747	239	Ganglioneuroblastoma
+HP:0006748	239	Adrenal pheochromocytoma
+HP:0006755	230	Cutaneous leiomyosarcoma
+HP:0006758	239	Malignant genitourinary tract tumor
+HP:0006763	239	Anal canal squamous carcinoma
+HP:0006765	239	Chondrosarcoma
+HP:0006768	239	Localized neuroblastoma
+HP:0006769	193	Myxoid subcutaneous tumors
+HP:0006770	239	Clear cell renal cell carcinoma
+HP:0006771	239	Duodenal adenocarcinoma
+HP:0006772	239	Renal angiomyolipoma
+HP:0006774	239	Ovarian papillary adenocarcinoma
+HP:0006775	239	Multiple myeloma
+HP:0006778	239	Benign genitourinary tract neoplasm
+HP:0006779	239	Alveolar rhabdomyosarcoma
+HP:0006780	239	Parathyroid carcinoma
+HP:0006781	239	Hurthle cell thyroid adenoma
+HP:0006782	239	Malignant eosinophil proliferation
+HP:0006783	239	Posterior pharyngeal cleft
+HP:0006784	239	Paranasal sinus hypoplasia
+HP:0006785	239	Limb-girdle muscular dystrophy
+HP:0006799	117	Basal ganglia cysts
+HP:0006808	239	Cerebral hypomyelination
+HP:0006818	149	4-layered lissencephaly
+HP:0006829	239	Severe muscular hypotonia
+HP:0006837	83	Congenital Horner syndrome
+HP:0006850	73	Hypoplasia of the ventral pons
+HP:0006852	93	Episodic generalized hypotonia
+HP:0006855	239	Cerebellar vermis atrophy
+HP:0006858	98	Impaired distal proprioception
+HP:0006863	239	Severe expressive language delay
+HP:0006870	239	Lobar holoprosencephaly
+HP:0006873	93	Symmetrical progressive peripheral demyelination
+HP:0006879	219	Pontocerebellar atrophy
+HP:0006880	239	Cerebellar hemangioblastoma
+HP:0006882	239	Severe hydrocephalus
+HP:0006887	239	Intellectual disability, progressive
+HP:0006888	239	Meningoencephalocele
+HP:0006889	239	Intellectual disability, borderline
+HP:0006892	239	Frontotemporal cerebral atrophy
+HP:0006895	239	Lower limb hypertonia
+HP:0006896	239	Hypnopompic hallucinations
+HP:0006897	239	Abducens palsy
+HP:0006899	84	Fusion of the cerebellar hemispheres
+HP:0006904	239	Late-onset spinocerebellar degeneration
+HP:0006913	239	Frontal cortical atrophy
+HP:0006918	239	Diffuse cerebral sclerosis
+HP:0006921	239	Axial muscle stiffness
+HP:0006929	87	Hypoglycemic encephalopathy
+HP:0006930	73	Frontoparietal cortical dysplasia
+HP:0006937	55	Impaired distal tactile sensation
+HP:0006938	49	Impaired vibration sensation at ankles
+HP:0006949	239	Episodic peripheral neuropathy
+HP:0006951	52	Retrocerebellar cyst
+HP:0006955	173	Olivopontocerebellar hypoplasia
+HP:0006956	239	Lateral ventricle dilatation
+HP:0006960	89	Choroid plexus calcification
+HP:0006961	42	Jerky head movements
+HP:0006964	239	Cerebral cortical neurodegeneration
+HP:0006965	239	Acute necrotizing encephalopathy
+HP:0006970	239	Periventricular leukomalacia
+HP:0006978	125	Dysmyelinating leukodystrophy
+HP:0006986	239	Upper limb spasticity
+HP:0006988	239	Alobar holoprosencephaly
+HP:0006989	59	Dysplastic corpus callosum
+HP:0006994	239	Diffuse leukoencephalopathy
+HP:0006999	239	Basal ganglia gliosis
+HP:0007002	239	Motor axonal neuropathy
+HP:0007006	233	Dorsal column degeneration
+HP:0007009	239	Central nervous system degeneration
+HP:0007010	70	Poor fine motor coordination
+HP:0007015	46	Poor gross motor coordination
+HP:0007016	239	Corticospinal tract hypoplasia
+HP:0007017	239	Progressive forgetfulness
+HP:0007018	239	Attention deficit hyperactivity disorder
+HP:0007020	239	Progressive spastic paraplegia
+HP:0007021	239	Pain insensitivity
+HP:0007023	239	Antenatal intracerebral hemorrhage
+HP:0007024	218	Pseudobulbar paralysis
+HP:0007029	239	Cerebral berry aneurysm
+HP:0007034	239	Generalized hyperreflexia
+HP:0007036	239	Hypoplasia of olfactory tract
+HP:0007041	239	Chronic lymphocytic meningitis
+HP:0007047	239	Atrophy of the dentate nucleus
+HP:0007048	239	Large basal ganglia
+HP:0007064	239	Progressive language deterioration
+HP:0007067	239	Distal peripheral sensory neuropathy
+HP:0007068	91	Inferior cerebellar vermis hypoplasia
+HP:0007074	239	Thick corpus callosum
+HP:0007082	239	Dilated third ventricle
+HP:0007086	239	Social and occupational deterioration
+HP:0007097	239	Cranial nerve motor loss
+HP:0007099	239	Chiari type I malformation
+HP:0007100	239	Progressive ventriculomegaly
+HP:0007104	239	Prolonged somatosensory evoked potentials
+HP:0007105	239	Infantile encephalopathy
+HP:0007107	239	Segmental peripheral demyelination
+HP:0007110	239	Central hypoventilation
+HP:0007129	239	Cerebellar medulloblastoma
+HP:0007131	239	Acute demyelinating polyneuropathy
+HP:0007132	74	Pallidal degeneration
+HP:0007133	239	Progressive peripheral neuropathy
+HP:0007141	239	Sensorimotor neuropathy
+HP:0007146	239	Bilateral basal ganglia lesions
+HP:0007153	239	Progressive extrapyramidal movement disorder
+HP:0007159	239	Fluctuations in consciousness
+HP:0007162	239	Diffuse demyelination of the cerebral white matter
+HP:0007182	239	Peripheral hypomyelination
+HP:0007185	239	Loss of consciousness
+HP:0007187	205	Focal lissencephaly
+HP:0007188	239	Congenital facial diplegia
+HP:0007190	239	Neuronal loss in the cerebral cortex
+HP:0007193	210	Bilateral tonic-clonic seizure on awakening
+HP:0007201	239	Cerebral artery atherosclerosis
+HP:0007206	239	Hemimegalencephaly
+HP:0007207	239	Photosensitive tonic-clonic seizure
+HP:0007209	239	Facial paralysis
+HP:0007215	159	Periodic hyperkalemic paralysis
+HP:0007220	239	Demyelinating motor neuropathy
+HP:0007221	239	Progressive truncal ataxia
+HP:0007227	239	Macrogyria
+HP:0007230	98	Decreased distal sensory nerve action potential
+HP:0007233	239	Clusters of axonal regeneration
+HP:0007236	239	Recurrent subcortical infarcts
+HP:0007240	239	Progressive gait ataxia
+HP:0007258	239	Severe demyelination of the white matter
+HP:0007260	239	Type II lissencephaly
+HP:0007263	239	Spinocerebellar atrophy
+HP:0007267	239	Chronic axonal neuropathy
+HP:0007270	239	Atypical absence seizure
+HP:0007271	62	Occipital myelomeningocele
+HP:0007272	214	Progressive psychomotor deterioration
+HP:0007274	239	Recurrent bacterial meningitis
+HP:0007289	222	Limb fasciculations
+HP:0007293	169	Anterior sacral meningocele
+HP:0007299	239	Dysfunction of lateral corticospinal tracts
+HP:0007302	239	Bipolar affective disorder
+HP:0007307	239	Rapid neurologic deterioration
+HP:0007308	239	Extrapyramidal dyskinesia
+HP:0007311	239	Short stepped shuffling gait
+HP:0007313	239	Cerebral degeneration
+HP:0007326	100	Progressive choreoathetosis
+HP:0007327	108	Mixed demyelinating and axonal polyneuropathy
+HP:0007333	239	Hypoplasia of the frontal lobes
+HP:0007335	239	Recurrent encephalopathy
+HP:0007346	98	Subcortical white matter calcifications
+HP:0007348	239	Hypoplasia of the pyramidal tract
+HP:0007351	239	Upper limb postural tremor
+HP:0007354	239	Amyotrophic lateral sclerosis
+HP:0007371	239	Corpus callosum atrophy
+HP:0007381	42	Congenital exfoliative erythroderma
+HP:0007390	239	Hyperkeratosis with erythema
+HP:0007402	107	Areas of hypopigmentation and hyperpigmentation that do not follow Blaschko lines
+HP:0007408	42	Tegumentary leishmaniasis susceptibility
+HP:0007410	116	Palmoplantar hyperhidrosis
+HP:0007412	53	Macular hyperpigmented dermopathy
+HP:0007417	190	Discoid lupus rash
+HP:0007420	239	Spontaneous hematomas
+HP:0007427	113	Reticulated skin pigmentation
+HP:0007428	61	Telangiectasia of the oral mucosa
+HP:0007429	52	Few cafe-au-lait spots
+HP:0007437	134	Multiple cutaneous leiomyomas
+HP:0007443	239	Partial albinism
+HP:0007446	100	Palmoplantar blistering
+HP:0007447	184	Diffuse palmoplantar hyperkeratosis
+HP:0007457	40	Prominent veins on trunk
+HP:0007459	238	Generalized anhidrosis
+HP:0007464	239	Sparse facial hair
+HP:0007468	84	Perifollicular hyperkeratosis
+HP:0007473	79	Crusting erythematous dermatitis
+HP:0007475	239	Congenital bullous ichthyosiform erythroderma
+HP:0007476	239	Anhidrotic ectodermal dysplasia
+HP:0007479	239	Congenital nonbullous ichthyosiform erythroderma
+HP:0007480	112	Decreased sweating due to autonomic dysfunction
+HP:0007481	154	Hyperpigmented nevi
+HP:0007482	239	Generalized papillary lesions
+HP:0007485	239	Absence of subcutaneous fat
+HP:0007486	74	Cavernous hemangioma of the face
+HP:0007489	239	Diffuse telangiectasia
+HP:0007500	48	Decreased number of sweat glands
+HP:0007502	239	Follicular hyperkeratosis
+HP:0007503	239	Generalized ichthyosis
+HP:0007505	239	Progressive hyperpigmentation
+HP:0007522	73	Increased number of skin folds
+HP:0007524	239	Atypical neurofibromatosis
+HP:0007529	239	Hidrotic ectodermal dysplasia
+HP:0007530	60	Punctate palmoplantar hyperkeratosis
+HP:0007537	239	Severe photosensitivity
+HP:0007543	239	Epidermal hyperkeratosis
+HP:0007544	239	Piebaldism
+HP:0007545	150	Congenital palmoplantar hyperkeratosis
+HP:0007546	239	Linear hyperpigmentation
+HP:0007552	129	Abnormal subcutaneous fat tissue distribution
+HP:0007559	127	Localized epidermolytic hyperkeratosis
+HP:0007569	224	Generalized seborrheic dermatitis
+HP:0007587	83	Numerous pigmented freckles
+HP:0007588	130	Reticular hyperpigmentation
+HP:0007589	239	Aplasia cutis congenita on trunk or limbs
+HP:0007603	80	Freckles in sun-exposed areas
+HP:0007607	239	Hypohidrotic ectodermal dysplasia
+HP:0007618	239	Subcutaneous calcification
+HP:0007620	239	Cutaneous leiomyoma
+HP:0007626	239	Mandibular osteomyelitis
+HP:0007627	239	Mandibular condyle aplasia
+HP:0007628	239	Mandibular condyle hypoplasia
+HP:0007633	239	Bilateral microphthalmos
+HP:0007634	239	Nonarteritic anterior ischemic optic neuropathy
+HP:0007643	176	Peripheral tractional retinal detachment
+HP:0007650	239	Progressive ophthalmoplegia
+HP:0007651	239	Ectropion of lower eyelids
+HP:0007656	239	Lacrimal gland aplasia
+HP:0007667	87	Peripheral cystoid retinal degeneration
+HP:0007675	239	Progressive night blindness
+HP:0007678	239	Lacrimal duct stenosis
+HP:0007687	239	Unilateral ptosis
+HP:0007697	239	Hypoplasia of the lower eyelids
+HP:0007707	239	Congenital aphakia
+HP:0007709	48	Band-shaped corneal dystrophy
+HP:0007710	77	Peripheral vitreous opacities
+HP:0007715	57	Weak extraocular muscles
+HP:0007717	58	Chronic irritative conjunctivitis
+HP:0007720	239	Flat cornea
+HP:0007731	49	Chorioretinal dysplasia
+HP:0007732	239	Lacrimal gland hypoplasia
+HP:0007734	239	Enlarged lacrimal glands
+HP:0007737	66	Bone spicule pigmentation of the retina
+HP:0007738	56	Uncontrolled eye movements
+HP:0007760	190	Crystalline corneal dystrophy
+HP:0007765	239	Deep anterior chamber
+HP:0007766	239	Optic disc hypoplasia
+HP:0007768	102	Central retinal vessel vascular tortuosity
+HP:0007770	239	Hypoplasia of the retina
+HP:0007774	239	Hypoplasia of the ciliary body
+HP:0007778	239	Posterior retinal neovascularization
+HP:0007779	239	Anterior segment of eye aplasia
+HP:0007791	42	Patchy atrophy of the retinal pigment epithelium
+HP:0007800	239	Increased axial length of the globe
+HP:0007802	239	Granular corneal dystrophy
+HP:0007807	239	Optic nerve compression
+HP:0007811	239	Horizontal pendular nystagmus
+HP:0007813	180	Nongranulomatous uveitis
+HP:0007817	49	Horizontal supranuclear gaze palsy
+HP:0007819	79	Presenile cataracts
+HP:0007824	239	Total ophthalmoplegia
+HP:0007827	60	Nodular corneal dystrophy
+HP:0007832	239	Pigmentation of the sclera
+HP:0007834	239	Progressive cataract
+HP:0007838	239	Progressive ptosis
+HP:0007850	239	Retinal vascular proliferation
+HP:0007854	239	Glaucomatous visual field defect
+HP:0007859	239	Congenital horizontal nystagmus
+HP:0007862	239	Retinal calcification
+HP:0007866	239	Retinal infarction
+HP:0007872	239	Choroidal hemangioma
+HP:0007875	239	Congenital blindness
+HP:0007880	138	Marginal corneal dystrophy
+HP:0007885	56	Slowed horizontal saccades
+HP:0007892	239	Hypoplasia of the lacrimal punctum
+HP:0007898	239	Exudative retinopathy
+HP:0007902	239	Vitreous hemorrhage
+HP:0007906	239	Ocular hypertension
+HP:0007913	47	Reticular retinal dystrophy
+HP:0007915	142	Polymorphous posterior corneal dystrophy
+HP:0007924	173	Slow decrease in visual acuity
+HP:0007925	239	Lacrimal duct aplasia
+HP:0007937	41	Reticular pigmentary degeneration
+HP:0007939	64	Blue cone monochromacy
+HP:0007942	239	Internal ophthalmoplegia
+HP:0007950	89	Peripapillary chorioretinal atrophy
+HP:0007958	64	Optic atrophy from cranial nerve compression
+HP:0007965	51	Undetectable visual evoked potentials
+HP:0007973	239	Retinal dysplasia
+HP:0007975	45	Hypometric horizontal saccades
+HP:0007979	145	Gaze-evoked horizontal nystagmus
+HP:0007980	239	Absent retinal pigment epithelium
+HP:0007984	109	Electronegative electroretinogram
+HP:0007985	171	Retinal arteriolar occlusion
+HP:0007987	239	Progressive visual field defects
+HP:0007988	187	Macular hypopigmentation
+HP:0007989	239	Intraretinal exudate
+HP:0007992	186	Lattice retinal degeneration
+HP:0007993	239	Malformed lacrimal duct
+HP:0007994	239	Peripheral visual field loss
+HP:0008000	239	Decreased corneal reflex
+HP:0008007	239	Primary congenital glaucoma
+HP:0008020	239	Cone dystrophy
+HP:0008028	239	Cystoid macular degeneration
+HP:0008037	196	Absent anterior chamber of the eye
+HP:0008039	179	Subepithelial corneal opacities
+HP:0008043	59	Retinal arteriolar constriction
+HP:0008071	239	Maternal hypertension
+HP:0008072	149	Maternal virilization in pregnancy
+HP:0008075	113	Progressive pes cavus
+HP:0008080	239	Hallux varus
+HP:0008081	239	Pes valgus
+HP:0008082	87	Medial deviation of the foot
+HP:0008110	239	Equinovarus deformity
+HP:0008112	82	Plantar flexion contractures
+HP:0008124	239	Talipes calcaneovarus
+HP:0008132	137	Medial rotation of the medial malleolus
+HP:0008138	75	Equinus calcaneus
+HP:0008141	127	Dislocation of toes
+HP:0008150	239	Elevated serum transaminases during infections
+HP:0008151	239	Prolonged prothrombin time
+HP:0008158	239	Hyperapobetalipoproteinemia
+HP:0008162	120	Asymptomatic hyperammonemia
+HP:0008163	239	Decreased circulating cortisol level
+HP:0008165	239	Decreased helper T cell proportion
+HP:0008166	239	Decreased beta-galactosidase activity
+HP:0008167	239	Very long chain fatty acid accumulation
+HP:0008169	239	Reduced factor VII activity
+HP:0008180	102	Mildly elevated creatine kinase
+HP:0008181	185	Abetalipoproteinemia
+HP:0008182	239	Adrenocortical hypoplasia
+HP:0008185	239	Precocious puberty in males
+HP:0008187	239	Absence of secondary sex characteristics
+HP:0008189	239	Insulin insensitivity
+HP:0008191	239	Thyroid agenesis
+HP:0008193	239	Primary gonadal insufficiency
+HP:0008194	66	Multiple pancreatic beta-cell adenomas
+HP:0008198	239	Congenital hypoparathyroidism
+HP:0008200	239	Primary hyperparathyroidism
+HP:0008202	85	Reduced circulating prolactin concentration
+HP:0008205	239	Insulin-dependent but ketosis-resistant diabetes
+HP:0008208	239	Parathyroid hyperplasia
+HP:0008209	239	Premature ovarian insufficiency
+HP:0008211	239	Parathyroid agenesis
+HP:0008213	239	Gonadotropin deficiency
+HP:0008214	239	Decreased serum estradiol
+HP:0008222	239	Female infertility
+HP:0008223	189	Compensated hypothyroidism
+HP:0008225	239	Thyroid follicular hyperplasia
+HP:0008226	239	Androgen insufficiency
+HP:0008227	239	Pituitary resistance to thyroid hormone
+HP:0008231	239	Macronodular adrenal hyperplasia
+HP:0008232	146	Elevated circulating follicle stimulating hormone level
+HP:0008233	239	Decreased circulating progesterone
+HP:0008236	84	Isosexual precocious puberty
+HP:0008237	239	Hypothalamic hypothyroidism
+HP:0008239	111	Adrenal medullary hypoplasia
+HP:0008240	239	Secondary growth hormone deficiency
+HP:0008242	239	Pseudohypoaldosteronism
+HP:0008244	239	Congenital adrenal hypoplasia
+HP:0008245	239	Pituitary hypothyroidism
+HP:0008247	83	Euthyroid hyperthyroxinemia
+HP:0008250	153	Infantile hypercalcemia
+HP:0008258	239	Congenital adrenal hyperplasia
+HP:0008259	148	Adrenocorticotropin receptor defect
+HP:0008269	73	Increased red cell hemolysis by shear stress
+HP:0008278	239	Cerebellar cortical atrophy
+HP:0008279	239	Transient hyperlipidemia
+HP:0008281	239	Acute hyperammonemia
+HP:0008282	239	Unconjugated hyperbilirubinemia
+HP:0008283	239	Fasting hyperinsulinemia
+HP:0008285	114	Transient hypophosphatemia
+HP:0008288	239	Nonketotic hyperglycinemia
+HP:0008291	239	Pituitary corticotropic cell adenoma
+HP:0008297	40	Transient hyperphenylalaninemia
+HP:0008301	39	Dermatan sulfate excretion in urine
+HP:0008305	52	Exercise-induced myoglobinuria
+HP:0008314	239	Decreased activity of mitochondrial complex II
+HP:0008315	235	Decreased plasma free carnitine
+HP:0008316	239	Abnormal mitochondria in muscle tissue
+HP:0008318	194	Elevated leukocyte alkaline phosphatase
+HP:0008320	93	Impaired collagen-induced platelet aggregation
+HP:0008330	239	Reduced von Willebrand factor activity
+HP:0008331	239	Elevated creatine kinase after exercise
+HP:0008344	239	Elevated plasma branched chain amino acids
+HP:0008353	201	Neutral hyperaminoaciduria
+HP:0008354	239	Factor X activation deficiency
+HP:0008358	103	Hyperprolinemia
+HP:0008390	58	Recurrent loss of toenails and fingernails
+HP:0008391	239	Dystrophic fingernails
+HP:0008392	208	Subungual hyperkeratosis
+HP:0008396	75	Chronic monilial nail infection
+HP:0008400	48	Onycholysis of distal fingernails
+HP:0008401	239	Onychogryposis of toenails
+HP:0008402	151	Ridged fingernail
+HP:0008416	239	Six lumbar vertebrae
+HP:0008419	239	Intervertebral disc degeneration
+HP:0008434	61	Hypoplastic cervical vertebrae
+HP:0008439	167	Lumbar hemivertebrae
+HP:0008442	239	Vertebral hyperostosis
+HP:0008443	168	Neuropathic spinal arthropathy
+HP:0008445	239	Cervical spinal canal stenosis
+HP:0008451	239	Posterior vertebral hypoplasia
+HP:0008453	239	Congenital kyphoscoliosis
+HP:0008456	57	C2-C3 subluxation
+HP:0008458	239	Progressive congenital scoliosis
+HP:0008462	239	Cervical instability
+HP:0008467	220	Thoracic hemivertebrae
+HP:0008468	233	Abnormal sacral segmentation
+HP:0008480	239	Cervical spondylosis
+HP:0008497	239	Congenital craniofacial dysostosis
+HP:0008501	239	Median cleft lip and palate
+HP:0008504	239	Moderate sensorineural hearing impairment
+HP:0008511	57	Central posterior corneal opacity
+HP:0008513	239	Bilateral conductive hearing impairment
+HP:0008527	239	Congenital sensorineural hearing impairment
+HP:0008529	239	Absence of acoustic reflex
+HP:0008555	239	Absent vestibular function
+HP:0008568	239	Vestibular areflexia
+HP:0008572	239	External ear malformation
+HP:0008573	239	Low-frequency sensorineural hearing impairment
+HP:0008586	239	Hypoplasia of the cochlea
+HP:0008591	239	Congenital conductive hearing impairment
+HP:0008596	239	Postlingual sensorineural hearing impairment
+HP:0008598	239	Mild conductive hearing impairment
+HP:0008605	239	Unilateral external ear deformity
+HP:0008607	239	Progressive conductive hearing impairment
+HP:0008608	92	Hypertrophic auricular cartilage
+HP:0008610	116	Infantile sensorineural hearing impairment
+HP:0008615	239	Adult onset sensorineural hearing impairment
+HP:0008619	239	Bilateral sensorineural hearing impairment
+HP:0008625	239	Severe sensorineural hearing impairment
+HP:0008629	239	Pulsatile tinnitus
+HP:0008639	239	Gonadal hypoplasia
+HP:0008652	239	Autonomic erectile dysfunction
+HP:0008653	239	Crescentic glomerulonephritis
+HP:0008660	40	Renotubular dysgenesis
+HP:0008665	114	Clitoral hypertrophy
+HP:0008668	239	Gonadal dysgenesis, male
+HP:0008672	239	Calcium oxalate nephrolithiasis
+HP:0008675	193	Enlarged polycystic ovaries
+HP:0008676	160	Congenital megaureter
+HP:0008677	239	Congenital nephrotic syndrome
+HP:0008683	89	Enlarged labia minora
+HP:0008687	239	Hypoplasia of the prostate
+HP:0008695	182	Transient nephrotic syndrome
+HP:0008697	239	Hypoplasia of the fallopian tube
+HP:0008703	209	Gonadal calcification
+HP:0008707	120	Absent scrotum
+HP:0008715	239	Testicular dysgenesis
+HP:0008716	144	Urethrovaginal fistula
+HP:0008718	182	Unilateral renal dysplasia
+HP:0008722	239	Urethral diverticulum
+HP:0008723	192	Gonadal dysgenesis with female appearance, male
+HP:0008726	239	Hypoplasia of the vagina
+HP:0008730	132	Female external genitalia in individual with 46,XY karyotype
+HP:0008732	239	Renal hypophosphatemia
+HP:0008733	60	Dysplastic testes
+HP:0008734	239	Decreased testicular size
+HP:0008740	101	Longitudinal vaginal septum
+HP:0008743	163	Coronal hypospadias
+HP:0008747	74	Cartilaginous ossification of larynx
+HP:0008749	239	Laryngeal hypoplasia
+HP:0008750	239	Laryngeal atresia
+HP:0008752	239	Laryngeal cartilage malformation
+HP:0008754	173	Laryngeal calcification
+HP:0008756	45	Bowing of the vocal cords
+HP:0008757	239	Unilateral vocal cord paralysis
+HP:0008760	239	Violent behavior
+HP:0008762	239	Repetitive compulsive behavior
+HP:0008763	239	No social interaction
+HP:0008765	239	Auditory hallucinations
+HP:0008770	239	Obsessive-compulsive trait
+HP:0008780	239	Congenital bilateral hip dislocation
+HP:0008796	239	Femoral retroversion
+HP:0008802	239	Hypoplasia of the femoral head
+HP:0008804	80	Broad femoral head
+HP:0008807	239	Acetabular dysplasia
+HP:0008808	79	High iliac wing
+HP:0008812	99	Flattened femoral head
+HP:0008818	46	Large iliac wing
+HP:0008826	239	Dislocation of the femoral head
+HP:0008829	64	Delayed femoral head ossification
+HP:0008839	70	Hypoplastic pelvis
+HP:0008843	239	Hip osteoarthritis
+HP:0008845	134	Mesomelic short stature
+HP:0008846	239	Severe intrauterine growth retardation
+HP:0008848	239	Moderately short stature
+HP:0008850	239	Severe postnatal growth retardation
+HP:0008855	239	Moderate postnatal growth retardation
+HP:0008883	239	Mild intrauterine growth retardation
+HP:0008935	239	Generalized neonatal hypotonia
+HP:0008940	239	Generalized lymphadenopathy
+HP:0008942	239	Acute rhabdomyolysis
+HP:0008948	94	Proximal upper limb amyotrophy
+HP:0008954	82	Intrinsic hand muscle atrophy
+HP:0008955	239	Progressive distal muscular atrophy
+HP:0008959	239	Distal upper limb muscle weakness
+HP:0008963	239	Tibialis muscle weakness
+HP:0008967	109	Exercise-induced muscle stiffness
+HP:0008969	239	Leg muscle stiffness
+HP:0008978	239	Necrotizing myopathy
+HP:0008981	204	Calf muscle hypertrophy
+HP:0008985	239	Increased intramuscular fat
+HP:0008986	239	Agenesis of the diaphragm
+HP:0008993	239	Increased intraabdominal fat
+HP:0008998	239	Pectoralis hypoplasia
+HP:0009003	40	Increased subcutaneous truncal adipose tissue
+HP:0009005	126	Weakness of the intrinsic hand muscles
+HP:0009020	239	Exercise-induced muscle fatigue
+HP:0009027	70	Foot dorsiflexor weakness
+HP:0009045	180	Exercise-induced rhabdomyolysis
+HP:0009046	239	Difficulty running
+HP:0009049	174	Peroneal muscle atrophy
+HP:0009055	239	Generalized limb muscle atrophy
+HP:0009059	239	Congenital generalized lipodystrophy
+HP:0009063	239	Progressive distal muscle weakness
+HP:0009064	239	Generalized lipodystrophy
+HP:0009071	239	Inflammatory myopathy
+HP:0009072	65	Decreased Achilles reflex
+HP:0009073	239	Progressive proximal muscle weakness
+HP:0009088	239	Speech articulation difficulties
+HP:0009098	239	Chronic oral candidiasis
+HP:0009101	83	Submucous cleft lip
+HP:0009102	239	Anterior open-bite malocclusion
+HP:0009109	229	Denervation of the diaphragm
+HP:0009110	239	Diaphragmatic eventration
+HP:0009371	39	Type A1 brachydactyly
+HP:0009373	147	Type C brachydactyly
+HP:0009555	239	Hypoplasia of the pharynx
+HP:0009556	239	Absent tibia
+HP:0009589	239	Bilateral vestibular schwannoma
+HP:0009590	239	Unilateral vestibular schwannoma
+HP:0009593	239	Peripheral Schwannoma
+HP:0009595	239	Occasional neurofibromas
+HP:0009626	46	Contractures of the interphalangeal joint of the thumb
+HP:0009709	239	Increased CSF interferon alpha
+HP:0009713	239	Spinal hemangioblastoma
+HP:0009716	232	Subependymal nodules
+HP:0009717	239	Cortical tubers
+HP:0009718	239	Subependymal giant-cell astrocytoma
+HP:0009720	239	Adenoma sebaceum
+HP:0009721	75	Shagreen patch
+HP:0009722	192	Dental enamel pits
+HP:0009729	239	Cardiac rhabdomyoma
+HP:0009732	239	Plexiform neurofibroma
+HP:0009734	239	Optic nerve glioma
+HP:0009736	239	Tibial pseudarthrosis
+HP:0009737	236	Lisch nodules
+HP:0009739	83	Hypoplasia of the antihelix
+HP:0009740	239	Aplasia of the parotid gland
+HP:0009741	239	Nephrosclerosis
+HP:0009742	239	Stiff shoulders
+HP:0009743	152	Distichiasis
+HP:0009746	239	Thick nasal septum
+HP:0009748	69	Large earlobe
+HP:0009752	239	Cleft in skull base
+HP:0009755	156	Ankyloblepharon
+HP:0009756	107	Popliteal pterygium
+HP:0009762	239	Facial wrinkling
+HP:0009777	239	Absent thumb
+HP:0009783	239	Biceps aplasia
+HP:0009785	125	Triceps aplasia
+HP:0009788	239	Quadriceps aplasia
+HP:0009789	239	Perianal abscess
+HP:0009793	131	Presacral teratoma
+HP:0009795	239	Branchial fistula
+HP:0009796	239	Branchial cyst
+HP:0009797	239	Cholesteatoma
+HP:0009800	239	Maternal diabetes
+HP:0009805	221	Low-output congestive heart failure
+HP:0009813	98	Upper limb phocomelia
+HP:0009831	239	Mononeuropathy
+HP:0009879	100	Simplified gyral pattern
+HP:0009886	67	Trichorrhexis nodosa
+HP:0009892	239	Anotia
+HP:0009894	239	Thickened ears
+HP:0009900	239	Unilateral deafness
+HP:0009904	60	Prominent ear helix
+HP:0009916	239	Anisocoria
+HP:0009917	121	Persistent pupillary membrane
+HP:0009919	239	Retinoblastoma
+HP:0009921	239	Duane anomaly
+HP:0009927	239	Aplasia of the nose
+HP:0009939	239	Mandibular aplasia
+HP:0009941	239	Asymmetry of the mouth
+HP:0010104	42	Absent first metatarsal
+HP:0010105	220	Short first metatarsal
+HP:0010219	239	Structural foot deformity
+HP:0010285	163	Oral synechia
+HP:0010289	214	Cleft of alveolar ridge of maxilla
+HP:0010290	104	Short hard palate
+HP:0010294	239	Palate fistula
+HP:0010296	239	Ankyloglossia
+HP:0010297	87	Bifid tongue
+HP:0010298	239	Smooth tongue
+HP:0010305	239	Absence of the sacrum
+HP:0010306	239	Short thorax
+HP:0010310	239	Chylothorax
+HP:0010314	220	Premature thelarche
+HP:0010316	239	Ebstein anomaly of the tricuspid valve
+HP:0010444	239	Pulmonary insufficiency
+HP:0010445	219	Primum atrial septal defect
+HP:0010446	239	Tricuspid stenosis
+HP:0010452	164	Ectopia of the spleen
+HP:0010458	239	Female pseudohermaphroditism
+HP:0010459	239	True hermaphroditism
+HP:0010464	114	Streak ovary
+HP:0010465	239	Precocious puberty in females
+HP:0010469	239	Absent testis
+HP:0010477	239	Aplasia of the bladder
+HP:0010479	128	Patent urachus
+HP:0010491	45	Digital constriction ring
+HP:0010493	239	Long metacarpals
+HP:0010497	239	Sirenomelia
+HP:0010499	239	Patellar subluxation
+HP:0010502	104	Fibular bowing
+HP:0010503	53	Fibular duplication
+HP:0010508	239	Metatarsus valgus
+HP:0010509	239	Aplasia of the tarsal bones
+HP:0010512	239	Adrenal calcification
+HP:0010516	239	Thymus hyperplasia
+HP:0010517	239	Ectopic thymus tissue
+HP:0010518	239	Thyroglossal cyst
+HP:0010519	239	Increased fetal movement
+HP:0010521	232	Gait apraxia
+HP:0010522	239	Dyslexia
+HP:0010523	239	Alexia
+HP:0010525	239	Finger agnosia
+HP:0010526	239	Dysgraphia
+HP:0010527	239	Astereognosia
+HP:0010528	239	Prosopagnosia
+HP:0010529	145	Echolalia
+HP:0010530	239	Palatal tremor
+HP:0010531	239	Spinal myoclonus
+HP:0010532	239	Paroxysmal vertigo
+HP:0010533	239	Spasmus nutans
+HP:0010534	239	Transient global amnesia
+HP:0010538	158	Small sella turcica
+HP:0010541	80	Cutis gyrata of scalp
+HP:0010542	239	Vestibular nystagmus
+HP:0010543	239	Opsoclonus
+HP:0010545	239	Downbeat nystagmus
+HP:0010553	107	Oculogyric crisis
+HP:0010557	239	Overlapping fingers
+HP:0010559	121	Vertical clivus
+HP:0010562	239	Keloids
+HP:0010569	97	Elevated 7-dehydrocholesterol
+HP:0010575	239	Dysplasia of the femoral head
+HP:0010602	118	Type 2 muscle fiber predominance
+HP:0010603	239	Odontogenic keratocysts of the jaw
+HP:0010610	96	Palmar pits
+HP:0010612	68	Plantar pits
+HP:0010617	239	Cardiac fibroma
+HP:0010618	239	Ovarian fibroma
+HP:0010619	239	Fibroadenoma of the breast
+HP:0010620	239	Malar prominence
+HP:0010626	239	Anterior pituitary agenesis
+HP:0010627	239	Anterior pituitary hypoplasia
+HP:0010648	42	Dermal translucency
+HP:0010650	126	Hypoplasia of the premaxilla
+HP:0010654	239	Aplasia of the falx cerebri
+HP:0010666	87	Hypoplasia of the anterior nasal spine
+HP:0010667	239	Aplasia of the maxilla
+HP:0010677	239	Enuresis nocturna
+HP:0010723	58	Cystic lesions of the pinnae
+HP:0010729	46	Cherry red spot of the macula
+HP:0010736	239	Monostotic fibrous dysplasia
+HP:0010739	128	Osteopoikilosis
+HP:0010748	55	Ectopic lacrimal punctum
+HP:0010749	55	Blepharochalasis
+HP:0010750	239	Dermatochalasis
+HP:0010752	239	Cleft mandible
+HP:0010759	43	Prominence of the premaxilla
+HP:0010761	54	Broad columella
+HP:0010762	239	Chordoma
+HP:0010769	239	Pilonidal sinus
+HP:0010775	239	Vascular ring
+HP:0010780	239	Hyperacusis
+HP:0010791	239	Hyperplasia of the Leydig cells
+HP:0010794	195	Impaired visuospatial constructive cognition
+HP:0010795	239	Cerebellar glioma
+HP:0010796	239	Brainstem glioma
+HP:0010808	239	Protruding tongue
+HP:0010810	121	Long uvula
+HP:0010817	239	Linear nevus sebaceous
+HP:0010818	239	Generalized tonic seizure
+HP:0010823	48	Ridged cranial sutures
+HP:0010825	239	Abnormality of the eleventh cranial nerve
+HP:0010826	191	Abnormality of the twelfth cranial nerve
+HP:0010828	239	Hemifacial spasm
+HP:0010829	239	Impaired temperature sensation
+HP:0010833	239	Spontaneous pain sensation
+HP:0010835	197	Dissociated sensory loss
+HP:0010839	239	Increased urinary copper concentration
+HP:0010844	53	EEG with multifocal slow activity
+HP:0010851	239	EEG with burst suppression
+HP:0010853	238	EEG with periodic lateralized epileptiform discharges
+HP:0010862	239	Delayed fine motor development
+HP:0010864	239	Intellectual disability, severe
+HP:0010865	239	Oppositional defiant disorder
+HP:0010871	239	Sensory ataxia
+HP:0010873	239	Cervical spinal cord atrophy
+HP:0010877	239	Monocular strabismus
+HP:0010880	239	Increased nuchal translucency
+HP:0010883	239	Aortic valve atresia
+HP:0010886	239	Osteochondritis dissecans
+HP:0010922	239	Membranous cataract
+HP:0010923	239	Anterior subcapsular cataract
+HP:0010934	84	Xanthinuria
+HP:0010941	239	Aplasia of the nasal bone
+HP:0010942	82	Echogenic intracardiac focus
+HP:0010943	231	Echogenic fetal bowel
+HP:0010952	239	Mild fetal ventriculomegaly
+HP:0010953	239	Noncommunicating hydrocephalus
+HP:0010954	239	Hypoplastic right heart
+HP:0010956	94	Fetal megacystis
+HP:0010957	239	Congenital posterior urethral valve
+HP:0010958	239	Bilateral renal agenesis
+HP:0010992	239	Stress urinary incontinence
+HP:0010997	202	Chromosomal breakage induced by ionizing radiation
+HP:0010999	208	Aplasia of the optic tract
+HP:0011002	239	Osteopetrosis
+HP:0011003	239	High myopia
+HP:0011053	239	Agenesis of mandibular premolar
+HP:0011055	239	Agenesis of permanent molar
+HP:0011065	138	Conical incisor
+HP:0011067	239	Mesiodens
+HP:0011068	239	Odontoma
+HP:0011071	239	Abnormality of permanent molar morphology
+HP:0011079	239	Impacted tooth
+HP:0011081	61	Incisor macrodontia
+HP:0011085	74	Hypomature dental enamel
+HP:0011094	239	Increased overbite
+HP:0011095	239	Overjet
+HP:0011098	239	Speech apraxia
+HP:0011099	239	Spastic hemiparesis
+HP:0011106	239	Hypovolemia
+HP:0011107	239	Recurrent aphthous stomatitis
+HP:0011108	239	Recurrent sinusitis
+HP:0011109	239	Chronic sinusitis
+HP:0011110	239	Recurrent tonsillitis
+HP:0011118	239	Abnormality of tumor necrosis factor secretion
+HP:0011131	196	Perianal dermatitis
+HP:0011132	41	Chronic furunculosis
+HP:0011133	239	Increased sensitivity to ionizing radiation
+HP:0011149	239	Absence seizure with eyelid myoclonia
+HP:0011150	239	Myoclonic absence seizure
+HP:0011151	225	Atypical absence status epilepticus
+HP:0011152	239	Early onset absence seizures
+HP:0011168	239	Focal seizure with eyelid myoclonia
+HP:0011169	239	Generalized clonic seizure
+HP:0011170	239	Generalized myoclonic-atonic seizure
+HP:0011171	239	Simple febrile seizure
+HP:0011188	122	Focal EEG discharges with secondary generalization
+HP:0011194	98	EEG with series of focal spikes
+HP:0011199	105	EEG with generalized sharp slow waves
+HP:0011204	239	EEG with continuous slow activity
+HP:0011210	138	EEG with occipital slowing
+HP:0011219	239	Short face
+HP:0011220	239	Prominent forehead
+HP:0011227	239	Elevated circulating C-reactive protein concentration
+HP:0011228	118	Horizontal eyebrow
+HP:0011230	44	Laterally extended eyebrow
+HP:0011231	60	Prominent eyelashes
+HP:0011265	40	Cleft earlobe
+HP:0011273	239	Anisocytosis
+HP:0011275	174	Recurrent mycobacterium avium complex infections
+HP:0011284	135	Short-segment aganglionic megacolon
+HP:0011285	160	Long-segment aganglionic megacolon
+HP:0011289	60	EEG with temporal sharp slow waves
+HP:0011300	60	Broad fingertip
+HP:0011302	239	Long palm
+HP:0011309	40	Tapered toe
+HP:0011313	201	Narrow nail
+HP:0011318	137	Bicoronal synostosis
+HP:0011323	214	Cleft of chin
+HP:0011325	46	Pansynostosis
+HP:0011326	135	Anterior plagiocephaly
+HP:0011327	128	Posterior plagiocephaly
+HP:0011330	239	Metopic synostosis
+HP:0011332	239	Hemifacial hypoplasia
+HP:0011340	48	Incomplete cleft of the upper lip
+HP:0011341	239	Long upper lip
+HP:0011342	239	Mild global developmental delay
+HP:0011343	239	Moderate global developmental delay
+HP:0011344	239	Severe global developmental delay
+HP:0011351	115	Moderate receptive language delay
+HP:0011352	237	Severe receptive language delay
+HP:0011353	239	Arterial intimal fibrosis
+HP:0011359	239	Dry hair
+HP:0011364	239	White hair
+HP:0011367	210	Yellow nails
+HP:0011369	101	Mongolian blue spot
+HP:0011372	239	Aplasia of the inner ear
+HP:0011375	239	Cochlear aplasia
+HP:0011379	66	Dilated vestibule of the inner ear
+HP:0011381	239	Aplasia of the semicircular canal
+HP:0011382	239	Hypoplasia of the semicircular canal
+HP:0011386	101	Narrow internal auditory canal
+HP:0011387	239	Enlarged vestibular aqueduct
+HP:0011388	178	Enlarged cochlear aqueduct
+HP:0011399	239	Tibialis anterior muscle atrophy
+HP:0011401	239	Delayed peripheral myelination
+HP:0011402	239	Demyelinating sensory neuropathy
+HP:0011412	239	Ventouse delivery
+HP:0011414	239	Hydropic placenta
+HP:0011419	239	Placental abruption
+HP:0011423	239	Hyperchloremia
+HP:0011424	239	Increased serum zinc
+HP:0011438	239	Maternal teratogenic exposure
+HP:0011445	239	Athetoid cerebral palsy
+HP:0011448	129	Ankle clonus
+HP:0011451	239	Primary microcephaly
+HP:0011455	41	Absent malleus
+HP:0011457	239	Loss of eyelashes
+HP:0011459	239	Esophageal carcinoma
+HP:0011467	220	Absent gallbladder
+HP:0011468	146	Facial tics
+HP:0011469	239	Nasal regurgitation
+HP:0011473	239	Villous atrophy
+HP:0011476	239	Profound sensorineural hearing impairment
+HP:0011477	168	Upbeat nystagmus
+HP:0011480	103	Unilateral microphthalmos
+HP:0011483	239	Anterior synechiae of the anterior chamber
+HP:0011484	239	Posterior synechiae of the anterior chamber
+HP:0011487	239	Increased corneal thickness
+HP:0011496	239	Corneal neovascularization
+HP:0011501	88	Anterior lenticonus
+HP:0011502	76	Posterior lenticonus
+HP:0011504	155	Bull's eye maculopathy
+HP:0011505	239	Cystoid macular edema
+HP:0011507	156	Macular flecks
+HP:0011509	239	Macular hyperpigmentation
+HP:0011513	83	Retinal cavernous angioma
+HP:0011516	239	Achromatopsia
+HP:0011520	239	Deuteranomaly
+HP:0011523	239	Iris cyst
+HP:0011524	239	Iris melanoma
+HP:0011530	239	Retinal hole
+HP:0011532	239	Subretinal exudate
+HP:0011536	239	Right atrial isomerism
+HP:0011537	239	Left atrial isomerism
+HP:0011538	218	Atrial situs inversus
+HP:0011553	108	Discordant atrioventricular connection
+HP:0011555	216	Double inlet left ventricle
+HP:0011556	176	Double inlet right ventricle
+HP:0011560	239	Mitral atresia
+HP:0011565	239	Common atrium
+HP:0011571	131	Parachute mitral valve
+HP:0011573	239	Hypoplastic tricuspid valve
+HP:0011577	78	Partial atrioventricular canal defect
+HP:0011579	119	Unbalanced atrioventricular canal defect
+HP:0011581	239	Double outlet left ventricle
+HP:0011591	76	Left aortic arch with cervical origin of the right subclavian artery
+HP:0011595	92	Left aortic arch with retroesophageal right subclavian artery
+HP:0011604	239	Aortopulmonary window
+HP:0011605	166	Congenitally corrected transposition of the great arteries with ventricular septal defect
+HP:0011622	171	Inlet ventricular septal defect
+HP:0011625	138	Multiple muscular ventricular septal defects
+HP:0011626	239	Scimitar anomaly
+HP:0011629	69	Total absence of the pericardium
+HP:0011638	239	Anomalous origin of left coronary artery from the pulmonary artery
+HP:0011640	239	Single coronary artery origin
+HP:0011645	239	Dilatation of the sinus of Valsalva
+HP:0011648	197	Patent ductus arteriosus after birth at term
+HP:0011658	239	Double outlet right ventricle with subpulmonary ventricular septal defect without pulmonary stenosis
+HP:0011663	239	Right ventricular cardiomyopathy
+HP:0011664	239	Left ventricular noncompaction cardiomyopathy
+HP:0011665	239	Takotsubo cardiomyopathy
+HP:0011670	197	Left superior vena cava draining to coronary sinus
+HP:0011671	49	Interrupted inferior vena cava with azygous continuation
+HP:0011672	239	Cardiac myxoma
+HP:0011681	88	Subarterial ventricular septal defect
+HP:0011682	239	Perimembranous ventricular septal defect
+HP:0011695	239	Cerebellar hemorrhage
+HP:0011699	239	Atrial reentry tachycardia
+HP:0011700	239	Automatic atrial tachycardia
+HP:0011701	75	Multifocal atrial tachycardia
+HP:0011707	239	Mobitz I atrioventricular block
+HP:0011711	239	Left anterior fascicular block
+HP:0011712	239	Right bundle branch block
+HP:0011715	41	Trifascicular block
+HP:0011716	239	Junctional ectopic tachycardia
+HP:0011720	239	Cardiac total anomalous pulmonary venous connection
+HP:0011727	239	Peroneal muscle weakness
+HP:0011735	239	Adrenocorticotropin deficient adrenal insufficiency
+HP:0011740	239	Glucocortocoid-insensitive primary hyperaldosteronism
+HP:0011743	239	Adrenal gland agenesis
+HP:0011748	239	Adrenocorticotropic hormone deficiency
+HP:0011749	239	Adrenocorticotropic hormone excess
+HP:0011755	237	Ectopic posterior pituitary
+HP:0011756	239	Posterior pituitary agenesis
+HP:0011757	239	Posterior pituitary hypoplasia
+HP:0011759	84	Pituitary gonadotropic cell adenoma
+HP:0011760	239	Pituitary growth hormone cell adenoma
+HP:0011761	208	Pituitary null cell adenoma
+HP:0011780	129	Thyroid hemiagenesis
+HP:0011781	239	Thyroid C cell hyperplasia
+HP:0011782	239	Thyroid crisis
+HP:0011785	132	Thyrotoxicosis with toxic multinodular goiter
+HP:0011788	161	Increased circulating free T3
+HP:0011790	84	Activating thyroid-stimulating hormone receptor defect
+HP:0011800	146	Midface retrusion
+HP:0011801	239	Enlargement of parotid gland
+HP:0011802	120	Hamartoma of tongue
+HP:0011803	56	Bifid nose
+HP:0011807	239	Type 1 muscle fiber atrophy
+HP:0011808	57	Decreased patellar reflex
+HP:0011814	239	Increased urinary hypoxanthine
+HP:0011822	239	Broad chin
+HP:0011825	39	Tented philtrum
+HP:0011832	178	Narrow nasal tip
+HP:0011834	116	Moyamoya phenomenon
+HP:0011837	85	Partial IgA deficiency
+HP:0011838	239	Sclerodactyly
+HP:0011841	239	Ventricular flutter
+HP:0011847	239	Giant cell tumor of bone
+HP:0011848	239	Abdominal colic
+HP:0011850	239	Parotitis
+HP:0011852	239	Chylopericardium
+HP:0011854	239	Hemoperitoneum
+HP:0011855	239	Pharyngeal edema
+HP:0011858	239	Reduced factor IX activity
+HP:0011859	239	Punctate keratitis
+HP:0011864	55	Elevated plasma pyrophosphate
+HP:0011872	59	Impaired thrombin-induced platelet aggregation
+HP:0011887	239	Choroid hemorrhage
+HP:0011888	239	Bleeding requiring red cell transfusion
+HP:0011891	239	Post-partum hemorrhage
+HP:0011892	239	Low levels of vitamin K
+HP:0011896	239	Subconjunctival hemorrhage
+HP:0011899	239	Hyperfibrinogenemia
+HP:0011900	239	Hypofibrinogenemia
+HP:0011903	239	HbH hemoglobin
+HP:0011904	239	Persistence of hemoglobin F
+HP:0011905	239	Reduced hemoglobin A
+HP:0011907	143	Reduced alpha/beta synthesis ratio
+HP:0011908	123	Unilateral radial aplasia
+HP:0011910	73	Shortening of all phalanges of fingers
+HP:0011923	239	Decreased activity of mitochondrial complex I
+HP:0011924	239	Decreased activity of mitochondrial complex III
+HP:0011925	239	Decreased activity of mitochondrial ATP synthase complex
+HP:0011935	239	Decreased urinary urate
+HP:0011936	239	Decreased plasma total carnitine
+HP:0011940	41	Anterior wedging of T12
+HP:0011941	39	Anterior wedging of L2
+HP:0011944	239	Small vessel vasculitis
+HP:0011945	239	Bronchiolitis obliterans organizing pneumonia
+HP:0011946	239	Bronchiolitis obliterans
+HP:0011949	239	Acute infectious pneumonia
+HP:0011950	239	Bronchiolitis
+HP:0011954	239	Nodular regenerative hyperplasia of liver
+HP:0011960	239	Substantia nigra gliosis
+HP:0011962	239	Obstructive azoospermia
+HP:0011964	65	Intermittent painful muscle spasms
+HP:0011966	239	Elevated plasma citrulline
+HP:0011967	85	Decreased circulating copper concentration
+HP:0011969	183	Elevated circulating luteinizing hormone level
+HP:0011970	239	Cerebral amyloid angiopathy
+HP:0011972	150	Hypoglycorrhachia
+HP:0011974	239	Myelofibrosis
+HP:0011975	239	Aminoglycoside-induced hearing loss
+HP:0011978	52	Elevated urinary vanillylmandelic acid
+HP:0011979	168	Elevated urinary dopamine
+HP:0011980	239	Cholesterol gallstones
+HP:0011985	94	Acholic stools
+HP:0011987	239	Ectopic ossification in muscle tissue
+HP:0011988	239	Ectopic ossification in tendon tissue
+HP:0011989	239	Ectopic ossification in ligament tissue
+HP:0011995	239	Atrial septal dilatation
+HP:0011996	227	Elevated coagulation factor V activity
+HP:0011998	239	Postprandial hyperglycemia
+HP:0011999	239	Paranoia
+HP:0012000	239	EEG with generalized spikes
+HP:0012001	218	EEG with generalized polyspikes
+HP:0012005	239	Deja vu aura
+HP:0012010	80	EEG with frontal focal spike waves
+HP:0012014	169	EEG with central focal spikes
+HP:0012015	239	EEG with frontal focal spikes
+HP:0012016	186	EEG with occipital focal spikes
+HP:0012017	145	EEG with parietal focal spikes
+HP:0012019	239	Lens luxation
+HP:0012026	206	Hyperornithinemia
+HP:0012027	239	Laryngeal edema
+HP:0012028	239	Hepatocellular adenoma
+HP:0012030	239	Increased urinary cortisol level
+HP:0012033	132	Sacral lipoma
+HP:0012035	92	Steatocystoma multiplex
+HP:0012038	82	Corneal guttata
+HP:0012039	153	Descemet Membrane Folds
+HP:0012040	239	Corneal stromal edema
+HP:0012042	239	Aspirin-induced asthma
+HP:0012044	239	Seesaw nystagmus
+HP:0012047	239	Hemeralopia
+HP:0012048	239	Oromandibular dystonia
+HP:0012049	239	Laryngeal dystonia
+HP:0012050	239	Anasarca
+HP:0012052	239	Low serum calcitriol
+HP:0012054	239	Choroidal melanoma
+HP:0012055	239	Ciliary body melanoma
+HP:0012060	239	Acral lentiginous melanoma
+HP:0012063	239	Aneurysmal bone cyst
+HP:0012066	150	Increased urinary disaccharide excretion
+HP:0012068	69	Aspartylglucosaminuria
+HP:0012070	49	Chondroitin sulfate excretion in urine
+HP:0012074	239	Tonic pupil
+HP:0012076	239	Borderline personality disorder
+HP:0012078	239	Motor conduction block
+HP:0012081	239	Enlarged cerebellum
+HP:0012082	91	Cerebellar Purkinje layer atrophy
+HP:0012083	157	Ubiquitin-positive cerebral inclusion bodies
+HP:0012095	239	Multiple joint dislocation
+HP:0012101	239	Decreased serum creatinine
+HP:0012104	239	Parietal cortical atrophy
+HP:0012107	41	Increased fibular diameter
+HP:0012108	239	Open angle glaucoma
+HP:0012109	239	Angle closure glaucoma
+HP:0012114	239	Endometrial carcinoma
+HP:0012118	239	Laryngeal carcinoma
+HP:0012119	239	Methemoglobinemia
+HP:0012120	239	Methylmalonic aciduria
+HP:0012121	239	Panuveitis
+HP:0012123	239	Posterior uveitis
+HP:0012125	239	Prostate cancer
+HP:0012126	239	Stomach cancer
+HP:0012128	239	Basal ganglia necrosis
+HP:0012129	239	Abnormality of bone marrow stromal cells
+HP:0012133	239	Erythroid hypoplasia
+HP:0012138	239	Granulocytic hyperplasia
+HP:0012139	239	Granulocytic hypoplasia
+HP:0012142	239	Pancreatic squamous cell carcinoma
+HP:0012151	239	Hemothorax
+HP:0012152	239	Foveoschisis
+HP:0012153	57	Hypotriglyceridemia
+HP:0012155	239	Decreased corneal sensation
+HP:0012156	239	Hemophagocytosis
+HP:0012163	239	Carotid artery dilatation
+HP:0012164	239	Asterixis
+HP:0012167	239	Hair-pulling
+HP:0012168	239	Head-banging
+HP:0012170	239	Nail-biting
+HP:0012172	239	Stereotypical body rocking
+HP:0012173	239	Orthostatic tachycardia
+HP:0012174	239	Glioblastoma multiforme
+HP:0012175	239	Resistance to activated protein C
+HP:0012178	239	Reduced natural killer cell activity
+HP:0012182	239	Oropharyngeal squamous cell carcinoma
+HP:0012183	239	Hyperplastic colonic polyposis
+HP:0012184	239	Increased HDL cholesterol concentration
+HP:0012185	40	Constrictive median neuropathy
+HP:0012187	88	Increased erythrocyte protoporphyrin concentration
+HP:0012188	239	Hyperemesis gravidarum
+HP:0012189	239	Hodgkin lymphoma
+HP:0012192	239	Cutaneous T-cell lymphoma
+HP:0012194	239	Episodic hemiplegia
+HP:0012195	239	Irregular respiration
+HP:0012196	239	Cheyne-Stokes respiration
+HP:0012197	239	Insulinoma
+HP:0012198	198	Juvenile colonic polyposis
+HP:0012203	239	Onychomycosis
+HP:0012204	239	Recurrent vulvovaginal candidiasis
+HP:0012205	239	Globozoospermia
+HP:0012207	239	Reduced sperm motility
+HP:0012208	239	Immotile sperm
+HP:0012209	239	Juvenile myelomonocytic leukemia
+HP:0012213	239	Decreased glomerular filtration rate
+HP:0012215	228	Testicular microlithiasis
+HP:0012217	156	Increased urinary porphobilinogen
+HP:0012218	239	Alveolar soft part sarcoma
+HP:0012219	239	Erythema nodosum
+HP:0012223	239	Splenic rupture
+HP:0012230	239	Rhegmatogenous retinal detachment
+HP:0012231	239	Exudative retinal detachment
+HP:0012232	239	Shortened QT interval
+HP:0012233	239	Intramuscular hematoma
+HP:0012236	119	Elevated sweat chloride
+HP:0012238	45	Increased circulating chylomicron concentration
+HP:0012240	56	Increased intramyocellular lipid droplets
+HP:0012241	109	Levator palpebrae superioris atrophy
+HP:0012242	58	Superior rectus atrophy
+HP:0012245	239	Sex reversal
+HP:0012246	239	Oculomotor nerve palsy
+HP:0012248	239	Prolonged PR interval
+HP:0012250	239	ST segment depression
+HP:0012251	239	ST segment elevation
+HP:0012254	239	Ewing sarcoma
+HP:0012263	239	Immotile cilia
+HP:0012265	239	Ciliary dyskinesia
+HP:0012266	239	T-wave alternans
+HP:0012270	239	Decreased muscle glycogen content
+HP:0012271	239	Episodic upper airway obstruction
+HP:0012272	239	J wave
+HP:0012273	197	Increased carotid artery intimal medial thickness
+HP:0012276	239	Digital flexor tenosynovitis
+HP:0012282	194	Morbilliform rash
+HP:0012283	67	Small distal femoral epiphysis
+HP:0012284	57	Small proximal tibial epiphyses
+HP:0012287	239	Hypothalamic luteinizing hormone-releasing hormone deficiency
+HP:0012299	118	Long distal phalanx of finger
+HP:0012300	239	Ureteral agenesis
+HP:0012302	239	Herpes simplex encephalitis
+HP:0012311	239	Monocytosis
+HP:0012312	229	Monocytopenia
+HP:0012315	239	Histiocytoma
+HP:0012321	110	D-2-hydroxyglutaric aciduria
+HP:0012322	110	Perifolliculitis
+HP:0012325	239	Chronic myelomonocytic leukemia
+HP:0012334	239	Extrahepatic cholestasis
+HP:0012343	75	Decreased circulating ferritin concentration
+HP:0012364	239	Decreased urinary potassium
+HP:0012366	239	Basilar invagination
+HP:0012368	239	Flat face
+HP:0012370	149	Prominence of the zygomatic bone
+HP:0012375	239	Chemosis
+HP:0012380	239	Reduced carnitine O-palmitoyltransferase level
+HP:0012382	239	Left-to-right shunt
+HP:0012383	239	Bidirectional shunt
+HP:0012386	45	Absent hallux
+HP:0012390	239	Anal fissure
+HP:0012397	239	Aortic atherosclerotic lesion
+HP:0012398	239	Peripheral edema
+HP:0012405	239	Hypocitraturia
+HP:0012407	239	Scissor gait
+HP:0012408	151	Medullary nephrocalcinosis
+HP:0012409	54	Cortical nephrocalcinosis
+HP:0012410	239	Pure red cell aplasia
+HP:0012412	232	Premature adrenarche
+HP:0012416	239	Hypercapnia
+HP:0012417	239	Hypocapnia
+HP:0012420	239	Meconium stained amniotic fluid
+HP:0012426	239	Optic disc drusen
+HP:0012427	239	Increased femoral anteversion
+HP:0012428	128	Prominent calcaneus
+HP:0012430	239	Cerebral white matter hypoplasia
+HP:0012431	239	Episodic fatigue
+HP:0012434	239	Delayed social development
+HP:0012449	78	Sacroiliac joint synovitis
+HP:0012450	239	Chronic constipation
+HP:0012452	239	Restless legs
+HP:0012463	239	Elevated transferrin saturation
+HP:0012464	239	Decreased transferrin saturation
+HP:0012465	170	Elevated hepatic iron concentration
+HP:0012469	239	Infantile spasms
+HP:0012473	239	Tongue atrophy
+HP:0012474	239	Carotid artery occlusion
+HP:0012476	90	Decreased specific pneumococcal antibody level
+HP:0012477	239	Vocal tremor
+HP:0012479	90	Temporomandibular joint crepitus
+HP:0012486	239	Myelitis
+HP:0012487	90	Cerebellopontine angle arachnoid cyst
+HP:0012488	83	Intraventricular arachnoid cyst
+HP:0012489	180	Suprasellar arachnoid cyst
+HP:0012490	239	Panniculitis
+HP:0012493	239	Middle cerebral artery stenosis
+HP:0012496	239	Reduced maximal inspiratory pressure
+HP:0012497	239	Reduced maximal expiratory pressure
+HP:0012499	239	Descending aortic dissection
+HP:0012500	202	Verrucous papule
+HP:0012505	239	Enlarged pituitary gland
+HP:0012508	239	Metamorphopsia
+HP:0012509	54	Reduced thyroxin-binding globulin
+HP:0012515	239	Hip flexor weakness
+HP:0012517	239	Reduced catalase level
+HP:0012520	148	Dilation of Virchow-Robin spaces
+HP:0012521	239	Optic nerve aplasia
+HP:0012523	239	Oral aversion
+HP:0012526	239	Absence of alpha granules
+HP:0012527	42	Abnormal alpha granule content
+HP:0012534	239	Dysesthesia
+HP:0012538	239	Gluten intolerance
+HP:0012541	132	Cephalohematoma
+HP:0012542	239	Onychauxis
+HP:0012544	151	Elevated aldolase level
+HP:0012545	201	Reduced aldolase level
+HP:0012548	239	Fatty replacement of skeletal muscle
+HP:0012569	239	Delayed menarche
+HP:0012570	239	Synovial sarcoma
+HP:0012578	239	Membranous nephropathy
+HP:0012579	239	Minimal change glomerulonephritis
+HP:0012582	239	Bilateral renal dysplasia
+HP:0012583	239	Unilateral renal hypoplasia
+HP:0012584	239	Bilateral renal hypoplasia
+HP:0012586	199	Bilateral renal atrophy
+HP:0012587	239	Macroscopic hematuria
+HP:0012593	239	Nephrotic range proteinuria
+HP:0012594	239	Moderate albuminuria
+HP:0012595	239	Mild proteinuria
+HP:0012597	239	Heavy proteinuria
+HP:0012606	239	Renal sodium wasting
+HP:0012618	239	Urachal cyst
+HP:0012619	90	Multiple bladder diverticula
+HP:0012623	239	Stage 1 chronic kidney disease
+HP:0012624	239	Stage 2 chronic kidney disease
+HP:0012625	239	Stage 3 chronic kidney disease
+HP:0012626	239	Stage 4 chronic kidney disease
+HP:0012627	239	Pseudoexfoliation
+HP:0012631	105	Pigment deposition in the trabecular meshwork
+HP:0012637	239	Renal calcium wasting
+HP:0012642	239	Cerebellar agenesis
+HP:0012645	239	Enlarged peripheral nerve
+HP:0012646	106	Retractile testis
+HP:0012653	239	Status asthmaticus
+HP:0012662	239	Parietal hypometabolism in FDG PET
+HP:0012665	239	Moderately reduced left ventricular ejection fraction
+HP:0012666	239	Severely reduced left ventricular ejection fraction
+HP:0012670	239	Orthostatic syncope
+HP:0012671	98	Abulia
+HP:0012672	239	Akinetic mutism
+HP:0012678	239	Iron accumulation in substantia nigra
+HP:0012683	239	Pineal cyst
+HP:0012686	108	Increased pineal volume
+HP:0012687	118	Agenesis of pineal gland
+HP:0012689	172	Abnormal pineal melatonin secretion
+HP:0012690	74	T2 hypointense thalamus
+HP:0012695	239	Decreased thalamic volume
+HP:0012697	239	Small basal ganglia
+HP:0012698	239	Cerebellar gliosis
+HP:0012702	239	Tenesmus
+HP:0012706	140	Elevated brain choline level by MRS
+HP:0012707	63	Elevated brain lactate level by MRS
+HP:0012708	228	Reduced brain N-acetyl aspartate level by MRS
+HP:0012717	239	Severe conductive hearing impairment
+HP:0012721	239	Venous malformation
+HP:0012723	239	Sinoatrial block
+HP:0012724	239	Upper eyelid edema
+HP:0012726	239	Episodic hypokalemia
+HP:0012731	167	Ectopic anterior pituitary gland
+HP:0012734	147	Ketotic hypoglycemia
+HP:0012736	146	Profound global developmental delay
+HP:0012738	239	Agenesis of canine
+HP:0012741	239	Unilateral cryptorchidism
+HP:0012742	139	Thin fingernail
+HP:0012743	239	Abdominal obesity
+HP:0012745	239	Short palpebral fissure
+HP:0012746	131	Thin toenail
+HP:0012748	58	Focal T2 hyperintense brainstem lesion
+HP:0012753	145	T2 hypointense basal ganglia
+HP:0012763	239	Paroxysmal dyspnea
+HP:0012764	239	Orthopnea
+HP:0012768	239	Neonatal asphyxia
+HP:0012771	142	Increased arm span
+HP:0012773	42	Reduced upper to lower segment ratio
+HP:0012774	114	Increased upper to lower segment ratio
+HP:0012778	110	Retinal astrocytic hamartoma
+HP:0012786	239	Recurrent cystitis
+HP:0012787	239	Recurrent pyelonephritis
+HP:0012789	212	Hypoplasia of the calcaneus
+HP:0012798	239	Pulmonary lymphangiomyomatosis
+HP:0012799	239	Unilateral facial palsy
+HP:0012801	239	Narrow jaw
+HP:0012802	239	Broad jaw
+HP:0012803	239	Anisometropia
+HP:0012805	124	Iris transillumination defect
+HP:0012806	239	Proboscis
+HP:0012809	201	Narrow nasal base
+HP:0012810	239	Wide nasal base
+HP:0012811	53	Wide nasal ridge
+HP:0012813	173	Unilateral breast hypoplasia
+HP:0012814	239	Bilateral breast hypoplasia
+HP:0012819	239	Myocarditis
+HP:0012821	239	Unilateral vocal cord paresis
+HP:0012822	239	Bilateral vocal cord paresis
+HP:0012847	239	Epilepsia partialis continua
+HP:0012850	239	Small intestinal dysmotility
+HP:0012852	239	Hepatic bridging fibrosis
+HP:0012854	130	Midshaft hypospadias
+HP:0012860	239	Testicular fibrosis
+HP:0012861	239	Ovotestis
+HP:0012867	54	Abnormal sperm mid-piece morphology
+HP:0012869	52	Acephalic spermatozoa
+HP:0012870	144	Vanishing testis
+HP:0012871	239	Varicocele
+HP:0012873	100	Absent vas deferens
+HP:0012877	239	Retrograde ejaculation
+HP:0012887	239	Ovarian serous cystadenoma
+HP:0012892	227	Facial muscle hypertrophy
+HP:0012893	239	Neck muscle hypertrophy
+HP:0012898	120	Abnormal lower-limb motor evoked potentials
+HP:0020035	239	Lower limb dysmetria
+HP:0020036	239	Upper limb dysmetria
+HP:0020037	83	Astasia
+HP:0020038	239	Vertebrobasilar dolichoectasia
+HP:0020059	239	Increased red blood cell count
+HP:0020062	239	Decreased hemoglobin concentration
+HP:0020063	239	Increased hemoglobin concentration
+HP:0020072	59	Persistent EBV viremia
+HP:0020082	156	Heinz bodies
+HP:0020083	239	Furuncle
+HP:0020086	79	BCGitis
+HP:0020087	67	BCGosis
+HP:0020088	169	Post-vaccination measles
+HP:0020090	81	Post-vaccination polio
+HP:0020102	239	Pneumocystis jirovecii pneumonia
+HP:0020105	239	Severe toxoplasmosis
+HP:0020113	239	Decreased proportion of CD4+CD25+ regulatory T cells
+HP:0020114	239	Persistent human papillomavirus infection
+HP:0020118	239	Radial artery aplasia
+HP:0020120	239	Retinal nerve fiber edema
+HP:0020122	239	Bite cells
+HP:0020123	231	Tympanosclerosis
+HP:0020127	58	Periarticular soft-tissue mass
+HP:0020132	183	Thickening of the tubular basement membrane
+HP:0020135	239	Myofibromatosis
+HP:0020136	239	Anticardiolipin IgG antibody positivity
+HP:0020151	239	Anti-dsDNA antibody positivity
+HP:0020152	239	Distal joint laxity
+HP:0020154	70	Nevus comedonicus
+HP:0020157	51	Thin zona pellucida
+HP:0020159	92	Reduced response to gonadotropin-releasing hormone stimulation test
+HP:0020181	239	Reduced haptoglobin level
+HP:0020206	239	Simple ear
+HP:0020223	221	Dermal sinus tract
+HP:0025010	239	Foveal atrophy
+HP:0025011	105	Pyriform aperture stenosis
+HP:0025013	239	Decerebrate rigidity
+HP:0025014	239	Subcutaneous spheroids
+HP:0025017	136	Capillary fragility
+HP:0025019	239	Arterial rupture
+HP:0025023	239	Rectal atresia
+HP:0025024	239	Megarectum
+HP:0025027	121	Osteoma cutis
+HP:0025035	203	Abnormal proerythroblast morphology
+HP:0025041	173	Thalamic calcification
+HP:0025043	239	Enlarged mesenteric lymph node
+HP:0025044	239	Lung abscess
+HP:0025051	198	Reduced brain creatine level by MRS
+HP:0025053	143	Elevated brain N-acetyl aspartate level by MRS
+HP:0025058	239	Hypothalamic atrophy
+HP:0025066	239	Decreased mean corpuscular volume
+HP:0025072	239	Prominent U wave
+HP:0025075	239	Increased QRS voltage
+HP:0025080	102	Orthokeratotic hyperkeratosis
+HP:0025081	65	Darier's sign
+HP:0025088	134	Onychomadesis
+HP:0025097	239	Eyelid myoclonus
+HP:0025099	239	Dysgenesis of the thalamus
+HP:0025105	40	Nevus anemicus
+HP:0025107	135	Cutis marmorata telangiectatica congenita
+HP:0025109	43	Reduced red cell pyruvate kinase level
+HP:0025114	166	Hypergranulosis
+HP:0025116	239	Fetal distress
+HP:0025124	127	Fragile teeth
+HP:0025127	239	Actinic keratosis
+HP:0025128	239	Reduced intraabdominal adipose tissue
+HP:0025131	239	Finger swelling
+HP:0025134	239	Increased serum estradiol
+HP:0025145	239	Rigors
+HP:0025148	239	Dark choroid
+HP:0025149	239	Atrophic muscularis propria
+HP:0025152	239	Poor visual behavior for age
+HP:0025156	239	Dependency on intravenous nutrition
+HP:0025162	45	Severe temper tantrums
+HP:0025167	77	Fragmented elastic fibers in the dermis
+HP:0025168	239	Left ventricular diastolic dysfunction
+HP:0025175	239	Honeycomb lung
+HP:0025177	45	Peribronchovascular interstitial thickening
+HP:0025178	123	Subpleural interstitial thickening
+HP:0025194	239	Morgagni diaphragmatic hernia
+HP:0025195	239	Central diaphragmatic hernia
+HP:0025196	239	Increased total iron binding capacity
+HP:0025232	239	Bursitis
+HP:0025233	239	Sleep paralysis
+HP:0025237	239	Confusional arousal
+HP:0025238	239	Foot pain
+HP:0025244	239	Subretinal pigment epithelium hemorrhage
+HP:0025247	239	Dermoid cyst
+HP:0025248	42	Eruptive vellus hair cyst
+HP:0025252	239	Geographic tongue
+HP:0025258	239	Stiff neck
+HP:0025259	239	Stiff elbow
+HP:0025262	239	Stiff hip
+HP:0025263	239	Stiff knee
+HP:0025264	239	Stiff ankle
+HP:0025269	239	Panic attack
+HP:0025271	239	Esophageal spasms
+HP:0025274	239	Ovarian dermoid cyst
+HP:0025278	50	Cold-induced sweating
+HP:0025289	239	Cervical lymphadenopathy
+HP:0025300	239	Malar rash
+HP:0025312	239	Esophoria
+HP:0025313	239	Exophoria
+HP:0025318	239	Ovarian carcinoma
+HP:0025321	239	Copper accumulation in liver
+HP:0025324	239	Arterial occlusion
+HP:0025329	177	Anti-glutamic acid decarboxylase antibody positivity
+HP:0025330	66	Downgaze palsy
+HP:0025331	86	Upgaze palsy
+HP:0025335	199	Delayed ability to stand
+HP:0025336	62	Delayed ability to sit
+HP:0025343	239	Lupus anticoagulant
+HP:0025355	157	Retinal arterial macroaneurysms
+HP:0025358	43	Uveal ectropion
+HP:0025369	239	Thick growth plates
+HP:0025372	236	Loud snoring
+HP:0025379	239	Anti-thyroid peroxidase antibody positivity
+HP:0025380	145	Increased circulating androstenedione concentration
+HP:0025383	45	Dorsocervical fat pad
+HP:0025387	239	Pill-rolling tremor
+HP:0025388	239	Thyroid nodule
+HP:0025390	104	Reticular pattern on pulmonary HRCT
+HP:0025394	46	Cystic pattern on pulmonary HRCT
+HP:0025401	63	Staring gaze
+HP:0025402	79	Square-wave jerks
+HP:0025403	227	Stooped posture
+HP:0025405	239	Visual fixation instability
+HP:0025406	239	Asthenia
+HP:0025407	239	Rectourethral fistula
+HP:0025416	239	Vaginal stricture
+HP:0025419	196	Pulmonary pneumatocele
+HP:0025420	239	Diffuse alveolar hemorrhage
+HP:0025425	239	Laryngospasm
+HP:0025428	239	Bronchospasm
+HP:0025430	50	High-pitched cry
+HP:0025434	239	Reduced hemolytic complement activity
+HP:0025435	168	Increased circulating lactate dehydrogenase concentration
+HP:0025441	187	Achilles tendon calcification
+HP:0025444	239	Reduced amygdala volume
+HP:0025452	239	Pyoderma gangrenosum
+HP:0025457	239	Decreased CSF protein concentration
+HP:0025458	127	Decreased CSF albumin concentration
+HP:0025460	214	High myoinositol in brain by MRS
+HP:0025473	188	Hyperpigmented papule
+HP:0025474	239	Erythematous plaque
+HP:0025475	239	Erythematous macule
+HP:0025477	236	Periarticular calcification
+HP:0025478	109	Atrial standstill
+HP:0025479	239	Self-neglect
+HP:0025480	239	Lipomyelomeningocele
+HP:0025481	79	Cervical hemivertebrae
+HP:0025484	80	Increased circulating thyroglobulin level
+HP:0025488	239	Detrusor sphincter dyssynergia
+HP:0025492	46	Microcoria
+HP:0025493	166	Palmoplantar erythema
+HP:0025502	239	Overweight
+HP:0025507	225	Yellow papule
+HP:0025510	83	Nevus spilus
+HP:0025514	152	Morning glory anomaly
+HP:0025515	57	Delayed thelarche
+HP:0025516	98	Coronary-pulmonary artery fistula
+HP:0025520	239	Calcinosis cutis
+HP:0025524	116	Palmoplantar scaling skin
+HP:0025525	101	Scaling skin on fingertip
+HP:0025526	239	Psoriasiform lesion
+HP:0025528	239	Annular cutaneous lesion
+HP:0025533	134	Peau d'orange
+HP:0025534	104	Ocular melanocytosis
+HP:0025547	239	Decreased mean corpuscular hemoglobin concentration
+HP:0025548	239	Increased mean corpuscular hemoglobin concentration
+HP:0025551	58	Optic nerve misrouting
+HP:0025572	138	Punctal stenosis
+HP:0025573	239	Mild myopia
+HP:0025599	239	Inferior oblique muscle overaction
+HP:0025607	172	Upper eyelid entropion
+HP:0025608	189	Cicatricial ectropion
+HP:0025612	239	Corneal astigmatism
+HP:0025616	239	Sterile abscess
+HP:0025630	132	Argininosuccinic aciduria
+HP:0025632	239	Reduced reactive oxygen species production in neutrophils
+HP:0025643	239	Tarlov cyst
+HP:0025650	239	Steroid-dependent nephrotic syndrome
+HP:0025671	239	Fetal pericardial effusion
+HP:0025677	105	Fetal chylothorax
+HP:0025680	79	Compound muscle action potential amplitude facilitation
+HP:0025700	161	Anhydramnios
+HP:0025706	111	Absent fetal nasal bone
+HP:0025707	86	Hypoplastic nasal bone
+HP:0025717	95	Skeletal muscle autophagosome accumulation
+HP:0030002	239	Nocturnal lagophthalmos
+HP:0030004	239	Cicatricial lagophthalmos
+HP:0030005	239	Capillary leak
+HP:0030007	103	EMG: positive sharp waves
+HP:0030009	239	Cervical insufficiency
+HP:0030011	198	Imperforate hymen
+HP:0030015	136	Female anorgasmia
+HP:0030016	239	Dyspareunia
+HP:0030018	239	Decreased female libido
+HP:0030019	239	Increased female libido
+HP:0030022	53	Question mark ear
+HP:0030032	122	Partial absence of foot
+HP:0030033	239	Small finger
+HP:0030037	56	Bifid ureter
+HP:0030039	239	Fused thoracic vertebrae
+HP:0030041	97	Schmorl's node
+HP:0030043	239	Hip subluxation
+HP:0030046	109	Hypoglycosylation of alpha-dystroglycan
+HP:0030048	92	Colpocephaly
+HP:0030049	239	Brain abscess
+HP:0030050	239	Narcolepsy
+HP:0030052	80	Inguinal freckling
+HP:0030053	239	Stiff skin
+HP:0030054	167	Perifollicular fibrosis
+HP:0030058	239	Sickled erythrocytes
+HP:0030059	239	Mitochondrial depletion
+HP:0030062	239	Craniopharyngioma
+HP:0030071	239	Medulloepithelioma
+HP:0030072	239	Paranasal sinus neoplasm
+HP:0030075	239	Ductal carcinoma in situ
+HP:0030078	239	Lung adenocarcinoma
+HP:0030079	239	Cervix cancer
+HP:0030080	239	Burkitt lymphoma
+HP:0030083	137	Salt craving
+HP:0030088	239	Increased serum testosterone level
+HP:0030092	90	Reduced muscle fiber merosin
+HP:0030097	75	Absent muscle dystrophin expression
+HP:0030099	54	Reduced muscle fiber alpha dystroglycan
+HP:0030140	239	Oral cavity bleeding
+HP:0030145	41	Lack of bowel sounds
+HP:0030149	239	Cardiogenic shock
+HP:0030153	239	Cholangiocarcinoma
+HP:0030157	239	Flank pain
+HP:0030160	239	Cervicitis
+HP:0030162	123	Glomerulomegaly
+HP:0030166	239	Night sweats
+HP:0030167	239	Antimitochondrial antibody positivity
+HP:0030169	239	Gastric varix
+HP:0030175	47	Myelin tomacula
+HP:0030185	239	Isometric tremor
+HP:0030190	67	Oral motor hypotonia
+HP:0030196	52	Fatigable weakness of respiratory muscles
+HP:0030205	77	Increased jitter at single fiber EMG
+HP:0030207	239	Paradoxical respiration
+HP:0030213	239	Emotional blunting
+HP:0030214	239	Hypersexuality
+HP:0030215	62	Inappropriate crying
+HP:0030216	239	Inertia
+HP:0030217	239	Limb apraxia
+HP:0030219	239	Semantic dementia
+HP:0030220	239	Socially inappropriate behavior
+HP:0030222	239	Visual agnosia
+HP:0030225	90	Accumulation of muscle fiber desmin
+HP:0030230	46	Central core regions in muscle fibers
+HP:0030231	42	Glycogen accumulation in muscle fiber lysosomes
+HP:0030232	91	Increased sarcoplasmic glycogen
+HP:0030234	239	Highly elevated creatine kinase
+HP:0030235	128	Extremely elevated creatine kinase
+HP:0030241	76	Hypoplasia of deltoid muscle
+HP:0030242	239	Portal vein thrombosis
+HP:0030243	239	Hepatic vein thrombosis
+HP:0030248	239	Mesenteric venous thrombosis
+HP:0030252	101	Absent circulating B cells
+HP:0030253	239	Defective T cell proliferation
+HP:0030254	222	Nail bed hemorrhage
+HP:0030257	90	Freckled genitalia
+HP:0030260	176	Microphallus
+HP:0030268	47	Hyperplastic callus formation
+HP:0030269	239	Increased circulating insulin-like growth factor 1 concentration
+HP:0030281	187	Cervical C3/C4 vertebral fusion
+HP:0030284	99	Triangular tongue
+HP:0030318	220	Angular cheilitis
+HP:0030323	97	Unilateral vertebral artery hypoplasia
+HP:0030328	239	Decreased osteoclast count
+HP:0030329	239	Retinal thinning
+HP:0030341	203	Decreased circulating follicle stimulating hormone concentration
+HP:0030344	239	Decreased circulating luteinizing hormone level
+HP:0030350	239	Erythematous papule
+HP:0030351	239	Urticarial plaque
+HP:0030353	239	Decreased serum insulin-like growth factor 1
+HP:0030357	239	Small cell lung carcinoma
+HP:0030362	239	Reduced muscle carnitine level
+HP:0030369	239	Induced vaginal delivery
+HP:0030381	60	Increased proportion of transitional B cells
+HP:0030391	55	Spoken word recognition deficit
+HP:0030392	239	Choroid plexus carcinoma
+HP:0030393	239	Endolymphatic sac tumor
+HP:0030404	239	Glucagonoma
+HP:0030406	239	Primary peritoneal carcinoma
+HP:0030409	239	Renal transitional cell carcinoma
+HP:0030410	239	Sebaceous gland carcinoma
+HP:0030417	239	Squamous cell carcinoma of the vulva
+HP:0030423	239	Splenic cyst
+HP:0030424	188	Epididymal cyst
+HP:0030427	239	Ossifying fibroma of the jaw
+HP:0030428	180	Cutaneous myxoma
+HP:0030431	239	Osteochondroma
+HP:0030434	239	Pilomatrixoma
+HP:0030436	224	Fibrofolliculoma
+HP:0030442	131	Anal margin squamous cell carcinoma
+HP:0030446	239	Atypical pulmonary carcinoid tumor
+HP:0030490	239	Exudative vitreoretinopathy
+HP:0030491	239	Choriocapillaris atrophy
+HP:0030496	239	Macular exudate
+HP:0030501	175	Macular crystals
+HP:0030503	239	Macular telangiectasia
+HP:0030515	239	Moderately reduced visual acuity
+HP:0030521	239	Bitemporal hemianopia
+HP:0030528	239	Paracentral scotoma
+HP:0030529	239	Ring scotoma
+HP:0030530	239	Arcuate scotoma
+HP:0030551	105	Visual acuity light perception with projection
+HP:0030553	239	Visual acuity no light perception
+HP:0030620	239	Inner retinal layer loss on macular OCT
+HP:0030631	84	Hyperautofluorescent macular lesion
+HP:0030632	62	Hypoautofluorescent macular lesion
+HP:0030642	88	Fundus albipunctatus
+HP:0030644	239	Blind-spot enlargment
+HP:0030657	239	Umbilical cord hematoma
+HP:0030663	44	Optically empty vitreous
+HP:0030667	239	Peripheral retinal neovascularization
+HP:0030668	41	Periorbital dermoid cyst
+HP:0030672	93	Asteroid hyalosis
+HP:0030682	239	Left ventricular noncompaction
+HP:0030685	239	Decreased adiponectin level
+HP:0030688	239	Increased glucagon level
+HP:0030690	219	Gingival cleft
+HP:0030691	40	Divergence nystagmus
+HP:0030707	212	Unilateral lung agenesis
+HP:0030708	122	Myeloschisis
+HP:0030713	239	Vein of Galen aneurysmal malformation
+HP:0030716	239	Acrania
+HP:0030717	220	Meconium peritonitis
+HP:0030718	239	Right atrial enlargement
+HP:0030731	239	Carcinoma
+HP:0030732	50	Dysplastic tricuspid valve
+HP:0030745	239	Dilatation of the ductus arteriosus
+HP:0030752	127	Dacryocystocele
+HP:0030758	239	Periapical tooth abscess
+HP:0030764	239	Ochronosis
+HP:0030765	239	Sleep terror
+HP:0030766	239	Ear pain
+HP:0030771	239	Mallet finger
+HP:0030774	239	Mitochondrial swelling
+HP:0030783	239	Increased circulating interleukin 6 concentration
+HP:0030784	239	Anomic aphasia
+HP:0030786	239	Photopsia
+HP:0030795	239	Reduced C-peptide level
+HP:0030796	239	Increased C-peptide level
+HP:0030799	239	Scaphocephaly
+HP:0030802	239	Lower eyelid retraction
+HP:0030804	68	Trachyonychia
+HP:0030811	239	Tongue pain
+HP:0030812	239	Enlarged tonsils
+HP:0030813	125	Absent tonsils
+HP:0030816	239	Gingival recession
+HP:0030823	239	Scleral thickening
+HP:0030833	239	Neck pain
+HP:0030834	239	Shoulder pain
+HP:0030836	239	Wrist pain
+HP:0030838	239	Hip pain
+HP:0030840	239	Ankle pain
+HP:0030842	239	Choking episodes
+HP:0030848	239	Elevated jugular venous pressure
+HP:0030851	239	Low pulse pressure
+HP:0030863	156	Nasal flaring
+HP:0030866	239	Large knee
+HP:0030871	239	Facet joint arthrosis
+HP:0030874	161	Oxygen desaturation on exertion
+HP:0030877	239	Reduced FEV1/FVC ratio
+HP:0030880	239	Raynaud phenomenon
+HP:0030882	239	Coronary artery aneurysm
+HP:0030883	239	Femoroacetabular impingement
+HP:0030892	239	Deep cerebral white matter hyperintensities
+HP:0030897	239	Decreased intestinal transit time
+HP:0030902	239	Palmomental reflex
+HP:0030903	239	Grasp reflex
+HP:0030906	41	Suck reflex
+HP:0030915	239	Cerebellar edema
+HP:0030921	239	5-minute APGAR score of 1
+HP:0030925	239	5-minute APGAR score of 5
+HP:0030928	239	1-minute APGAR score of 1
+HP:0030939	236	Palpebral thickening
+HP:0030948	239	Elevated gamma-glutamyltransferase level
+HP:0030950	239	Pulmonary venous hypertension
+HP:0030951	239	Skeletal muscle fibrosis
+HP:0030955	239	Alcoholism
+HP:0030961	100	Microspherophakia
+HP:0030974	239	Cryptozoospermia
+HP:0030977	239	Increased factor VIII activity
+HP:0030980	134	Reduced brain glutamine level by MRS
+HP:0030983	239	Ovarian thecoma
+HP:0030991	239	Sclerosing cholangitis
+HP:0030996	75	Megaduodenum
+HP:0030998	239	Cerebrospinal fluid rhinorrhoea
+HP:0031008	213	Lingual dystonia
+HP:0031014	198	Arteria lusoria
+HP:0031020	239	Bone marrow hypercellularity
+HP:0031023	82	Multiple mucosal neuromas
+HP:0031029	239	Elevated carcinoembryonic antigen level
+HP:0031030	239	Elevated carcinoma antigen 125 level
+HP:0031033	116	Impaired urinary acidification
+HP:0031039	60	Early spermatogenesis maturation arrest
+HP:0031040	47	Late spermatogenesis maturation arrest
+HP:0031041	239	Obstruction of the superior vena cava
+HP:0031045	96	Acral blistering
+HP:0031056	239	Fusiform cerebral aneurysm
+HP:0031057	239	Skin fissure
+HP:0031061	73	Impaired toileting ability
+HP:0031074	165	Abnormal response to ACTH stimulation test
+HP:0031079	64	Impaired growth-hormone response to insulin stimulation test
+HP:0031083	40	Abnormal response to human chorionic gonadotrophin stimulation test
+HP:0031084	51	Excessive insulin response to glucagon test
+HP:0031085	239	Decreased prealbumin level
+HP:0031088	239	Vaginal dryness
+HP:0031092	50	Spindle-shaped finger
+HP:0031096	239	Delayed vertebral ossification
+HP:0031098	239	Decreased thyroid-stimulating hormone level
+HP:0031100	239	Decreased inhibin B level
+HP:0031102	239	Increased antimullerian hormone level
+HP:0031103	239	Decreased antimullerian hormone level
+HP:0031104	239	Insulin receptor antibody positivity
+HP:0031108	239	Triceps weakness
+HP:0031109	239	Agalactia
+HP:0031123	239	Recurrent gastroenteritis
+HP:0031126	103	Impaired clot retraction
+HP:0031146	66	Impaired oral bolus formation
+HP:0031152	239	Full-thickness macular hole
+HP:0031153	239	Membranous vitreous appearance
+HP:0031156	161	Decreased platelet glycoprotein Ib
+HP:0031157	239	Carotid cavernous fistula
+HP:0031159	69	Thinning of Descemet membrane
+HP:0031160	128	Myelokathexis
+HP:0031161	230	Reduced brain glutamate level by MRS
+HP:0031162	49	Impaired oropharyngeal swallow response
+HP:0031164	239	Growth arrest lines
+HP:0031165	239	Multifocal seizures
+HP:0031169	239	Postterm pregnancy
+HP:0031171	50	Femoral spur
+HP:0031177	150	Finger flexor weakness
+HP:0031179	239	Nuchal rigidity
+HP:0031180	239	Erythema migrans
+HP:0031185	209	Increased circulating NT-proBNP concentration
+HP:0031188	239	Genital edema
+HP:0031189	239	Wrist drop
+HP:0031190	48	Superficial dermal perivascular inflammatory infiltrate
+HP:0031205	239	Reduced lysosomal acid lipase activity
+HP:0031207	239	Hepatic hemangioma
+HP:0031208	133	Increased pituitary glycoprotein hormone alpha subunit level
+HP:0031209	64	Decreased circulating lipoprotein lipase concentration
+HP:0031214	112	Decreased circulating dehydroepiandrosterone concentration
+HP:0031215	70	Decreased circulating dehydroepiandrosterone-sulfate concentration
+HP:0031216	239	Increased circulating progesterone
+HP:0031218	239	Inappropriate antidiuretic hormone secretion
+HP:0031219	165	Reduced radioactive iodine uptake
+HP:0031220	239	Increased radioactive iodine uptake
+HP:0031223	62	Focal pancreatic islet hyperplasia
+HP:0031224	41	Diffuse pancreatic islet hyperplasia
+HP:0031236	44	Predominantly dermal neutrophilic infiltrate
+HP:0031244	60	Swollen lip
+HP:0031245	239	Productive cough
+HP:0031246	239	Nonproductive cough
+HP:0031248	53	Palmar pruritus
+HP:0031250	239	Lip fissure
+HP:0031258	239	Delirium
+HP:0031261	239	Bladder polyp
+HP:0031266	239	Podocyte foot process effacement
+HP:0031274	239	Hypovolemic shock
+HP:0031287	239	Seborrheic keratosis
+HP:0031289	239	White papule
+HP:0031290	52	Tuberous xanthoma
+HP:0031291	70	Ichthyosis follicularis
+HP:0031295	239	Left atrial enlargement
+HP:0031298	239	Coronary sinus enlargement
+HP:0031303	239	Femoral arterial calcification
+HP:0031304	239	Iliac arterial calcification
+HP:0031305	147	Tibial arterial calcification
+HP:0031313	239	Abdominal aortic calcification
+HP:0031318	51	Myofiber disarray
+HP:0031319	239	Cardiomyocyte hypertrophy
+HP:0031320	239	Cardiomyocyte mitochondrial proliferation
+HP:0031329	239	Interstitial cardiac fibrosis
+HP:0031333	140	Myocardial sarcomeric disarray
+HP:0031348	202	Dextrotransposition of the great arteries
+HP:0031352	239	Chest tightness
+HP:0031353	239	Otitis media with effusion
+HP:0031354	239	Sleep onset insomnia
+HP:0031355	239	Maintenance insomnia
+HP:0031358	239	Vegetative state
+HP:0031364	239	Ecchymosis
+HP:0031369	239	Colon perforation
+HP:0031372	60	Cold paresis
+HP:0031374	239	Ankle weakness
+HP:0031380	239	Abnormal B cell proliferation
+HP:0031382	166	Decreased lymphocyte proliferation in response to anti-CD3
+HP:0031390	239	Reduced MHC II surface expression
+HP:0031402	239	Reduced antigen-specific T cell proliferation
+HP:0031405	239	Poroma
+HP:0031413	239	Short telomere length
+HP:0031415	239	High serum calcitriol
+HP:0031417	239	Rhinorrhea
+HP:0031418	239	Increased body mass index
+HP:0031423	239	Small cerebellar cortex
+HP:0031428	239	Increased circulating osteocalcin level
+HP:0031429	192	Decreased circulating osteocalcin level
+HP:0031435	171	Monotonic speech
+HP:0031445	239	Oral mucosa nodule
+HP:0031446	239	Erosion of oral mucosa
+HP:0031452	239	Lichenoid skin lesion
+HP:0031454	124	Apocrine hidrocystoma
+HP:0031456	239	Ectopic pregnancy
+HP:0031464	191	Genital blistering
+HP:0031467	239	Negative affectivity
+HP:0031469	239	Low self esteem
+HP:0031473	239	Hostility
+HP:0031485	239	Subperiosteal bone formation
+HP:0031487	52	Capillary malformation of the lip
+HP:0031490	239	Hemangioma of the lip
+HP:0031491	181	Continuous spike and waves during slow sleep
+HP:0031500	239	Abdominal mass
+HP:0031501	239	Pelvic mass
+HP:0031504	64	Foamy urine
+HP:0031506	239	Increased circulating T4 concentration
+HP:0031507	157	Decreased circulating T4 concentration
+HP:0031516	239	Oocyte arrest at metaphase I
+HP:0031520	239	Groin pain
+HP:0031524	239	Ampulla of Vater carcinoma
+HP:0031525	239	Keratoacanthoma
+HP:0031526	239	Subretinal fluid
+HP:0031565	139	Abdominal situs ambiguus
+HP:0031568	49	Thickened aortic valve cusp
+HP:0031589	239	Suicidal ideation
+HP:0031590	239	Asthenopia
+HP:0031603	188	Impaired nasal mucociliary clearance
+HP:0031609	239	Geographic atrophy
+HP:0031610	239	Recurrent shoulder dislocation
+HP:0031624	239	Moderate myopia
+HP:0031625	239	Pseudoaneurysm
+HP:0031628	239	Aborted sudden cardiac death
+HP:0031629	163	Impaired tandem gait
+HP:0031649	239	Aortic rupture
+HP:0031655	239	Quadricuspid aortic valve
+HP:0031656	239	Systolic anterior motion of the mitral valve
+HP:0031658	239	Third heart sound
+HP:0031659	85	Fourth heart sound
+HP:0031676	239	Monomorphic ventricular tachycardia
+HP:0031677	239	Polymorphic ventricular tachycardia
+HP:0031684	239	Renal artery atherosclerosis
+HP:0031688	239	Erythroid dysplasia
+HP:0031693	239	Severe Epstein Barr virus infection
+HP:0031699	67	Disseminated cryptosporidium infection
+HP:0031717	239	Alternating exotropia
+HP:0031721	223	Sensory exotropia
+HP:0031723	239	Secondary esotropia
+HP:0031729	239	Moderate hypermetropia
+HP:0031766	239	Convergence excess esotropia
+HP:0031790	239	Mixed astigmatism
+HP:0031792	239	Irregular astigmatism
+HP:0031793	239	Increased serum leptin
+HP:0031798	69	Elevated circulating apolipoprotein B concentration
+HP:0031799	55	Decreased circulating apolipoprotein AI concentration
+HP:0031807	239	Increased basophil count
+HP:0031813	239	Colonic eosinophilia
+HP:0031814	42	Palilalia
+HP:0031817	239	Decreased circulating parathyroid hormone level
+HP:0031819	239	Increased waist to hip ratio
+HP:0031825	239	Freezing of gait
+HP:0031831	239	Decreased serum zinc
+HP:0031834	239	Aortopulmonary collateral arteries
+HP:0031844	239	Euphoria
+HP:0031846	239	Femur fracture
+HP:0031851	239	Reduced hematocrit
+HP:0031861	239	Decreased heart rate variability
+HP:0031862	239	Increased heart rate variability
+HP:0031864	239	Bacteremia
+HP:0031867	127	Neck hypertonia
+HP:0031868	239	Optic ataxia
+HP:0031873	239	Early chronotype
+HP:0031874	239	Late chronotype
+HP:0031877	239	Elevated hepcidin level
+HP:0031878	59	Acromicria
+HP:0031882	239	Agyria
+HP:0031883	94	Increased proinsulin:insulin ratio
+HP:0031901	58	Elevated total serum tryptase
+HP:0031908	114	Micrographia
+HP:0031909	239	Unicornuate uterus
+HP:0031913	117	Rhombencephalosynapsis
+HP:0031919	85	Juvenile type ovarian granulosa cell tumor
+HP:0031923	239	Hematocolpos
+HP:0031931	67	Ocular flutter
+HP:0031935	239	Ascending aorta hypoplasia
+HP:0031936	239	Delayed ability to walk
+HP:0031939	239	Conus terminalis arteriovenous malformation
+HP:0031944	239	Pleural thickening
+HP:0031947	144	Tongue tremor
+HP:0031950	239	Usual interstitial pneumonia
+HP:0031951	239	Nocturnal seizures
+HP:0031955	102	Antalgic gait
+HP:0031956	59	Elevated circulating aspartate aminotransferase concentration
+HP:0031959	171	Leg dystonia
+HP:0031960	239	Arm dystonia
+HP:0031962	187	Elevated serum anion gap
+HP:0031964	93	Elevated circulating alanine aminotransferase concentration
+HP:0031965	239	Increased RBC distribution width
+HP:0031969	239	Reduced blood urea nitrogen
+HP:0031972	239	Presyncope
+HP:0031982	239	Abnormal putamen morphology
+HP:0031987	239	Diminished ability to concentrate
+HP:0031992	239	Apical hypertrophic cardiomyopathy
+HP:0031993	239	Hoffmann sign
+HP:0032001	101	Pink urine
+HP:0032003	239	Green urine
+HP:0032005	110	Hemidystonia
+HP:0032019	239	Muscle eosinophilia
+HP:0032021	239	Eosinophilic liver infiltration
+HP:0032024	239	Ileal ulcer
+HP:0032025	197	Reduced serum alpha-1-antitrypsin
+HP:0032027	239	Retinal dots
+HP:0032028	219	Macular dots
+HP:0032037	56	Mildly reduced visual acuity
+HP:0032043	239	Odynophagia
+HP:0032044	239	Decreased vigilance
+HP:0032047	239	Focal cortical dysplasia type I
+HP:0032051	233	Focal cortical dysplasia type II
+HP:0032059	239	Mild malformation of cortical development
+HP:0032061	239	Hypereosinophilia
+HP:0032066	239	Decreased serum bicarbonate concentration
+HP:0032070	239	Leptomeningeal enhancement
+HP:0032092	239	Left ventricular outflow tract obstruction
+HP:0032094	239	Increased circulating surfactant protein level
+HP:0032097	58	Hypermanganesemia
+HP:0032106	85	Conjunctival icterus
+HP:0032107	239	Limbal stem cell deficiency
+HP:0032118	239	Retinitis
+HP:0032122	239	Very low visual acuity
+HP:0032139	239	Reduced isohemagglutinin level
+HP:0032147	239	Erythromelalgia
+HP:0032152	239	Keratosis pilaris
+HP:0032155	239	Abdominal cramps
+HP:0032156	239	Skin detachment
+HP:0032160	239	Cryptococcal meningitis
+HP:0032164	239	Increased blood folate concentration
+HP:0032170	239	Severe varicella zoster infection
+HP:0032177	239	Parenchymal consolidation
+HP:0032185	43	Disseminated molluscum contagiosum
+HP:0032192	239	Hydatidiform mole
+HP:0032198	239	Decreased prothrombin time
+HP:0032204	239	Chronic active Epstein-Barr virus infection
+HP:0032208	57	Increased urinary type 1 collagen N-terminal telopeptide level
+HP:0032210	88	Decreased circulating free T3
+HP:0032216	144	Lymphocytic infiltration of the colorectal mucosa
+HP:0032220	239	Interface hepatitis
+HP:0032222	239	Serrated intestinal polyps
+HP:0032228	60	Trichodiscoma
+HP:0032231	186	Hypochromia
+HP:0032244	174	Decreased serum thromboxane B2
+HP:0032249	239	Coccidioidomycosis
+HP:0032253	239	Eosinophilic granuloma
+HP:0032254	163	Increased circulating copper concentration
+HP:0032257	239	Disseminated histoplasmosis
+HP:0032259	239	Chronic tinea infection
+HP:0032261	239	Nontuberculous mycobacterial pulmonary infection
+HP:0032262	239	Pulmonary tuberculosis
+HP:0032271	239	Extrapulmonary tuberculosis
+HP:0032275	239	Recurrent shingles
+HP:0032283	239	Disseminated nontuberculous mycobacterial infection
+HP:0032297	239	Increased circulating IgG3 level
+HP:0032327	239	Interhemispheric cyst
+HP:0032330	90	Increased urinary 11-deoxycorticosterone level
+HP:0032346	91	Cutaneous lichen amyloidosis
+HP:0032347	71	Cutaneous macular amyloidosis
+HP:0032350	97	Sulfocysteinuria
+HP:0032362	239	Increased circulating corticosterone level
+HP:0032366	239	Positive direct antiglobulin test
+HP:0032386	45	Elevated circulating transferrin concentration
+HP:0032388	239	Periventricular nodular heterotopia
+HP:0032397	239	Citrullinuria
+HP:0032408	239	Breast mass
+HP:0032417	67	Periglomerular fibrosis
+HP:0032434	110	Delayed umbilical cord separation
+HP:0032435	132	Neonatal omphalitis
+HP:0032437	239	Reduced circulating C-reactive protein concecntration
+HP:0032438	46	Platelet anisocytosis
+HP:0032446	239	Pulmonary bulla
+HP:0032447	239	Pulmonary bleb
+HP:0032448	239	Achlorhydria
+HP:0032451	239	Oral melanotic macule
+HP:0032454	68	Labial melanotic macule
+HP:0032458	82	Narrowing of medullary canal
+HP:0032464	239	Ureteral hypoplasia
+HP:0032465	117	Bladder trabeculation
+HP:0032466	239	Aplasia of the olfactory bulb
+HP:0032471	239	Focal polymicrogyria
+HP:0032479	237	Preimplantation lethality
+HP:0032484	197	Elevated fecal sodium
+HP:0032499	53	Giant neutrophil granules
+HP:0032506	87	Alien limb phenomenon
+HP:0032510	239	Tendon pain
+HP:0032515	109	Deep dermatophytosis
+HP:0032523	239	Tendon thickening
+HP:0032524	239	Long thumb
+HP:0032545	239	Abdominal rigidity
+HP:0032548	239	Increased placental thickness
+HP:0032550	235	Howell-Jolly bodies
+HP:0032553	239	Weak pulse
+HP:0032555	239	Bounding pulse
+HP:0032558	98	Absent sperm flagella
+HP:0032559	144	Short sperm flagella
+HP:0032560	104	Coiled sperm flagella
+HP:0032565	69	Vaginal mucosal ulceration
+HP:0032571	239	Increased oocyte death
+HP:0032588	239	Hand apraxia
+HP:0032592	47	Aplasia of the right hemidiaphragm
+HP:0032615	239	Abnormal diffusion weighted cerebral MRI morphology
+HP:0032653	166	Elevated lactate:pyruvate ratio
+HP:0032656	239	Febrile status epilepticus
+HP:0032670	239	Tonic status epilepticus
+HP:0032676	239	Chronic cutaneous wound
+HP:0032786	239	Migrating focal seizure
+HP:0032933	239	Airway hyperresponsiveness
+HP:0032934	239	Spontaneous cerebrospinal fluid leak
+HP:0032965	239	Interstitial emphysema
+HP:0032967	239	Panacinar emphysema
+HP:0032976	42	Elevated bronchoalveolar lavage fluid lymphocyte proportion
+HP:0032979	48	Hemosiderin-laden macrophages in bronchoalveolar fluid
+HP:0033001	239	Laryngeal papilloma
+HP:0033005	239	Plantar warts
+HP:0033028	46	Anti-U1 ribonucleoprotein antibody positivity
+HP:0033031	239	Hyperpyrexia
+HP:0033036	239	Decreased nasal nitric oxide
+HP:0033044	239	Motor regression
+HP:0033050	239	Pharyngalgia
+HP:0033054	239	Myoclonic tremor
+HP:0033060	125	Decreased serum complement C5
+HP:0033061	239	Increased factor IX activity
+HP:0033075	124	Inappropriately normal thyroid-stimulating hormone level
+HP:0033077	89	Increased circulating free T4 concentration
+HP:0033078	48	Decreased circulating free T4 concentration
+HP:0033085	239	Reduced antral follicle count
+HP:0033092	159	Increased urine succinate level
+HP:0033104	70	Inappropriate absence of fever
+HP:0033117	239	Duodenitis
+HP:0033122	239	Absent P wave
+HP:0033124	92	Increased serum sorbitol concentration
+HP:0033134	239	Abdominal adhesions
+HP:0033140	67	Blake's pouch cyst
+HP:0033141	239	Severe SARS-CoV-2 infection
+HP:0033142	239	Long nasal bridge
+HP:0033149	239	Intrahepatic bile duct dilatation
+HP:0033164	239	Focal active colitis
+HP:0033165	239	Necrotizing enterocolitis
+HP:0033166	239	Recurrent viral upper respiratory tract infections
+HP:0033176	239	Submandibular lymph node enlargement
+HP:0033178	239	Increased circulating interleukin 8 concentration
+HP:0033186	121	Misalignment of the pulmonary veins
+HP:0033187	99	Hyperimidodipeptiduria
+HP:0033188	159	Cystic acne
+HP:0033193	148	Ballooning hepatocyte degeneration
+HP:0033194	113	Perioral erythema
+HP:0033195	103	Perianal erythema
+HP:0033196	239	Portal inflammation
+HP:0033199	239	Increased circulating interleukin 10 concentration
+HP:0033208	199	Alveolar capillary dysplasia
+HP:0033210	239	Congenital alveolar dysplasia
+HP:0033214	239	Recurrent viral pneumonia
+HP:0033221	239	Increased CD4:CD8 ratio
+HP:0033222	239	Decreased CD4:CD8 ratio
+HP:0033235	45	Difficulty descending stairs
+HP:0033250	53	Nailfold capillary tortuosity
+HP:0033253	124	Reduced circulating interferon gamma concentration
+HP:0033255	39	Congenital lobar overinflation
+HP:0033256	239	Pancolitis
+HP:0033258	239	Sudden unexpected death in epilepsy
+HP:0033260	239	Livedo racemosa
+HP:0033261	239	Renal artery aneurysm
+HP:0033279	239	Enterocutaneous fistula
+HP:0033280	123	Paratracheal lymphadenopathy
+HP:0033281	239	Circulating nucleated red blood cells
+HP:0033295	239	Mesangial Immune complex deposition
+HP:0033309	228	Ileoileal intussusception
+HP:0033328	239	Type II pneumocyte hyperplasia
+HP:0033332	133	Elevated circulating amyloid A
+HP:0033336	85	Zygotic cleavage failure
+HP:0033340	108	Increased circulating guanosine concentration
+HP:0033342	178	Anti-aquaporin 4 antibody positivity
+HP:0033343	113	Mucoid diarrhea
+HP:0033351	239	Candida esophagitis
+HP:0033355	239	Increased urine deoxypyridinoline level
+HP:0033357	239	Limited head rotation
+HP:0033363	239	Hyaline membranes
+HP:0033380	103	Nasal chondritis
+HP:0033383	239	Decreased compound muscle action potential amplitude
+HP:0033399	239	Persistent fever
+HP:0033425	62	Periungual erythema
+HP:0033434	239	Nasal septum perforation
+HP:0033466	239	Weak grip
+HP:0033505	239	Livedo reticularis
+HP:0033508	180	EBV meningitis
+HP:0033509	239	EBV encephalitis
+HP:0033522	239	Cerebral cavernous malformation
+HP:0033534	239	Increased circulating brain natriuretic peptide concentration
+HP:0033535	197	Reduced platelet dense granules
+HP:0033536	239	Reduced platelet alpha granules
+HP:0033542	239	Bronchial wall thickening
+HP:0033559	159	Anti-myeloperoxidase antibody positivity
+HP:0033567	239	Right axis deviation
+HP:0033589	239	Flatulence
+HP:0033603	239	Glomerular subepithelial deposits
+HP:0033605	239	Pustular rash
+HP:0033607	45	Bone marrow arrest at the promyelocytic stage
+HP:0033628	239	Bowel irritability
+HP:0033631	239	Spondylitis
+HP:0033638	55	Intralobular septal thickening
+HP:0033640	126	Acetabular erosions
+HP:0033643	112	Increased circulating very long-chain fatty acid concentration
+HP:0033649	106	Paraseptal emphysema
+HP:0033660	239	Hand paresthesia
+HP:0033662	239	Air bronchogram
+HP:0033666	239	Diminished physical functioning
+HP:0033670	239	Organizing pneumonia
+HP:0033672	60	Positive carpal Tinel sign
+HP:0033673	76	Positive Phalen test
+HP:0033677	239	Acute respiratory distress syndrome
+HP:0033682	239	Pleomorphic xanthoastrocytoma
+HP:0033683	68	Jaw hyperreflexia
+HP:0033685	239	Fiber type grouping
+HP:0033686	239	Mitochondrial hypertrophy
+HP:0033707	39	Perioral hyperkeratosis
+HP:0033709	239	Increased sputum production
+HP:0033712	239	Repeated implantation failure
+HP:0033725	239	Thin corpus callosum
+HP:0033736	239	Grade II vesicoureteral reflux
+HP:0033737	239	Grade III vesicoureteral reflux
+HP:0033743	239	Macular agenesis
+HP:0033748	239	Hypoesthesia
+HP:0033755	239	Increased left ventricular end-diastolic volume
+HP:0033769	72	Fundic gland polyposis
+HP:0033770	239	Gastric adenocarcinoma
+HP:0033777	80	Supernumerary cusp
+HP:0033785	239	Enamel agenesis
+HP:0033808	126	Spermatocele
+HP:0033810	55	Decreased circulating dihydrotestosterone concentration
+HP:0033834	239	Malaise
+HP:0033842	239	Early satiety
+HP:0033851	61	Oculomotor synkinesis
+HP:0033977	106	Talar aplasia
+HP:0033978	239	Reduced beta-hexosaminidase activity
+HP:0033981	165	Vertebral artery tortuosity
+HP:0033982	239	Celiac artery dissection
+HP:0033984	47	Increased urinary 8-oxo-7,8-dihydroguanosine level
+HP:0033986	51	Tortuous lymphatic vessels
+HP:0033992	239	Chronotropic incompetence
+HP:0033994	239	Dependency on parenteral nutrition
+HP:0033995	239	Microvillus inclusions
+HP:0034006	239	Decreased urinary lysyl-pyridinoline-hydroxylysyl-pyridinoline ratio
+HP:0034010	213	Increased megakaryocyte colony forming unit count
+HP:0034011	239	Reduced progressive sperm motility
+HP:0034029	152	Hepatic foam cells
+HP:0034032	239	Central cyanosis
+HP:0034039	193	Ventricular couplet
+HP:0034040	112	Bidirectional ventricular tachycardia
+HP:0034043	239	Increased fecal bile acid
+HP:0034045	49	Angulated muscle fibers
+HP:0034046	239	Mandibular osteolysis
+HP:0034049	136	Elevated urinary prostaglandin E2 level
+HP:0034053	119	Decreased acid ceramidase activity
+HP:0034056	239	Increased fecal calprotectin level
+HP:0034075	80	Decreased circulating apolipoprotein B concentration
+HP:0034156	118	Anti-beta-2-Glycoprotein I IgG antibody positivity
+HP:0034159	239	Paget disease of bone
+HP:0034163	102	Reduced circulating interleukin 10 concentration
+HP:0034179	239	Vertebral artery aneurysm
+HP:0034184	42	Increased insulin like growth factor binding protein acid labile subunit concentration
+HP:0034187	81	Clavicular pseudarthrosis
+HP:0034188	239	Midline liver
+HP:0034192	239	Pulmonary thromboembolism
+HP:0034201	58	Increased CSF homovanillic acid concentration
+HP:0034227	149	Aortic isthmus hypoplasia
+HP:0034249	239	Severe influenza infection
+HP:0034250	130	Fetal nuchal edema
+HP:0034252	239	Absent corneal reflex
+HP:0034259	239	Hypoplasia of the midbrain
+HP:0034262	239	Absent lanugo
+HP:0034280	239	Target cells
+HP:0034282	239	Subcutaneous ossification
+HP:0034284	239	Recurrent gingivitis
+HP:0034285	117	Enteroviral encephalitis
+HP:0034286	239	Pneumocystis carinii pneumonia
+HP:0034287	239	Afibrinogenemia
+HP:0034291	103	Elevated circulating creatine concentration
+HP:0034293	107	Temporal lobe calcification
+HP:0034295	239	Reduced cerebral white matter volume
+HP:0034299	134	Sertoli cell-only phenotype
+HP:0034303	239	Notched T wave
+HP:0034304	239	Epsilon wave
+HP:0034305	239	2:1 atrioventricular block
+HP:0034306	234	Ventricular bigeminy
+HP:0034307	239	Elevated left ventricular end-diastolic diameter
+HP:0034308	239	Prolonged P wave
+HP:0034310	62	Post-vaccination yellow fever
+HP:0034313	90	Hyperdynamic left ventricular ejection fraction
+HP:0034322	49	Reduced galactocerebrosidase activity
+HP:0034323	239	Reduced circulating growth hormone concentration
+HP:0034325	239	Common carotid artery aneurysm
+HP:0034332	239	Cognitive regression
+HP:0034336	239	Splenic infarction
+HP:0034346	239	Nesidioblastosis
+HP:0034348	194	Subpulmonary stenosis
+HP:0034350	239	Valvular pulmonary stenosis
+HP:0034351	239	Neuromyotonia
+HP:0034352	178	Bile duct polyp
+HP:0034360	239	Action myoclonus
+HP:0034363	239	Corneal pterygium
+HP:0034364	203	Fibrofatty replacement of right ventricular myocardium
+HP:0034367	85	Decreased beta-mannosidase activity
+HP:0034368	239	Urolithiasis
+HP:0034369	61	Decreased level of coenzyme Q10 in skeletal muscle
+HP:0034372	239	Internal tibial torsion
+HP:0034381	239	Central nervous system axonal spheroid
+HP:0034386	239	Reduced left ventricular endsystolic diameter
+HP:0040013	239	Decreased mitochondrial number
+HP:0040014	239	Increased mitochondrial number
+HP:0040023	48	Clinodactyly of the thumb
+HP:0040036	239	Onychogryposis of fingernail
+HP:0040042	41	Aplasia of the eccrine sweat glands
+HP:0040078	239	Axonal degeneration
+HP:0040079	239	Irregular dentition
+HP:0040080	81	Anteverted ears
+HP:0040082	44	Happy demeanor
+HP:0040085	142	Abnormal circulating aldosterone
+HP:0040113	239	Old-aged sensorineural hearing impairment
+HP:0040119	239	Unilateral conductive hearing impairment
+HP:0040139	239	Lipogranulomatosis
+HP:0040140	239	Degeneration of the striatum
+HP:0040144	151	L-2-hydroxyglutaric aciduria
+HP:0040146	65	D-2-hydroxyglutaric acidemia
+HP:0040147	65	L-2-hydroxyglutaric acidemia
+HP:0040149	39	Woolly scalp hair
+HP:0040154	239	Acne inversa
+HP:0040159	65	Abnormal spaced incisors
+HP:0040162	127	Orthokeratosis
+HP:0040165	239	Periostitis
+HP:0040167	239	Facial papilloma
+HP:0040169	114	Loose anagen hair
+HP:0040171	239	Decreased serum testosterone concentration
+HP:0040175	65	Platelet-activating factor acetylhydrolase deficiency
+HP:0040183	239	Encopresis
+HP:0040184	239	Oral bleeding
+HP:0040185	239	Macrothrombocytopenia
+HP:0040186	239	Maculopapular exanthema
+HP:0040187	239	Neonatal sepsis
+HP:0040190	239	White scaling skin
+HP:0040196	239	Mild microcephaly
+HP:0040197	239	Encephalomalacia
+HP:0040198	239	Non-medullary thyroid carcinoma
+HP:0040204	68	Elevated CSF neopterin level
+HP:0040216	239	Hypoinsulinemia
+HP:0040217	239	Elevated hemoglobin A1c
+HP:0040218	239	Reduced natural killer cell count
+HP:0040219	239	Absent natural killer cells
+HP:0040220	71	Abnormal size of the dental root
+HP:0040228	239	Decreased level of plasminogen
+HP:0040230	239	Decreased level of tissue plasminogen activator
+HP:0040232	239	Delayed onset bleeding
+HP:0040233	115	Factor XIII subunit A deficiency
+HP:0040235	239	Leukocyte inclusion bodies
+HP:0040238	239	Impaired neutrophil chemotaxis
+HP:0040242	239	Muscle hemorrhage
+HP:0040245	115	Reduced alpha-2-antiplasmin activity
+HP:0040246	239	Reduced antithrombin antigen
+HP:0040247	186	Reduced euglobulin clot lysis time
+HP:0040248	239	Reduced plasminogen activator inhibitor 1 activity
+HP:0040249	239	Reduced plasminogen activator inhibitor 1 antigen
+HP:0040250	239	Reduced prothrombin antigen
+HP:0040261	71	Increased size of nasopharyngeal adenoids
+HP:0040264	239	Jaw pain
+HP:0040268	239	Recurrent infections of the middle ear
+HP:0040272	239	Hyperintensity of MRI T2 signal of the spinal cord
+HP:0040276	239	Adenocarcinoma of the colon
+HP:0040278	239	Prolactinoma
+HP:0040287	239	Axial muscle atrophy
+HP:0040288	239	Nasogastric tube feeding
+HP:0040291	239	Skeletal muscle steatosis
+HP:0040293	239	Right hemiplegia
+HP:0040296	48	Abnormal location of the eyebrow
+HP:0040299	239	Decreased circulating free fatty acid level
+HP:0040301	239	Increased urinary glycerol
+HP:0040303	239	Decreased serum iron
+HP:0040306	239	Decreased male libido
+HP:0040309	239	Increased size of the mandible
+HP:0040310	239	Sterile arthritis
+HP:0040313	239	Oligoarthritis
+HP:0040314	239	Blind vagina
+HP:0040315	239	Tongue edema
+HP:0040318	239	Red urine
+HP:0040326	239	Hypoplasia of the olfactory bulb
+HP:0040328	239	Focal hyperintensity of cerebral white matter on MRI
+HP:0040329	100	Multifocal hyperintensity of cerebral white matter on MRI
+HP:0040330	148	Confluent hyperintensity of cerebral white matter on MRI
+HP:0040331	74	Focal hypointensity of cerebral white matter on MRI
+HP:0040334	175	Purulent rhinitis
+HP:0041044	132	Low neutrophil alkaline phosphatase
+HP:0041045	239	Increased neutrophil mitochondria
+HP:0041046	225	Increased neutrophil ribosomes
+HP:0041048	121	Decreased expression of GPI-anchored proteins on the cell surface
+HP:0041093	56	Beau's lines
+HP:0041159	239	Fractured rib
+HP:0045025	206	Narrow palpebral fissure
+HP:0045028	239	Microlissencephaly
+HP:0045038	239	Gastric lymphoma
+HP:0045044	61	Decreased serum complement C4b
+HP:0045047	239	HbS hemoglobin
+HP:0045048	124	Increased HbA2 hemoglobin
+HP:0045051	239	Decreased DLCO
+HP:0045054	239	Brachial plexus neuropathy
+HP:0045057	239	Decreased levels of alpha-fetoprotein
+HP:0045059	239	Hyperkeratotic papule
+HP:0045061	239	Decreased carnitine level in liver
+HP:0045074	112	Thin eyebrow
+HP:0045082	239	Decreased body mass index
+HP:0045084	239	Limb myoclonus
+HP:0045086	216	Knee joint hypermobility
+HP:0045087	130	Hip joint hypermobility
+HP:0046507	196	Bradypnea
+HP:0100009	239	Intracranial meningioma
+HP:0100010	239	Spinal meningioma
+HP:0100014	239	Epiretinal membrane
+HP:0100015	74	Stahl ear
+HP:0100020	239	Posterior capsular cataract
+HP:0100027	239	Recurrent pancreatitis
+HP:0100034	239	Motor tics
+HP:0100035	239	Phonic tics
+HP:0100245	239	Desmoid tumors
+HP:0100247	43	Recurrent singultus
+HP:0100248	239	Hemiballismus
+HP:0100250	239	Meningeal calcification
+HP:0100252	239	Diaphyseal dysplasia
+HP:0100271	108	Hyponasal speech
+HP:0100275	239	Diffuse cerebellar atrophy
+HP:0100279	239	Ulcerative colitis
+HP:0100287	229	EMG: slow motor conduction
+HP:0100288	53	EMG: myokymic discharges
+HP:0100290	182	Abnormality of peripheral somatosensory evoked potentials
+HP:0100291	239	Abnormality of central somatosensory evoked potentials
+HP:0100292	239	Amyloidosis of peripheral nerves
+HP:0100293	239	Hypertrophied muscle fibers
+HP:0100297	40	Increased endomysial connective tissue
+HP:0100308	57	Cerebral cortical hemiatrophy
+HP:0100309	239	Subdural hemorrhage
+HP:0100310	239	Epidural hemorrhage
+HP:0100315	239	Lewy bodies
+HP:0100318	199	Lafora bodies
+HP:0100320	239	Rosenthal fibers
+HP:0100327	239	Cow milk allergy
+HP:0100334	239	Unilateral cleft palate
+HP:0100337	239	Bilateral cleft palate
+HP:0100501	239	Recurrent bronchiolitis
+HP:0100502	239	Vitamin B12 deficiency
+HP:0100503	239	Low levels of vitamin B1
+HP:0100507	239	Reduced blood folate concentration
+HP:0100512	239	Low levels of vitamin D
+HP:0100513	239	Low levels of vitamin E
+HP:0100515	49	Pollakisuria
+HP:0100517	239	Neoplasm of the urethra
+HP:0100518	239	Dysuria
+HP:0100519	239	Anuria
+HP:0100520	239	Oliguria
+HP:0100522	239	Thymoma
+HP:0100523	239	Liver abscess
+HP:0100524	239	Limb duplication
+HP:0100525	46	Urachus fistula
+HP:0100528	239	Pleuropulmonary blastoma
+HP:0100532	239	Scleritis
+HP:0100534	239	Episcleritis
+HP:0100541	239	Femoral hernia
+HP:0100546	239	Carotid artery stenosis
+HP:0100550	239	Tendon rupture
+HP:0100565	90	Hydromyelia
+HP:0100575	239	Neoplasm of the gallbladder
+HP:0100577	239	Urinary bladder inflammation
+HP:0100578	239	Lipoatrophy
+HP:0100580	239	Barrett esophagus
+HP:0100581	99	Dilatation of renal calices
+HP:0100582	239	Nasal polyposis
+HP:0100595	239	Camptocormia
+HP:0100598	239	Pulmonary edema
+HP:0100601	239	Eclampsia
+HP:0100602	239	Preeclampsia
+HP:0100607	239	Dysmenorrhea
+HP:0100608	239	Metrorrhagia
+HP:0100614	239	Myositis
+HP:0100617	239	Testicular seminoma
+HP:0100618	239	Leydig cell neoplasia
+HP:0100621	239	Dysgerminoma
+HP:0100626	239	Chronic hepatic failure
+HP:0100628	239	Esophageal diverticulum
+HP:0100638	239	Neoplasm of the pharynx
+HP:0100644	239	Melanonychia
+HP:0100645	239	Cystocele
+HP:0100647	239	Graves disease
+HP:0100651	239	Type I diabetes mellitus
+HP:0100654	239	Retrobulbar optic neuritis
+HP:0100658	239	Cellulitis
+HP:0100661	239	Trigeminal neuralgia
+HP:0100665	239	Angioedema
+HP:0100682	239	Tracheal atresia
+HP:0100686	239	Enthesitis
+HP:0100697	239	Neurofibrosarcoma
+HP:0100698	239	Subcutaneous neurofibromas
+HP:0100703	204	Tongue thrusting
+HP:0100704	239	Cerebral visual impairment
+HP:0100709	239	Reduction of oligodendroglia
+HP:0100710	239	Impulsivity
+HP:0100718	239	Uterine rupture
+HP:0100720	239	Hypoplasia of the ear cartilage
+HP:0100721	239	Mediastinal lymphadenopathy
+HP:0100723	239	Gastrointestinal stroma tumor
+HP:0100724	239	Hypercoagulability
+HP:0100726	239	Kaposi's sarcoma
+HP:0100730	239	Bronchogenic cyst
+HP:0100732	239	Pancreatic fibrosis
+HP:0100735	239	Hypertensive crisis
+HP:0100739	239	Bulimia
+HP:0100748	239	Muscular edema
+HP:0100752	83	Abnormal liver lobulation
+HP:0100753	239	Schizophrenia
+HP:0100757	221	Pancreatoblastoma
+HP:0100758	239	Gangrene
+HP:0100759	239	Clubbing of fingers
+HP:0100760	54	Clubbing of toes
+HP:0100761	68	Visceral angiomatosis
+HP:0100768	239	Choriocarcinoma
+HP:0100769	239	Synovitis
+HP:0100773	239	Cartilage destruction
+HP:0100775	239	Dural ectasia
+HP:0100776	239	Recurrent pharyngitis
+HP:0100778	239	Cryoglobulinemia
+HP:0100779	239	Urogenital sinus anomaly
+HP:0100783	239	Breast aplasia
+HP:0100784	239	Peripheral arteriovenous fistula
+HP:0100789	90	Torus palatinus
+HP:0100795	79	Abnormally straight spine
+HP:0100796	239	Orchitis
+HP:0100797	239	Toenail dysplasia
+HP:0100798	239	Fingernail dysplasia
+HP:0100801	239	Pancreatic aplasia
+HP:0100802	69	Malposition of the stomach
+HP:0100808	239	Gastric diverticulum
+HP:0100809	239	Scalp tenderness
+HP:0100813	239	Testicular torsion
+HP:0100814	239	Blue nevus
+HP:0100816	112	Lip hyperpigmentation
+HP:0100817	239	Renovascular hypertension
+HP:0100818	239	Long thorax
+HP:0100820	239	Glomerulopathy
+HP:0100828	239	Increased T cell count
+HP:0100830	239	Round ear
+HP:0100837	87	Atrophodermia vermiculata
+HP:0100838	43	Recurrent cutaneous abscess formation
+HP:0100842	239	Septo-optic dysplasia
+HP:0100849	239	Neoplasm of the scrotum
+HP:0100853	55	Hypoplastic areola
+HP:0100858	176	Dilatation of celiac artery
+HP:0100861	154	Sclerotic vertebral body
+HP:0100864	239	Short femoral neck
+HP:0100865	50	Broad ischia
+HP:0100866	239	Short iliac bones
+HP:0100867	239	Duodenal stenosis
+HP:0100874	239	Thick hair
+HP:0100890	239	Cyst of the ductus choledochus
+HP:0100896	239	Rectal polyposis
+HP:0100950	115	Decreased 3-hydroxyacyl-CoA dehydrogenase level
+HP:0100954	156	Open operculum
+HP:0100960	102	Lateral ventricular asymmetry
+HP:0100962	239	Shyness
+HP:0100963	239	Hyperesthesia
+HP:0200016	71	Acrokeratosis
+HP:0200018	239	Protanomaly
+HP:0200022	239	Choroid plexus papilloma
+HP:0200023	239	Priapism
+HP:0200025	239	Mandibular pain
+HP:0200028	106	Pretibial myxedema
+HP:0200032	96	Kayser-Fleischer ring
+HP:0200041	239	Skin erosion
+HP:0200044	239	Porokeratosis
+HP:0200046	55	Cat cry
+HP:0200047	54	Chondritis of pinna
+HP:0200049	239	Upper limb hypertonia
+HP:0200057	239	Marcus Gunn pupil
+HP:0200063	239	Colorectal polyposis
+HP:0200067	239	Recurrent spontaneous abortion
+HP:0200068	65	Nonprogressive visual loss
+HP:0200070	239	Peripheral retinal atrophy
+HP:0200071	65	Peripheral vitreoretinal degeneration
+HP:0200072	124	Episodic quadriplegia
+HP:0200083	239	Severe limb shortening
+HP:0200084	236	Giant cell hepatitis
+HP:0200094	52	Frontal open bite
+HP:0200097	239	Oral mucosal blisters
+HP:0200116	162	Distal ileal atresia
+HP:0200117	239	Recurrent upper and lower respiratory tract infections
+HP:0200118	239	Malabsorption of Vitamin B12
+HP:0200119	239	Acute hepatitis
+HP:0200120	239	Chronic active hepatitis
+HP:0200122	239	Atypical or prolonged hepatitis
+HP:0200125	239	Mitochondrial respiratory chain defects
+HP:0200127	239	Atrial cardiomyopathy
+HP:0200128	239	Biventricular hypertrophy
+HP:0200133	101	Lumbosacral meningocele
+HP:0200134	239	Epileptic encephalopathy
+HP:0200136	239	Oral-pharyngeal dysphagia
+HP:0200138	66	Bilateral choanal atresia/stenosis
+HP:0200141	71	Small, conical teeth
+HP:0200147	239	Neuronal loss in basal ganglia
+HP:0200148	239	Abnormal liver function tests during pregnancy
+HP:0200150	68	Increased serum bile acid concentration during pregnancy
+HP:0200151	239	Cutaneous mastocytosis
+HP:0400005	239	Short ear
+HP:0400008	162	Menometrorrhagia
+HP:0410003	181	Cleft maxillary alveolus
+HP:0410017	239	Otitis externa
+HP:0410018	239	Recurrent ear infections
+HP:0410019	239	Epigastric pain
+HP:0410027	239	Alveolar bone loss around teeth
+HP:0410028	239	Recurrent oral herpes
+HP:0410049	195	Abnormal radial ray morphology
+HP:0410054	45	Decreased circulating GABA concentration
+HP:0410066	83	Increased level of hippuric acid in urine
+HP:0410068	239	Increased level of L-glutamic acid in blood
+HP:0410069	87	Increased level of propylene glycol in blood
+HP:0410135	239	Cold urticaria
+HP:0410151	239	Eosinophilic infiltration of the esophagus
+HP:0410170	239	Hippocampal atrophy
+HP:0410173	145	Increased circulating troponin I concentration
+HP:0410179	239	Decreased glucose-6-phosphate dehydrogenase level in blood
+HP:0410204	239	Increased intestinal transit time
+HP:0410246	69	Increased circulating IgD level
+HP:0410252	239	Chronic neutropenia
+HP:0410253	239	Myeloid maturation arrest
+HP:0410256	239	Infection associated neutropenia
+HP:0410262	239	Lower cranial nerve dysfunction
+HP:0410276	44	Supraumbilical raphe
+HP:0410279	239	Atrophic pituitary gland
+HP:0410281	239	Dyspepsia
+HP:0410288	239	Hyperamylasemia
+HP:0410291	239	Negativism
+HP:0410295	239	Complete or near-complete absence of specific antibody response to tetanus vaccine
+HP:0410300	239	Complete or near-complete absence of specific antibody response to unconjugated pneumococcus vaccine
+HP:0410303	239	Complete or near-complete absence of specific antibody response to Haemophilus influenzae type b (Hib) vaccine
+HP:0410323	239	Drug allergy
+HP:0410377	239	Decreased proportion of naive CD8 T cells
+HP:0410378	239	Decreased proportion of naive CD4 T cells
+HP:0430007	239	Symblepharon
+HP:0430022	239	Abnormality of the sphenoid sinus
+HP:0430025	239	Bilateral facial palsy
+HP:0430028	166	Hyperplasia of the maxilla
+HP:0500009	239	Dysplastic gangliocytoma of the cerebellum
+HP:0500011	239	Moon facies
+HP:0500018	239	Abnormal cardiac exercise stress test
+HP:0500041	239	Myopic astigmatism
+HP:0500046	50	Seborrhoeic blepharitis
+HP:0500087	239	Peripapillary atrophy
+HP:0500089	239	Optic nerve sheath meningioma
+HP:0500153	146	Hyperargininemia
+HP:0500167	239	Hypergastrinemia
+HP:0500173	113	Reflex asystolic syncope
+HP:0500230	45	Increased CSF glycine concentration
+HP:0500239	239	Increased CSF albumin concentration
+HP:0500253	46	Increased level of gamma-aminobutyric acid in urine
+HP:0500262	143	Atrichia
+HP:0550004	60	Verruca plana
+HP:3000010	152	Abnormality of orbicularis oris muscle
+HP:3000038	114	Abnormal cricoid cartilage morphology
+HP:3000052	194	Abnormal hyoid bone morphology
+HP:4000007	239	Bronchoconstriction
+HP:4000055	239	Intestinal inflammation
+HP:4000057	83	Decreased FasL-mediated apoptosis
+HP:4000061	108	Pancreatic alpha-cell hyperplasia
+HP:4000067	239	Iliac artery aneurysm
+HP:4000079	239	Sensory seeking
