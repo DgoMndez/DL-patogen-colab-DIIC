@@ -60,7 +60,7 @@ parser.add_argument('--split_size', type=int, help='Max split size for CUDA memo
 parser.add_argument('--pairings', action='store_true', help='Use pairings for COSENT loss')
 parser.add_argument('--batch_size', type=int, default=16, help='Batch size for training')
 parser.add_argument('--max_seq_length', type=int, default=256, help='Max sequence length for BERT')
-
+parser.add_argument('--scale', type=float, nargs='+', default=[20], help='Scale for COSENT loss')
 args = parser.parse_args()
 
 margins = args.margin
@@ -78,6 +78,7 @@ scores_name = args.scores.split('.csv')[0]
 do_pairings = args.pairings
 BATCH_SIZE = args.batch_size
 MAX_SEQ_LENGTH = args.max_seq_length
+scales = args.scale
 
 if args.cuda:
     device_str = f"cuda:{args.cuda}"
@@ -94,12 +95,20 @@ if f_samp > 0:
 if ev_samp > 0:
     EV_PROFILING = True
 
-param_grid = {
-    'margin': margins,
-    'lr': lrs,
-    'wd': wds,
-    'wsf': wsfs
-}
+if do_pairings:
+    param_grid = {
+        'scale': scales,
+        'lr': lrs,
+        'wd': wds,
+        'wsf': wsfs
+    }
+else:
+    param_grid = {
+        'margin': margins,
+        'lr': lrs,
+        'wd': wds,
+        'wsf': wsfs
+    }
 
 print(param_grid)
 
@@ -297,7 +306,7 @@ for params in param_combinations:
     if not do_pairings:
         train_loss = losses.BatchAllTripletLoss(model=model, distance_metric=losses.BatchHardTripletLossDistanceFunction.cosine_distance, margin=MARGIN)
     else:
-        train_loss = losses.CoSENTLoss(model=model, scale=scale, similarity_fct = sentence_transformers.util.pairwise_cos_sim)
+        train_loss = losses.CoSENTLoss(model=model, scale=params_dict['scale'], similarity_fct = sentence_transformers.util.pairwise_cos_sim)
 
     # %% [markdown]
     # ## 3. Fit
@@ -305,33 +314,24 @@ for params in param_combinations:
     # %%
     print("Fitting...")
     import time
-    FITTED = False
-    if FITTED:
-        DATE = "1-06-2024"
-        output_path = os.path.join(PATH_OUTPUT, BERTNAME+'-'+DATE)
-        model = SentenceTransformer(output_path)
-        with open(os.path.join(PATH_OUTPUT, BERTNAME+'-'+DATE, 'eval', 'time.txt'), 'r') as f:
-            s = f.read()
-            execution_time = float(s.split()[0])
-    else:
-        start_time = time.time()
-        model.fit(
-            train_objectives=[(train_dataloader, train_loss)],
-            evaluator=combined_evaluator,
-            epochs=num_epochs,
-            optimizer_params = {'lr':lr},
-            weight_decay=wd,
-            evaluation_steps=ev_steps,
-            warmup_steps=warmup_steps,
-            output_path=output_path,
-            save_best_model=SAVE_BEST,
-            checkpoint_path='./checkpoint',
-            checkpoint_save_steps=ev_steps,
-            checkpoint_save_total_limit=num_epochs
-        )
+    start_time = time.time()
+    model.fit(
+        train_objectives=[(train_dataloader, train_loss)],
+        evaluator=combined_evaluator,
+        epochs=num_epochs,
+        optimizer_params = {'lr':lr},
+        weight_decay=wd,
+        evaluation_steps=ev_steps,
+        warmup_steps=warmup_steps,
+        output_path=output_path,
+        save_best_model=SAVE_BEST,
+        checkpoint_path='./checkpoint',
+        checkpoint_save_steps=ev_steps,
+        checkpoint_save_total_limit=num_epochs
+    )
 
-        end_time = time.time()
-        execution_time = end_time - start_time
+    end_time = time.time()
+    execution_time = end_time - start_time
 
     print(f"Execution time for model.fit: {execution_time:.2f} seconds")
     if not SAVE_BEST:
