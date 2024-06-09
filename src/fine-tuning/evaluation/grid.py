@@ -275,7 +275,6 @@ for params in param_combinations:
 
     # %%
 
-    MARGIN = params_dict['margin']
     NUM_EPOCHS = num_epochs
     STEPS = steps_epoch
     WARMUP_STEPS_FRAC = params_dict['wsf']
@@ -283,10 +282,15 @@ for params in param_combinations:
     lr = params_dict['lr']
     wd = params_dict['wd']
 
-    BERTNAME = output_name + f'-{i}-MARGIN={MARGIN}-lr={lr}-wd={wd}-wsf={WARMUP_STEPS_FRAC}'
+    if not do_pairings:
+        MARGIN = params_dict['margin']
+        BERTNAME = output_name + f'-{i}-MARGIN={MARGIN}-lr={lr}-wd={wd}-wsf={WARMUP_STEPS_FRAC}'
+        print(f'Hiperparams: N={num_batches}, lr={lr}, wd={wd} NUM_EPOCHS={NUM_EPOCHS}, STEPS={STEPS}, WARMUP_STEPS_FRAC={WARMUP_STEPS_FRAC}, MARGIN={MARGIN}, BERTNAME={BERTNAME}')
+    else:
+        BERTNAME = output_name + f'-{i}-scale={scale}-lr={lr}-wd={wd}-wsf={WARMUP_STEPS_FRAC}'
+        print(f'Hiperparams: N={num_batches}, lr={lr}, wd={wd} NUM_EPOCHS={NUM_EPOCHS}, STEPS={STEPS}, WARMUP_STEPS_FRAC={WARMUP_STEPS_FRAC}, scale={scale}, BERTNAME={BERTNAME}')
     output_path = os.path.join(PATH_OUTPUT, BERTNAME + '-' + pd.Timestamp("today").strftime("%d-%m-%Y"))
     print(f'Output path: {output_path}')
-    print(f'Hiperparams: N={num_batches}, lr={lr}, wd={wd} NUM_EPOCHS={NUM_EPOCHS}, STEPS={STEPS}, WARMUP_STEPS_FRAC={WARMUP_STEPS_FRAC}, MARGIN={MARGIN}, BERTNAME={BERTNAME}')
 
     ev_steps = num_batches // STEPS
     warmup_steps = num_batches // WARMUP_STEPS_FRAC
