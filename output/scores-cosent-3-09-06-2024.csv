@@ -1,2 +1,3 @@
 BERTNAME,train_spearman,test_spearman, train_pearson, test_pearson, train_MSE, test_MSE, time,train_spearman_step, test_spearman_step, train_pearson_step, test_pearson_step, train_MSE_step, test_MSE_step
 grid-cosent-3/fine-tuned-biobert-0-MARGIN=0.0-lr=2e-05-wd=0.0-wsf=1,0.0545719326798781,0.0791385750097436,0.2346613043177052,0.2768235325230865,0.0387327504928078,0.0347379196743161,296.3662300109863,10.0,10.0,20.0,10.0,10.0,10.0
+grid-cosent-4/fine-tuned-biobert-0-scale=20-lr=2e-05-wd=0.0-wsf=1,0.1177747503533012,0.1445569121312507,0.3109103266534287,0.3534630786326663,0.0228687564130887,0.0216417640973774,307.0252742767334,204.0,193.0,152.0,193.0,203.0,203.0
