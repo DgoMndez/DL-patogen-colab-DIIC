@@ -58,6 +58,8 @@ parser.add_argument('--cuda', type=int, help='CUDA device to use')
 parser.add_argument('--scores', type=str, default='best_scores', help='Name of CSV file to save scores')
 parser.add_argument('--split_size', type=int, help='Max split size for CUDA memory allocation (MB)')
 parser.add_argument('--pairings', action='store_true', help='Use pairings for COSENT loss')
+parser.add_argument('--batch_size', type=int, default=16, help='Batch size for training')
+parser.add_argument('--max_seq_length', type=int, default=256, help='Max sequence length for BERT')
 
 args = parser.parse_args()
 
@@ -74,6 +76,8 @@ steps_epoch = args.steps
 download = args.download
 scores_name = args.scores.split('.csv')[0]
 do_pairings = args.pairings
+BATCH_SIZE = args.batch_size
+MAX_SEQ_LENGTH = args.max_seq_length
 
 if args.cuda:
     device_str = f"cuda:{args.cuda}"
@@ -117,8 +121,6 @@ torch.cuda.empty_cache()
 # 1. Cargar todos los datos (crudos)
 
 # 1.1 BERT de partida
-
-MAX_SEQ_LENGTH = 256
 
 PATH_BASE = os.path.join(PATH_OUTPUT, 'base')
 
@@ -195,7 +197,6 @@ mapping = {tag: i for i, tag in enumerate(tags)}
 def getLabelNumber(phenotypeName):
     return mapping[phenotypeName]
 
-BATCH_SIZE = 16
 if not do_pairings:
     abstractsTrain = [InputExample(texts=[x], label=mapping[y]) for x, y in zip(dTrain['clean_abstract'], dTrain['phenotypeName'])]
 else:
