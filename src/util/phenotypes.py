@@ -88,6 +88,15 @@ def writeLotes(df, n, path, name):
 def getPhenotypeName(phenotypeId):
     return onto.get_hpo_object(phenotypeId).name
 
+def getIC(phenotypeId, kind='gene'):
+    return onto.get_hpo_object(phenotypeId).information_content[kind]
+
+def getSim(name1, name2, method='lin'):
+    phen1 = onto.get_hpo_object(name1)
+    phen2 = onto.get_hpo_object(name2)
+    v = phen1.similarity_score(phen2, method=method)
+    return v
+
 PATH_RESULTS = PATH_PHENOTYPES
 NAME_DFPHEN = 'phenotypic_abnormality'
 NAME_SELECT = 'phenotypes_nz_' + datetime.today().strftime("%d-%m")

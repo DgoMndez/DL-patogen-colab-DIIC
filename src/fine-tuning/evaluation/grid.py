@@ -57,6 +57,7 @@ parser.add_argument('--download', action='store_true', help='Download BERT model
 parser.add_argument('--cuda', type=int, help='CUDA device to use')
 parser.add_argument('--scores', type=str, default='best_scores', help='Name of CSV file to save scores')
 parser.add_argument('--split_size', type=int, help='Max split size for CUDA memory allocation (MB)')
+parser.add_argument('--pairings', action='store_true', help='Use pairings for COSENT loss')
 
 args = parser.parse_args()
 
@@ -72,6 +73,7 @@ SAVE_BEST = args.save_best
 steps_epoch = args.steps
 download = args.download
 scores_name = args.scores.split('.csv')[0]
+do_pairings = args.pairings
 
 if args.cuda:
     device_str = f"cuda:{args.cuda}"
@@ -136,7 +138,10 @@ onto = Ontology(PATH_ONTO)
 # 1.3 Datos de entrenamiento y evaluación (csv)
 
 # abstracts (train)
-path_abstracts_train = os.path.join(PATH_ABSTRACTS, 'abstracts-31-05-train.csv')
+if not do_pairings:
+    path_abstracts_train = os.path.join(PATH_ABSTRACTS, 'abstracts-31-05-train.csv')
+else:
+    path_abstracts_train = os.path.join(PATH_ABSTRACTS, 'pairings-09-06.csv')
 dTrain = pd.read_csv(path_abstracts_train, sep='\t', low_memory=False, na_values=['', nan])
 
 if PROFILING:
@@ -206,6 +211,12 @@ goldTrain = dfVal['lin']
 ltest1 = dfTest['phenotype1']
 ltest2 = dfTest['phenotype2']
 goldTest = dfTest['lin']
+
+# 2.4 Loss
+scale = 1
+if do_pairings:
+    scale = 20
+    train_loss = losses.CoSENTLoss(model=model, scale=scale, similarity_fct = sentence_transformers.util.pairwise_cos_sim)
 
 # 2.5 Evaluation
 
@@ -280,8 +291,8 @@ for params in param_combinations:
     # %%
     # 2.4 Loss
 
-    train_loss = losses.BatchAllTripletLoss(model=model, distance_metric=losses.BatchHardTripletLossDistanceFunction.cosine_distance, margin=MARGIN)
-
+    if not do_pairings:
+        train_loss = losses.BatchAllTripletLoss(model=model, distance_metric=losses.BatchHardTripletLossDistanceFunction.cosine_distance, margin=MARGIN)
     # %% [markdown]
     # ## 3. Fit
 
