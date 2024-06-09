@@ -61,6 +61,7 @@ parser.add_argument('--pairings', action='store_true', help='Use pairings for CO
 parser.add_argument('--batch_size', type=int, default=16, help='Batch size for training')
 parser.add_argument('--max_seq_length', type=int, default=256, help='Max sequence length for BERT')
 parser.add_argument('--scale', type=float, nargs='+', default=[1], help='Scale for COSENT loss')
+parser.add_argument('-d', '--data', type=str, default='pairings-09-06-full.csv', help='Name of training data file to use (pairing)')
 args = parser.parse_args()
 
 margins = args.margin
@@ -152,7 +153,7 @@ onto = Ontology(PATH_ONTO)
 if not do_pairings:
     path_abstracts_train = os.path.join(PATH_ABSTRACTS, 'abstracts-31-05-train.csv')
 else:
-    path_abstracts_train = os.path.join(PATH_ABSTRACTS, 'pairings-09-06.csv')
+    path_abstracts_train = os.path.join(PATH_ABSTRACTS, args.data)
 dTrain = pd.read_csv(path_abstracts_train, sep='\t', low_memory=False, na_values=['', nan])
 
 if PROFILING:
