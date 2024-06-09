@@ -60,7 +60,7 @@ parser.add_argument('--split_size', type=int, help='Max split size for CUDA memo
 parser.add_argument('--pairings', action='store_true', help='Use pairings for COSENT loss')
 parser.add_argument('--batch_size', type=int, default=16, help='Batch size for training')
 parser.add_argument('--max_seq_length', type=int, default=256, help='Max sequence length for BERT')
-parser.add_argument('--scale', type=float, nargs='+', default=[20], help='Scale for COSENT loss')
+parser.add_argument('--scale', type=float, nargs='+', default=[1], help='Scale for COSENT loss')
 args = parser.parse_args()
 
 margins = args.margin
@@ -287,6 +287,7 @@ for params in param_combinations:
         BERTNAME = output_name + f'-{i}-MARGIN={MARGIN}-lr={lr}-wd={wd}-wsf={WARMUP_STEPS_FRAC}'
         print(f'Hiperparams: N={num_batches}, lr={lr}, wd={wd} NUM_EPOCHS={NUM_EPOCHS}, STEPS={STEPS}, WARMUP_STEPS_FRAC={WARMUP_STEPS_FRAC}, MARGIN={MARGIN}, BERTNAME={BERTNAME}')
     else:
+        scale = params_dict['scale']
         BERTNAME = output_name + f'-{i}-scale={scale}-lr={lr}-wd={wd}-wsf={WARMUP_STEPS_FRAC}'
         print(f'Hiperparams: N={num_batches}, lr={lr}, wd={wd} NUM_EPOCHS={NUM_EPOCHS}, STEPS={STEPS}, WARMUP_STEPS_FRAC={WARMUP_STEPS_FRAC}, scale={scale}, BERTNAME={BERTNAME}')
     output_path = os.path.join(PATH_OUTPUT, BERTNAME + '-' + pd.Timestamp("today").strftime("%d-%m-%Y"))
@@ -310,7 +311,7 @@ for params in param_combinations:
     if not do_pairings:
         train_loss = losses.BatchAllTripletLoss(model=model, distance_metric=losses.BatchHardTripletLossDistanceFunction.cosine_distance, margin=MARGIN)
     else:
-        train_loss = losses.CoSENTLoss(model=model, scale=params_dict['scale'], similarity_fct = sentence_transformers.util.pairwise_cos_sim)
+        train_loss = losses.CoSENTLoss(model=model, scale=scale, similarity_fct = sentence_transformers.util.pairwise_cos_sim)
 
     # %% [markdown]
     # ## 3. Fit
