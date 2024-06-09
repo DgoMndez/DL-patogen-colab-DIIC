@@ -220,7 +220,6 @@ goldTest = dfTest['lin']
 scale = 1
 if do_pairings:
     scale = 20
-    train_loss = losses.CoSENTLoss(model=model, scale=scale, similarity_fct = sentence_transformers.util.pairwise_cos_sim)
 
 # 2.5 Evaluation
 
@@ -297,6 +296,9 @@ for params in param_combinations:
 
     if not do_pairings:
         train_loss = losses.BatchAllTripletLoss(model=model, distance_metric=losses.BatchHardTripletLossDistanceFunction.cosine_distance, margin=MARGIN)
+    else:
+        train_loss = losses.CoSENTLoss(model=model, scale=scale, similarity_fct = sentence_transformers.util.pairwise_cos_sim)
+
     # %% [markdown]
     # ## 3. Fit
 
