@@ -199,7 +199,7 @@ BATCH_SIZE = 16
 if not do_pairings:
     abstractsTrain = [InputExample(texts=[x], label=mapping[y]) for x, y in zip(dTrain['clean_abstract'], dTrain['phenotypeName'])]
 else:
-    abstractsTrain = [InputExample(texts=[x, y], label=mapping[z]) for x, y, z in zip(dTrain['text1'], dTrain['text2'], dTrain['lin'])]
+    abstractsTrain = [InputExample(texts=[x, y], label=z) for x, y, z in zip(dTrain['text1'], dTrain['text2'], dTrain['similarity'])]
 train_dataloader = DataLoader(abstractsTrain, shuffle=True, batch_size=BATCH_SIZE)
 print("batch_size=", BATCH_SIZE)
 
