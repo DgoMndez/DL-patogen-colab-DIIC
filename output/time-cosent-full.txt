@@ -1,0 +1,2 @@
+Total time: 18682.35 seconds
+Best comb: 2, score: 0.3358603648790105, step: 1000.0, params: {'scale': 1, 'lr': 2e-05, 'wd': 0.0, 'wsf': 1.0}
