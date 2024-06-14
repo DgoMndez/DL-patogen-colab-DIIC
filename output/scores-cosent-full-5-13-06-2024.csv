@@ -1,0 +1,2 @@
+BERTNAME,train_spearman,test_spearman, train_pearson, test_pearson, train_MSE, test_MSE, time,train_spearman_step, test_spearman_step, train_pearson_step, test_pearson_step, train_MSE_step, test_MSE_step
+grid-cosent-full/fine-tuned-biobert-5-0-scale=1-lr=1e-06-wd=0.0-wsf=1.0,0.4832744753057203,0.3041320629483514,0.4893532441867014,0.5270488928870976,0.0329535140504913,0.0329713092131732,86366.03695487976,200666.0,80266.0,60200.0,50165.0,20066.0,20066.0
