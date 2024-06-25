@@ -154,4 +154,6 @@ if __name__ == '__main__':
     num_batches = args.num_batches
 
     preprocess_original_eval(ev_path)
-    plot_eval(ev_path, num_batches, save=True)
+    dfBTrain, dfBTest = plot_eval(ev_path, num_batches, save=True)
+    dfBTrain.to_csv(ev_path + '/best_train.csv', index=False)
+    dfBTest.to_csv(ev_path + '/best_test.csv', index=False)
