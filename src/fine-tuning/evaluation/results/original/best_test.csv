@@ -1,0 +1,4 @@
+metric,value,step
+cosine_pearson,0.3575384940297648,0.0
+cosine_spearman,0.1006978577880311,0.0
+MSE_cosine,0.0346423518612712,0.0
