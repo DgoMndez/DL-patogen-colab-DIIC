@@ -246,7 +246,7 @@ combined_evaluator = evaluation.SequentialEvaluator([evaluatorTrain1, evaluatorT
 
 # %%
 scoreTrain = evaluatorTrain1.__call__(model=bertmodel, output_path='./results/original', epoch=0, steps=0)
-scoreTest = evaluatorTest1.__call__(model=bertmodel, output_path='./results/original', epoch=0, steps=0)
+scoreTest = combined_evaluator.__call__(model=bertmodel, output_path='./results/original', epoch=0, steps=0)
 print(f'Original score (spearman): {scoreTrain} (train), {scoreTest} (test)')
 
 # CSV to save all results
