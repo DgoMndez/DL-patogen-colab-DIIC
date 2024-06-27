@@ -30,8 +30,6 @@ idsfile.write(search.text)
     
 import xml.etree.ElementTree as ET
 
-# Assuming 'data' is your XML string
-
 # Parse the XML
 root = ET.fromstring(search.text)
 

@@ -9,7 +9,7 @@ tags:
 
 ---
 
-# {MODEL_NAME}
+# {dmg-hpo-pa-pritamdeka-iteration-2}
 
 This is a [sentence-transformers](https://www.SBERT.net) model: It maps sentences & paragraphs to a 768 dimensional dense vector space and can be used for tasks like clustering or semantic search.
 
@@ -125,3 +125,8 @@ SentenceTransformer(
 ## Citing & Authors
 
 <!--- Describe where people can find more information -->
+fine-tuned by Domingo Méndez García from University of Murcia.
+
+* Fine-tuning scripts: https://github.com/DgoMndez/DL-patogen-colab-DIIC
+* Training and evaluation data: https://huggingface.co/datasets/DingoMz/pubmed-hpo-pa-corpus, obtained from https://pubmed.ncbi.nlm.nih.gov/
+* Original model: https://huggingface.co/pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb by Deka, Pritam and Jurek-Loughrey, Anna and others, 2022.
