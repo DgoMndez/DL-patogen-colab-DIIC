@@ -15,7 +15,9 @@ Ficheros a añadir al directorio para el funcionamiento de los scripts:
 
 Los dos modelos finales fine-tuneados mediante el programa *src/fine-tuning/evaluation/grid.py* están disponibles en https://huggingface.co/DingoMz/dmg-hpo-pa-pritamdeka. Todos fueron entrenados a partir del modelo base https://huggingface.co/pritamdeka/BioBERT-mnli-snli-scinli-scitail-mednli-stsb by Deka, Pritam and Jurek-Loughrey, Anna and others, 2022. La carpeta *output* tiene los resultados de evaluación a lo largo del fine-tuning de otros modelos ajustados. Los modelos son directorios de la forma *fine-tuned-\**. Para cada uno la información de evaluación está en el subirectorio *eval* y la información de cómo se realizó el fine-tuning, en el fichero *README.md* dentro del directorio del modelo.
 
-Los ficheros usados para el entrenamiento y evaluación de los modelos están disponibles en https://huggingface.co/datasets/DingoMz/pubmed-hpo-pa-corpus.
+Los ficheros usados para el entrenamiento y evaluación de los modelos están disponibles en https://huggingface.co/datasets/DingoMz/pubmed-hpo-pa-corpus (temporalmente privado debido a dudas sobre el copyright de los abstracts en los datasets). Fuente de los datos de texto: National Center for Biotechnology Information. Pubmed, 2024. URL: https://
+pubmed.ncbi.nlm.nih.gov/ (citado 2024-06-01).
+
 La carpeta *data* contiene algunos de estos ficheros: índices de fenotipos, corpus de abstracts y conjuntos de evaluación.
 
 * Índices de fenotipos (\*index\*.csv, \*phen\*.csv, phenotypes/\*): son conjuntos de datos obtenidos de la ontología HPO (https://hpo.jax.org/) mediante la librería PyHPO (https://pyhpo.readthedocs.io/en/stable/) usando la versión de HPO en https://github.com/obophenotype/human-phenotype-ontology/releases/tag/v2022-12-15. Los csv de índices de fenotipos tienen un atributo id de HPO. Todos los fenotipos pertenecen a la subontología Phenotypic Abnormality.
